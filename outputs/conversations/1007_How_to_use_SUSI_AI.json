@@ -1,0 +1,2212 @@
+{
+  "title": "How to use SUSI AI",
+  "create_time": 1749361554.269114,
+  "update_time": 1749362043.013484,
+  "mapping": {
+    "a9a0a395-cdeb-4219-ad68-ecc98238a37b": {
+      "id": "a9a0a395-cdeb-4219-ad68-ecc98238a37b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a86cc0b6-40d8-4cbb-ac52-f077fd2f8539"
+      ]
+    },
+    "a86cc0b6-40d8-4cbb-ac52-f077fd2f8539": {
+      "id": "a86cc0b6-40d8-4cbb-ac52-f077fd2f8539",
+      "message": {
+        "id": "a86cc0b6-40d8-4cbb-ac52-f077fd2f8539",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a9a0a395-cdeb-4219-ad68-ecc98238a37b",
+      "children": [
+        "65a205a7-792c-484f-aa95-a63a776781b5"
+      ]
+    },
+    "65a205a7-792c-484f-aa95-a63a776781b5": {
+      "id": "65a205a7-792c-484f-aa95-a63a776781b5",
+      "message": {
+        "id": "65a205a7-792c-484f-aa95-a63a776781b5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a86cc0b6-40d8-4cbb-ac52-f077fd2f8539",
+      "children": [
+        "bbb212e3-8c1a-4758-b7b7-c4ae23455dca"
+      ]
+    },
+    "bbb212e3-8c1a-4758-b7b7-c4ae23455dca": {
+      "id": "bbb212e3-8c1a-4758-b7b7-c4ae23455dca",
+      "message": {
+        "id": "bbb212e3-8c1a-4758-b7b7-c4ae23455dca",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361554.272768,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How to use susi AI from fdroid "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94c615ea9ad86717-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65a205a7-792c-484f-aa95-a63a776781b5",
+      "children": [
+        "c959dc88-e3c8-46c4-a108-3bbd919803c6"
+      ]
+    },
+    "c959dc88-e3c8-46c4-a108-3bbd919803c6": {
+      "id": "c959dc88-e3c8-46c4-a108-3bbd919803c6",
+      "message": {
+        "id": "c959dc88-e3c8-46c4-a108-3bbd919803c6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361566.134672,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb212e3-8c1a-4758-b7b7-c4ae23455dca",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb212e3-8c1a-4758-b7b7-c4ae23455dca",
+      "children": [
+        "dd61f6c4-7d03-441a-bdb7-5b1984c51dbd"
+      ]
+    },
+    "dd61f6c4-7d03-441a-bdb7-5b1984c51dbd": {
+      "id": "dd61f6c4-7d03-441a-bdb7-5b1984c51dbd",
+      "message": {
+        "id": "dd61f6c4-7d03-441a-bdb7-5b1984c51dbd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361556.3189206,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(&quot;How to use susi AI from fdroid &quot;)"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "sonic_classification_result": {
+            "latency_ms": 0.0366999302059412,
+            "search_prob": 0.650851383548147,
+            "force_search_threshold": 0.54,
+            "classifier_config_name": "sonic_force_pg_switcher_renderer_config"
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c959dc88-e3c8-46c4-a108-3bbd919803c6",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "c959dc88-e3c8-46c4-a108-3bbd919803c6",
+      "children": [
+        "fdafba71-fb56-4b7f-a330-94ddf32f5d73"
+      ]
+    },
+    "fdafba71-fb56-4b7f-a330-94ddf32f5d73": {
+      "id": "fdafba71-fb56-4b7f-a330-94ddf32f5d73",
+      "message": {
+        "id": "fdafba71-fb56-4b7f-a330-94ddf32f5d73",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web",
+            "sonicberry_model_id": "alpha.sonicberry_2s_p",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1749361566.134889,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "dd61f6c4-7d03-441a-bdb7-5b1984c51dbd",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dd61f6c4-7d03-441a-bdb7-5b1984c51dbd",
+      "children": [
+        "9458c7c6-51d8-4ebc-8b0c-4ac689ed9ca9"
+      ]
+    },
+    "9458c7c6-51d8-4ebc-8b0c-4ac689ed9ca9": {
+      "id": "9458c7c6-51d8-4ebc-8b0c-4ac689ed9ca9",
+      "message": {
+        "id": "9458c7c6-51d8-4ebc-8b0c-4ac689ed9ca9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361566.134953,
+        "update_time": null,
+        "content": {
+          "content_type": "thoughts",
+          "thoughts": [],
+          "source_analysis_msg_id": "4a1381fb-5722-4fcd-8f7b-642b0a31ae89"
+        },
+        "status": "in_progress",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "reasoning_status": "is_reasoning",
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fdafba71-fb56-4b7f-a330-94ddf32f5d73",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fdafba71-fb56-4b7f-a330-94ddf32f5d73",
+      "children": [
+        "2b237c1b-a734-4431-a065-09c313f75706"
+      ]
+    },
+    "2b237c1b-a734-4431-a065-09c313f75706": {
+      "id": "2b237c1b-a734-4431-a065-09c313f75706",
+      "message": {
+        "id": "2b237c1b-a734-4431-a065-09c313f75706",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web",
+            "sonicberry_model_id": "alpha.sonicberry_2s_p",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1749361556.820073,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "{&quot;search_query&quot;:[{&quot;q&quot;:&quot;susi AI app fdroid guide how to use susi atlas&quot;},{&quot;q&quot;:&quot;SUSI AI F-Droid usage tutorial&quot;}]}"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200012
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "reasoning_status": "is_reasoning",
+          "search_queries": [
+            {
+              "type": "search",
+              "q": "susi AI app fdroid guide how to use susi atlas"
+            },
+            {
+              "type": "search",
+              "q": "SUSI AI F-Droid usage tutorial"
+            }
+          ],
+          "search_display_string": "Searching the web...",
+          "searched_display_string": "Searched the web...",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "9458c7c6-51d8-4ebc-8b0c-4ac689ed9ca9",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web.run",
+        "channel": null
+      },
+      "parent": "9458c7c6-51d8-4ebc-8b0c-4ac689ed9ca9",
+      "children": [
+        "449bf8a9-017b-410c-9798-c172375ad630"
+      ]
+    },
+    "449bf8a9-017b-410c-9798-c172375ad630": {
+      "id": "449bf8a9-017b-410c-9798-c172375ad630",
+      "message": {
+        "id": "449bf8a9-017b-410c-9798-c172375ad630",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "real_author": "tool:web",
+            "sonicberry_model_id": "alpha.sonicberry_2s_p",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1749251169.7135584,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "blog.fossasia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/control-flow-of-susi-ai-on-android-and-database-management-using-realm/",
+                  "title": "Control flow of SUSI AI on Android and database management ...",
+                  "snippet": "In SUSI we are using Realm to keep things organized in a systematic manner and constructing model (or adding appropriate attributes) for every ...",
+                  "ref_id": null,
+                  "pub_date": 1498435200.0,
+                  "attribution": "blog.fossasia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/building-susi-ai-android-app-with-fdroid/",
+                  "title": "Building SUSI.AI Android App with FDroid – blog.fossasia.org",
+                  "snippet": "Fdroid is an app store for Free and Open Source Software (FOSS). Building and hosting an app on Fdroid is not an easy process compared to ...",
+                  "ref_id": null,
+                  "pub_date": 1534809600.0,
+                  "attribution": "blog.fossasia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/how-to-integrate-susi-ai-with-google-sign-in-api/",
+                  "title": "How to integrate SUSI.AI with Google Sign In API - fossasia",
+                  "snippet": "After that we need to configure What type of environment we are calling oauth from for example a web server, web client, android or ios platform ...",
+                  "ref_id": null,
+                  "pub_date": 1532822400.0,
+                  "attribution": "blog.fossasia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/",
+                  "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                  "snippet": "SUSI.AI Android app has many response functionalities ranging from giving simple ANSWER type responses to complex TABLE and MAP type ...",
+                  "ref_id": null,
+                  "pub_date": 1534723200.0,
+                  "attribution": "blog.fossasia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=7U__K8yy1iY",
+                  "title": "Add your own AI rules and data set to SUSI AI Assistant - YouTube",
+                  "snippet": "Speaker(s): Michael Christen () Abstract: AI Assistant Development for everyone! We do a colaborative creation of Susi Skills which is as ...",
+                  "ref_id": null,
+                  "pub_date": 1489795200.0,
+                  "attribution": "www.youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=gNYhNsE9_Fg",
+                  "title": "HOW TO USE F-DROID TO DOWNLOAD AND UPDATE ... - YouTube",
+                  "snippet": "F-Droid and Aurora Store Guide - Install Android Apps in Privacy! ... AI Decides on Absurd Trolley Problems. Clarified Mind•1.4M views · 11 ...",
+                  "ref_id": null,
+                  "pub_date": 1725494400.0,
+                  "attribution": "www.youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=P6BDoBet4FA",
+                  "title": "SUSI.AI Android App Screencast - YouTube",
+                  "snippet": "This is a screencast of new version of SUSI.AI Android App by @chiragw15 Link to app ...",
+                  "ref_id": null,
+                  "pub_date": 1504310400.0,
+                  "attribution": "www.youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=42XJcIVcYnE",
+                  "title": "AI-Powered Qualitative Analysis in ATLAS.ti: A Complete Guide",
+                  "snippet": "Discover how to leverage the AI functionalities in ATLAS.ti to streamline your qualitative data analysis. This tutorial walks you through ...",
+                  "ref_id": null,
+                  "pub_date": 1723420800.0,
+                  "attribution": "www.youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=DHyB7LJrHYM",
+                  "title": "SUSI.AI: An Open Source Platform for Conversational Web - YouTube",
+                  "snippet": "by Hong Phuc At: FOSDEM 2019 https://video.fosdem.org/2019/K.1.105/susi_ai.webm This talk is about SUSI.AI - an open source conversational ...",
+                  "ref_id": null,
+                  "pub_date": 1549584000.0,
+                  "attribution": "www.youtube.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/selfhosted/comments/aruilx/susi_ai_open_source_personal_assistant/",
+                  "title": "Susi AI - open source personal assistant : r/selfhosted - Reddit",
+                  "snippet": "I saw the frontend on F-Droid yesterday and then forgot to check the server, thanks for posting this and reminding me! Upvote 3. Downvote",
+                  "ref_id": null,
+                  "pub_date": 1550448000.0,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "github.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://github.com/fossasia/susi_android",
+                  "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                  "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "github.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://github.com/fossasia/susi.ai/blob/master/docs/Skill_Tutorial.md",
+                  "title": "susi.ai/docs/Skill_Tutorial.md at master · fossasia/susi.ai · GitHub",
+                  "snippet": "Here you can create public SUSI.AI skills in a simple editor window or private skill bots and check the new changes immediately in the preview at the right.",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "github.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "f-droid.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://f-droid.org/en/packages/ai.susi/",
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "ref_id": null,
+                  "pub_date": 1550275200.0,
+                  "attribution": "f-droid.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sanchittechnogeek.github.io",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://sanchittechnogeek.github.io/articles/4/",
+                  "title": "Testing Susi:Ai android app - Blog | Home",
+                  "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "sanchittechnogeek.github.io"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "forum.f-droid.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://forum.f-droid.org/t/app-summaries-short-and-often-wasted-room/5963",
+                  "title": "App summaries - short and often wasted room - F-Droid Forum",
+                  "snippet": "Translating a lot of app summaries I noticed that contents of them are frequently poor in information. That&#x27;s because many devs insert some ...",
+                  "ref_id": null,
+                  "pub_date": 1557360000.0,
+                  "attribution": "forum.f-droid.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "medium.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40anandwana/first-step-in-open-source-world-with-susi-android-127c3d5a272",
+                  "title": "First Step in Open Source World with SUSI Android - Medium",
+                  "snippet": "SUSI Android is a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                  "ref_id": null,
+                  "pub_date": 1507593600.0,
+                  "attribution": "medium.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "discuss.privacyguides.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://discuss.privacyguides.net/t/recommended-way-to-install-f-droid-basic/17429",
+                  "title": "Recommended way to install F-Droid Basic? - Privacy Guides",
+                  "snippet": "You can install F-Droid from the website, then use that to install F-Droid Basic and uninstall F-Droid (that&#x27;s what I did anyway)",
+                  "ref_id": null,
+                  "pub_date": 1710892800.0,
+                  "attribution": "discuss.privacyguides.net"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_68452395c04880009cf25f0d7f2e6f3c",
+          "reasoning_status": "is_reasoning",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2b237c1b-a734-4431-a065-09c313f75706",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b237c1b-a734-4431-a065-09c313f75706",
+      "children": [
+        "c2f82609-7441-41fc-b18d-464a324b489c"
+      ]
+    },
+    "c2f82609-7441-41fc-b18d-464a324b489c": {
+      "id": "c2f82609-7441-41fc-b18d-464a324b489c",
+      "message": {
+        "id": "c2f82609-7441-41fc-b18d-464a324b489c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361566.135129,
+        "update_time": null,
+        "content": {
+          "content_type": "reasoning_recap",
+          "content": "Thought for a few seconds"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "reasoning_status": "reasoning_ended",
+          "finished_duration_sec": 3,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "449bf8a9-017b-410c-9798-c172375ad630",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "449bf8a9-017b-410c-9798-c172375ad630",
+      "children": [
+        "d29007a7-12df-4ac8-934d-bfb5f9bb7843"
+      ]
+    },
+    "d29007a7-12df-4ac8-934d-bfb5f9bb7843": {
+      "id": "d29007a7-12df-4ac8-934d-bfb5f9bb7843",
+      "message": {
+        "id": "d29007a7-12df-4ac8-934d-bfb5f9bb7843",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web",
+            "sonicberry_model_id": "alpha.sonicberry_2s_p",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1749361559.033508,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a clear step‑by‑step guide on how to install and use SUSI AI from F‑Droid:\n\n---\n\n## 1. Install F‑Droid\n1. Visit the official F‑Droid website and download the APK.\n2. Install it on your Android device.\n3. Open F‑Droid and let it update its repositories.\n\n---\n\n## 2. Install **SUSI AI**\n1. In F‑Droid, search for **“SUSI AI”** (package: `ai.susi`) citeturn0search6.\n2. Install the app. SUSI AI is open‑source, licensed under Apache 2.0, and trusted on F‑Droid citeturn0search6.\n\n---\n\n## 3. Launch &amp; Configure\n- Open the **SUSI AI** app.\n- Upon first launch, grant necessary permissions (microphone, location, storage) to enable full features citeturn0search6.\n- If prompted, sign in or use it anonymously.\n\n---\n\n## 4. Chat &amp; Voice Interactions\n- Use the text input area to type your questions (e.g., “What’s today’s weather?”).\n- Tap the mic icon to ask questions via **voice**—SUSI will recognize speech and respond using **text-to-speech**.\n- The app supports voice &amp; text conversations and draws intelligence from a remote SUSI server citeturn0search4turn0search7.\n\n---\n\n## 5. Explore Features\n- SUSI AI offers a variety of response types: answers, tables, maps, and multimedia playback citeturn0search11turn0search4.\n- It can play YouTube videos natively via a built-in player—no need to leave the chat interface citeturn0search11.\n- It adapts based on local data (like geolocation) and external APIs (weather, podcasts, etc.) citeturn0search6turn0search7.\n\n---\n\n## 6. [Optional] Learn by Watching this Screencast\nvideoSUSI AI Android App Screencastturn0search9  \nThis video showcases the app’s interface, how to type or speak queries, and how SUSI responds in real-time.\n\n---\n\n## 🎯 Quick Tips\n| Task | How to |\n|------|--------|\n| Change interaction mode | Tap on mic to speak or use text bar |\n| Get location-based info | Allow location permissions |\n| Play YouTube content | Ask &quot;play [video name]&quot; – app handles media |\n| Customize assistant | Explore settings; advanced users can define custom skills in the SUSI server |\n\n---\n\n## Summary\n1. **Install** F‑Droid.\n2. **Fetch** and install **SUSI AI** (`ai.susi`).\n3. **Grant** permissions (microphone, location).\n4. **Chat or speak** your queries.\n5. **Enjoy** rich responses—answers, maps, charts, audio &amp; video—all within the app.\n\nIf you want help crafting custom skills or self‑hosting the SUSI server, I can walk you through those steps too!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "Here’s a clear step‑by‑step guide on how to install and use SUSI AI from F‑Droid:",
+              "start_idx": 0,
+              "end_idx": 81,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Here’s a clear step‑by‑step guide on how to install and use SUSI AI from F‑Droid:",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "Visit the official F‑Droid website and download the APK.",
+              "start_idx": 113,
+              "end_idx": 169,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Visit the official F‑Droid website and download the APK.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "Install it on your Android device.",
+              "start_idx": 173,
+              "end_idx": 207,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Install it on your Android device.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-2",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "Open F‑Droid and let it update its repositories.",
+              "start_idx": 211,
+              "end_idx": 259,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Open F‑Droid and let it update its repositories.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-3",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "In F‑Droid, search for **“SUSI AI”** (package: `ai.susi`)",
+              "start_idx": 295,
+              "end_idx": 352,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "In F‑Droid, search for **“SUSI AI”** (package: `ai.susi`)",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "0-4",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search6",
+              "start_idx": 353,
+              "end_idx": 372,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "pub_date": 1550275200.0,
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "attribution_segments": [
+                    "0-0",
+                    "0-4"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "Susi AI - open source personal assistant : r/selfhosted - Reddit",
+                      "url": "https://www.reddit.com/r/selfhosted/comments/aruilx/susi_ai_open_source_personal_assistant/?utm_source=chatgpt.com",
+                      "pub_date": 1550448000.0,
+                      "snippet": "I saw the frontend on F-Droid yesterday and then forgot to check the server, thanks for posting this and reminding me! Upvote 3. Downvote",
+                      "attribution": "reddit.com"
+                    },
+                    {
+                      "title": "HOW TO USE F-DROID TO DOWNLOAD AND UPDATE ... - YouTube",
+                      "url": "https://www.youtube.com/watch?v=gNYhNsE9_Fg&amp;utm_source=chatgpt.com",
+                      "pub_date": 1725494400.0,
+                      "snippet": "F-Droid and Aurora Store Guide - Install Android Apps in Privacy! ... AI Decides on Absurd Trolley Problems. Clarified Mind•1.4M views · 11 ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "susi.ai/docs/Skill_Tutorial.md at master · fossasia/susi.ai · GitHub",
+                      "url": "https://github.com/fossasia/susi.ai/blob/master/docs/Skill_Tutorial.md?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Here you can create public SUSI.AI skills in a simple editor window or private skill bots and check the new changes immediately in the preview at the right.",
+                      "attribution": "github.com"
+                    },
+                    {
+                      "title": "Recommended way to install F-Droid Basic? - Privacy Guides",
+                      "url": "https://discuss.privacyguides.net/t/recommended-way-to-install-f-droid-basic/17429?utm_source=chatgpt.com",
+                      "pub_date": 1710892800.0,
+                      "snippet": "You can install F-Droid from the website, then use that to install F-Droid Basic and uninstall F-Droid (that&#x27;s what I did anyway)",
+                      "attribution": "discuss.privacyguides.net"
+                    },
+                    {
+                      "title": "SUSI.AI: An Open Source Platform for Conversational Web - YouTube",
+                      "url": "https://www.youtube.com/watch?v=DHyB7LJrHYM&amp;utm_source=chatgpt.com",
+                      "pub_date": 1549584000.0,
+                      "snippet": "by Hong Phuc At: FOSDEM 2019 https://video.fosdem.org/2019/K.1.105/susi_ai.webm This talk is about SUSI.AI - an open source conversational ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                      "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                      "attribution": "github.com"
+                    },
+                    {
+                      "title": "SUSI.AI Android App Screencast - YouTube",
+                      "url": "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com",
+                      "pub_date": 1504310400.0,
+                      "snippet": "This is a screencast of new version of SUSI.AI Android App by @chiragw15 Link to app ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "Building SUSI.AI Android App with FDroid – blog.fossasia.org",
+                      "url": "https://blog.fossasia.org/building-susi-ai-android-app-with-fdroid/?utm_source=chatgpt.com",
+                      "pub_date": 1534809600.0,
+                      "snippet": "Fdroid is an app store for Free and Open Source Software (FOSS). Building and hosting an app on Fdroid is not an easy process compared to ...",
+                      "attribution": "blog.fossasia.org"
+                    },
+                    {
+                      "title": "App summaries - short and often wasted room - F-Droid Forum",
+                      "url": "https://forum.f-droid.org/t/app-summaries-short-and-often-wasted-room/5963?utm_source=chatgpt.com",
+                      "pub_date": 1557360000.0,
+                      "snippet": "Translating a lot of app summaries I noticed that contents of them are frequently poor in information. That&#x27;s because many devs insert some ...",
+                      "attribution": "forum.f-droid.org"
+                    },
+                    {
+                      "title": "Add your own AI rules and data set to SUSI AI Assistant - YouTube",
+                      "url": "https://www.youtube.com/watch?v=7U__K8yy1iY&amp;utm_source=chatgpt.com",
+                      "pub_date": 1489795200.0,
+                      "snippet": "Speaker(s): Michael Christen () Abstract: AI Assistant Development for everyone! We do a colaborative creation of Susi Skills which is as ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "First Step in Open Source World with SUSI Android - Medium",
+                      "url": "https://medium.com/%40anandwana/first-step-in-open-source-world-with-susi-android-127c3d5a272?utm_source=chatgpt.com",
+                      "pub_date": 1507593600.0,
+                      "snippet": "SUSI Android is a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                      "attribution": "medium.com"
+                    },
+                    {
+                      "title": "Testing Susi:Ai android app - Blog | Home",
+                      "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                      "attribution": "sanchittechnogeek.github.io"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 14
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 9
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "f-droid.org"
+                },
+                {
+                  "title": "SUSI.AI Android App Screencast - YouTube",
+                  "url": "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com",
+                  "pub_date": 1504310400.0,
+                  "snippet": "This is a screencast of new version of SUSI.AI Android App by @chiragw15 Link to app ...",
+                  "attribution_segments": [
+                    "0-1"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 9
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "youtube.com"
+                }
+              ],
+              "fallback_items": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "pub_date": 1550275200.0,
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "Install the app. SUSI AI is open‑source, licensed under Apache 2.0, and trusted on F‑Droid",
+              "start_idx": 377,
+              "end_idx": 467,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Install the app. SUSI AI is open‑source, licensed under Apache 2.0, and trusted on F‑Droid",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "372-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search6",
+              "start_idx": 468,
+              "end_idx": 487,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [],
+              "fallback_items": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "pub_date": 1550275200.0,
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "Open the **SUSI AI** app.",
+              "start_idx": 522,
+              "end_idx": 547,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Open the **SUSI AI** app.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "487-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "Upon first launch, grant necessary permissions (microphone, location, storage) to enable full features",
+              "start_idx": 550,
+              "end_idx": 652,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Upon first launch, grant necessary permissions (microphone, location, storage) to enable full features",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "487-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search6",
+              "start_idx": 653,
+              "end_idx": 672,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "pub_date": 1550275200.0,
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "attribution_segments": [
+                    "487-0"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                      "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                      "attribution": "github.com"
+                    },
+                    {
+                      "title": "Control flow of SUSI AI on Android and database management ...",
+                      "url": "https://blog.fossasia.org/control-flow-of-susi-ai-on-android-and-database-management-using-realm/?utm_source=chatgpt.com",
+                      "pub_date": 1498435200.0,
+                      "snippet": "In SUSI we are using Realm to keep things organized in a systematic manner and constructing model (or adding appropriate attributes) for every ...",
+                      "attribution": "blog.fossasia.org"
+                    },
+                    {
+                      "title": "SUSI.AI Android App Screencast - YouTube",
+                      "url": "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com",
+                      "pub_date": 1504310400.0,
+                      "snippet": "This is a screencast of new version of SUSI.AI Android App by @chiragw15 Link to app ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "susi.ai/docs/Skill_Tutorial.md at master · fossasia/susi.ai · GitHub",
+                      "url": "https://github.com/fossasia/susi.ai/blob/master/docs/Skill_Tutorial.md?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Here you can create public SUSI.AI skills in a simple editor window or private skill bots and check the new changes immediately in the preview at the right.",
+                      "attribution": "github.com"
+                    },
+                    {
+                      "title": "How to integrate SUSI.AI with Google Sign In API - fossasia",
+                      "url": "https://blog.fossasia.org/how-to-integrate-susi-ai-with-google-sign-in-api/?utm_source=chatgpt.com",
+                      "pub_date": 1532822400.0,
+                      "snippet": "After that we need to configure What type of environment we are calling oauth from for example a web server, web client, android or ios platform ...",
+                      "attribution": "blog.fossasia.org"
+                    },
+                    {
+                      "title": "Susi AI - open source personal assistant : r/selfhosted - Reddit",
+                      "url": "https://www.reddit.com/r/selfhosted/comments/aruilx/susi_ai_open_source_personal_assistant/?utm_source=chatgpt.com",
+                      "pub_date": 1550448000.0,
+                      "snippet": "I saw the frontend on F-Droid yesterday and then forgot to check the server, thanks for posting this and reminding me! Upvote 3. Downvote",
+                      "attribution": "reddit.com"
+                    },
+                    {
+                      "title": "First Step in Open Source World with SUSI Android - Medium",
+                      "url": "https://medium.com/%40anandwana/first-step-in-open-source-world-with-susi-android-127c3d5a272?utm_source=chatgpt.com",
+                      "pub_date": 1507593600.0,
+                      "snippet": "SUSI Android is a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                      "attribution": "medium.com"
+                    },
+                    {
+                      "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                      "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/?utm_source=chatgpt.com",
+                      "pub_date": 1534723200.0,
+                      "snippet": "SUSI.AI Android app has many response functionalities ranging from giving simple ANSWER type responses to complex TABLE and MAP type ...",
+                      "attribution": "blog.fossasia.org"
+                    },
+                    {
+                      "title": "Building SUSI.AI Android App with FDroid – blog.fossasia.org",
+                      "url": "https://blog.fossasia.org/building-susi-ai-android-app-with-fdroid/?utm_source=chatgpt.com",
+                      "pub_date": 1534809600.0,
+                      "snippet": "Fdroid is an app store for Free and Open Source Software (FOSS). Building and hosting an app on Fdroid is not an easy process compared to ...",
+                      "attribution": "blog.fossasia.org"
+                    },
+                    {
+                      "title": "Add your own AI rules and data set to SUSI AI Assistant - YouTube",
+                      "url": "https://www.youtube.com/watch?v=7U__K8yy1iY&amp;utm_source=chatgpt.com",
+                      "pub_date": 1489795200.0,
+                      "snippet": "Speaker(s): Michael Christen () Abstract: AI Assistant Development for everyone! We do a colaborative creation of Susi Skills which is as ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "SUSI.AI: An Open Source Platform for Conversational Web - YouTube",
+                      "url": "https://www.youtube.com/watch?v=DHyB7LJrHYM&amp;utm_source=chatgpt.com",
+                      "pub_date": 1549584000.0,
+                      "snippet": "by Hong Phuc At: FOSDEM 2019 https://video.fosdem.org/2019/K.1.105/susi_ai.webm This talk is about SUSI.AI - an open source conversational ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "HOW TO USE F-DROID TO DOWNLOAD AND UPDATE ... - YouTube",
+                      "url": "https://www.youtube.com/watch?v=gNYhNsE9_Fg&amp;utm_source=chatgpt.com",
+                      "pub_date": 1725494400.0,
+                      "snippet": "F-Droid and Aurora Store Guide - Install Android Apps in Privacy! ... AI Decides on Absurd Trolley Problems. Clarified Mind•1.4M views · 11 ...",
+                      "attribution": "youtube.com"
+                    },
+                    {
+                      "title": "Recommended way to install F-Droid Basic? - Privacy Guides",
+                      "url": "https://discuss.privacyguides.net/t/recommended-way-to-install-f-droid-basic/17429?utm_source=chatgpt.com",
+                      "pub_date": 1710892800.0,
+                      "snippet": "You can install F-Droid from the website, then use that to install F-Droid Basic and uninstall F-Droid (that&#x27;s what I did anyway)",
+                      "attribution": "discuss.privacyguides.net"
+                    },
+                    {
+                      "title": "App summaries - short and often wasted room - F-Droid Forum",
+                      "url": "https://forum.f-droid.org/t/app-summaries-short-and-often-wasted-room/5963?utm_source=chatgpt.com",
+                      "pub_date": 1557360000.0,
+                      "snippet": "Translating a lot of app summaries I noticed that contents of them are frequently poor in information. That&#x27;s because many devs insert some ...",
+                      "attribution": "forum.f-droid.org"
+                    },
+                    {
+                      "title": "Testing Susi:Ai android app - Blog | Home",
+                      "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                      "attribution": "sanchittechnogeek.github.io"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 9
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 14
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "f-droid.org"
+                }
+              ],
+              "fallback_items": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "pub_date": 1550275200.0,
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "If prompted, sign in or use it anonymously.",
+              "start_idx": 676,
+              "end_idx": 719,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "If prompted, sign in or use it anonymously.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "672-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "Use the text input area to type your questions (e.g., “What’s today’s weather?”).",
+              "start_idx": 760,
+              "end_idx": 841,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Use the text input area to type your questions (e.g., “What’s today’s weather?”).",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "672-1",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "Tap the mic icon to ask questions via **voice**—SUSI will recognize speech and respond using **text-to-speech**.",
+              "start_idx": 844,
+              "end_idx": 956,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Tap the mic icon to ask questions via **voice**—SUSI will recognize speech and respond using **text-to-speech**.",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "672-2",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "The app supports voice &amp; text conversations and draws intelligence from a remote SUSI server",
+              "start_idx": 959,
+              "end_idx": 1051,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "The app supports voice &amp; text conversations and draws intelligence from a remote SUSI server",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "672-3",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search4turn0search7",
+              "start_idx": 1052,
+              "end_idx": 1084,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Testing Susi:Ai android app - Blog | Home",
+                  "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                  "attribution_segments": [
+                    "672-2"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "sanchittechnogeek.github.io"
+                },
+                {
+                  "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                  "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                  "attribution_segments": [
+                    "672-3"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "Testing Susi:Ai android app - Blog | Home",
+                      "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                      "attribution": "sanchittechnogeek.github.io"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "github.com"
+                }
+              ],
+              "fallback_items": [
+                {
+                  "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                  "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                },
+                {
+                  "title": "Testing Susi:Ai android app - Blog | Home",
+                  "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "SUSI AI offers a variety of response types: answers, tables, maps, and multimedia playback",
+              "start_idx": 1117,
+              "end_idx": 1207,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "SUSI AI offers a variety of response types: answers, tables, maps, and multimedia playback",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1084-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search11turn0search4",
+              "start_idx": 1208,
+              "end_idx": 1241,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                  "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/?utm_source=chatgpt.com",
+                  "pub_date": 1534723200.0,
+                  "snippet": "SUSI.AI Android app has many response functionalities ranging from giving simple ANSWER type responses to complex TABLE and MAP type ...",
+                  "attribution_segments": [
+                    "1084-0"
+                  ],
+                  "supporting_websites": [
+                    {
+                      "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                      "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                      "attribution": "github.com"
+                    },
+                    {
+                      "title": "susi.ai/docs/Skill_Tutorial.md at master · fossasia/susi.ai · GitHub",
+                      "url": "https://github.com/fossasia/susi.ai/blob/master/docs/Skill_Tutorial.md?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Here you can create public SUSI.AI skills in a simple editor window or private skill bots and check the new changes immediately in the preview at the right.",
+                      "attribution": "github.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "blog.fossasia.org"
+                }
+              ],
+              "fallback_items": [
+                {
+                  "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                  "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/?utm_source=chatgpt.com",
+                  "pub_date": 1534723200.0,
+                  "snippet": "SUSI.AI Android app has many response functionalities ranging from giving simple ANSWER type responses to complex TABLE and MAP type ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                },
+                {
+                  "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                  "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from SUSI Server which further uses skills defined in SUSI ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "It can play YouTube videos natively via a built-in player—no need to leave the chat interface",
+              "start_idx": 1245,
+              "end_idx": 1338,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "It can play YouTube videos natively via a built-in player—no need to leave the chat interface",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1241-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search11",
+              "start_idx": 1339,
+              "end_idx": 1359,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                  "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/?utm_source=chatgpt.com",
+                  "pub_date": 1534723200.0,
+                  "snippet": "SUSI.AI Android app has many response functionalities ranging from giving simple ANSWER type responses to complex TABLE and MAP type ...",
+                  "attribution_segments": [
+                    "1241-0"
+                  ],
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "blog.fossasia.org"
+                }
+              ],
+              "fallback_items": [
+                {
+                  "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                  "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/?utm_source=chatgpt.com",
+                  "pub_date": 1534723200.0,
+                  "snippet": "SUSI.AI Android app has many response functionalities ranging from giving simple ANSWER type responses to complex TABLE and MAP type ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "It adapts based on local data (like geolocation) and external APIs (weather, podcasts, etc.)",
+              "start_idx": 1363,
+              "end_idx": 1455,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "It adapts based on local data (like geolocation) and external APIs (weather, podcasts, etc.)",
+              "prompt_text": null,
+              "type": "attribution",
+              "attributable_index": "1359-0",
+              "attributions": null,
+              "attributions_debug": null
+            },
+            {
+              "matched_text": "citeturn0search6turn0search7",
+              "start_idx": 1456,
+              "end_idx": 1488,
+              "safe_urls": [],
+              "refs": [],
+              "alt": null,
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [],
+              "fallback_items": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "pub_date": 1550275200.0,
+                  "snippet": "Susi AI is an intelligent Open Source personal assistant. It is fully customizable and developed by a community of developers.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                },
+                {
+                  "title": "Testing Susi:Ai android app - Blog | Home",
+                  "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "The main feature of the Susi:ai app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": "v2"
+            },
+            {
+              "matched_text": "videoSUSI AI Android App Screencastturn0search9",
+              "start_idx": 1547,
+              "end_idx": 1598,
+              "safe_urls": [
+                "https://img.youtube.com/vi/P6BDoBet4FA/maxresdefault.jpg",
+                "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com"
+              ],
+              "refs": [
+                {
+                  "turn_index": 0,
+                  "ref_type": "search",
+                  "ref_index": 9
+                }
+              ],
+              "alt": "[SUSI AI Android App Screencast](https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com)\n",
+              "prompt_text": null,
+              "type": "video",
+              "title": "SUSI AI Android App Screencast",
+              "thumbnail_url": "https://img.youtube.com/vi/P6BDoBet4FA/maxresdefault.jpg",
+              "url": "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com",
+              "video_site": "youtube",
+              "video_id": "P6BDoBet4FA"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2437,
+              "end_idx": 2437,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "SUSI.AI | F-Droid - Free and Open Source Android App Repository",
+                  "url": "https://f-droid.org/en/packages/ai.susi/?utm_source=chatgpt.com",
+                  "attribution": "f-droid.org"
+                },
+                {
+                  "title": "SUSI.AI Android App Screencast - YouTube",
+                  "url": "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com",
+                  "attribution": "youtube.com"
+                },
+                {
+                  "title": "Testing Susi:Ai android app - Blog | Home",
+                  "url": "https://sanchittechnogeek.github.io/articles/4/?utm_source=chatgpt.com",
+                  "attribution": "sanchittechnogeek.github.io"
+                },
+                {
+                  "title": "fossasia/susi_android: SUSI.AI Android App https://play ... - GitHub",
+                  "url": "https://github.com/fossasia/susi_android?utm_source=chatgpt.com",
+                  "attribution": "github.com"
+                },
+                {
+                  "title": "Play Youtube Videos in SUSI.AI Android app - Blog - FOSSASIA",
+                  "url": "https://blog.fossasia.org/play-youtube-videos-in-susi-ai-android-app/?utm_source=chatgpt.com",
+                  "attribution": "blog.fossasia.org"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://img.youtube.com/vi/P6BDoBet4FA/maxresdefault.jpg",
+            "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "fossasia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/control-flow-of-susi-ai-on-android-and-database-management-using-realm/?utm_source=chatgpt.com",
+                  "title": "Control flow of SUSI AI on Android and database management ...",
+                  "snippet": "In SUSI we are using Realm to keep things organized in a systematic manner and constructing model (or adding appropriate attributes) for every ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": 1498435200.0,
+                  "attribution": "fossasia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/building-susi-ai-android-app-with-fdroid/?utm_source=chatgpt.com",
+                  "title": "Building SUSI.AI Android App with FDroid – blog.fossasia.org",
+                  "snippet": "Fdroid is an app store for Free and Open Source Software (FOSS). Building and hosting an app on Fdroid is not an easy process compared to ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": 1534809600.0,
+                  "attribution": "fossasia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://blog.fossasia.org/how-to-integrate-susi-ai-with-google-sign-in-api/?utm_source=chatgpt.com",
+                  "title": "How to integrate SUSI.AI with Google Sign In API - fossasia",
+                  "snippet": "After that we need to configure What type of environment we are calling oauth from for example a web server, web client, android or ios platform ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": 1532822400.0,
+                  "attribution": "fossasia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=7U__K8yy1iY&amp;utm_source=chatgpt.com",
+                  "title": "Add your own AI rules and data set to SUSI AI Assistant - YouTube",
+                  "snippet": "Speaker(s): Michael Christen () Abstract: AI Assistant Development for everyone! We do a colaborative creation of Susi Skills which is as ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": 1489795200.0,
+                  "attribution": "youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=gNYhNsE9_Fg&amp;utm_source=chatgpt.com",
+                  "title": "HOW TO USE F-DROID TO DOWNLOAD AND UPDATE ... - YouTube",
+                  "snippet": "F-Droid and Aurora Store Guide - Install Android Apps in Privacy! ... AI Decides on Absurd Trolley Problems. Clarified Mind•1.4M views · 11 ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1725494400.0,
+                  "attribution": "youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=42XJcIVcYnE&amp;utm_source=chatgpt.com",
+                  "title": "AI-Powered Qualitative Analysis in ATLAS.ti: A Complete Guide",
+                  "snippet": "Discover how to leverage the AI functionalities in ATLAS.ti to streamline your qualitative data analysis. This tutorial walks you through ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1723420800.0,
+                  "attribution": "youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=DHyB7LJrHYM&amp;utm_source=chatgpt.com",
+                  "title": "SUSI.AI: An Open Source Platform for Conversational Web - YouTube",
+                  "snippet": "by Hong Phuc At: FOSDEM 2019 https://video.fosdem.org/2019/K.1.105/susi_ai.webm This talk is about SUSI.AI - an open source conversational ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1549584000.0,
+                  "attribution": "youtube.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/selfhosted/comments/aruilx/susi_ai_open_source_personal_assistant/?utm_source=chatgpt.com",
+                  "title": "Susi AI - open source personal assistant : r/selfhosted - Reddit",
+                  "snippet": "I saw the frontend on F-Droid yesterday and then forgot to check the server, thanks for posting this and reminding me! Upvote 3. Downvote",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": 1550448000.0,
+                  "attribution": "reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "f-droid.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://forum.f-droid.org/t/app-summaries-short-and-often-wasted-room/5963?utm_source=chatgpt.com",
+                  "title": "App summaries - short and often wasted room - F-Droid Forum",
+                  "snippet": "Translating a lot of app summaries I noticed that contents of them are frequently poor in information. That&#x27;s because many devs insert some ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": 1557360000.0,
+                  "attribution": "f-droid.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "medium.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://medium.com/%40anandwana/first-step-in-open-source-world-with-susi-android-127c3d5a272?utm_source=chatgpt.com",
+                  "title": "First Step in Open Source World with SUSI Android - Medium",
+                  "snippet": "SUSI Android is a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": 1507593600.0,
+                  "attribution": "medium.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "privacyguides.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://discuss.privacyguides.net/t/recommended-way-to-install-f-droid-basic/17429?utm_source=chatgpt.com",
+                  "title": "Recommended way to install F-Droid Basic? - Privacy Guides",
+                  "snippet": "You can install F-Droid from the website, then use that to install F-Droid Basic and uninstall F-Droid (that&#x27;s what I did anyway)",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1710892800.0,
+                  "attribution": "privacyguides.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "github.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://github.com/fossasia/susi.ai/blob/master/docs/Skill_Tutorial.md?utm_source=chatgpt.com",
+                  "title": "susi.ai/docs/Skill_Tutorial.md at master · fossasia/susi.ai · GitHub",
+                  "snippet": "Here you can create public SUSI.AI skills in a simple editor window or private skill bots and check the new changes immediately in the preview at the right.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "github.com"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c2f82609-7441-41fc-b18d-464a324b489c",
+          "request_id": "94c615ea9ad86717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c2f82609-7441-41fc-b18d-464a324b489c",
+      "children": [
+        "bbb21ad7-92ce-480e-ba58-d3e18f50696f"
+      ]
+    },
+    "bbb21ad7-92ce-480e-ba58-d3e18f50696f": {
+      "id": "bbb21ad7-92ce-480e-ba58-d3e18f50696f",
+      "message": {
+        "id": "bbb21ad7-92ce-480e-ba58-d3e18f50696f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361734.991356,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Why won&#x27;t it work. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94c61a59fabe6717-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d29007a7-12df-4ac8-934d-bfb5f9bb7843",
+      "children": [
+        "05e8fd34-3f7c-4bf3-9d78-f17f44fc2255"
+      ]
+    },
+    "05e8fd34-3f7c-4bf3-9d78-f17f44fc2255": {
+      "id": "05e8fd34-3f7c-4bf3-9d78-f17f44fc2255",
+      "message": {
+        "id": "05e8fd34-3f7c-4bf3-9d78-f17f44fc2255",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361735.117643,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Let’s troubleshoot why **SUSI AI from F-Droid** isn’t working on your device. Here&#x27;s a checklist of common issues and fixes:\n\n---\n\n### ⚠️ 1. **App Crashes or Won’t Open**\n- **Fix**: Uninstall and reinstall the app.\n- **Check**: Are you on **Android 10+**? Older SUSI AI versions may not fully support modern Android APIs.\n\n---\n\n### ⚠️ 2. **Microphone Doesn’t Work / No Voice Response**\n- **Check**: Go to Android Settings → Apps → SUSI AI → Permissions → Enable **Microphone**.\n- **Also Check**: Internet access. Voice recognition and responses are processed online.\n\n---\n\n### ⚠️ 3. **App Opens But Doesn’t Respond to Text or Voice**\n- SUSI requires **backend server access**. If the app can’t reach the SUSI server, it won’t function.\n- **Fix**:\n  - Make sure you have **internet access**.\n  - Try **turning off VPNs or Firewalls**.\n  - Go to SUSI settings and ensure the server is set to:  \n    ```\n    https://api.susi.ai/\n    ```\n\n---\n\n### ⚠️ 4. **No Text-to-Speech Output**\n- SUSI relies on Android’s **Text-to-Speech (TTS)** engine.\n- **Fix**:\n  - Go to Android Settings → Accessibility → Text-to-Speech.\n  - Make sure TTS is installed and a voice is selected.\n  - You can also test TTS with another app to confirm it works system-wide.\n\n---\n\n### ⚠️ 5. **F-Droid Version is Outdated or Broken**\n- F-Droid sometimes lags behind GitHub releases.\n- **Fix**:\n  - Try installing the latest APK directly from SUSI’s [GitHub releases](https://github.com/fossasia/susi_android/releases).\n  - Or compile it from source (advanced).\n\n---\n\n### 🔍 Advanced Debugging (if you&#x27;re comfortable)\n- Open **Logcat** in Termux or via ADB:\n  ```\n  adb logcat | grep susi\n  ```\n  This can show you errors like `NullPointerException`, `NetworkError`, or `PermissionDenied`.\n\n---\n\nIf you tell me exactly what’s happening—like **blank screen**, **no reply**, **buttons don’t work**, or **only some features work**—I can give you a fix tailored to your situation. Want to try that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21ad7-92ce-480e-ba58-d3e18f50696f",
+          "request_id": "94c61a59fabe6717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ad7-92ce-480e-ba58-d3e18f50696f",
+      "children": [
+        "bbb210bd-5739-4106-bcf6-b9112c0604b9"
+      ]
+    },
+    "bbb210bd-5739-4106-bcf6-b9112c0604b9": {
+      "id": "bbb210bd-5739-4106-bcf6-b9112c0604b9",
+      "message": {
+        "id": "bbb210bd-5739-4106-bcf6-b9112c0604b9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361810.88218,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Without ADB "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94c61c33ff2f6717-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "05e8fd34-3f7c-4bf3-9d78-f17f44fc2255",
+      "children": [
+        "71b803c7-58cc-490a-88f7-be9256da491a"
+      ]
+    },
+    "71b803c7-58cc-490a-88f7-be9256da491a": {
+      "id": "71b803c7-58cc-490a-88f7-be9256da491a",
+      "message": {
+        "id": "71b803c7-58cc-490a-88f7-be9256da491a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749361810.983295,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — let’s troubleshoot **SUSI AI not working** **without ADB** or a computer. You can still diagnose a lot right on your Android phone. Here&#x27;s how:\n\n---\n\n## 🔧 Step-by-Step Fix (No ADB Needed)\n\n### ✅ 1. **Force Stop and Clear Cache**\n1. Go to **Settings → Apps → SUSI AI**  \n2. Tap **&quot;Force Stop&quot;**  \n3. Tap **&quot;Storage &amp; Cache&quot; → Clear Cache**  \n4. Open the app again and test.\n\n---\n\n### ✅ 2. **Check Permissions**\nSUSI needs permissions to:\n- Access the **microphone** (for voice input)\n- Access the **internet**\n- Use **location** (optional)\n\nTo fix:\n1. Go to **Settings → Apps → SUSI AI → Permissions**\n2. Make sure **Microphone** and **Internet (via unrestricted data access)** are allowed.\n\n---\n\n### ✅ 3. **Enable Background Data**\nSometimes SUSI fails because Android blocks background network access:\n1. Go to **Settings → Apps → SUSI AI → Mobile Data &amp; Wi-Fi**\n2. Enable **&quot;Unrestricted Data Usage&quot;**  \n3. Toggle **Background data** ON.\n\n---\n\n### ✅ 4. **Fix TTS (No Voice Responses)**\n1. Open **Settings → System → Language &amp; Input → Text-to-Speech Output**\n2. Make sure a TTS engine is selected (Google TTS is fine)\n3. Tap the gear ⚙ next to it and try a test voice\n\n---\n\n### ✅ 5. **Check the Server Address**\nSUSI relies on a backend server. The app sometimes defaults to an old or blank address.\n1. Open the SUSI AI app\n2. Tap the **menu or settings icon** (☰ or ⚙)\n3. Find the **Server URL** field\n4. Set it to:\n   ```\n   https://api.susi.ai/\n   ```\n5. Save and restart the app\n\n---\n\n### ✅ 6. **Check Internet Connection**\nEven if you’re online, Android battery saving or network restrictions can block background access.\n- Try toggling **Airplane Mode ON → OFF**\n- Switch between **Wi-Fi and Mobile Data**\n- Turn **Battery Saver** OFF\n\n---\n\n### 🚨 Still Not Working?\n\nHere’s what you can do next **without ADB**:\n- Long-press the app → Tap **App Info** → Tap the three-dot menu → Tap **Uninstall Updates** (if possible)\n- Uninstall → Reinstall via **F-Droid** or try a direct **APK from GitHub**  \n  [📥 SUSI GitHub APKs](https://github.com/fossasia/susi_android/releases)\n\n---\n\nIf you tell me exactly what happens when you open the app (e.g. does it freeze? no response to typing? mic doesn’t work?), I’ll give you a focused fix just for that issue. Want to do that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb210bd-5739-4106-bcf6-b9112c0604b9",
+          "request_id": "94c61c33ff2f6717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb210bd-5739-4106-bcf6-b9112c0604b9",
+      "children": [
+        "bbb21188-7568-403e-816f-24e7a15739e9"
+      ]
+    },
+    "bbb21188-7568-403e-816f-24e7a15739e9": {
+      "id": "bbb21188-7568-403e-816f-24e7a15739e9",
+      "message": {
+        "id": "bbb21188-7568-403e-816f-24e7a15739e9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749362036.117795,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It won&#x27;t work bc it can&#x27;t connect to the internet "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94c621b4280d6717-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "71b803c7-58cc-490a-88f7-be9256da491a",
+      "children": [
+        "c699d891-ad24-4df3-a685-b7f8fd56933a"
+      ]
+    },
+    "c699d891-ad24-4df3-a685-b7f8fd56933a": {
+      "id": "c699d891-ad24-4df3-a685-b7f8fd56933a",
+      "message": {
+        "id": "c699d891-ad24-4df3-a685-b7f8fd56933a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749362036.240771,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Thanks for the detail — if **SUSI AI won&#x27;t work because it can&#x27;t connect to the internet**, here’s exactly what you should check and fix **on your phone** without using ADB or a computer.\n\n---\n\n## ✅ FIX: SUSI AI Can’t Connect to Internet\n\n### 🛠️ 1. **Check Server URL**\nThe most common cause is a **blank or outdated server address**.\n\n**To fix:**\n1. Open SUSI AI.\n2. Tap the **menu icon** (☰ or ⚙).\n3. Go to **Settings** → Look for **“Server URL”**.\n4. Set it to:\n\n```\nhttps://api.susi.ai/\n```\n\n5. Save → Restart the app.\n\n---\n\n### 📡 2. **Grant Network Permissions**\nAndroid might block SUSI’s access silently.\n\n**Steps:**\n- Go to **Settings → Apps → SUSI AI → Mobile Data &amp; Wi-Fi**\n- Enable:\n  - **Background data**\n  - **Unrestricted data usage**\n  - Make sure **Mobile Data** and **Wi-Fi** are allowed\n\n---\n\n### 🔌 3. **Disable Battery Optimization**\nBattery saver can block the app&#x27;s internet access.\n\n**Fix:**\n1. Go to **Settings → Battery → Battery Optimization**\n2. Tap “All Apps”\n3. Find **SUSI AI** → Set to **Not optimized**\n\n---\n\n### 🌐 4. **Test Your Connection**\nEven if other apps work, some DNS/firewall setups may block SUSI’s server.\n\n**Try this:**\n- Turn on **Airplane Mode** → wait 10s → turn **off**\n- Switch from **Wi-Fi to Mobile Data** (or vice versa)\n- Turn **VPNs** or **DNS-based firewalls** (like NetGuard, Rethink) **OFF**\n\n---\n\n### 🔄 5. **Reinstall or Use GitHub Version**\nThe version from F-Droid may be outdated or misconfigured.\n\n**Fix:**\n- Uninstall the F-Droid version.\n- Reinstall from GitHub (official dev release):  \n  [📥 SUSI Android APKs (GitHub)](https://github.com/fossasia/susi_android/releases/latest)\n\n---\n\n### 🚫 6. **The SUSI Backend May Be Down**\nIf the public SUSI server `https://api.susi.ai/` is temporarily offline (which has happened before), then:\n\n#### Option A:\nWait and try again in a few hours.\n\n#### Option B:\nUse your own **local SUSI server** (advanced; requires setting up a Node.js backend). I can walk you through that if you’re interested.\n\n---\n\nWant me to check if the public SUSI server is currently up? Or would you rather explore a different lightweight AI assistant that *does* work offline or through local models?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21188-7568-403e-816f-24e7a15739e9",
+          "request_id": "94c621b4280d6717-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21188-7568-403e-816f-24e7a15739e9",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "c699d891-ad24-4df3-a685-b7f8fd56933a",
+  "plugin_ids": null,
+  "conversation_id": "68452391-3488-8000-9e5a-895e727d204f",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://github.com/fossasia/susi_android/releases/latest",
+    "https://www.youtube.com/watch?v=P6BDoBet4FA&amp;utm_source=chatgpt.com",
+    "https://github.com/fossasia/susi_android/releases",
+    "https://img.youtube.com/vi/P6BDoBet4FA/maxresdefault.jpg"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68452391-3488-8000-9e5a-895e727d204f"
+}

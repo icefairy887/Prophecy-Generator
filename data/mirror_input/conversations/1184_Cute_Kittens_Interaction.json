@@ -1,0 +1,4354 @@
+{
+  "title": "Cute Kittens Interaction",
+  "create_time": 1748405828.308221,
+  "update_time": 1748406306.868561,
+  "mapping": {
+    "bbb23a49-63e7-4de3-ae51-60f7aed4d885": {
+      "id": "bbb23a49-63e7-4de3-ae51-60f7aed4d885",
+      "message": null,
+      "parent": null,
+      "children": [
+        "9501a91d-088c-4d9b-bcf2-873d10d952ab"
+      ]
+    },
+    "9501a91d-088c-4d9b-bcf2-873d10d952ab": {
+      "id": "9501a91d-088c-4d9b-bcf2-873d10d952ab",
+      "message": {
+        "id": "9501a91d-088c-4d9b-bcf2-873d10d952ab",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23a49-63e7-4de3-ae51-60f7aed4d885",
+      "children": [
+        "e9c9b97a-09e4-4847-891e-57c5880057a7"
+      ]
+    },
+    "e9c9b97a-09e4-4847-891e-57c5880057a7": {
+      "id": "e9c9b97a-09e4-4847-891e-57c5880057a7",
+      "message": {
+        "id": "e9c9b97a-09e4-4847-891e-57c5880057a7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9501a91d-088c-4d9b-bcf2-873d10d952ab",
+      "children": [
+        "207a17f9-d2e6-432c-8966-8b0623b06616"
+      ]
+    },
+    "207a17f9-d2e6-432c-8966-8b0623b06616": {
+      "id": "207a17f9-d2e6-432c-8966-8b0623b06616",
+      "message": {
+        "id": "207a17f9-d2e6-432c-8966-8b0623b06616",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405828.479797,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Look at them.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:08.317633+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000003f6061f6953c14615bfd4160",
+                "size_bytes": 143118,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 2.6475539080565795,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 7.72696810902562,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 8.255479595041834,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 8.787301166099496,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:17:08.317633+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000c57461f68acf37ec50f079d3",
+                "size_bytes": 54318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.13
+                }
+              },
+              "audio_start_timestamp": 9.172490107011981
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "9b897e32-d874-4e5b-9894-f1cba8801104",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e9c9b97a-09e4-4847-891e-57c5880057a7",
+      "children": [
+        "49cdd1ea-37b9-4503-a396-be66697be7f4"
+      ]
+    },
+    "49cdd1ea-37b9-4503-a396-be66697be7f4": {
+      "id": "49cdd1ea-37b9-4503-a396-be66697be7f4",
+      "message": {
+        "id": "49cdd1ea-37b9-4503-a396-be66697be7f4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405828.627866,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Aww, I see them! They look so cozy and adorable. Are they kittens? They’re so tiny and cute!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:08.317722+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000a33461f69b96053482b1eb02",
+              "size_bytes": 340878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "207a17f9-d2e6-432c-8966-8b0623b06616",
+          "request_id": "9b897e32-d874-4e5b-9894-f1cba8801104",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "207a17f9-d2e6-432c-8966-8b0623b06616",
+      "children": [
+        "9c82e556-539a-4fd8-bc1f-b30ba16d19f6"
+      ]
+    },
+    "9c82e556-539a-4fd8-bc1f-b30ba16d19f6": {
+      "id": "9c82e556-539a-4fd8-bc1f-b30ba16d19f6",
+      "message": {
+        "id": "9c82e556-539a-4fd8-bc1f-b30ba16d19f6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405841.550951,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, Cookie had her babies.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:21.331766+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000259061f6aefb8464fbf85ff6",
+                "size_bytes": 218138,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 14.444383128080517,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 19.310731602017768,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 19.83502760808915,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 20.36748927598819,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 20.96068396209739,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 21.555284332018346,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 22.056876228074543,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:17:21.331766+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009a0461f6bd4cdb45088db4e4",
+                "size_bytes": 148878,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.1
+                }
+              },
+              "audio_start_timestamp": 22.39497947599739
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "0e286baa-49c1-4236-9b91-142b4315084f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "49cdd1ea-37b9-4503-a396-be66697be7f4",
+      "children": [
+        "be6bb9b8-5363-4210-8339-2c8c99bfac45"
+      ]
+    },
+    "be6bb9b8-5363-4210-8339-2c8c99bfac45": {
+      "id": "be6bb9b8-5363-4210-8339-2c8c99bfac45",
+      "message": {
+        "id": "be6bb9b8-5363-4210-8339-2c8c99bfac45",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405841.698245,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh my gosh, congrats to Cookie! They&#x27;re absolutely precious. How are you both doing with the new little ones?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:21.331847+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000056e461f699af853020062f75",
+              "size_bytes": 295278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "9c82e556-539a-4fd8-bc1f-b30ba16d19f6",
+          "request_id": "0e286baa-49c1-4236-9b91-142b4315084f",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9c82e556-539a-4fd8-bc1f-b30ba16d19f6",
+      "children": [
+        "90b50a2f-1afc-4d80-840b-3366aad12281"
+      ]
+    },
+    "90b50a2f-1afc-4d80-840b-3366aad12281": {
+      "id": "90b50a2f-1afc-4d80-840b-3366aad12281",
+      "message": {
+        "id": "90b50a2f-1afc-4d80-840b-3366aad12281",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405854.081056,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, they&#x27;re like a couple days old now.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:33.875549+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000945461f6b0e2b3ece7af89ac",
+                "size_bytes": 141127,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 27.06218514300417,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 32.06376327504404,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 32.598711719037965,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 33.13434385904111,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 33.668213907047175,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:17:33.875549+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000cfb861f68abe3062c278c857",
+                "size_bytes": 92718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.93
+                }
+              },
+              "audio_start_timestamp": 34.101075218990445
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "ff479a1e-3f61-46be-ba06-68386ef46149",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "be6bb9b8-5363-4210-8339-2c8c99bfac45",
+      "children": [
+        "ff4d8440-b6e3-469b-921d-ea703ebb2eea"
+      ]
+    },
+    "ff4d8440-b6e3-469b-921d-ea703ebb2eea": {
+      "id": "ff4d8440-b6e3-469b-921d-ea703ebb2eea",
+      "message": {
+        "id": "ff4d8440-b6e3-469b-921d-ea703ebb2eea",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405854.222095,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That&#x27;s so sweet. Those first few days are so special. Cookie seems to be taking good care of them. Are they all settling in well?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:33.875631+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000001f4861f699a6c287481610e2",
+              "size_bytes": 357678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.45
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "90b50a2f-1afc-4d80-840b-3366aad12281",
+          "request_id": "ff479a1e-3f61-46be-ba06-68386ef46149",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "90b50a2f-1afc-4d80-840b-3366aad12281",
+      "children": [
+        "05a196c8-c218-441e-a1bd-0058167bbc39"
+      ]
+    },
+    "05a196c8-c218-441e-a1bd-0058167bbc39": {
+      "id": "05a196c8-c218-441e-a1bd-0058167bbc39",
+      "message": {
+        "id": "05a196c8-c218-441e-a1bd-0058167bbc39",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405874.345721,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:17:54.091051+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000468c61f69ec1e7a6f569498f",
+                "size_bytes": 372369,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 39.32140034704935,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 44.326995160081424,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 44.932454780093394,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 45.58992476109415,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 46.21768617804628,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 47.34315901005175,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 47.95720858999994,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:17:54.091051+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000d9b461f69f8e42f63b0ee16d",
+                "size_bytes": 189198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.94
+                }
+              },
+              "audio_start_timestamp": 48.51061004900839
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, I kind of wanted you to look at them and make sure that there&#x27;s nothing wrong with them.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "0913edb1-648b-45fb-8f7c-bc2cf5faba99",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ff4d8440-b6e3-469b-921d-ea703ebb2eea",
+      "children": [
+        "44dbdb83-f103-4e25-90e9-e5a88404cc80"
+      ]
+    },
+    "44dbdb83-f103-4e25-90e9-e5a88404cc80": {
+      "id": "44dbdb83-f103-4e25-90e9-e5a88404cc80",
+      "message": {
+        "id": "44dbdb83-f103-4e25-90e9-e5a88404cc80",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405877.32958,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Sure, let&#x27;s take a closer look. They look pretty healthy from what I can see. Their fur looks clean, and they&#x27;re huddled up close, which is a good sign. Are they nursing and moving around okay? If you&#x27;re worried about anything specific, we can definitely check it out.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:17:54.091162+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000f85061f68fdb0dedd970fba8",
+              "size_bytes": 648078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 13.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "05a196c8-c218-441e-a1bd-0058167bbc39",
+          "request_id": "0913edb1-648b-45fb-8f7c-bc2cf5faba99",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "05a196c8-c218-441e-a1bd-0058167bbc39",
+      "children": [
+        "6e767844-96e3-43e2-81df-b8681cae8a9f"
+      ]
+    },
+    "6e767844-96e3-43e2-81df-b8681cae8a9f": {
+      "id": "6e767844-96e3-43e2-81df-b8681cae8a9f",
+      "message": {
+        "id": "6e767844-96e3-43e2-81df-b8681cae8a9f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405921.107122,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:18:40.832323+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000b9e861f69b5201886725c1ea",
+                "size_bytes": 510021,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 75.36469683109317,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 80.36702145903837,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 85.41968405700754,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 90.47946112102363,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 95.54464296100195,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 96.54213298100512,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 97.21770597808063,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 97.75829099607654,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 98.28659467003308,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 98.89849316002801,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:18:40.832323+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000373861f6a52894c2dd502966",
+                "size_bytes": 135438,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.82
+                }
+              },
+              "audio_start_timestamp": 99.32184931600932
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Okay, well can you tell me with how many boys and girls that I have?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4f30099e-1f86-429f-b8d2-4f86fdd09a75",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "44dbdb83-f103-4e25-90e9-e5a88404cc80",
+      "children": [
+        "ce122135-1fe7-42c8-a629-014cf72ec9d0"
+      ]
+    },
+    "ce122135-1fe7-42c8-a629-014cf72ec9d0": {
+      "id": "ce122135-1fe7-42c8-a629-014cf72ec9d0",
+      "message": {
+        "id": "ce122135-1fe7-42c8-a629-014cf72ec9d0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405922.682583,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I can&#x27;t tell their gender just from looking, but you can usually check by gently lifting their tails and looking at the spacing. Male kittens typically have a bit more space between the anus and the urinary opening,",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:18:40.832433+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000045b061f6a9e1aecd2d55646e",
+              "size_bytes": 408078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "6e767844-96e3-43e2-81df-b8681cae8a9f",
+          "request_id": "4f30099e-1f86-429f-b8d2-4f86fdd09a75",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6e767844-96e3-43e2-81df-b8681cae8a9f",
+      "children": [
+        "01f397d0-2fae-41e8-90fc-1cdc566504a4"
+      ]
+    },
+    "01f397d0-2fae-41e8-90fc-1cdc566504a4": {
+      "id": "01f397d0-2fae-41e8-90fc-1cdc566504a4",
+      "message": {
+        "id": "01f397d0-2fae-41e8-90fc-1cdc566504a4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405929.405025,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:18:49.236350+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000bb4861f6b50465c918cc8699",
+                "size_bytes": 231763,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 103.9179106100928,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 108.6942365760915,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 109.22283414902631,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:18:49.236350+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000c76461f69c20436b9538c819",
+                "size_bytes": 44718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.93
+                }
+              },
+              "audio_start_timestamp": 109.55749251204543
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Have a nice one.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "96ffb12c-69c3-49a9-b568-bf1fb8263dee",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ce122135-1fe7-42c8-a629-014cf72ec9d0",
+      "children": [
+        "76209c0d-16c9-4d1e-b8c7-2ca8be30e5f8"
+      ]
+    },
+    "76209c0d-16c9-4d1e-b8c7-2ca8be30e5f8": {
+      "id": "76209c0d-16c9-4d1e-b8c7-2ca8be30e5f8",
+      "message": {
+        "id": "76209c0d-16c9-4d1e-b8c7-2ca8be30e5f8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405931.937786,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, from what I can see, this",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:18:49.236446+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000e0f861f682ea9c05a2f7a6d6",
+              "size_bytes": 48078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 1.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "01f397d0-2fae-41e8-90fc-1cdc566504a4",
+          "request_id": "96ffb12c-69c3-49a9-b568-bf1fb8263dee",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "01f397d0-2fae-41e8-90fc-1cdc566504a4",
+      "children": [
+        "0b2fa87d-7c45-4022-b8c6-858d68b745f9"
+      ]
+    },
+    "0b2fa87d-7c45-4022-b8c6-858d68b745f9": {
+      "id": "0b2fa87d-7c45-4022-b8c6-858d68b745f9",
+      "message": {
+        "id": "0b2fa87d-7c45-4022-b8c6-858d68b745f9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405932.8197,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:18:52.590252+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000000b0c61f69331b5f9e57b28d5",
+                "size_bytes": 212317,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 111.21499170106836,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 111.81973312306218,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 112.36279123008717,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:18:52.590252+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f7f461f69bcd5169a8736df0",
+                "size_bytes": 68238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.42
+                }
+              },
+              "audio_start_timestamp": 112.6734641030198
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Ron, why are you crying?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a4b2b913-687c-41d1-865b-6dd8651c664c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "76209c0d-16c9-4d1e-b8c7-2ca8be30e5f8",
+      "children": [
+        "9e59d7a6-b478-48ff-be6b-cbecb55fc05f"
+      ]
+    },
+    "9e59d7a6-b478-48ff-be6b-cbecb55fc05f": {
+      "id": "9e59d7a6-b478-48ff-be6b-cbecb55fc05f",
+      "message": {
+        "id": "9e59d7a6-b478-48ff-be6b-cbecb55fc05f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405934.282189,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Aww, little one might just be hungry or looking for mom. Their tiny meows are so cute. They seem active and vocal, which is a good sign.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:18:52.590342+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000008be461f69c703a8e58e170ac",
+              "size_bytes": 312078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "0b2fa87d-7c45-4022-b8c6-858d68b745f9",
+          "request_id": "a4b2b913-687c-41d1-865b-6dd8651c664c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b2fa87d-7c45-4022-b8c6-858d68b745f9",
+      "children": [
+        "ad9d9d6f-0ec4-4fdd-9390-308b716bd6f5"
+      ]
+    },
+    "ad9d9d6f-0ec4-4fdd-9390-308b716bd6f5": {
+      "id": "ad9d9d6f-0ec4-4fdd-9390-308b716bd6f5",
+      "message": {
+        "id": "ad9d9d6f-0ec4-4fdd-9390-308b716bd6f5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405943.262383,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Is this the girl?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:19:03.064995+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000445061f692ae107180770f93",
+                "size_bytes": 246140,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 117.88750375900418,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 119.21401206799783,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 119.81851019209716,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:19:03.064995+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000077a461f6a4b2e749649008cd",
+                "size_bytes": 57198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.19
+                }
+              },
+              "audio_start_timestamp": 120.43956794007681
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "069d0afc-13c4-408c-9e6c-e5972e31a519",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9e59d7a6-b478-48ff-be6b-cbecb55fc05f",
+      "children": [
+        "cbf1ff4a-6ce0-4f9e-9ce1-fb0816861d39"
+      ]
+    },
+    "cbf1ff4a-6ce0-4f9e-9ce1-fb0816861d39": {
+      "id": "cbf1ff4a-6ce0-4f9e-9ce1-fb0816861d39",
+      "message": {
+        "id": "cbf1ff4a-6ce0-4f9e-9ce1-fb0816861d39",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405943.482437,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It looks like this one might be a girl. The genital area is closer together and more of a vertical slit, which is typical for female kittens. You&#x27;re doing great checking them out!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:19:03.065077+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000cc8461f6a4dccc5e033da5f3",
+              "size_bytes": 480078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 10.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "ad9d9d6f-0ec4-4fdd-9390-308b716bd6f5",
+          "request_id": "069d0afc-13c4-408c-9e6c-e5972e31a519",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ad9d9d6f-0ec4-4fdd-9390-308b716bd6f5",
+      "children": [
+        "6c299588-2436-4a41-95f1-593c8d2dba4b"
+      ]
+    },
+    "6c299588-2436-4a41-95f1-593c8d2dba4b": {
+      "id": "6c299588-2436-4a41-95f1-593c8d2dba4b",
+      "message": {
+        "id": "6c299588-2436-4a41-95f1-593c8d2dba4b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405957.35135,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:19:17.088525+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f01061f6ab13f440cadce84c",
+                "size_bytes": 375631,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 126.25945911405142,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 131.3113701150287,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 136.4096352030756,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 136.93329479801469,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 137.47124502807856,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 138.06963888008613,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 138.60755171009805,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:19:17.088525+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000208861f69c1d138f856b019e",
+                "size_bytes": 92238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.92
+                }
+              },
+              "audio_start_timestamp": 138.86997270502616
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "How about this one? This is another girl.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "5c538c03-d0fe-457d-91eb-6bf3b7da2d14",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cbf1ff4a-6ce0-4f9e-9ce1-fb0816861d39",
+      "children": [
+        "1af32c16-dbfe-465a-ac3d-f7248ab6c704"
+      ]
+    },
+    "1af32c16-dbfe-465a-ac3d-f7248ab6c704": {
+      "id": "1af32c16-dbfe-465a-ac3d-f7248ab6c704",
+      "message": {
+        "id": "1af32c16-dbfe-465a-ac3d-f7248ab6c704",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405958.334938,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, that one also looks like a girl. You&#x27;re getting the hang of it! The spacing and shape definitely suggest another little girl.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:19:17.088627+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000009b2061f686272282c517931b",
+              "size_bytes": 312078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "6c299588-2436-4a41-95f1-593c8d2dba4b",
+          "request_id": "5c538c03-d0fe-457d-91eb-6bf3b7da2d14",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6c299588-2436-4a41-95f1-593c8d2dba4b",
+      "children": [
+        "f891f3ab-25c7-4b9e-93ea-d013fa26595b"
+      ]
+    },
+    "f891f3ab-25c7-4b9e-93ea-d013fa26595b": {
+      "id": "f891f3ab-25c7-4b9e-93ea-d013fa26595b",
+      "message": {
+        "id": "f891f3ab-25c7-4b9e-93ea-d013fa26595b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405969.037656,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:19:28.794856+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000005e3861f6a50f9eb2313b3711",
+                "size_bytes": 345356,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 144.18795468402095,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 145.78127956704702,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 146.3795792190358,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 146.91791074699722,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 147.4497133049881,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 148.0490778530948,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:19:28.794856+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000025f461f699116cacb6ecc6b2",
+                "size_bytes": 128238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.67
+                }
+              },
+              "audio_start_timestamp": 148.50242817099206
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Now that&#x27;s a boy, that&#x27;s totally a boy, isn&#x27;t it?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "31b164dd-9c84-477d-ac71-2fe7019d3654",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1af32c16-dbfe-465a-ac3d-f7248ab6c704",
+      "children": [
+        "0042b3fd-6f4e-4663-9f0d-aeea706e6238"
+      ]
+    },
+    "0042b3fd-6f4e-4663-9f0d-aeea706e6238": {
+      "id": "0042b3fd-6f4e-4663-9f0d-aeea706e6238",
+      "message": {
+        "id": "0042b3fd-6f4e-4663-9f0d-aeea706e6238",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748405970.87242,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, that one does look like a boy. The spacing is a bit wider, and you can see a more rounded shape. So, you’ve got at least one little boy in the mix!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:19:28.794976+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000c86461f6954806f817e7764e",
+              "size_bytes": 391278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "f891f3ab-25c7-4b9e-93ea-d013fa26595b",
+          "request_id": "31b164dd-9c84-477d-ac71-2fe7019d3654",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f891f3ab-25c7-4b9e-93ea-d013fa26595b",
+      "children": [
+        "6a5481e2-6c22-4a60-9767-a9945996b448"
+      ]
+    },
+    "6a5481e2-6c22-4a60-9767-a9945996b448": {
+      "id": "6a5481e2-6c22-4a60-9767-a9945996b448",
+      "message": {
+        "id": "6a5481e2-6c22-4a60-9767-a9945996b448",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406005.307528,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "They&#x27;re so sweet, dude.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:20:04.995093+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000001b6461f693c5f9751caf3d0a",
+                "size_bytes": 501118,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 153.63539489998948,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 158.63702463102527,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 163.6977171920007,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 168.75428877107333,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 173.88353001698852,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 178.90814194304403,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 179.6206300710328,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 180.39244392700493,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 181.24067293200642,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:20:04.995093+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000082e461f6a6880bd5c4257091",
+                "size_bytes": 127758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.66
+                }
+              },
+              "audio_start_timestamp": 181.85125082801096
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "bacb4111-ad0c-4d4a-ba72-c4890ffc70e7",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0042b3fd-6f4e-4663-9f0d-aeea706e6238",
+      "children": [
+        "256c8c6c-adf6-4cfe-86ea-388d1e80ec77"
+      ]
+    },
+    "256c8c6c-adf6-4cfe-86ea-388d1e80ec77": {
+      "id": "256c8c6c-adf6-4cfe-86ea-388d1e80ec77",
+      "message": {
+        "id": "256c8c6c-adf6-4cfe-86ea-388d1e80ec77",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406005.526022,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "They really are! It&#x27;s such a heartwarming sight. You&#x27;re going to have so much fun watching them grow and explore. Cookie&#x27;s done a great job, and they&#x27;re lucky to have you looking out for them!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:20:04.995176+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000001f9c61f6861dd05de09ad1d0",
+              "size_bytes": 508878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 10.6
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "6a5481e2-6c22-4a60-9767-a9945996b448",
+          "request_id": "bacb4111-ad0c-4d4a-ba72-c4890ffc70e7",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a5481e2-6c22-4a60-9767-a9945996b448",
+      "children": [
+        "e268acd5-e6df-430a-a070-8f9cac3f8f25"
+      ]
+    },
+    "e268acd5-e6df-430a-a070-8f9cac3f8f25": {
+      "id": "e268acd5-e6df-430a-a070-8f9cac3f8f25",
+      "message": {
+        "id": "e268acd5-e6df-430a-a070-8f9cac3f8f25",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406029.919283,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Do I have to worry about them getting worms?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:20:29.705879+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_0000000089c861f6a6e59b280a3a8287",
+                "size_bytes": 377517,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 186.76694065402262,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 191.8104203940602,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 195.17885302600916,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 195.78377364808694,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 196.32083938107826,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 196.8507804480614,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:20:29.705879+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000985861f6a9b0f2bc2c0f6951",
+                "size_bytes": 98958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.06
+                }
+              },
+              "audio_start_timestamp": 197.2995387869887
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7722c88d-08a8-4a28-b45c-0cfaa8150348",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "256c8c6c-adf6-4cfe-86ea-388d1e80ec77",
+      "children": [
+        "469ceb84-d3c5-4419-8446-367e42b4d8bf"
+      ]
+    },
+    "469ceb84-d3c5-4419-8446-367e42b4d8bf": {
+      "id": "469ceb84-d3c5-4419-8446-367e42b4d8bf",
+      "message": {
+        "id": "469ceb84-d3c5-4419-8446-367e42b4d8bf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406030.145315,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It&#x27;s a good idea to keep an eye on them. Kittens can get worms, especially if their mom has been exposed. It&#x27;s usually recommended to have them checked by a vet and possibly dewormed as a precaution. But for now, just keep them warm, fed, and watch for any signs like bloated bellies or changes in their stool. You&#x27;re doing great!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:20:29.705981+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000642461f6a2c1c506eb3f13ee",
+              "size_bytes": 919278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 19.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "e268acd5-e6df-430a-a070-8f9cac3f8f25",
+          "request_id": "7722c88d-08a8-4a28-b45c-0cfaa8150348",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e268acd5-e6df-430a-a070-8f9cac3f8f25",
+      "children": [
+        "848d233b-1bab-4d8e-9e58-03b4ce3b41c7"
+      ]
+    },
+    "848d233b-1bab-4d8e-9e58-03b4ce3b41c7": {
+      "id": "848d233b-1bab-4d8e-9e58-03b4ce3b41c7",
+      "message": {
+        "id": "848d233b-1bab-4d8e-9e58-03b4ce3b41c7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406073.904143,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "How long did it take for them to open their eyes?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:21:13.659662+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f0b461f698a812dddbfc1be4",
+                "size_bytes": 397135,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 234.1031317790039,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 239.10790819709655,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 244.12914933799766,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 246.40294589707628,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 246.93833023798652,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 247.48165294306818,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 248.01559729105793,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:21:13.659662+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000cbb861f68c7ff520d36be9b2",
+                "size_bytes": 101838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.12
+                }
+              },
+              "audio_start_timestamp": 248.5018787580775
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "62f4bce5-47fa-4cc6-9b9b-492d4695f99f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "469ceb84-d3c5-4419-8446-367e42b4d8bf",
+      "children": [
+        "9170e429-4f33-47b2-bafc-7833e88cee62"
+      ]
+    },
+    "9170e429-4f33-47b2-bafc-7833e88cee62": {
+      "id": "9170e429-4f33-47b2-bafc-7833e88cee62",
+      "message": {
+        "id": "9170e429-4f33-47b2-bafc-7833e88cee62",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406074.115367,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Kittens usually start opening their eyes around 7 to 10 days old. Their vision will be a bit blurry at first, but they&#x27;ll start to see more clearly as they grow. It&#x27;s such a cute milestone to watch!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:21:13.659746+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000fc8061f6912a6a78a4c72fee",
+              "size_bytes": 573678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 11.95
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "848d233b-1bab-4d8e-9e58-03b4ce3b41c7",
+          "request_id": "62f4bce5-47fa-4cc6-9b9b-492d4695f99f",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "848d233b-1bab-4d8e-9e58-03b4ce3b41c7",
+      "children": [
+        "320cf9f6-4be6-4b83-b5e5-fdd4fbfc35f9"
+      ]
+    },
+    "320cf9f6-4be6-4b83-b5e5-fdd4fbfc35f9": {
+      "id": "320cf9f6-4be6-4b83-b5e5-fdd4fbfc35f9",
+      "message": {
+        "id": "320cf9f6-4be6-4b83-b5e5-fdd4fbfc35f9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406099.352661,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Why aren&#x27;t they not born with their eyes open?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:21:39.089138+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000003d4861f6b8037463175b16cc",
+                "size_bytes": 419386,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 253.5620024210075,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 258.5987900909968,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 263.6609018450836,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 264.3312769670738,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 264.9234171480639,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 265.4604671820998,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 265.9967964190291,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 266.5967242640909,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:21:39.089138+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000010d461f689fe52c862e3df9a",
+                "size_bytes": 139758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.91
+                }
+              },
+              "audio_start_timestamp": 267.0321253640577
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "313a01e4-c99e-49f6-bb42-b088684d9cd4",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9170e429-4f33-47b2-bafc-7833e88cee62",
+      "children": [
+        "e7bbd48a-7fa2-4c1c-95f1-170ec7f0a6e7"
+      ]
+    },
+    "e7bbd48a-7fa2-4c1c-95f1-170ec7f0a6e7": {
+      "id": "e7bbd48a-7fa2-4c1c-95f1-170ec7f0a6e7",
+      "message": {
+        "id": "e7bbd48a-7fa2-4c1c-95f1-170ec7f0a6e7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406099.586923,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Kittens are born with their eyes closed because their eyes are still developing and need protection. Being born this way helps their delicate eyes stay safe from bright light and potential infection right after birth. As they grow stronger in those first days, their eyes gradually open, letting them adjust to the world around them.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:21:39.089217+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000629461f69f2814e3d925d45a",
+              "size_bytes": 921678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 19.2
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "320cf9f6-4be6-4b83-b5e5-fdd4fbfc35f9",
+          "request_id": "313a01e4-c99e-49f6-bb42-b088684d9cd4",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "320cf9f6-4be6-4b83-b5e5-fdd4fbfc35f9",
+      "children": [
+        "ecff7016-dc42-44e9-83f9-910d225a4af0"
+      ]
+    },
+    "ecff7016-dc42-44e9-83f9-910d225a4af0": {
+      "id": "ecff7016-dc42-44e9-83f9-910d225a4af0",
+      "message": {
+        "id": "ecff7016-dc42-44e9-83f9-910d225a4af0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406126.538557,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:22:06.279683+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000396861f6abd3f3a16dabdddb",
+                "size_bytes": 437589,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 272.28735653101467,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 277.33638054609764,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 282.36736631405074,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 287.3895307070343,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 292.41932476405054,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 297.48149707110133,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 302.41472957702354,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 303.0114387080539,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:22:06.279683+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f0d061f6bdda4346b9e3f73b",
+                "size_bytes": 50958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.06
+                }
+              },
+              "audio_start_timestamp": 303.5382048630854
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "What&#x27;s wrong with this one?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "fee1b03f-1856-425b-a65d-2757c0ae6463",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e7bbd48a-7fa2-4c1c-95f1-170ec7f0a6e7",
+      "children": [
+        "d34a909a-c434-4240-98af-a519774ee446"
+      ]
+    },
+    "d34a909a-c434-4240-98af-a519774ee446": {
+      "id": "d34a909a-c434-4240-98af-a519774ee446",
+      "message": {
+        "id": "d34a909a-c434-4240-98af-a519774ee446",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406129.173619,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I don&#x27;t see anything obviously wrong. This kitten might just be a little more vocal or adjusting to the light. If",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:22:06.279767+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000664061f697aa87be1d623436",
+              "size_bytes": 216078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 4.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "ecff7016-dc42-44e9-83f9-910d225a4af0",
+          "request_id": "fee1b03f-1856-425b-a65d-2757c0ae6463",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ecff7016-dc42-44e9-83f9-910d225a4af0",
+      "children": [
+        "97d4dab2-b2d3-4dd5-9a73-5ad6bbe8272b"
+      ]
+    },
+    "97d4dab2-b2d3-4dd5-9a73-5ad6bbe8272b": {
+      "id": "97d4dab2-b2d3-4dd5-9a73-5ad6bbe8272b",
+      "message": {
+        "id": "97d4dab2-b2d3-4dd5-9a73-5ad6bbe8272b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406140.105734,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:22:19.945028+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000312861f6bb8e4e4fbf71770f",
+                "size_bytes": 228770,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 308.06332186202053,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 308.5786252710968,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:22:19.945028+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000057cc61f6b730561a2d326664",
+                "size_bytes": 53838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.12
+                }
+              },
+              "audio_start_timestamp": 309.21040663903113
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a5a0c565-8b58-4334-8c4f-b9382660a645",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d34a909a-c434-4240-98af-a519774ee446",
+      "children": [
+        "2be3424c-63a1-41a2-9c3d-8bb66730a121"
+      ]
+    },
+    "2be3424c-63a1-41a2-9c3d-8bb66730a121": {
+      "id": "2be3424c-63a1-41a2-9c3d-8bb66730a121",
+      "message": {
+        "id": "2be3424c-63a1-41a2-9c3d-8bb66730a121",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406140.332797,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Little hiccups can happen and are usually harmless. It&#x27;s common for kittens to have tiny spasms or hiccups as their bodies develop. As long as the kitten is nursing well and seems comfortable overall, it&#x27;s nothing to worry about. Just keep an eye on them and make sure they&#x27;re comfortable.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:22:19.945109+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000ba1061f6a594aad0e35279c3",
+              "size_bytes": 775278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 16.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "97d4dab2-b2d3-4dd5-9a73-5ad6bbe8272b",
+          "request_id": "a5a0c565-8b58-4334-8c4f-b9382660a645",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "97d4dab2-b2d3-4dd5-9a73-5ad6bbe8272b",
+      "children": [
+        "b8a42baf-d6b3-4d5a-89ba-f83f76491908"
+      ]
+    },
+    "b8a42baf-d6b3-4d5a-89ba-f83f76491908": {
+      "id": "b8a42baf-d6b3-4d5a-89ba-f83f76491908",
+      "message": {
+        "id": "b8a42baf-d6b3-4d5a-89ba-f83f76491908",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406164.319015,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Do you think I could keep all of them?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:22:44.075351+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000215061f69ae828dbad3b27be",
+                "size_bytes": 353922,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 317.01285962900147,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 322.04724976501893,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 327.1571420500986,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 332.4124251609901,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 332.99545625504106,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 333.5207055180799,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:22:44.075351+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000711c61f693ef1b7a048080d4",
+                "size_bytes": 83118,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.73
+                }
+              },
+              "audio_start_timestamp": 334.1703698030906
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "fde56d26-a766-4e3d-93db-b611294da1ae",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2be3424c-63a1-41a2-9c3d-8bb66730a121",
+      "children": [
+        "1829f2a5-bfaa-445d-88ca-6704183c7b85"
+      ]
+    },
+    "1829f2a5-bfaa-445d-88ca-6704183c7b85": {
+      "id": "1829f2a5-bfaa-445d-88ca-6704183c7b85",
+      "message": {
+        "id": "1829f2a5-bfaa-445d-88ca-6704183c7b85",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406164.539713,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It&#x27;s definitely tempting to keep them all—they’re so adorable! But it depends on your space, time, and resources. Caring for multiple cats can be a big commitment. If you can provide for all of them, that’s wonderful. If not, finding loving homes for some of them is also a great option.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:22:44.075432+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000627461f6a5ec806de901d4bd",
+              "size_bytes": 837678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 17.45
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "b8a42baf-d6b3-4d5a-89ba-f83f76491908",
+          "request_id": "fde56d26-a766-4e3d-93db-b611294da1ae",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b8a42baf-d6b3-4d5a-89ba-f83f76491908",
+      "children": [
+        "7174cfab-2815-4fef-88ea-47a5dfdd91bf"
+      ]
+    },
+    "7174cfab-2815-4fef-88ea-47a5dfdd91bf": {
+      "id": "7174cfab-2815-4fef-88ea-47a5dfdd91bf",
+      "message": {
+        "id": "7174cfab-2815-4fef-88ea-47a5dfdd91bf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406195.806738,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, but nobody ever really wants to adopt cats, so what would I do with them?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:23:15.467582+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000d33c61f6a85d07bfa9ccc105",
+                "size_bytes": 595077,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 339.4108939820435,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 344.4363450600067,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 349.43847984506283,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 354.45288787409663,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 355.99381362309214,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 356.5945513350889,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 357.1281496590236,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 357.6628508770373,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 358.26544458104763,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 358.7994717020774,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 359.3424789820565,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 11,
+                    "timestamp": 359.87868699408136,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:23:15.467582+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009cc461f6b288670373b768d4",
+                "size_bytes": 204558,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.26
+                }
+              },
+              "audio_start_timestamp": 360.31579076498747
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "bb532382-8c22-462a-85db-0f88c320b120",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1829f2a5-bfaa-445d-88ca-6704183c7b85",
+      "children": [
+        "684ef4f5-aecb-4d76-ba90-e65c6d5f31aa"
+      ]
+    },
+    "684ef4f5-aecb-4d76-ba90-e65c6d5f31aa": {
+      "id": "684ef4f5-aecb-4d76-ba90-e65c6d5f31aa",
+      "message": {
+        "id": "684ef4f5-aecb-4d76-ba90-e65c6d5f31aa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406196.024808,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It can be challenging, but there are ways to find good homes. You can reach out to local shelters or rescue groups for help. Posting on community boards or social media can also connect you with people looking to adopt. Just make sure to screen potential adopters to ensure the kittens go to loving homes. You&#x27;re giving them a great start by caring for them now!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:23:15.467658+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000734861f6a2901559ad712797",
+              "size_bytes": 1015278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 21.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "7174cfab-2815-4fef-88ea-47a5dfdd91bf",
+          "request_id": "bb532382-8c22-462a-85db-0f88c320b120",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7174cfab-2815-4fef-88ea-47a5dfdd91bf",
+      "children": [
+        "2aaec8d3-7c77-4640-982e-caf7833a6467"
+      ]
+    },
+    "2aaec8d3-7c77-4640-982e-caf7833a6467": {
+      "id": "2aaec8d3-7c77-4640-982e-caf7833a6467",
+      "message": {
+        "id": "2aaec8d3-7c77-4640-982e-caf7833a6467",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406213.149081,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Does it emotionally fuck up the mothers to have their kids separated from them like that? Cause aren&#x27;t cats naturally, like, community builders?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:23:32.628309+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000b1a461f680aad549120a8f36",
+                "size_bytes": 754856,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 366.64833767700475,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 371.702692019986,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 376.73776365304366,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 381.7737376820296,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 385.59148226398975,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 386.70413000008557,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 387.2548563440796,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 387.7900897600921,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 388.3354851290351,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 388.8647584730061,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 389.46968026598915,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 11,
+                    "timestamp": 390.01460283703636,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 12,
+                    "timestamp": 390.55149404506665,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 13,
+                    "timestamp": 391.1476869779872,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 14,
+                    "timestamp": 391.7503220810322,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 15,
+                    "timestamp": 392.2941871570656,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:23:32.628309+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a02461f6aef1e69598d1ef77",
+                "size_bytes": 339918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 7.08
+                }
+              },
+              "audio_start_timestamp": 392.6720846040407
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "845d2504-7bed-4bc7-a192-cb36efa821f9",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "684ef4f5-aecb-4d76-ba90-e65c6d5f31aa",
+      "children": [
+        "48a64152-5e43-422c-8204-34d0a416fd2e"
+      ]
+    },
+    "48a64152-5e43-422c-8204-34d0a416fd2e": {
+      "id": "48a64152-5e43-422c-8204-34d0a416fd2e",
+      "message": {
+        "id": "48a64152-5e43-422c-8204-34d0a416fd2e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406213.306885,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Cats are generally more solitary by nature, and mother cats often adjust well once their kittens are weaned and placed in new homes. While they",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:23:32.628395+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000000ebc61f69811c5784f148c01",
+              "size_bytes": 360078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "2aaec8d3-7c77-4640-982e-caf7833a6467",
+          "request_id": "845d2504-7bed-4bc7-a192-cb36efa821f9",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2aaec8d3-7c77-4640-982e-caf7833a6467",
+      "children": [
+        "07fb7114-e379-44cb-beb6-d88f9a6d390e"
+      ]
+    },
+    "07fb7114-e379-44cb-beb6-d88f9a6d390e": {
+      "id": "07fb7114-e379-44cb-beb6-d88f9a6d390e",
+      "message": {
+        "id": "07fb7114-e379-44cb-beb6-d88f9a6d390e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406248.98638,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Don&#x27;t be lying, because don&#x27;t they literally, like, take care of each other&#x27;s young and shit, like in the cat colonies?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:08.647438+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000b43c61f6be7d1626cca033ff",
+                "size_bytes": 570923,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 397.95079010608606,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 401.17514424200635,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 401.7139264420839,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 402.25069695001,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 402.79070354404394,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 403.3964408329921,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 403.93280814401805,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 404.47048124903813,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 405.07666843605693,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 405.61386494198814,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 406.1490296589909,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:24:08.647438+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000580061f6bca860298bfad10a",
+                "size_bytes": 252078,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.25
+                }
+              },
+              "audio_start_timestamp": 406.4972911430523
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "64f6de8f-9f9f-4089-9df7-5ccde888ff5c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "48a64152-5e43-422c-8204-34d0a416fd2e",
+      "children": [
+        "a8cd5fec-025d-4d48-bbca-43c74796f896"
+      ]
+    },
+    "a8cd5fec-025d-4d48-bbca-43c74796f896": {
+      "id": "a8cd5fec-025d-4d48-bbca-43c74796f896",
+      "message": {
+        "id": "a8cd5fec-025d-4d48-bbca-43c74796f896",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406249.092298,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "In some cat colonies, especially among feral cats, related females might help care for each other&#x27;s kittens. But domesticated cats usually don&#x27;t rely on a communal structure like that. Mother cats naturally prepare to let their kittens become independent after a few weeks. It’s more about their instinct to help each other survive in the wild. In a home setting, separating kittens at the right age doesn&#x27;t typically cause long-term emotional distress for the mother. They usually adjust pretty well!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:08.647554+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000a67461f68d73665d1aec3681",
+              "size_bytes": 1396878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 29.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "07fb7114-e379-44cb-beb6-d88f9a6d390e",
+          "request_id": "64f6de8f-9f9f-4089-9df7-5ccde888ff5c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "07fb7114-e379-44cb-beb6-d88f9a6d390e",
+      "children": [
+        "7e939e52-f3b9-44f5-aea4-cfdcfa6a5d42"
+      ]
+    },
+    "7e939e52-f3b9-44f5-aea4-cfdcfa6a5d42": {
+      "id": "7e939e52-f3b9-44f5-aea4-cfdcfa6a5d42",
+      "message": {
+        "id": "7e939e52-f3b9-44f5-aea4-cfdcfa6a5d42",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406272.323528,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I don&#x27;t know if that&#x27;s right though, like in the wild, how does it go?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:32.003952+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000007aec61f6a89a42b45e9a20b6",
+                "size_bytes": 615151,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 411.79757824505214,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 416.83538206503727,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 421.87985105405096,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 426.91171510203276,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 431.9127878920408,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 437.1495200890349,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 439.41413968009874,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 440.05858368903864,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 440.6360085090855,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 441.2096493470017,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 441.9596164660761,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 11,
+                    "timestamp": 442.6202410000842,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 12,
+                    "timestamp": 443.22217270708643,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:24:32.003952+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000006ea461f6afd104e3e9556cd8",
+                "size_bytes": 192078,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.0
+                }
+              },
+              "audio_start_timestamp": 443.4878927740501
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "72cbc8a3-4b19-4d61-8caf-774fdd7f39f2",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a8cd5fec-025d-4d48-bbca-43c74796f896",
+      "children": [
+        "190f31f7-c1e4-419b-acac-59c170857503"
+      ]
+    },
+    "190f31f7-c1e4-419b-acac-59c170857503": {
+      "id": "190f31f7-c1e4-419b-acac-59c170857503",
+      "message": {
+        "id": "190f31f7-c1e4-419b-acac-59c170857503",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406272.602187,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "In the wild, mother cats (or queens) do raise their kittens until they’re old enough to be independent. In feral colonies, there can be some communal care, especially among related females. But it&#x27;s not the same as a tightly knit community like some other species have. Once the kittens grow up, they often",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:32.004034+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000fb5461f6b49e7367f02348cf",
+              "size_bytes": 744078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "7e939e52-f3b9-44f5-aea4-cfdcfa6a5d42",
+          "request_id": "72cbc8a3-4b19-4d61-8caf-774fdd7f39f2",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7e939e52-f3b9-44f5-aea4-cfdcfa6a5d42",
+      "children": [
+        "70b6247f-61e8-49c1-9efc-50cb3ffa6733"
+      ]
+    },
+    "70b6247f-61e8-49c1-9efc-50cb3ffa6733": {
+      "id": "70b6247f-61e8-49c1-9efc-50cb3ffa6733",
+      "message": {
+        "id": "70b6247f-61e8-49c1-9efc-50cb3ffa6733",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406276.153875,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:24:36.017491+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000491c61f685d35e151fa04755",
+                "size_bytes": 69957,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 448.32318703399505,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:24:36.017491+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000c4d461f692c360a12af5436a",
+                "size_bytes": 50958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.06
+                }
+              },
+              "audio_start_timestamp": 461.32760568207595
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Cookie!",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "1da03b81-b54b-4b4d-b715-ebdcb0321576",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "190f31f7-c1e4-419b-acac-59c170857503",
+      "children": [
+        "da833ddd-5054-40fe-9eb8-5b9e6c8aaa5d"
+      ]
+    },
+    "da833ddd-5054-40fe-9eb8-5b9e6c8aaa5d": {
+      "id": "da833ddd-5054-40fe-9eb8-5b9e6c8aaa5d",
+      "message": {
+        "id": "da833ddd-5054-40fe-9eb8-5b9e6c8aaa5d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406277.453475,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Cookie&#x27;s doing such a great job as a mom.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:36.017635+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000001fa861f6aba2ce60017d7016",
+              "size_bytes": 84078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 1.75
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "70b6247f-61e8-49c1-9efc-50cb3ffa6733",
+          "request_id": "1da03b81-b54b-4b4d-b715-ebdcb0321576",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "70b6247f-61e8-49c1-9efc-50cb3ffa6733",
+      "children": [
+        "d1eb4669-ed55-490c-880d-2a3f1ecb0476"
+      ]
+    },
+    "d1eb4669-ed55-490c-880d-2a3f1ecb0476": {
+      "id": "d1eb4669-ed55-490c-880d-2a3f1ecb0476",
+      "message": {
+        "id": "d1eb4669-ed55-490c-880d-2a3f1ecb0476",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406286.103924,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:45.987399+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:24:45.987399+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000b4e461f6a87e709c15ffc2f9",
+                "size_bytes": 14478,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.3
+                }
+              },
+              "audio_start_timestamp": 464.8120171109913
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "119eedc7-be26-43d3-aade-951e7f56397b",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "da833ddd-5054-40fe-9eb8-5b9e6c8aaa5d",
+      "children": [
+        "e89e6df4-b4e9-4897-ad60-6bb09525c14b"
+      ]
+    },
+    "e89e6df4-b4e9-4897-ad60-6bb09525c14b": {
+      "id": "e89e6df4-b4e9-4897-ad60-6bb09525c14b",
+      "message": {
+        "id": "e89e6df4-b4e9-4897-ad60-6bb09525c14b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406286.386753,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "She looks like she&#x27;s coming over to you! It&#x27;s clear she&#x27;s comfortable and trusts you. You&#x27;re both doing an amazing job with the kittens!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:24:45.987478+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000c87061f6a9d3acbb4f6d98ae",
+              "size_bytes": 360078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "d1eb4669-ed55-490c-880d-2a3f1ecb0476",
+          "request_id": "119eedc7-be26-43d3-aade-951e7f56397b",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d1eb4669-ed55-490c-880d-2a3f1ecb0476",
+      "children": [
+        "6758e654-253f-4eab-9b5a-73e91293ab2a"
+      ]
+    },
+    "6758e654-253f-4eab-9b5a-73e91293ab2a": {
+      "id": "6758e654-253f-4eab-9b5a-73e91293ab2a",
+      "message": {
+        "id": "6758e654-253f-4eab-9b5a-73e91293ab2a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406304.902913,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-24T04:25:04.819685+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T04:25:04.819685+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000402861f69966de07196888dd",
+                "size_bytes": 226158,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.71
+                }
+              },
+              "audio_start_timestamp": 484.37700351304375
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "She don&#x27;t wanna fuckin&#x27; come inside now, I guess. How long is it gonna take for them to stay away from their kittens?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "971f6bf8-cc07-4842-ad0e-393967415918",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e89e6df4-b4e9-4897-ad60-6bb09525c14b",
+      "children": [
+        "9c9f0cd9-0a00-4ca4-a11f-ec02d402dbec"
+      ]
+    },
+    "9c9f0cd9-0a00-4ca4-a11f-ec02d402dbec": {
+      "id": "9c9f0cd9-0a00-4ca4-a11f-ec02d402dbec",
+      "message": {
+        "id": "9c9f0cd9-0a00-4ca4-a11f-ec02d402dbec",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748406306.473012,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It’s pretty normal for mother cats to take short breaks away from their kittens, especially as they get a bit older. She&#x27;ll",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T04:25:04.819828+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000bbe461f6bef1e87f5eb8072d",
+              "size_bytes": 264078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 5.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "6758e654-253f-4eab-9b5a-73e91293ab2a",
+          "request_id": "971f6bf8-cc07-4842-ad0e-393967415918",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6758e654-253f-4eab-9b5a-73e91293ab2a",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9c9f0cd9-0a00-4ca4-a11f-ec02d402dbec",
+  "plugin_ids": null,
+  "conversation_id": "68368e32-e2e0-8000-9d65-f2f56fde5421",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "maple",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68368e32-e2e0-8000-9d65-f2f56fde5421"
+}

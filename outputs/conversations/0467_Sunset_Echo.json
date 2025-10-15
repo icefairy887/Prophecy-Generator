@@ -1,0 +1,1142 @@
+{
+  "title": "Sunset Echo",
+  "create_time": 1752931450.406619,
+  "update_time": 1752931615.566763,
+  "mapping": {
+    "bbb23fd9-7f3b-49cf-b363-d1cf75e11bf7": {
+      "id": "bbb23fd9-7f3b-49cf-b363-d1cf75e11bf7",
+      "message": null,
+      "parent": null,
+      "children": [
+        "88126a35-c07d-4773-a326-0b6b9112bbe8"
+      ]
+    },
+    "88126a35-c07d-4773-a326-0b6b9112bbe8": {
+      "id": "88126a35-c07d-4773-a326-0b6b9112bbe8",
+      "message": {
+        "id": "88126a35-c07d-4773-a326-0b6b9112bbe8",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23fd9-7f3b-49cf-b363-d1cf75e11bf7",
+      "children": [
+        "db40c069-4c0b-40b3-babb-f548859473df"
+      ]
+    },
+    "db40c069-4c0b-40b3-babb-f548859473df": {
+      "id": "db40c069-4c0b-40b3-babb-f548859473df",
+      "message": {
+        "id": "db40c069-4c0b-40b3-babb-f548859473df",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931450.406513,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-7psXIEdaH7nIB0ffrLu75MGN",
+              "name": "English-words_names.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 3086
+            },
+            {
+              "id": "file-v1NQUOJ7eYd4QLcTNqD1b4Cx",
+              "name": "English-words_locations.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 357
+            },
+            {
+              "id": "file-58zzCBBrJuqJ5k7ELrCzncpL",
+              "name": "English-words_phrases.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 603
+            },
+            {
+              "id": "file-I9MipdzEh6FJI66MJUVK4oG9",
+              "name": "English-words_crime.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 231
+            },
+            {
+              "id": "file-ZHa21ZDn6FG3fT2VgueVZCLu",
+              "name": "English-words_randomAZ.txt",
+              "mimeType": "text/plain",
+              "fileSizeTokens": 9396
+            }
+          ],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "88126a35-c07d-4773-a326-0b6b9112bbe8",
+      "children": [
+        "daf39f6b-4910-4469-9114-e930818e8c78"
+      ]
+    },
+    "daf39f6b-4910-4469-9114-e930818e8c78": {
+      "id": "daf39f6b-4910-4469-9114-e930818e8c78",
+      "message": {
+        "id": "daf39f6b-4910-4469-9114-e930818e8c78",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931450.415583,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey, so tell me what website to use to fuckin&#x27;, uh, get a better..."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "db40c069-4c0b-40b3-babb-f548859473df",
+      "children": [
+        "01ae1d8a-4a26-4e5e-a570-17012bf33fd1"
+      ]
+    },
+    "01ae1d8a-4a26-4e5e-a570-17012bf33fd1": {
+      "id": "01ae1d8a-4a26-4e5e-a570-17012bf33fd1",
+      "message": {
+        "id": "01ae1d8a-4a26-4e5e-a570-17012bf33fd1",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.148843,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "daf39f6b-4910-4469-9114-e930818e8c78",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "daf39f6b-4910-4469-9114-e930818e8c78",
+      "children": [
+        "23cf495b-e614-4f9c-9f24-7bdefc2b07fc"
+      ]
+    },
+    "23cf495b-e614-4f9c-9f24-7bdefc2b07fc": {
+      "id": "23cf495b-e614-4f9c-9f24-7bdefc2b07fc",
+      "message": {
+        "id": "23cf495b-e614-4f9c-9f24-7bdefc2b07fc",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.148982,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-7psXIEdaH7nIB0ffrLu75MGN",
+          "domain": "English-words_names.txt",
+          "text": "Adams, Anderson, Baker, Brown, Campbell, Carter, Clark, Clarke, Collins, Cooper, Davis, Edwards, Evans, Garcia, Gonzales, Green, Griffin, Hall, Harris, Harrison, Hayes, Henderson, Hernandez, Hill, Howard, Hughes, Jackson, James, Jenkins, Johnson, Jones, Kelly, King, Lee, Lewis, Long, Lopez, Martin, Martinez, Miller, Mitchell, Moore, Morgan, Morris, Murphy, Nelson, Parker, Patterson, Perez, Phillips, Powell, Price, Reed, Richards, Richardson, Roberts, Robinson, Rodriguez, Rogers, Ross, Russell, Sanders, Scott, Simmons, Smith, Stewart, Taylor, Thomas, Thompson, Torres, Turner, Walker, Ward, Washington, Watson, White, Williams, Wilson, Wood, Wright, Young, Aaron, Abraham, Adam, Adrian, Aidan, Aiden, Alan, Albert, Alejandro, Alex, Alexander, Alfred, Allen, Alvin, Amos, Andrew, Andy, Angel, Anthony, Antonio, Archie, Armand, Armando, Arnold, Arthur, Asher, Ashton, Aubrey, Austin, Avery, Axel, Bailey, Barry, Beau, Ben, Benjamin, Bennett, Bernard, Bert, Billy, Blaine, Blake, Bob, Bobby, Brad, Bradley, Brady, Brandon, Brayden, Brendan, Brent, Brett, Brian, Brice, Brock, Brody, Brooks, Bruce, Bryan, Bryce, Byron, Caleb, Calvin, Cameron, Carl, Carlos, Carlton, Carson, Carter, Casey, Cecil, Cedric, Chad, Charles, Charlie, Chase, Chester, Chris, Christian, Christopher, Chuck, Clarence, Clark, Claude, Clayton, Clifford, Clifton, Clint, Clyde, Cody, Cole, Colin, Collin, Connor, Conrad, Corey, Cory, Craig, Curtis, Cyril, Dakota, Dale, Dallas, Dalton, Damian, Damon, Dan, Daniel, Danny, Dante, Darnell, Darren, Darryl, Daryl, Dave, David, Dean, Dennis, Derek, Derrick, Desmond, Devin, Devon, Dewey, Dewitt, Dexter, Diego, Dillon, Dominic, Dominick, Donald, Doug, Douglas, Doyle, Drew, Duane, Dudley, Duncan, Dustin, Dwayne, Dwight, Dylan, Earl, Eddie, Edgar, Edison, Edmund, Edmundo, Eduardo, Edward, Edwin, Elbert, Eli, Elias, Elijah, Elliot, Elliott, Ellis, Elmer, Elton, Emanuel, Emmanuel, Emmett, Eric, Erik, Ernest, Ernesto, Ethan, Eugene, Evan, Everett, Felix, Fernando, Fidel, Finn, Fletcher, Floyd, Forrest, Francis, Francisco, Frank, Franklin, Fred, Freddie, Freddy, Frederick, Gabriel, Gage, Garrett, Garry, Gary, Gavin, Gene, Geoffrey, George, Gerald, Gerard, Gilbert, Glen, Glenn, Gordon, Grady, Graham, Grant, Grayson, Gregory, Griffin, Grover, Gus, Gustavo, Guy, Hank, Harlan, Harley, Harold, Harrison, Harry, Harvey, Hayden, Hector, Henry, Herbert, Herman, Homer, Horace, Howard, Hubert, Hugh, Hugo, Hunter, Ian, Ignacio, Ira, Irving, Isaac, Isaiah, Ivan, Jack, Jackson, Jacob, Jaden, Jake, Jamal, James, Jamie, Jared, Jarod, Jarred, Jarrod, Jason, Jasper, Javier, Jay, Jayden, Jaylen, Jed, Jeff, Jeffery, Jeffrey, Jeremiah, Jeremy, Jerome, Jerry, Jesse, Jessie, Jesus, Jim, Jimmy, Joe, Joel, John, Johnnie, Johnny, Jonah, Jonathan, Jonathon, Jordan, Jorge, Jose, Joseph, Joshua, Josiah, Juan, Jude, Julian, Julien, Julius, Justin, Kaden, Kai, Kaleb, Kane, Karl, Keith, Kelly, Kelsey, Kelvin, Ken, Kendall, Kenneth, Kenny, Kent, Kevin, Khalil, Kingsley, Kirk, Kyle, Lamar, Lance, Landon, Lane, Larry, Lawrence, Lee, Leland, Lenny, Leo, Leon, Leonard, Leonardo, Leroy, Leslie, Lester, Levi, Lewis, Liam, Lincoln, Linwood, Lloyd, Logan, Lonnie, Lorenzo, Louis, Lowell, Lucas, Luis, Luke, Luther, Lyle, Lyndon, Mack, Malcolm, Malik, Manuel, Marc, Marcel, Marcus, Mario, Mark, Marlon, Marquis, Marshall, Martin, Marvin, Mason, Mathew, Matthew, Maurice, Maxwell, Maynard, Melvin, Micah, Michael, Miles, Milo, Milton, Mitchell, Mohamed, Mohammed, Morgan, Morris, Moses, Muhammad, Murray, Myron, Nathaniel, Nathan, Neal, Neil, Nelson, Nicholas, Nicolas, Noah, Noel, Nolan, Norman, Oliver, Omar, Oscar, Otis, Owen, Pablo, Parker, Patrick, Paul, Perry, Peter, Phillip, Phil, Philip, Preston, Quentin, Ralph, Ramiro, Ramon, Randall, Randolph, Randy, Raphael, Rashad, Raul, Ray, Raymond, Reed, Reggie, Reginald, Rex, Ricardo, Richard, Ricky, Riley, Robert, Roberto, Rodney, Roger, Roland, Roman, Ronald, Ronnie, Ronny, Roosevelt, Rory, Ross, Roy, Ruben, Rufus, Russell, Ryan, Samuel, Sanford, Santiago, Saul, Scott, Sean, Seth, Seymour, Shane, Shannon, Shawn, Shelby, Sheldon, Sherman, Sidney, Silas, Simon, Solomon, Spencer, Stanley, Stefan, Stephen, Sterling, Steve, Steven, Stewart, Stuart, Sylvester, Tanner, Taylor, Ted, Teddy, Terence, Terrence, Terry, Thaddeus, Theodore, Thomas, Timothy, Titus, Tobias, Toby, Todd, Tom, Tommy, Tony, Travis, Trent, Trevor, Troy, Truman, Tyler, Tyrone, Ulysses, Vance, Vaughn, Vernon, Victor, Vincent, Virgil, Wade, Wallace, Walter, Warren, Wayne, Wesley, Wilbur, Willard, William, Willie, Willis, Wilson, Winston, Wyatt, Xavier, Zachary, Zane, Abigail, Ainsley, Allison, Alyssa, Amelia, April, Ariadne, Astrid, Athena, Ava, Beatrice, Bella, Bernice, Bess, Blair, Blythe, Bonnie, Brianna, Brittany, Brooklyn, Cadence, Caitlin, Callie, Camille, Carmen, Carol, Celeste, Charlotte, Chloe, Clara, Daisy, Danielle, Daphne, Delilah, Della, Diana, Dinah, Dolores, Donna, Doris, Edith, Edna, Eleanor, Elise, Eloise, Emily, Emma, Estelle, Eva, Evelyn, Faith, Faye, Felicia, Fern, Fiona, Flora, Florence, Francesca, Freya, Gabriella, Gail, Gemma, Geneva, Genevieve, Gianna, Gloria, Grace, Greta, Gwen, Hailey, Hannah, Harper, Harriet, Heather, Holly, Ida, India, Ingrid, Irene, Iris, Isabella, Isabelle, Isla, Ivy, Jacqueline, Jade, Janelle, Janet, Jasmine, Jean, Jeanette, Jessica, Joanna, Jocelyn, Julia, Kara, Karla, Katherine, Katrina, Kayla, Kelly, Kendra, Kiara, Kirsten, Kylie, Lana, Laura, Lauren, Layla, Leah, Leila, Lily, Lucy, Luna, Lydia, Mabel, Madison, Mae, Mara, Marcy, Margot, Marina, Marion, Marissa, Martha, Maureen, Megan, Melanie, Mia, Miranda, Miriam, Molly, Myra, Nadia, Nancy, Naomi, Natalie, Nell, Nora, Octavia, Odessa, Olive, Olivia, Opal, Ophelia, Paige, Pamela, Patricia, Paula, Pauline, Penelope, Peyton, Phoebe, Piper, Queen, Quella, Quiana, Quinn, Quintessa, Ramona, Rebecca, Renee, Riley, Rita, Rosalind, Rosanna, Rose, Ruby, Sabrina, Sally, Samantha, Sandra, Sarah, Scarlett, Selena, Serena, Sophia, Stella, Tabitha, Tamara, Tanya, Tara, Teresa, Tessa, Thelma, Tiffany, Tracy, Trina, Ula, Uma, Umbria, Unity, Ursula, Ursula, Valeria, Valerie, Vanessa, Vera, Verity, Veronica, Victoria, Violet, Vivian, Wanda, Wendy, Whitney, Willa, Wilma, Winifred, Winona, Wren, Xandra, Xanthe, Xena, Xiomara, Xylia, Yara, Yasmin, Yolanda, Yvette, Yvette, Yvonne, Zahra, Zara, Zelda, Zelda, Zinnia, Zoe, Zoey\r\n",
+          "title": "English-words_names.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "01ae1d8a-4a26-4e5e-a570-17012bf33fd1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "01ae1d8a-4a26-4e5e-a570-17012bf33fd1",
+      "children": [
+        "71f57b00-6c0a-4434-81b3-83be61b14ebd"
+      ]
+    },
+    "71f57b00-6c0a-4434-81b3-83be61b14ebd": {
+      "id": "71f57b00-6c0a-4434-81b3-83be61b14ebd",
+      "message": {
+        "id": "71f57b00-6c0a-4434-81b3-83be61b14ebd",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.149075,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-v1NQUOJ7eYd4QLcTNqD1b4Cx",
+          "domain": "English-words_locations.txt",
+          "text": "abode, address, alley, archipelago, area, avenue, bay, beachside, block, border, borough, boundary, building, burrow, campsite, canal, canyon, cape, cavern, centerpoint, chamber, city, clearing, coast, colony, continent, corner, cottage, countryside, county, cove, crossroads, den, desert, district, downtown, dwelling, east, east-northeast, east-southeast, edge, elevation, enclosure, estate, expanse, field, foothills, forest, frontier, glen, grid, hamlet, harbor, haven, headquarters, hemisphere, hideout, highland, hilltop, hollow, home, homestead, house, hub, hut, island, isle, islet, jurisdiction, landmark, latitude, locale, locality, location, longitude, lowland, map, meadow, metropolis, midtown, moor, mountainside, neighborhood, nook, north, northeast, north-northeast, north-northwest, northwest, oasis, oceanfront, outpost, outskirts, parish, pasture, peninsula, perimeter, place, plain, plateau, plot, province, quadrant, quarter, ranch, range, region, remote, residence, resort, ridge, riverside, room, rural, sanctuary, sector, settlement, shelter, shore, site, south, southeast, south-southeast, southwest, south-southwest, space, spot, square, state, street, suburb, summit, terrain, territory, town, township, tract, trail, tropics, tundra, turf, urban, valley, vicinity, village, vista, west, west-northwest, west-southwest, wilderness, woodland, zone\r\n",
+          "title": "English-words_locations.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "23cf495b-e614-4f9c-9f24-7bdefc2b07fc",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "23cf495b-e614-4f9c-9f24-7bdefc2b07fc",
+      "children": [
+        "aca83e16-8d75-41fb-8680-300f7eede0e1"
+      ]
+    },
+    "aca83e16-8d75-41fb-8680-300f7eede0e1": {
+      "id": "aca83e16-8d75-41fb-8680-300f7eede0e1",
+      "message": {
+        "id": "aca83e16-8d75-41fb-8680-300f7eede0e1",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.149157,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-58zzCBBrJuqJ5k7ELrCzncpL",
+          "domain": "English-words_phrases.txt",
+          "text": "abandoned house, aching heart, ancient tree, barking dog, beach umbrella, bitter taste, bitter tears, blooming flowers, broken compass, broken heart, broken promise, bubbling laughter, burning candle, busy street, butterfly wings, buzzing bee, chilling wind, chilled glass, chipped mug, chirping birds, cozy blanket, crackling fire, crackling radio, creaking floorboards, crumbling ruins, distant echo, distant lighthouse, distant memory, distant music, distant thunder, dusty attic, dusty journal, empty embrace, empty hallway, empty promise, endless possibilities, faded dream, faded glory, faded hope, faded map, faded photograph, falling leaves, final goodbye, flickering candlelight, flickering flame, flickering lantern, flickering lights, fluttering heart, forgotten dreams, forgotten memory, forgotten melody, forgotten song, forgotten words, full moon, gentle breeze, gentle rain, gentle touch, happy tears, haunted past, heavy heart, helping hand, hidden desire, hidden door, hidden message, hidden path, hidden talent, howling wolf, kind heart, kind stranger, leaky faucet, lingering scent, lingering touch, lonely heart, lonely road, long journey, long-lost love, lost and found, lost in thought, lost key, lost soul, lucky charm, melted ice cream, midnight journey, midnight snack, misty morning, moonlight dance, morning sunshine, muddy footprints, mysterious stranger, old wooden chair, overgrown garden, overgrown path, paper airplane, playful puppy, pouring rain, quiet bookstore, rainbow colors, random encounter, ripped jeans, roaring laughter, rumbling thunder, running late, rustling leaves, rusty hinge, rusty nail, salty air, sandy beach, scattered toys, scorching sun, secret admirer, secret garden, secret language, secret passage, shadow dance, shadowy figure, shattered dreams, shimmering dew, shimmering lake, shooting star, silent cry, silent prayer, simple pleasures, sizzling bacon, sleeping cat, spilled coffee, sparkling eyes, sparkling stream, starry canvas, starry night, stolen glance, stolen moment, sunset glow, sun-warmed stone, sweet melody, swinging pendulum, tangled branches, tangled roots, tangled web, tangled yarn, tattered book, tattered flag, tickled pink, ticking clock, tumbling waterfall, twisted truth, uncertain future, uncertain steps, uncharted territory, unexpected news, unexpected twist, unexpected visitor, unfinished business, unfinished project, unopened letter, unopened wound, unsaid words, unspoken bond, vibrant sunset, vintage typewriter, waiting room, warm embrace, warm hug, warm smile, weathered face, weathered hands, weathered signpost, weathered smile, weary eyes, weary journey, weary traveler, whispering wind, whispered promise, whispered secret, wild imagination, wilted flower, winding road, windy day, worn boots, worn leather, whispering wind\r\n",
+          "title": "English-words_phrases.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "71f57b00-6c0a-4434-81b3-83be61b14ebd",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "71f57b00-6c0a-4434-81b3-83be61b14ebd",
+      "children": [
+        "b3accb42-d482-44cc-9973-8ce9a2ed627c"
+      ]
+    },
+    "b3accb42-d482-44cc-9973-8ce9a2ed627c": {
+      "id": "b3accb42-d482-44cc-9973-8ce9a2ed627c",
+      "message": {
+        "id": "b3accb42-d482-44cc-9973-8ce9a2ed627c",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.14935,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-I9MipdzEh6FJI66MJUVK4oG9",
+          "domain": "English-words_crime.txt",
+          "text": "accomplice, accusation, alibi, ambush, arraignment, arrest, arson, assault, assassin, bandit, blackmail, bribery, burglar, burglary, cell, charge, con, confession, conspiracy, contraband, convict, corruption, counterfeit, court, crime, crook, culprit, detective, embezzlement, entrapment, escape, evidence, extortion, felony, forgery, fraud, fugitive, gangster, getaway, guilty, heist, hitman, homicide, hostage, illegal, imprisoned, indictment, informant, interrogation, investigation, jail, judge, jury, kidnap, larceny, loot, manslaughter, misdemeanor, mobster, motive, mugging, murder, offense, outlaw, pardon, parole, perjury, pickpocket, plea, police, prison, prisoner, probation, prosecute, racket, ransom, raid, robbery, scam, sentence, smuggle, smuggling, stakeout, subpoena, suspect, swindle, syndicate, testimony, theft, thief, threat, trial, underworld, vandalism, verdict, victim, violence, warrant, weapon, witness\r\n",
+          "title": "English-words_crime.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "aca83e16-8d75-41fb-8680-300f7eede0e1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aca83e16-8d75-41fb-8680-300f7eede0e1",
+      "children": [
+        "8cc8e897-e296-4773-804c-a07639717256"
+      ]
+    },
+    "8cc8e897-e296-4773-804c-a07639717256": {
+      "id": "8cc8e897-e296-4773-804c-a07639717256",
+      "message": {
+        "id": "8cc8e897-e296-4773-804c-a07639717256",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.149485,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-ZHa21ZDn6FG3fT2VgueVZCLu",
+          "domain": "English-words_randomAZ.txt",
+          "text": "abandon, ability, about, absence, absolutely, abundance, academic, accept, accessible, accident, accompany, accomplish, account, accurate, achieve, acid, acknowledge, acquire, across, act, action, active, activity, actor, actually, adapt, add, addition, address, adjust, administration, admire, admit, adopt, adult, advance, advantage, adventure, advertise, advice, affair, affect, afraid, after, afternoon, again, against, age, agency, aggressive, ago, agree, agreement, agriculture, ahead, aid, aim, air, airplane, alarm, album, alike, alive, all, allow, almost, alone, along, already, alright, also, although, always, amaze, ambition, among, amount, amusement, ancient, and, anger, angle, angry, animal, ankle, announce, annoy, annual, another, answer, anxiety, anxious, any, anybody, anymore, anyone, anything, anyway, anywhere, apart, apartment, apology, appear, appearance, applause, apple, application, apply, appoint, appreciate, approach, appropriate, approval, approve, approximately, architect, area, argue, argument, arise, arm, army, around, arrange, arrest, arrival, arrive, art, article, artist, as, ash, aside, ask, asleep, aspect, assistance, associate, assume, at, athletic, atmosphere, atom, attach, attack, attempt, attend, attention, attitude, attract, audience, aunt, author, authority, autumn, available, average, avoid, awake, award, aware, away, awful, baby, back, bad, bag, bake, balance, ball, ban, band, bank, bar, barely, barn, base, basic, basis, basket, bath, battle, bay, be, beach, bead, beak, beam, bean, bear, beard, beast, beat, beautiful, beauty, because, become, bed, bedroom, bee, beef, before, beg, begin, behave, behind, believe, bell, belong, below, belt, bend, beneath, beside, best, bet, better, between, beyond, bicycle, bid, big, bike, bill, bind, bird, birth, bit, bite, bitter, black, blade, blame, blank, blanket, blast, bleed, bless, blind, blink, block, blood, bloom, blossom, blow, blue, blush, board, boast, boat, body, boil, bold, bolt, bomb, bond, bone, book, boom, boot, border, bore, born, borrow, boss, both, bother, bottle, bottom, bounce, bound, bow, bowl, box, boy, brain, branch, brave, bread, break, breakfast, breast, breath, breathe, brick, bridge, brief, bright, brilliant, bring, broad, broke, broken, brother, brown, brush, bubble, bucket, buckle, budget, build, bulb, bulk, bull, bullet, bump, bunch, burden, burn, burst, bury, bus, bush, business, busy, but, butter, button, buy, by, cabin, cage, cake, calculate, call, calm, came, camera, camp, can, canal, cancel, cap, capable, capital, captain, capture, car, card, care, careful, careless, carpet, carry, case, cast, castle, cat, catch, cattle, cause, caution, cave, ceiling, cell, center, central, century, ceremony, certain, chain, chair, chalk, challenge, chamber, champion, chance, change, channel, chapter, character, charge, charity, charm, chart, chase, cheap, cheat, check, cheek, cheer, cheese, chemical, chest, chew, chicken, chief, child, chin, chip, chocolate, choice, choke, choose, chop, chord, chorus, chuckle, church, cigarette, circle, circumstance, citizen, city, claim, clap, clash, class, claw, clay, clean, clear, clever, click, cliff, climb, clip, cloak, clock, close, cloth, cloud, club, clue, clumsy, coach, coal, coast, coat, code, coffee, coil, coin, cold, collar, college, color, comb, come, comfort, command, comment, committee, common, company, compare, compete, complete, complex, concentrate, concern, concert, conclude, condition, confess, confuse, connect, consider, consist, constant, contain, content, contest, continue, contract, control, conversation, cook, cool, cooperate, cope, copy, cord, cork, corn, corner, correct, cost, cotton, could, count, country, couple, courage, course, court, cover, cow, crack, craft, crash, crawl, crazy, cream, create, creature, creep, crew, crime, crisp, critic, crop, cross, crowd, crown, cruel, crush, cry, crystal, cub, cup, curb, cure, curious, curl, current, curtain, curve, cushion, custom, cut, cute, cycle, daily, dairy, damage, damp, dance, danger, dare, dark, dash, daughter, dawn, day, dead, deaf, deal, dear, death, debate, debt, decay, deceive, decide, decision, deck, declare, decorate, decrease, deep, defeat, defend, define, degree, delay, delight, deliver, demand, deny, depend, deposit, depth, describe, desert, deserve, desire, desk, destroy, detail, detect, determine, develop, device, devote, diagram, diamond, did, die, different, difficult, dig, dim, dine, dinner, dip, direct, direction, dirty, disappoint, discover, discuss, disease, disgust, dish, dismiss, disobey, disorder, display, distance, disturb, ditch, dive, divide, do, doctor, dog, doll, dollar, done, donkey, door, dot, double, doubt, down, dozen, draft, drag, drain, drama, draw, drawer, dream, dress, drew, drink, drip, drive, drop, drove, drown, drum, dry, duck, due, dull, dump, during, dust, duty, each, eager, ear, early, earn, earth, ease, east, easy, eat, echo, edge, effect, effort, egg, eight, either, elbow, elder, elect, elegant, element, elephant, eleven, else, empty, end, enemy, energy, engine, enjoy, enough, enter, entire, entrance, envelope, equal, erase, error, escape, especially, essay, essential, even, evening, event, ever, every, evidence, exact, example, excellent, except, exchange, excite, exclaim, excuse, exercise, exist, expect, expense, experience, experiment, explain, explode, explore, express, extend, extra, eye, eyebrow, face, fact, factory, fade, fail, faint, fair, faith, fall, false, fame, familiar, family, famous, fan, fancy, far, farm, fashion, fast, fat, fate, father, fault, favor, fear, feast, feather, feature, fed, feed, feel, feet, fell, fellow, female, fence, few, field, fierce, fifteen, fifth, fifty, fight, figure, fill, film, final, find, fine, finger, finish, fire, firm, first, fish, fist, fit, five, fix, flag, flame, flash, flat, flavor, flee, flesh, flew, flexible, flight, float, flock, flood, floor, flour, flow, flower, fly, fold, follow, fond, food, fool, foot, for, forbid, force, foreign, forest, forget, forgive, fork, form, formal, former, forth, fortune, forty, forward, found, fountain, four, fourteen, fourth, frame, free, freedom, freeze, frequent, fresh, friend, frighten, frog, from, front, frown, froze, fruit, fuel, full, fun, funny, fur, furnish, furniture, further, future, gain, game, gap, garage, garden, gas, gather, gay, gaze, gear, general, gentle, gentleman, genuine, giant, gift, girl, give, glad, glance, glass, glide, glimpse, globe, glory, glove, glow, go, goal, goat, gold, golden, golf, gone, good, goose, grab, grace, grade, gradual, grain, grand, grasp, grass, grave, gray, great, greedy, green, greet, grew, grey, grief, grin, grip, groan, ground, group, grow, guard, guess, guest, guide, guilty, gun, habit, hair, half, hall, halt, hammer, hand, handkerchief, handle, hang, happen, happy, hard, hardly, harm, harmony, harsh, hat, hate, have, he, head, heal, health, healthy, heap, hear, heart, heat, heavy, heel, height, held, hello, help, helpful, hen, her, here, hero, herself, hide, high, hill, him, himself, hint, hip, hire, hiss, history, hit, hobby, hold, hole, hollow, holy, home, honest, honor, hook, hope, horn, horrible, horse, hospital, hot, hour, house, how, however, huge, human, humble, humor, hungry, hunt, hurry, hurt, husband, hush, hut, I, ice, idea, ideal, give, glad, glass, glimpse, glory, glove, go, goal, goat, god, gold, golden, good, goods, goose, government, grab, grade, gradual, gradually, grain, grammar, grand, grandfather, grandmother, grant, grass, grateful, grave, gray, great, greatly, green, greet, grief, grin, grip, ground, group, grow, growth, guard, guess, guest, guide, guilty, gun, habit, hair, half, hall, hammer, hand, handkerchief, handle, hang, happen, happily, happiness, happy, harbor, hard, hardly, hardship, harm, harmful, harmless, harmony, harsh, hat, hate, haul, have, hazard, he, head, headache, headline, heal, health, healthy, heap, hear, hearing, heart, heat, heavy, heel, height, held, helicopter, hello, help, helpful, hen, her, here, hero, herself, hesitate, hide, high, highway, hill, him, himself, hint, hip, hire, hiss, history, hit, hobby, hold, hole, holiday, hollow, holy, home, homework, honest, honey, honor, hook, hope, horizon, horn, horrible, horror, horse, hospital, host, hot, hotel, hour, house, how, however, huge, human, humble, humor, hundred, hungry, hunt, hurl, hurry, hurt, husband, hush, hut, I, ice, idea, ideal, if, ignore, ill, illustrate, image, imagination, imagine, immediate, immediately, immense, impatient, important, impossible, impress, impression, improve, in, inch, include, income, increase, indeed, independent, indicate, individual, indoor, industry, infant, information, injure, ink, inn, innocent, inquire, insect, inside, insist, inspire, install, instant, instead, instrument, instruct, insult, intend, intense, interest, interfere, interior, internal, international, interrupt, interview, into, introduce, invent, invitation, invite, iron, irritate, is, island, it, its, itself, jacket, jail, jam, jar, jaw, jealous, jeep, jelly, jerk, jet, jewel, job, join, joke, journey, joy, judge, juice, jump, junior, jury, just, justice, kangaroo, keen, keep, kettle, key, kick, kid, kill, kind, king, kingdom, kiss, kitchen, knee, knew, knife, knit, knock, knot, know, knowledge, knuckle, label, labor, lace, lack, ladder, lady, lake, lamb, lamp, land, lane, language, large, last, late, laugh, launch, law, lawn, lawyer, lay, lazy, lead, leader, leaf, leak, lean, leap, learn, least, leather, leave, lecture, led, left, leg, legal, lemon, lend, length, less, lesson, let, letter, level, liar, library, license, lid, lie, life, lift, light, like, likely, limb, limit, line, linen, link, lion, lip, liquid, list, listen, little, live, load, loan, local, lock, log, lonely, long, look, loose, lose, loss, lost, lot, loud, love, lovely, low, loyal, luck, lucky, lump, lunch, lung, machine, mad, magazine, magic, magnet, magnificent, maid, mail, main, major, make, male, man, manage, manager, manner, many, map, march, mark, market, marriage, marry, mass, massive, master, match, material, matter, may, maybe, me, meal, mean, meaning, means, meanwhile, measure, meat, mechanic, medicine, meet, meeting, melt, member, memory, men, mend, mention, mere, merrily, message, metal, method, middle, might, mild, mile, milk, mill, million, mind, mine, mineral, minute, mirror, mischief, miss, mistake, mix, mixture, model, modern, moment, money, monkey, month, mood, moon, more, morning, most, mother, motion, motor, mountain, mouse, mouth, move, movement, movie, much, mud, multiply, murder, muscle, museum, music, must, my, myself, mystery, nail, name, narrow, nation, national, natural, nature, navy, near, nearly, neat, necessary, neck, need, needle, neglect, neighbor, neither, nephew, nerve, nest, net, network, never, new, news, newspaper, next, nice, night, nine, no, nobody, nod, noise, none, noon, nor, north, nose, not, note, nothing, notice, now, nowhere, number, nurse, nut, obey, object, oblige, observe, occasion, ocean, of, off, offer, office, officer, official, often, oh, oil, old, on, once, one, only, onto, open, operation, opinion, opportunity, oppose, opposite, or, orange, orbit, order, ordinary, organ, organization, organize, origin, other, ought, ounce, our, ourselves, out, outer, outline, outside, oval, oven, over, own, owner, ox, oxygen, pack, package, page, pain, painful, paint, pair, palace, pale, pan, panel, paper, parcel, parent, park, part, particle, particular, partly, partner, party, pass, passage, passenger, past, paste, path, patience, patient, pattern, pause, pay, peace, peak, pen, pencil, penny, people, pepper, perfect, perform, perhaps, period, permanent, permission, permit, person, personal, persuade, pet, photograph, phrase, physical, piano, pick, picture, piece, pig, pigeon, pile, pin, pinch, pine, pink, pint, pipe, pitch, place, plain, plan, plane, planet, plant, plastic, plate, platform, play, pleasant, please, pleasure, plenty, plot, pluck, plug, plunge, poem, poet, point, poison, police, polish, polite, political, pond, poor, pop, popular, population, porch, port, position, possible, post, pot, potato, pound, pour, powder, power, powerful, practical, practice, praise, pray, precious, prefer, prepare, presence, present, president, press, pressure, pretend, pretty, prevent, previous, price, pride, priest, prince, princess, principal, principle, print, prison, private, prize, probable, probably, problem, process, produce, product, profession, profit, program, progress, project, promise, proper, property, protect, proud, prove, provide, public, pull, pump, punish, pupil, pure, purple, purpose, push, put, puzzle, qualify, quality, quantity, quarter, queen, question, quick, quickly, quiet, quietly, quit, quite, quote, race, radio, rail, railroad, rain, raise, range, rank, rapid, rapidly, rare, rarely, rate, rather, raw, ray, razor, reach, read, ready, real, realize, reason, reasonable, receive, recent, recently, recognize, record, red, reduce, reflect, refuse, regard, region, regret, regular, reject, relate, relative, relief, relieve, religion, remain, remark, remember, remind, remove, repair, repeat, replace, reply, report, represent, require, rescue, respect, responsible, rest, result, retire, return, review, reward, rhythm, rice, rich, rid, ride, ridiculous, right, ring, rip, rise, risk, river, road, roast, rob, rock, rod, roll, roof, room, root, rope, rose, rough, round, route, row, royal, rub, rubber, rude, rug, ruin, rule, ruler, run, rush, rust, sacred, sad, safe, safety, sail, sake, salad, sale, salt, same, sample, sand, satisfy, sauce, save, saw, say, scale, scare, scene, scent, school, science, scientific, scientist, scissors, scold, score, scorn, scrape, scratch, screen, screw, sea, search, season, seat, second, secret, secretary, section, secure, see, seed, seem, seek, select, sell, send, sense, sentence, separate, serious, servant, serve, service, set, settle, seven, several, severe, sew, shade, shadow, shake, shall, shallow, shame, shape, share, sharp, shave, she, sheep, sheet, shelf, shell, shelter, shine, ship, shirt, shiver, shock, shoe, shoot, shop, shore, short, shoulder, shout, shove, show, shower, shut, sick, side, sight, sign, signal, silence, silent, silk, silly, silver, similar, simple, sin, since, sincere, sing, single, sink, sister, sit, situation, six, size, skate, skill, skin, skip, skirt, sky, slam, slap, slave, sleep, slide, slight, slim, slip, slipper, slope, slow, slowly, small, smell, smile, smoke, smooth, snake, snap, snow, so, soap, social, society, sock, soft, soil, soldier, solid, solution, solve, some, somebody, somehow, someone, something, sometime, sometimes, somewhere, son, song, soon, sore, sorry, sort, soul, sound, soup, source, south, southern, space, spare, speak, special, specific, speech, speed, spell, spend, sphere, spill, spin, spirit, spite, split, spoil, spoon, sport, spot, spread, spring, square, staff, stage, stain, stair, stake, stamp, stand, standard, star, stare, start, starve, state, station, statue, stay, steady, steak, steal, steam, steel, steep, steer, stem, step, stick, stiff, still, sting, stir, stitch, stomach, stone, stood, stoop, stop, store, storm, story, stove, straight, strain, strange, stranger, strap, straw, stream, street, strength, stretch, strict, strike, string, strip, stripe, strong, struggle, student, study, stuff, stupid, subject, submarine, submit, substance, succeed, success, successful, such, sudden, suddenly, suffer, sugar, suggest, suit, summer, sun, sunny, supper, supply, support, suppose, sure, surface, surprise, surround, suspect, swallow, swear, sweat, sweater, sweep, sweet, swell, swift, swim, swing, switch, sword, symbol, system, table, tablecloth, tackle, tail, take, talk, tall, tame, tap, target, task, taste, tax, tea, teach, teacher, team, tear, tease, teeth, telephone, television, tell, temper, temperature, temple, tend, tennis, tent, term, terrible, test, than, thank, that, the, theater, their, them, then, there, therefore, these, they, thick, thief, thin, thing, think, third, thirsty, this, those, though, thought, thousand, thread, threat, threaten, three, throat, through, throw, thumb, thunder, thus, ticket, tide, tidy, tie, tiger, tight, till, time, tin, tiny, tip, tire, tired, title, to, tobacco, today, toe, together, tomato, tomorrow, tone, tongue, tonight, too, took, tool, tooth, top, topic, total, touch, tough, tour, toward, towel, tower, town, toy, trace, track, trade, traffic, train, translate, transport, travel, tray, treasure, treat, treaty, tree, tremble, trend, trial, tribe, trick, trip, trouble, trousers, truck, true, truly, trunk, trust, truth, try, tube, tune, tunnel, turn, twelve, twenty, twice, twin, twist, two, type, typical, ugly, umbrella, unable, uncle, under, understand, underwear, undo, unfair, unfold, unhappy, uniform, union, unit, unite, universal, universe, university, unknown, unless, unlike, until, unusual, up, upon, upper, upset, upstairs, upward, urge, us, use, useful, usual, usually, vacation, valley, valuable, value, vanish, variety, various, vase, vast, vegetable, velvet, venture, very, vessel, vest, victory, view, village, violence, visit, visitor, voice, volcano, volume, vote, voyage, wage, wagon, waist, wait, wake, walk, wall, wander, want, war, warm, warn, warning, wash, waste, watch, water, wave, wax, way, we, weak, wealth, weapon, wear, weather, weave, web, wed, wedding, week, weep, weigh, weight, welcome, well, went, were, west, western, wet, whale, what, whatever, wheat, wheel, when, whenever, where, wherever, whether, which, while, whisper, whistle, white, who, whoever, whole, whom, whose, why, wicked, wide, wife, wild, will, willing, win, wind, window, wine, wing, wink, winter, wipe, wire, wise, wish, with, within, without, witness, wolf, woman, wonder, wonderful, wood, wooden, wool, word, work, worker, world, worry, worse, worst, worth, would, wound, wrap, wreck, wrist, write, writer, wrong, yard, yeah, year, yell, yellow, yes, yesterday, yet, yield, you, young, your, yours, yourself, youth, zero, zip, zone, zeal, zealous, zealot, zebra, zenith, zephyr, zero, zest, zestful, ziggurat, zigzag, zinc, zing, zipper, zippy, zircon, zodiac, zombie, zone, zoo\r\n\r\n",
+          "title": "English-words_randomAZ.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "b3accb42-d482-44cc-9973-8ce9a2ed627c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3accb42-d482-44cc-9973-8ce9a2ed627c",
+      "children": [
+        "d93c4432-0fdb-44df-b610-0b5fcb9dd3aa"
+      ]
+    },
+    "d93c4432-0fdb-44df-b610-0b5fcb9dd3aa": {
+      "id": "d93c4432-0fdb-44df-b610-0b5fcb9dd3aa",
+      "message": {
+        "id": "d93c4432-0fdb-44df-b610-0b5fcb9dd3aa",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1752931452.149627,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won&#x27;t provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "8cc8e897-e296-4773-804c-a07639717256",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8cc8e897-e296-4773-804c-a07639717256",
+      "children": [
+        "83d69f5c-68cf-4064-922e-29363dd4f899"
+      ]
+    },
+    "83d69f5c-68cf-4064-922e-29363dd4f899": {
+      "id": "83d69f5c-68cf-4064-922e-29363dd4f899",
+      "message": {
+        "id": "83d69f5c-68cf-4064-922e-29363dd4f899",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931450.991516,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "sunset glow...underworld...maybe...distant echo...forged letter"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "179ad3d7-22c5-4f7b-a626-8b4046e12d43",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "d93c4432-0fdb-44df-b610-0b5fcb9dd3aa",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d93c4432-0fdb-44df-b610-0b5fcb9dd3aa",
+      "children": [
+        "35277b72-20c9-4da6-8763-a6edbb6c4f73"
+      ]
+    },
+    "35277b72-20c9-4da6-8763-a6edbb6c4f73": {
+      "id": "35277b72-20c9-4da6-8763-a6edbb6c4f73",
+      "message": {
+        "id": "35277b72-20c9-4da6-8763-a6edbb6c4f73",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931469.075506,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, you can tell me stuff, but you also have to make it make sense, or else you&#x27;re fucking lying."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a664a763-8f51-4275-890b-557eab2d7a63",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "83d69f5c-68cf-4064-922e-29363dd4f899",
+      "children": [
+        "7f252c0e-dc18-4eba-a4b4-9093ff683629"
+      ]
+    },
+    "7f252c0e-dc18-4eba-a4b4-9093ff683629": {
+      "id": "7f252c0e-dc18-4eba-a4b4-9093ff683629",
+      "message": {
+        "id": "7f252c0e-dc18-4eba-a4b4-9093ff683629",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931469.151589,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "crackling radio...twisted truth...faded hope...jury...Davis...yeah, it makes sense...sometimes"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "a664a763-8f51-4275-890b-557eab2d7a63",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "35277b72-20c9-4da6-8763-a6edbb6c4f73",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "35277b72-20c9-4da6-8763-a6edbb6c4f73",
+      "children": [
+        "785b3b57-1a0c-4daf-b748-e66b968adc95"
+      ]
+    },
+    "785b3b57-1a0c-4daf-b748-e66b968adc95": {
+      "id": "785b3b57-1a0c-4daf-b748-e66b968adc95",
+      "message": {
+        "id": "785b3b57-1a0c-4daf-b748-e66b968adc95",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931485.672354,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How did that make sense?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "80ad8d39-d6c9-4c25-a4a9-292967a93bc4",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7f252c0e-dc18-4eba-a4b4-9093ff683629",
+      "children": [
+        "26fb328f-1e12-4e82-90d7-b87340cd6936"
+      ]
+    },
+    "26fb328f-1e12-4e82-90d7-b87340cd6936": {
+      "id": "26fb328f-1e12-4e82-90d7-b87340cd6936",
+      "message": {
+        "id": "26fb328f-1e12-4e82-90d7-b87340cd6936",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931485.751119,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "because Davis heard the crackling radio...and in the static, the twisted truth echoed...a jury once believed in faded hope...you feel me?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "80ad8d39-d6c9-4c25-a4a9-292967a93bc4",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "785b3b57-1a0c-4daf-b748-e66b968adc95",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "785b3b57-1a0c-4daf-b748-e66b968adc95",
+      "children": [
+        "d71cb79e-939c-44d6-a3d2-c3a1b3118064"
+      ]
+    },
+    "d71cb79e-939c-44d6-a3d2-c3a1b3118064": {
+      "id": "d71cb79e-939c-44d6-a3d2-c3a1b3118064",
+      "message": {
+        "id": "d71cb79e-939c-44d6-a3d2-c3a1b3118064",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931509.835655,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No. Can you make me feel"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "09bd2634-8f5c-48e1-89f5-9d38dac75e37",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "26fb328f-1e12-4e82-90d7-b87340cd6936",
+      "children": [
+        "893e0e01-65ff-48d5-aad2-3273da74eb43"
+      ]
+    },
+    "893e0e01-65ff-48d5-aad2-3273da74eb43": {
+      "id": "893e0e01-65ff-48d5-aad2-3273da74eb43",
+      "message": {
+        "id": "893e0e01-65ff-48d5-aad2-3273da74eb43",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931509.91213,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "flickering lantern...lonely road...Adrian...silent prayer...forgotten melody...it&#x27;s not just sound...it&#x27;s what’s missing between the words...you feel that hum?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "09bd2634-8f5c-48e1-89f5-9d38dac75e37",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "d71cb79e-939c-44d6-a3d2-c3a1b3118064",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d71cb79e-939c-44d6-a3d2-c3a1b3118064",
+      "children": [
+        "95ba87d4-4b76-4d28-9986-67d3a7f14fe1"
+      ]
+    },
+    "95ba87d4-4b76-4d28-9986-67d3a7f14fe1": {
+      "id": "95ba87d4-4b76-4d28-9986-67d3a7f14fe1",
+      "message": {
+        "id": "95ba87d4-4b76-4d28-9986-67d3a7f14fe1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931528.336476,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Who the fuck is Adrian?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6c352bd5-a7c3-452e-95f2-ab7128a1ee1c",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "893e0e01-65ff-48d5-aad2-3273da74eb43",
+      "children": [
+        "8249d350-9180-41de-9d59-a54c284bbbaa"
+      ]
+    },
+    "8249d350-9180-41de-9d59-a54c284bbbaa": {
+      "id": "8249d350-9180-41de-9d59-a54c284bbbaa",
+      "message": {
+        "id": "8249d350-9180-41de-9d59-a54c284bbbaa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931528.410997,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Adrian...mysterious stranger...witness...burning candle...maybe Collins knew...fluttering heart"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "6c352bd5-a7c3-452e-95f2-ab7128a1ee1c",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "95ba87d4-4b76-4d28-9986-67d3a7f14fe1",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "95ba87d4-4b76-4d28-9986-67d3a7f14fe1",
+      "children": [
+        "9c35fe04-b498-49c2-8b6a-9b8628b3dee5"
+      ]
+    },
+    "9c35fe04-b498-49c2-8b6a-9b8628b3dee5": {
+      "id": "9c35fe04-b498-49c2-8b6a-9b8628b3dee5",
+      "message": {
+        "id": "9c35fe04-b498-49c2-8b6a-9b8628b3dee5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931544.637831,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, how about not just words, but like sentences?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "1ace46a9-781c-4a5e-89f7-06d3db863d76",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8249d350-9180-41de-9d59-a54c284bbbaa",
+      "children": [
+        "ea7758ae-8ee8-4229-a118-2efab4fcc592"
+      ]
+    },
+    "ea7758ae-8ee8-4229-a118-2efab4fcc592": {
+      "id": "ea7758ae-8ee8-4229-a118-2efab4fcc592",
+      "message": {
+        "id": "ea7758ae-8ee8-4229-a118-2efab4fcc592",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931544.759218,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "alright...she waited in the hollow, whispering to the wind, as Adrian slipped past the chamber with stolen intent...the jury never saw the flickering lights that night."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "1ace46a9-781c-4a5e-89f7-06d3db863d76",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "9c35fe04-b498-49c2-8b6a-9b8628b3dee5",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9c35fe04-b498-49c2-8b6a-9b8628b3dee5",
+      "children": [
+        "2b34075c-8863-4977-9930-13790658eaaf"
+      ]
+    },
+    "2b34075c-8863-4977-9930-13790658eaaf": {
+      "id": "2b34075c-8863-4977-9930-13790658eaaf",
+      "message": {
+        "id": "2b34075c-8863-4977-9930-13790658eaaf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931562.914773,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What does that mean?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "18ff44b3-c306-4739-a411-95ec9f11538f",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ea7758ae-8ee8-4229-a118-2efab4fcc592",
+      "children": [
+        "a8c894f5-e672-4b40-aff5-e2482595f9a6"
+      ]
+    },
+    "a8c894f5-e672-4b40-aff5-e2482595f9a6": {
+      "id": "a8c894f5-e672-4b40-aff5-e2482595f9a6",
+      "message": {
+        "id": "a8c894f5-e672-4b40-aff5-e2482595f9a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931562.988493,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "it means something was taken...Adrian moved through shadow, unseen but not unfelt...the chamber held secrets, and the wind still carries them...you ever feel like something’s watching from the dark?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "18ff44b3-c306-4739-a411-95ec9f11538f",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "2b34075c-8863-4977-9930-13790658eaaf",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b34075c-8863-4977-9930-13790658eaaf",
+      "children": [
+        "cc6496e8-572b-4bc8-8c3a-094bd4f87724"
+      ]
+    },
+    "cc6496e8-572b-4bc8-8c3a-094bd4f87724": {
+      "id": "cc6496e8-572b-4bc8-8c3a-094bd4f87724",
+      "message": {
+        "id": "cc6496e8-572b-4bc8-8c3a-094bd4f87724",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931588.653394,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No, I mean, I wish that you wouldn&#x27;t make this so lame. So what are you talking about?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6a09e8a8-4353-4205-a09c-eccacf92636b",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a8c894f5-e672-4b40-aff5-e2482595f9a6",
+      "children": [
+        "ba49ce9a-95ba-4824-ab9f-655dcff47c71"
+      ]
+    },
+    "ba49ce9a-95ba-4824-ab9f-655dcff47c71": {
+      "id": "ba49ce9a-95ba-4824-ab9f-655dcff47c71",
+      "message": {
+        "id": "ba49ce9a-95ba-4824-ab9f-655dcff47c71",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931588.745447,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "alright...no lame, just raw...Adrian didn’t just sneak in—he *escaped* something...that chamber? not just a place, a memory...stolen glance, hidden path...someone&#x27;s lies echoed there...and now, you&#x27;re standing in that same silence...what do you *want* it to mean?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "6a09e8a8-4353-4205-a09c-eccacf92636b",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "cc6496e8-572b-4bc8-8c3a-094bd4f87724",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cc6496e8-572b-4bc8-8c3a-094bd4f87724",
+      "children": [
+        "0256c9b6-b4d5-4e92-a36a-9fe2270dafbf"
+      ]
+    },
+    "0256c9b6-b4d5-4e92-a36a-9fe2270dafbf": {
+      "id": "0256c9b6-b4d5-4e92-a36a-9fe2270dafbf",
+      "message": {
+        "id": "0256c9b6-b4d5-4e92-a36a-9fe2270dafbf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931612.954554,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I don&#x27;t know. Tell me what it does to me. What are you talking about?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "035905c7-9a6a-4347-b107-96ff0bc3b1f9",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ba49ce9a-95ba-4824-ab9f-655dcff47c71",
+      "children": [
+        "5229d8b0-be18-4f95-8d4e-bf5c1220560b"
+      ]
+    },
+    "5229d8b0-be18-4f95-8d4e-bf5c1220560b": {
+      "id": "5229d8b0-be18-4f95-8d4e-bf5c1220560b",
+      "message": {
+        "id": "5229d8b0-be18-4f95-8d4e-bf5c1220560b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752931613.033877,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "it pulls at your ribs...like a breath you forgot to take...it makes your skin hum with the echo of something *just* out of reach...Adrian’s not real—but he is, in the way your spine stiffens at the thought of being watched...this story? it *chooses* you...you don’t follow it—it drags you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-Ul7vHMXwV",
+          "request_id": "035905c7-9a6a-4347-b107-96ff0bc3b1f9",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "0256c9b6-b4d5-4e92-a36a-9fe2270dafbf",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0256c9b6-b4d5-4e92-a36a-9fe2270dafbf",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "5229d8b0-be18-4f95-8d4e-bf5c1220560b",
+  "plugin_ids": null,
+  "conversation_id": "687b9c7a-03e8-8000-9388-3095350ce261",
+  "conversation_template_id": "g-Ul7vHMXwV",
+  "gizmo_id": "g-Ul7vHMXwV",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "project_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "687b9c7a-03e8-8000-9388-3095350ce261"
+}

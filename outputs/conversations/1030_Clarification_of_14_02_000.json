@@ -1,0 +1,311 @@
+{
+  "title": "Clarification of 14.02.000",
+  "create_time": 1749198907.305509,
+  "update_time": 1749198920.151256,
+  "mapping": {
+    "ed766035-4221-418b-8fac-e53166178960": {
+      "id": "ed766035-4221-418b-8fac-e53166178960",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1646c917-7d01-4d91-a1b8-b659bed177ef"
+      ]
+    },
+    "1646c917-7d01-4d91-a1b8-b659bed177ef": {
+      "id": "1646c917-7d01-4d91-a1b8-b659bed177ef",
+      "message": {
+        "id": "1646c917-7d01-4d91-a1b8-b659bed177ef",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ed766035-4221-418b-8fac-e53166178960",
+      "children": [
+        "65a5cbdb-47cc-4eb3-b574-b4fdb2d57f02"
+      ]
+    },
+    "65a5cbdb-47cc-4eb3-b574-b4fdb2d57f02": {
+      "id": "65a5cbdb-47cc-4eb3-b574-b4fdb2d57f02",
+      "message": {
+        "id": "65a5cbdb-47cc-4eb3-b574-b4fdb2d57f02",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1646c917-7d01-4d91-a1b8-b659bed177ef",
+      "children": [
+        "bbb21513-ef4a-45d9-8ba2-27abdeba3711"
+      ]
+    },
+    "bbb21513-ef4a-45d9-8ba2-27abdeba3711": {
+      "id": "bbb21513-ef4a-45d9-8ba2-27abdeba3711",
+      "message": {
+        "id": "bbb21513-ef4a-45d9-8ba2-27abdeba3711",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749198907.30912,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "14.02.000"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b693113d03eac1-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65a5cbdb-47cc-4eb3-b574-b4fdb2d57f02",
+      "children": [
+        "f9ce573c-33e1-4f0f-8bb0-a1d7a7e682b0"
+      ]
+    },
+    "f9ce573c-33e1-4f0f-8bb0-a1d7a7e682b0": {
+      "id": "f9ce573c-33e1-4f0f-8bb0-a1d7a7e682b0",
+      "message": {
+        "id": "f9ce573c-33e1-4f0f-8bb0-a1d7a7e682b0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749198909.950455,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21513-ef4a-45d9-8ba2-27abdeba3711",
+          "request_id": "94b693113d03eac1-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21513-ef4a-45d9-8ba2-27abdeba3711",
+      "children": [
+        "c179e708-202d-4665-bb9c-8d65d9f7a35d"
+      ]
+    },
+    "c179e708-202d-4665-bb9c-8d65d9f7a35d": {
+      "id": "c179e708-202d-4665-bb9c-8d65d9f7a35d",
+      "message": {
+        "id": "c179e708-202d-4665-bb9c-8d65d9f7a35d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749198908.604096,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey Brooke, could you clarify what you mean by “14.02.000”? That could be a version number, a code, a timestamp, or something else entirely. Let me know what you’re referring to so I can help you better."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f9ce573c-33e1-4f0f-8bb0-a1d7a7e682b0",
+          "request_id": "94b693113d03eac1-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f9ce573c-33e1-4f0f-8bb0-a1d7a7e682b0",
+      "children": [
+        "bbb216fd-7fac-492f-ac70-3e6befcb7e5d"
+      ]
+    },
+    "bbb216fd-7fac-492f-ac70-3e6befcb7e5d": {
+      "id": "bbb216fd-7fac-492f-ac70-3e6befcb7e5d",
+      "message": {
+        "id": "bbb216fd-7fac-492f-ac70-3e6befcb7e5d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749198916.712361,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Idk "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b6934c3ef8eac1-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c179e708-202d-4665-bb9c-8d65d9f7a35d",
+      "children": [
+        "d591267c-4eb2-4df8-87f3-dbc19b10bd0e"
+      ]
+    },
+    "d591267c-4eb2-4df8-87f3-dbc19b10bd0e": {
+      "id": "d591267c-4eb2-4df8-87f3-dbc19b10bd0e",
+      "message": {
+        "id": "d591267c-4eb2-4df8-87f3-dbc19b10bd0e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749198916.777329,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No problem. Let&#x27;s break down some possibilities just in case it jogs anything:\n\n- **14.02.000** looks like a **software version number** — possibly an app, firmware, or system update.\n- Could also be a **date format**, like **14th of February**, though the `.000` at the end is odd.\n- It might be from **a machine log**, **a game**, or a **settings screen** you saw somewhere (maybe on your phone, Termux, or Vicuna?).\n- Or possibly **a value from a spreadsheet, configuration file, or binary info**.\n\nIf you remember where you saw it or what you were doing, even vaguely, I can try to track it down from there. Want to tell me the context or just drop a screenshot if it came from your device?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb216fd-7fac-492f-ac70-3e6befcb7e5d",
+          "request_id": "94b6934c3ef8eac1-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb216fd-7fac-492f-ac70-3e6befcb7e5d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "d591267c-4eb2-4df8-87f3-dbc19b10bd0e",
+  "plugin_ids": null,
+  "conversation_id": "6842a83b-1e40-8000-9e5d-da8e60703224",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6842a83b-1e40-8000-9e5d-da8e60703224"
+}

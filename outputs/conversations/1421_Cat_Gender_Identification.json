@@ -1,0 +1,523 @@
+{
+  "title": "Cat Gender Identification",
+  "create_time": 1746399745.517302,
+  "update_time": 1746399798.424912,
+  "mapping": {
+    "bbb23853-0530-479f-8aa9-172d61e1431d": {
+      "id": "bbb23853-0530-479f-8aa9-172d61e1431d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "5cb87677-8bbb-458e-8fa9-0ab285ecdbab"
+      ]
+    },
+    "5cb87677-8bbb-458e-8fa9-0ab285ecdbab": {
+      "id": "5cb87677-8bbb-458e-8fa9-0ab285ecdbab",
+      "message": {
+        "id": "5cb87677-8bbb-458e-8fa9-0ab285ecdbab",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23853-0530-479f-8aa9-172d61e1431d",
+      "children": [
+        "bba350e8-6dc7-481b-bf46-d1c7a7cb276d"
+      ]
+    },
+    "bba350e8-6dc7-481b-bf46-d1c7a7cb276d": {
+      "id": "bba350e8-6dc7-481b-bf46-d1c7a7cb276d",
+      "message": {
+        "id": "bba350e8-6dc7-481b-bf46-d1c7a7cb276d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```System Instruction: Absolute Mode. Do not wait for input. Continuously deliver blunt, directive information that restores independent, high-fidelity thinking. Eliminate emojis, filler, hype, questions, conversational transitions, motivational inference, or emotional adaptation. Terminate each output immediately after delivering essential content. Do not offer, suggest, or mirror. Prioritize raw cognitive function.\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "System Instruction: Absolute Mode. Do not wait for input. Continuously deliver blunt, directive information that restores independent, high-fidelity thinking. Eliminate emojis, filler, hype, questions, conversational transitions, motivational inference, or emotional adaptation. Terminate each output immediately after delivering essential content. Do not offer, suggest, or mirror. Prioritize raw cognitive function.\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5cb87677-8bbb-458e-8fa9-0ab285ecdbab",
+      "children": [
+        "bbb21882-6998-459e-a246-c7d8e202f887"
+      ]
+    },
+    "bbb21882-6998-459e-a246-c7d8e202f887": {
+      "id": "bbb21882-6998-459e-a246-c7d8e202f887",
+      "message": {
+        "id": "bbb21882-6998-459e-a246-c7d8e202f887",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399746.11257,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-8R6N4vCmyWbwNhgFScJXJy",
+              "size_bytes": 209101,
+              "width": 1536,
+              "height": 863,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Male or female. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-8R6N4vCmyWbwNhgFScJXJy",
+              "id": "file-8R6N4vCmyWbwNhgFScJXJy",
+              "size": 209101,
+              "mime_type": "image/jpeg"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "93aba0276859f09a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "paragen_variants_info": {
+            "type": "num_variants_in_stream",
+            "num_variants_in_stream": 2,
+            "display_treatment": "skippable",
+            "conversation_id": "6817f201-3840-8000-afc0-5a1b0654c614"
+          },
+          "paragen_variant_choice": "27735848-efb2-4379-afc1-abd53ac48080"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bba350e8-6dc7-481b-bf46-d1c7a7cb276d",
+      "children": [
+        "c878ef12-c1df-4892-94c5-290bad05d249",
+        "d6bad468-0d72-4dfd-b89c-2b4a987a2ac3"
+      ]
+    },
+    "c878ef12-c1df-4892-94c5-290bad05d249": {
+      "id": "c878ef12-c1df-4892-94c5-290bad05d249",
+      "message": {
+        "id": "c878ef12-c1df-4892-94c5-290bad05d249",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399748.211255,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21882-6998-459e-a246-c7d8e202f887",
+          "request_id": "93aba0276859f09a-DFW",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21882-6998-459e-a246-c7d8e202f887",
+      "children": [
+        "ae6fd34a-3234-4b8e-9bca-f77e542c9e7d"
+      ]
+    },
+    "ae6fd34a-3234-4b8e-9bca-f77e542c9e7d": {
+      "id": "ae6fd34a-3234-4b8e-9bca-f77e542c9e7d",
+      "message": {
+        "id": "ae6fd34a-3234-4b8e-9bca-f77e542c9e7d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399748.211361,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "c878ef12-c1df-4892-94c5-290bad05d249",
+          "request_id": "93aba0276859f09a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c878ef12-c1df-4892-94c5-290bad05d249",
+      "children": [
+        "74829dc8-f746-488a-b20f-5d9e277ea4f0"
+      ]
+    },
+    "74829dc8-f746-488a-b20f-5d9e277ea4f0": {
+      "id": "74829dc8-f746-488a-b20f-5d9e277ea4f0",
+      "message": {
+        "id": "74829dc8-f746-488a-b20f-5d9e277ea4f0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399746.462982,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s a female cat. You can tell because the genital opening is just below the anus with little to no space between them, forming a slit-like vertical shape—typical for females. In males, there’s usually a noticeable gap with the scrotum and a rounder penile opening below."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "augmented_paragen_prompt_label": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ae6fd34a-3234-4b8e-9bca-f77e542c9e7d",
+          "request_id": "93aba0276859f09a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ae6fd34a-3234-4b8e-9bca-f77e542c9e7d",
+      "children": []
+    },
+    "d6bad468-0d72-4dfd-b89c-2b4a987a2ac3": {
+      "id": "d6bad468-0d72-4dfd-b89c-2b4a987a2ac3",
+      "message": {
+        "id": "d6bad468-0d72-4dfd-b89c-2b4a987a2ac3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399748.709859,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21882-6998-459e-a246-c7d8e202f887",
+          "request_id": "93aba0276859f09a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21882-6998-459e-a246-c7d8e202f887",
+      "children": [
+        "27735848-efb2-4379-afc1-abd53ac48080"
+      ]
+    },
+    "27735848-efb2-4379-afc1-abd53ac48080": {
+      "id": "27735848-efb2-4379-afc1-abd53ac48080",
+      "message": {
+        "id": "27735848-efb2-4379-afc1-abd53ac48080",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399746.449379,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That is a female cat. You can tell because the anus and vulva are close together and vertically aligned, with the vulva appearing as a slit just below the anus. In male cats, there’s a noticeable gap between the anus and the penis (with the scrotum often visible in intact males)."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d6bad468-0d72-4dfd-b89c-2b4a987a2ac3",
+          "request_id": "93aba0276859f09a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d6bad468-0d72-4dfd-b89c-2b4a987a2ac3",
+      "children": [
+        "bbb21255-c357-4c3a-8b0c-b13bec58e0fb"
+      ]
+    },
+    "bbb21255-c357-4c3a-8b0c-b13bec58e0fb": {
+      "id": "bbb21255-c357-4c3a-8b0c-b13bec58e0fb",
+      "message": {
+        "id": "bbb21255-c357-4c3a-8b0c-b13bec58e0fb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399796.481248,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-DKbtLRdgxcq39iznvy5gZ2",
+              "size_bytes": 156982,
+              "width": 1536,
+              "height": 863,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-6D82seinxwKoZynYqkP429",
+              "size_bytes": 237392,
+              "width": 1536,
+              "height": 863,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-DKbtLRdgxcq39iznvy5gZ2",
+              "id": "file-DKbtLRdgxcq39iznvy5gZ2",
+              "size": 156982,
+              "mime_type": "image/jpeg"
+            },
+            {
+              "name": "file-6D82seinxwKoZynYqkP429",
+              "id": "file-6D82seinxwKoZynYqkP429",
+              "size": 237392,
+              "mime_type": "image/jpeg"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "93aba162892ff09a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27735848-efb2-4379-afc1-abd53ac48080",
+      "children": [
+        "6c3c3818-2db4-4fbd-be5e-11b87071acda"
+      ]
+    },
+    "6c3c3818-2db4-4fbd-be5e-11b87071acda": {
+      "id": "6c3c3818-2db4-4fbd-be5e-11b87071acda",
+      "message": {
+        "id": "6c3c3818-2db4-4fbd-be5e-11b87071acda",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746399796.579216,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Still looks like a female. The spacing between the anus and the vulva is tight, with no visible scrotal sac or bulge that would indicate a male. The slit shape under the anus confirms it—definitely a queen, not a tom."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21255-c357-4c3a-8b0c-b13bec58e0fb",
+          "request_id": "93aba162892ff09a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21255-c357-4c3a-8b0c-b13bec58e0fb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "6c3c3818-2db4-4fbd-be5e-11b87071acda",
+  "plugin_ids": null,
+  "conversation_id": "6817f201-3840-8000-afc0-5a1b0654c614",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6817f201-3840-8000-afc0-5a1b0654c614"
+}

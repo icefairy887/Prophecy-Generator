@@ -1,0 +1,440 @@
+{
+  "title": "Like on YouTube",
+  "create_time": 1749011311.83055,
+  "update_time": 1749011407.01158,
+  "mapping": {
+    "5cc6429d-7cb5-4809-854c-d2c8153e8d8e": {
+      "id": "5cc6429d-7cb5-4809-854c-d2c8153e8d8e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "202f7e2a-8fac-4103-9061-6aa1d235ed81"
+      ]
+    },
+    "202f7e2a-8fac-4103-9061-6aa1d235ed81": {
+      "id": "202f7e2a-8fac-4103-9061-6aa1d235ed81",
+      "message": {
+        "id": "202f7e2a-8fac-4103-9061-6aa1d235ed81",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5cc6429d-7cb5-4809-854c-d2c8153e8d8e",
+      "children": [
+        "642053d1-c921-4efb-b74c-74452c38ecc4"
+      ]
+    },
+    "642053d1-c921-4efb-b74c-74452c38ecc4": {
+      "id": "642053d1-c921-4efb-b74c-74452c38ecc4",
+      "message": {
+        "id": "642053d1-c921-4efb-b74c-74452c38ecc4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "202f7e2a-8fac-4103-9061-6aa1d235ed81",
+      "children": [
+        "bbb217a5-1b86-4622-a6e1-c303ad498fc9"
+      ]
+    },
+    "bbb217a5-1b86-4622-a6e1-c303ad498fc9": {
+      "id": "bbb217a5-1b86-4622-a6e1-c303ad498fc9",
+      "message": {
+        "id": "bbb217a5-1b86-4622-a6e1-c303ad498fc9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011311.83499,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good shows for kiddos about conspiracies "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94a4af17ce35f066-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "642053d1-c921-4efb-b74c-74452c38ecc4",
+      "children": [
+        "427888b7-d38a-4782-b584-997b6734ae81"
+      ]
+    },
+    "427888b7-d38a-4782-b584-997b6734ae81": {
+      "id": "427888b7-d38a-4782-b584-997b6734ae81",
+      "message": {
+        "id": "427888b7-d38a-4782-b584-997b6734ae81",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011323.694673,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb217a5-1b86-4622-a6e1-c303ad498fc9",
+          "request_id": "94a4af17ce35f066-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb217a5-1b86-4622-a6e1-c303ad498fc9",
+      "children": [
+        "32d88a05-556e-4a75-aac2-a3811f6a63a6"
+      ]
+    },
+    "32d88a05-556e-4a75-aac2-a3811f6a63a6": {
+      "id": "32d88a05-556e-4a75-aac2-a3811f6a63a6",
+      "message": {
+        "id": "32d88a05-556e-4a75-aac2-a3811f6a63a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011312.142595,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are some **kid-friendly shows that introduce conspiracies, mysteries, and hidden truths**—without being too intense or inappropriate:\n\n---\n\n### 🔍 **Animated (Ages 7–14)**\n\n#### 1. **Gravity Falls** *(Disney+)  \n**Ages**: 8+  \nA brother and sister uncover strange secrets in a weird town full of creatures, codes, and conspiracies. It’s one of the best mystery shows for kids.  \n⭐ Hidden messages, secret journals, government agents, weird symbols.  \n\n#### 2. **Carmen Sandiego** *(Netflix)*  \n**Ages**: 7+  \nA modern reboot where Carmen fights a global criminal organization while exploring global conspiracies and historical secrets.  \n⭐ Spy networks, hidden motives, shadow organizations.\n\n#### 3. **The Owl House** *(Disney+)*  \n**Ages**: 10+  \nA girl finds herself in a strange magical world where the government is hiding a lot more than it seems.  \n⭐ Secret societies, rebellion, forbidden knowledge.\n\n#### 4. **City of Ghosts** *(Netflix)*  \n**Ages**: 6+  \nSoft, heartwarming exploration of Los Angeles neighborhoods where kids interview ghosts to uncover forgotten stories and hidden histories.  \n⭐ Gentle social mystery, urban legends, uncovering truths.\n\n---\n\n### 🕵️‍♂️ **Live-Action (Ages 9–16)**\n\n#### 5. **The Mysterious Benedict Society** *(Disney+)*  \n**Ages**: 9+  \nGifted children are recruited to stop a mind-control conspiracy. Super smart, quirky, and kind of like if Wes Anderson made a spy show.  \n⭐ Brainwashing, fake news, secret bases.\n\n#### 6. **Just Add Magic** *(Amazon Prime Video)*  \n**Ages**: 7+  \nThree girls discover a magical cookbook linked to a long history of secrets and magical conspiracies in their town.  \n⭐ Hidden pasts, cursed recipes, magical secrets.\n\n#### 7. **Greenhouse Academy** *(Netflix)*  \n**Ages**: 10+  \nStudents at an elite school uncover a deep conspiracy tied to their family’s past and world-changing tech.  \n⭐ Sci-fi government conspiracies, secret labs, betrayal.\n\n---\n\n### 👶 **For Younger Kids (Ages 4–7)**  \nLess about &quot;conspiracies&quot; but still good intro to hidden secrets and problem-solving.\n\n#### 8. **Bluey – “Fairy Tale” / “Spy Game” Episodes** *(Disney+)*  \n**Ages**: 4+  \nWhile not about conspiracies directly, some episodes play with secrets, misunderstandings, and mystery-solving in a kid-safe way.\n\n#### 9. **Octonauts** *(Netflix)*  \n**Ages**: 4–6  \nUnderwater explorers often uncover hidden threats or misunderstood creatures.  \n⭐ Eco-secrets, mysterious underwater phenomena.\n\n---\n\nIf you want something **a little darker** for older kids or teens, I can give you a list of **YA conspiracy shows** next—just let me know the age range you&#x27;re aiming for!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "427888b7-d38a-4782-b584-997b6734ae81",
+          "request_id": "94a4af17ce35f066-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "427888b7-d38a-4782-b584-997b6734ae81",
+      "children": [
+        "2486e704-96d4-4da4-a799-63003da56f60"
+      ]
+    },
+    "2486e704-96d4-4da4-a799-63003da56f60": {
+      "id": "2486e704-96d4-4da4-a799-63003da56f60",
+      "message": {
+        "id": "2486e704-96d4-4da4-a799-63003da56f60",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011333.795355,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "finish_details": {
+            "type": "interrupted",
+            "reason": "client_stopped"
+          },
+          "parent_id": "bbb219e3-1d28-4192-a962-a8edec3de9ee",
+          "request_id": "94a4af9f7983f066-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "32d88a05-556e-4a75-aac2-a3811f6a63a6",
+      "children": [
+        "bbb21a5c-dcc6-41a7-9f35-be200544f5b5"
+      ]
+    },
+    "bbb21a5c-dcc6-41a7-9f35-be200544f5b5": {
+      "id": "bbb21a5c-dcc6-41a7-9f35-be200544f5b5",
+      "message": {
+        "id": "bbb21a5c-dcc6-41a7-9f35-be200544f5b5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011343.672086,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Like on YouTube\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94a4afdf7bacf066-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2486e704-96d4-4da4-a799-63003da56f60",
+      "children": [
+        "85eefe52-9fad-4fa5-9513-55a293ab343b"
+      ]
+    },
+    "85eefe52-9fad-4fa5-9513-55a293ab343b": {
+      "id": "85eefe52-9fad-4fa5-9513-55a293ab343b",
+      "message": {
+        "id": "85eefe52-9fad-4fa5-9513-55a293ab343b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011343.736323,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — here are some **YouTube shows, channels, and series for kids** that dive into **conspiracies, mysteries, secret societies, or weird facts** in an age-appropriate way:\n\n---\n\n### 🧠 **1. *The Infographics Show – “Kid-Friendly” Playlists***  \n**Ages**: 9+  \nAnimated explainers with episodes like:\n- *“Creepiest Government Projects”*  \n- *“Area 51 for Kids”*  \n- *“What If Aliens Already Visited Earth?”*  \n⭐ Tone is educational but conspiracy-themed and easy to follow.\n\n---\n\n### 👁️‍🗨️ **2. *Lemino (select videos, older kids/teens)***  \n**Ages**: 12+  \nExtremely well-made deep dives into mysteries like:\n- *“Cicada 3301”*  \n- *“The Voynich Manuscript”*  \n⭐ Not made for kids, but great for curious teens who want conspiracy depth without horror or inappropriate content.\n\n---\n\n### 🔍 **3. *SuperCarlinBrothers – Theories &amp; Secrets***  \n**Ages**: 8+  \nFocuses on theories within Disney, Pixar, and Harry Potter:\n- *“Pixar Movies Are All Connected?”*  \n- *“Frozen and Tarzan Are Siblings?”*  \n⭐ Great introduction to **in-universe conspiracy-style thinking** using franchises kids already love.\n\n---\n\n### 👽 **4. *Kurzgesagt – In a Nutshell***  \n**Ages**: 10+  \nHighly visual, deeply thought-provoking science channel that sometimes dips into mystery and conspiracy science like:\n- *“The Fermi Paradox”*  \n- *“The End of Civilization”*  \n⭐ Great for older kids who want real science behind big ideas. Clean and high quality.\n\n---\n\n### 🎩 **5. *MatPat’s Film Theory / Game Theory (PG episodes)***  \n**Ages**: 10+ (parental guidance recommended)  \nWild, fun theories about pop culture:\n- *“Is Wall-E really evil?”*  \n- *“Mario is a sociopath”*  \n⭐ Great for kids into games/movies who like connecting hidden dots and uncovering big ideas.\n\n---\n\n### 🧙‍♂️ **6. *That YouTube Family – “Treasure Hunts &amp; Secret Missions”***  \n**Ages**: 6–10  \nFamily-friendly content with kids solving puzzles, decoding clues, and playing out “secret missions” and “spy games.”  \n⭐ Feels like live-action roleplay of conspiracies.\n\n---\n\n### 🗝️ **7. *NewScapePro (Minecraft Roleplay Series)***  \n**Ages**: 8–13  \nStory-based Minecraft series with tons of secret agents, shadowy organizations, betrayals, and mystery.  \n⭐ Perfect for kids who love gaming but want storytelling too.\n\n---\n\nWould you like me to filter for *only cartoons*, *only real-world conspiracies*, or *creepy mysteries* next?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21a5c-dcc6-41a7-9f35-be200544f5b5",
+          "request_id": "94a4afdf7bacf066-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a5c-dcc6-41a7-9f35-be200544f5b5",
+      "children": [
+        "bbb21a02-de6f-4cae-8639-bf94b980db8f"
+      ]
+    },
+    "bbb21a02-de6f-4cae-8639-bf94b980db8f": {
+      "id": "bbb21a02-de6f-4cae-8639-bf94b980db8f",
+      "message": {
+        "id": "bbb21a02-de6f-4cae-8639-bf94b980db8f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011388.012711,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "One about AI. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94a4b0f5cdeaf066-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85eefe52-9fad-4fa5-9513-55a293ab343b",
+      "children": [
+        "23cca11e-783b-45b2-800f-d968103d15aa"
+      ]
+    },
+    "23cca11e-783b-45b2-800f-d968103d15aa": {
+      "id": "23cca11e-783b-45b2-800f-d968103d15aa",
+      "message": {
+        "id": "23cca11e-783b-45b2-800f-d968103d15aa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749011388.085241,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are **YouTube shows or videos about AI and conspiracies** that are safe or interesting for kids and teens — depending on their age and curiosity level:\n\n---\n\n### 🤖 **1. *The Infographics Show – &quot;Can AI Take Over the World?&quot;***  \n**Ages**: 9+  \nExplains the idea of AI gaining control in a kid-safe, animated way.  \n- Breaks down what AI is  \n- The fears vs. the reality  \n- Secret military AI projects  \n⭐ Feels like a conspiracy but educational.\n\n📺 [Search: “Infographics Show AI Take Over” on YouTube]\n\n---\n\n### 🧠 **2. *Kurzgesagt – “The Rise of the Machines” / “AI Explained”***  \n**Ages**: 10+  \nThese are incredibly animated science videos that explore:\n- What is AI?  \n- Could it become dangerous?  \n- What are we not being told?\n\n⭐ Feels like a &quot;real-world conspiracy&quot; without being scary or fake.\n\n📺 Search:  \n- *&quot;Kurzgesagt AI&quot;*  \n- *&quot;Kurzgesagt Artificial Superintelligence&quot;*\n\n---\n\n### 🕵️ **3. *Teen-friendly AI Mystery: “The Mandela Catalogue”* (PG-13)**  \n**Ages**: 13+ (creepy/weird tone)  \nAn analog horror YouTube series where an **AI-like entity** corrupts reality.  \n⭐ NOT a literal conspiracy explanation — more of a fiction series that *feels* like one.\n\n📺 Search: *“Mandela Catalogue AI Gabriel”* (for older, creepier tone)\n\n---\n\n### 🧑‍🏫 **4. *CrashCourse – “Artificial Intelligence” Series***  \n**Ages**: 12+  \nShort, fast-paced animated lessons:\n- How AI learns  \n- The ethical risks  \n- How it’s used in government, privacy, etc.  \n⭐ Great for bright kids and teens who want the **truth behind the hype.**\n\n📺 [Search: “CrashCourse AI” on YouTube]\n\n---\n\n### 💡 **5. *CGP Grey – “Humans Need Not Apply”***  \n**Ages**: 11+  \nA haunting but simple animation about automation, jobs, and what happens when **AI gets too good.**  \n⭐ Low-key conspiracy vibe: “This is already happening and no one’s stopping it.”\n\n📺 Search: *“Humans Need Not Apply CGP Grey”*\n\n---\n\nWould you like me to recommend **AI shows for kids with fictional stories** (like AI turning evil or being part of a secret plot)? I can give you a list of *animated or live-action* ones with that twist too."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21a02-de6f-4cae-8639-bf94b980db8f",
+          "request_id": "94a4b0f5cdeaf066-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a02-de6f-4cae-8639-bf94b980db8f",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "23cca11e-783b-45b2-800f-d968103d15aa",
+  "plugin_ids": null,
+  "conversation_id": "683fcb6f-63b0-8000-b915-ae88a557b463",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "683fcb6f-63b0-8000-b915-ae88a557b463"
+}

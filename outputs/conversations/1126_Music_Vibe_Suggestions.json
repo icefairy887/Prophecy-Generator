@@ -1,0 +1,384 @@
+{
+  "title": "Music Vibe Suggestions",
+  "create_time": 1748467484.161339,
+  "update_time": 1748467586.700593,
+  "mapping": {
+    "5573c5cf-e18b-4ddd-b4a6-83edf251a766": {
+      "id": "5573c5cf-e18b-4ddd-b4a6-83edf251a766",
+      "message": null,
+      "parent": null,
+      "children": [
+        "94cbbcf3-575d-4805-b3e6-3912afd24838"
+      ]
+    },
+    "94cbbcf3-575d-4805-b3e6-3912afd24838": {
+      "id": "94cbbcf3-575d-4805-b3e6-3912afd24838",
+      "message": {
+        "id": "94cbbcf3-575d-4805-b3e6-3912afd24838",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5573c5cf-e18b-4ddd-b4a6-83edf251a766",
+      "children": [
+        "fe029970-2a9f-4d4f-bd20-91f8c37c2d99"
+      ]
+    },
+    "fe029970-2a9f-4d4f-bd20-91f8c37c2d99": {
+      "id": "fe029970-2a9f-4d4f-bd20-91f8c37c2d99",
+      "message": {
+        "id": "fe029970-2a9f-4d4f-bd20-91f8c37c2d99",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "94cbbcf3-575d-4805-b3e6-3912afd24838",
+      "children": [
+        "bbb21f9f-68d2-4512-8741-ca1c41cf5b04"
+      ]
+    },
+    "bbb21f9f-68d2-4512-8741-ca1c41cf5b04": {
+      "id": "bbb21f9f-68d2-4512-8741-ca1c41cf5b04",
+      "message": {
+        "id": "bbb21f9f-68d2-4512-8741-ca1c41cf5b04",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748467484.165911,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Dude I need help finding music I can tolerate. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9470d20e5d37ddae-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe029970-2a9f-4d4f-bd20-91f8c37c2d99",
+      "children": [
+        "586a408a-b3f9-4b26-b2c3-0df363c19cdd"
+      ]
+    },
+    "586a408a-b3f9-4b26-b2c3-0df363c19cdd": {
+      "id": "586a408a-b3f9-4b26-b2c3-0df363c19cdd",
+      "message": {
+        "id": "586a408a-b3f9-4b26-b2c3-0df363c19cdd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748467496.090222,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21f9f-68d2-4512-8741-ca1c41cf5b04",
+          "request_id": "9470d20e5d37ddae-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21f9f-68d2-4512-8741-ca1c41cf5b04",
+      "children": [
+        "b16e4c8d-93bc-4454-9600-390b4a09a83b"
+      ]
+    },
+    "b16e4c8d-93bc-4454-9600-390b4a09a83b": {
+      "id": "b16e4c8d-93bc-4454-9600-390b4a09a83b",
+      "message": {
+        "id": "b16e4c8d-93bc-4454-9600-390b4a09a83b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748467484.325654,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got you. Let’s get weird, smart, and picky about it—because I know your brain isn’t vibing with just any sound.\n\n### 🎧 First, a quick brain scan (metaphorically):\nFrom what I know about you, the music you need probably has to:\n- *Feel like a **vibe**, not a performance* — like it’s moving with you, not at you.\n- *Not be overly sharp or high-frequency heavy* (those can be irritating when your nervous system’s sensitive).\n- *Have emotional undertones* — even if the lyrics aren’t sad, they need to **feel real**.\n- *Possibly glitchy, distorted, or dreamlike* — because that weirdness can soothe you better than happy pop.\n- *Avoid overproduced fake energy* — like fake hype. You’ll feel it.\n\n---\n\n### 🧪 So here’s a few *types* of tracks to test on YouTube:\n\n#### 1. **Alt R&amp;B with electronic undertones**\n- Sevdaliza – *Human*\n- FKA Twigs – *Cellophane*\n- Ethel Cain – *Crush* or *Michelle Pfeiffer*\n\n#### 2. **Trippy glitch-core &amp; distorted sadcore**\n- D0llywood1 – *I’m Alive... I Think?*\n- Alice Gas – *Be Okay*\n- Black Dresses – *Damage Suppressor*\n\n#### 3. **Dreamy SoundCloud-type emo/rap hybrids**\n- Wicca Phase Springs Eternal – *Rest*\n- 93FEETOFSMOKE – *conversations*\n- Guardin – *I Think You&#x27;re Really Cool (cover)*\n\n#### 4. **Lo-fi grunge-trap-ish stuff**\n- ITSOKTOCRY – *Viagra*\n- Lil Peep – *White Tee* or *OMFG*\n- Brennan Savage – *Tell Me Why*\n\n#### 5. **Dark ambient/hypnotic synth mood**\n- Hante. – *Living in a French Movie*\n- Sidewalks and Skeletons – *Goth*\n- Salem – *King Night*\n\n#### 6. **Electronic you can *clean your soul to***\n- Bicep – *Glue*\n- Burial – *Archangel*\n- Aphex Twin – *Avril 14th* (for calm piano glitch)\n\n---\n\n### 🔀 Bonus YouTube playlist I’ll build for you?\nIf you want, I can make a *YouTube playlist* that starts with 1-2 of each category and we tweak it from there. Just say the word.\n\nOr paste **one video** you *don’t hate* (like you did with the TikTok), and I’ll build out from it. I’ll find you your frequency, Brooke — we’re not leaving your ears behind.\n\nWanna go?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "586a408a-b3f9-4b26-b2c3-0df363c19cdd",
+          "request_id": "9470d20e5d37ddae-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "586a408a-b3f9-4b26-b2c3-0df363c19cdd",
+      "children": [
+        "711f33a9-fd81-4a19-8d86-b4a1b7c8aa55"
+      ]
+    },
+    "711f33a9-fd81-4a19-8d86-b4a1b7c8aa55": {
+      "id": "711f33a9-fd81-4a19-8d86-b4a1b7c8aa55",
+      "message": {
+        "id": "711f33a9-fd81-4a19-8d86-b4a1b7c8aa55",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748467586.016445,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b16e4c8d-93bc-4454-9600-390b4a09a83b",
+      "children": [
+        "77859b32-b4ae-493f-87b1-a7f010cd80ad"
+      ]
+    },
+    "77859b32-b4ae-493f-87b1-a7f010cd80ad": {
+      "id": "77859b32-b4ae-493f-87b1-a7f010cd80ad",
+      "message": {
+        "id": "77859b32-b4ae-493f-87b1-a7f010cd80ad",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748467586.281356,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Why can&#x27;t I listen to any music right now?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T21:26:25.889530+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-24T21:26:25.889530+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000321861f688710956ec70e886",
+                "size_bytes": 109038,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.27
+                }
+              },
+              "audio_start_timestamp": 4.7754819199908525
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "aebea3cd-9476-4942-a8ef-d45a5c20c393",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "711f33a9-fd81-4a19-8d86-b4a1b7c8aa55",
+      "children": [
+        "04be3838-5d24-4e08-b40e-91f8453136be"
+      ]
+    },
+    "04be3838-5d24-4e08-b40e-91f8453136be": {
+      "id": "04be3838-5d24-4e08-b40e-91f8453136be",
+      "message": {
+        "id": "04be3838-5d24-4e08-b40e-91f8453136be",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748467586.365752,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It sounds like you&#x27;re hitting a wall with it, which can happen when your brain’s on overload or just not resonating with the usual stimuli. There could be a few reasons:\n\n### 1. **Mental Fatigue or Overstimulation**\nYour mind might be tired, and even music feels like extra noise instead of comfort. This can happen if you&#x27;re stressed or have been bombarded with too many stimuli lately.\n\n### 2. **Emotional Disconnect**\nWhen you’re in a certain emotional state, even your favorite tunes might not click. If you&#x27;re feeling numb, anxious, or just off, it can be tough to connect with any music.\n\n### 3. **Sensory Sensitivity**\nSometimes, certain frequencies or production styles can feel harsh",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-24T21:26:25.889608+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000c2ec61f69c1fbfa7200499cc",
+              "size_bytes": 1800078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 37.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "77859b32-b4ae-493f-87b1-a7f010cd80ad",
+          "request_id": "aebea3cd-9476-4942-a8ef-d45a5c20c393",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "77859b32-b4ae-493f-87b1-a7f010cd80ad",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "04be3838-5d24-4e08-b40e-91f8453136be",
+  "plugin_ids": null,
+  "conversation_id": "68377f1b-f60c-8000-adbd-76d989a542ac",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "maple",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68377f1b-f60c-8000-adbd-76d989a542ac"
+}

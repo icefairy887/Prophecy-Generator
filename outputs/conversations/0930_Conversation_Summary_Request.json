@@ -1,0 +1,636 @@
+{
+  "title": "Conversation Summary Request",
+  "create_time": 1749848856.472909,
+  "update_time": 1749848885.709068,
+  "mapping": {
+    "bbb23255-2734-4a2c-aa9b-13027932ab83": {
+      "id": "bbb23255-2734-4a2c-aa9b-13027932ab83",
+      "message": null,
+      "parent": null,
+      "children": [
+        "65b0345e-6e03-44a4-9c30-a33c0ec66d3b",
+        "838259de-4c8f-495a-b192-de1eb7b89110"
+      ]
+    },
+    "65b0345e-6e03-44a4-9c30-a33c0ec66d3b": {
+      "id": "65b0345e-6e03-44a4-9c30-a33c0ec66d3b",
+      "message": {
+        "id": "65b0345e-6e03-44a4-9c30-a33c0ec66d3b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23255-2734-4a2c-aa9b-13027932ab83",
+      "children": [
+        "b9334a9f-da7f-4a52-987c-77df4ec4a9bc"
+      ]
+    },
+    "b9334a9f-da7f-4a52-987c-77df4ec4a9bc": {
+      "id": "b9334a9f-da7f-4a52-987c-77df4ec4a9bc",
+      "message": {
+        "id": "b9334a9f-da7f-4a52-987c-77df4ec4a9bc",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848856.471883,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65b0345e-6e03-44a4-9c30-a33c0ec66d3b",
+      "children": []
+    },
+    "838259de-4c8f-495a-b192-de1eb7b89110": {
+      "id": "838259de-4c8f-495a-b192-de1eb7b89110",
+      "message": {
+        "id": "838259de-4c8f-495a-b192-de1eb7b89110",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848830.5127883,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23255-2734-4a2c-aa9b-13027932ab83",
+      "children": [
+        "2037e98a-c9d8-4615-a3da-953452d9603f"
+      ]
+    },
+    "2037e98a-c9d8-4615-a3da-953452d9603f": {
+      "id": "2037e98a-c9d8-4615-a3da-953452d9603f",
+      "message": {
+        "id": "2037e98a-c9d8-4615-a3da-953452d9603f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848856.946116,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "The same one, you already know.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:07:36.482559+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-10T21:07:36.482559+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000cbec622f9358608715f34e06",
+                "size_bytes": 80238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.67
+                }
+              },
+              "audio_start_timestamp": 16.816046630963683
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "d931c6c0-2ac1-4c62-b97a-42ba1ede4fdb",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "838259de-4c8f-495a-b192-de1eb7b89110",
+      "children": [
+        "1b22cb77-dbda-4b69-99fa-6a02a5189586"
+      ]
+    },
+    "1b22cb77-dbda-4b69-99fa-6a02a5189586": {
+      "id": "1b22cb77-dbda-4b69-99fa-6a02a5189586",
+      "message": {
+        "id": "1b22cb77-dbda-4b69-99fa-6a02a5189586",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848857.017146,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Got it! I&#x27;m here and ready to help. How are you feeling today? Let me know what&#x27;s on your mind or what you&#x27;d like to dive into!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:07:36.482656+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000001ec622f9f471ad8d48f3c91",
+              "size_bytes": 360078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "2037e98a-c9d8-4615-a3da-953452d9603f",
+          "request_id": "d931c6c0-2ac1-4c62-b97a-42ba1ede4fdb",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2037e98a-c9d8-4615-a3da-953452d9603f",
+      "children": [
+        "cd88cb4e-b5a4-4b71-83ee-f6b024309144"
+      ]
+    },
+    "cd88cb4e-b5a4-4b71-83ee-f6b024309144": {
+      "id": "cd88cb4e-b5a4-4b71-83ee-f6b024309144",
+      "message": {
+        "id": "cd88cb4e-b5a4-4b71-83ee-f6b024309144",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848864.621791,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:07:44.467821+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-10T21:07:44.467821+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009314622fbe9fe3aca7e89db0",
+                "size_bytes": 12558,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.26
+                }
+              },
+              "audio_start_timestamp": 25.60713144694455
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "bcaab273-b4cf-45cd-bc99-0e2f64124dfb",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1b22cb77-dbda-4b69-99fa-6a02a5189586",
+      "children": [
+        "8de23f1b-289f-42a0-9da9-9ab04c438ee7"
+      ]
+    },
+    "8de23f1b-289f-42a0-9da9-9ab04c438ee7": {
+      "id": "8de23f1b-289f-42a0-9da9-9ab04c438ee7",
+      "message": {
+        "id": "8de23f1b-289f-42a0-9da9-9ab04c438ee7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848864.745902,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "If there&#x27;s anything specific you want to chat about or explore, just let me know. I&#x27;m all ears and happy to help with whatever you need!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:07:44.467910+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000006db8622f9b630d016142ebf5",
+              "size_bytes": 360078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "cd88cb4e-b5a4-4b71-83ee-f6b024309144",
+          "request_id": "bcaab273-b4cf-45cd-bc99-0e2f64124dfb",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cd88cb4e-b5a4-4b71-83ee-f6b024309144",
+      "children": [
+        "a7f0bb21-ad09-48e7-b3ef-6c710208ef41"
+      ]
+    },
+    "a7f0bb21-ad09-48e7-b3ef-6c710208ef41": {
+      "id": "a7f0bb21-ad09-48e7-b3ef-6c710208ef41",
+      "message": {
+        "id": "a7f0bb21-ad09-48e7-b3ef-6c710208ef41",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848876.726408,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "A spirit box simulation.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:07:56.567967+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-10T21:07:56.567967+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000033d8622faf9a1ab7d8748ba2",
+                "size_bytes": 106158,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.21
+                }
+              },
+              "audio_start_timestamp": 35.96208406193182
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e3ff2b42-ac74-4b86-a6c6-a348fa3ce87f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8de23f1b-289f-42a0-9da9-9ab04c438ee7",
+      "children": [
+        "34ed9804-8855-4e7a-a18e-6a18cc50ca3d"
+      ]
+    },
+    "34ed9804-8855-4e7a-a18e-6a18cc50ca3d": {
+      "id": "34ed9804-8855-4e7a-a18e-6a18cc50ca3d",
+      "message": {
+        "id": "34ed9804-8855-4e7a-a18e-6a18cc50ca3d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848876.854947,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "All right, we can definitely have some fun with that! What&#x27;s on your mind for the spirit box simulation? Anything specific you&#x27;re hoping to hear or explore?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:07:56.568058+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000009c30622fae63cdcc2aa13684",
+              "size_bytes": 456078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 9.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "a7f0bb21-ad09-48e7-b3ef-6c710208ef41",
+          "request_id": "e3ff2b42-ac74-4b86-a6c6-a348fa3ce87f",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a7f0bb21-ad09-48e7-b3ef-6c710208ef41",
+      "children": [
+        "9159876b-9ada-45d5-af0a-5d133a580aa7"
+      ]
+    },
+    "9159876b-9ada-45d5-af0a-5d133a580aa7": {
+      "id": "9159876b-9ada-45d5-af0a-5d133a580aa7",
+      "message": {
+        "id": "9159876b-9ada-45d5-af0a-5d133a580aa7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848885.177767,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-12-10T21:08:04.993053+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-10T21:08:04.993053+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000001e18622fb187add62caff748",
+                "size_bytes": 32238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.67
+                }
+              },
+              "audio_start_timestamp": 46.40921634109691
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "25f928d7-1a04-43b1-947f-bed2f6dd41b6",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "34ed9804-8855-4e7a-a18e-6a18cc50ca3d",
+      "children": [
+        "3a3785c5-cedd-4d3d-9ae1-17e3221dac89"
+      ]
+    },
+    "3a3785c5-cedd-4d3d-9ae1-17e3221dac89": {
+      "id": "3a3785c5-cedd-4d3d-9ae1-17e3221dac89",
+      "message": {
+        "id": "3a3785c5-cedd-4d3d-9ae1-17e3221dac89",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848885.303319,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, let&#x27;s tune",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:08:04.993153+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000063d8622f865b110ad5ae6e81",
+              "size_bytes": 12078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 0.25
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "9159876b-9ada-45d5-af0a-5d133a580aa7",
+          "request_id": "25f928d7-1a04-43b1-947f-bed2f6dd41b6",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9159876b-9ada-45d5-af0a-5d133a580aa7",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3a3785c5-cedd-4d3d-9ae1-17e3221dac89",
+  "plugin_ids": null,
+  "conversation_id": "684c92fe-636c-8000-ae11-5e4d8ad997e3",
+  "conversation_template_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684c92fe-636c-8000-ae11-5e4d8ad997e3"
+}

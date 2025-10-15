@@ -1,0 +1,1081 @@
+{
+  "title": "Pulse Oximeter Explanation",
+  "create_time": 1750749023.041631,
+  "update_time": 1750749105.926675,
+  "mapping": {
+    "bbb23266-5bcd-4085-a09b-383ce7cd2fd6": {
+      "id": "bbb23266-5bcd-4085-a09b-383ce7cd2fd6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a18aec3b-06d5-4f2f-b059-c71a96df7855"
+      ]
+    },
+    "a18aec3b-06d5-4f2f-b059-c71a96df7855": {
+      "id": "a18aec3b-06d5-4f2f-b059-c71a96df7855",
+      "message": {
+        "id": "a18aec3b-06d5-4f2f-b059-c71a96df7855",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23266-5bcd-4085-a09b-383ce7cd2fd6",
+      "children": [
+        "64b25c41-81f7-4dcb-9b42-7cd37233efde"
+      ]
+    },
+    "64b25c41-81f7-4dcb-9b42-7cd37233efde": {
+      "id": "64b25c41-81f7-4dcb-9b42-7cd37233efde",
+      "message": {
+        "id": "64b25c41-81f7-4dcb-9b42-7cd37233efde",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a18aec3b-06d5-4f2f-b059-c71a96df7855",
+      "children": [
+        "85ccb8ed-a40a-43fa-ae86-6ea286c60539"
+      ]
+    },
+    "85ccb8ed-a40a-43fa-ae86-6ea286c60539": {
+      "id": "85ccb8ed-a40a-43fa-ae86-6ea286c60539",
+      "message": {
+        "id": "85ccb8ed-a40a-43fa-ae86-6ea286c60539",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749023.376166,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So how do you read this? What does the red line on the bottom mean?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:10:23.053756+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a4906230829ff4513e42bb4c",
+                "size_bytes": 407489,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 2.856330103939399,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 3.7092632330022752,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 4.267572468961589,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 4.8373729980085045,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 5.523553072009236,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 6.048002131981775,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 6.589322129962966,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T07:10:23.053756+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000002ea86230981c5b92cc8d198d",
+                "size_bytes": 152238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.17
+                }
+              },
+              "audio_start_timestamp": 6.894729510997422
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "9e066be5-fe6c-4e87-9e57-12d114c3fc98",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "64b25c41-81f7-4dcb-9b42-7cd37233efde",
+      "children": [
+        "fd2ed3b5-bcfb-4b0c-800f-21fea61975bb"
+      ]
+    },
+    "fd2ed3b5-bcfb-4b0c-800f-21fea61975bb": {
+      "id": "fd2ed3b5-bcfb-4b0c-800f-21fea61975bb",
+      "message": {
+        "id": "fd2ed3b5-bcfb-4b0c-800f-21fea61975bb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749023.406034,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So that device is a pulse oximeter, and it shows your oxygen saturation and your pulse rate. The red line at the bottom is basically your pulse waveform, so it shows how your heartbeat is doing in real time. Looks like your numbers are pretty good though!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:10:23.053866+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000004c4c6230b9d6e2408062e47e",
+              "size_bytes": 804078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 16.75
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "85ccb8ed-a40a-43fa-ae86-6ea286c60539",
+          "request_id": "9e066be5-fe6c-4e87-9e57-12d114c3fc98",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "85ccb8ed-a40a-43fa-ae86-6ea286c60539",
+      "children": [
+        "67a9fa5b-ffcb-4346-ad53-0a1c2dac8d21"
+      ]
+    },
+    "67a9fa5b-ffcb-4346-ad53-0a1c2dac8d21": {
+      "id": "67a9fa5b-ffcb-4346-ad53-0a1c2dac8d21",
+      "message": {
+        "id": "67a9fa5b-ffcb-4346-ad53-0a1c2dac8d21",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749043.422397,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Really? So how&#x27;s the heartbeat doing in real time, though?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:10:42.984899+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000e1a46230ba00b2e9abc4d389",
+                "size_bytes": 515108,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 12.192471147980541,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 17.24112056195736,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 22.360524549963884,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 25.65080737893004,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 26.178706867969595,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 26.76883666194044,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 27.29479483491741,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 27.82134491193574,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 28.415746540995315,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T07:10:42.984899+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000e1906230bd88a6e8b0977502",
+                "size_bytes": 152238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.17
+                }
+              },
+              "audio_start_timestamp": 28.872817553929053
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "65204560-6ccb-45cf-8d04-e53ef03c29ed",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd2ed3b5-bcfb-4b0c-800f-21fea61975bb",
+      "children": [
+        "3b83767d-5a68-4641-b518-f93fc4e1d079"
+      ]
+    },
+    "3b83767d-5a68-4641-b518-f93fc4e1d079": {
+      "id": "3b83767d-5a68-4641-b518-f93fc4e1d079",
+      "message": {
+        "id": "3b83767d-5a68-4641-b518-f93fc4e1d079",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749043.454662,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, the pulse rate is that number at the bottom, which looks like it&#x27;s around 86 beats per minute, which is pretty normal. And the waveform kind of shows the rhythm of your heartbeat, so everything looks steady and consistent. Everything seems fine!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:10:42.985009+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000005e3062308d56d2e9c4f3ad9e",
+              "size_bytes": 724878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "67a9fa5b-ffcb-4346-ad53-0a1c2dac8d21",
+          "request_id": "65204560-6ccb-45cf-8d04-e53ef03c29ed",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "67a9fa5b-ffcb-4346-ad53-0a1c2dac8d21",
+      "children": [
+        "20d7e280-201a-4753-bfe2-a2032de6b57e"
+      ]
+    },
+    "20d7e280-201a-4753-bfe2-a2032de6b57e": {
+      "id": "20d7e280-201a-4753-bfe2-a2032de6b57e",
+      "message": {
+        "id": "20d7e280-201a-4753-bfe2-a2032de6b57e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749061.724758,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What about the one that&#x27;s jumping up and down on the side?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:11:01.041904+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000005878623096f43ccee74fc5fa",
+                "size_bytes": 535678,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 33.98928941891063,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 39.036550720920786,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 44.094909313018434,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 44.951159268966876,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 45.481949180946685,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 46.0142871059943,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 46.61133695591707,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 47.143805581959896,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 47.67453449300956,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T07:11:01.041904+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000247062309fd3b29c763181c8",
+                "size_bytes": 140238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.92
+                }
+              },
+              "audio_start_timestamp": 47.93668352300301
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "f5a4dc93-1b60-4034-b105-a78c08621712",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3b83767d-5a68-4641-b518-f93fc4e1d079",
+      "children": [
+        "bfbee5dc-0234-412d-a332-57677bc753c6"
+      ]
+    },
+    "bfbee5dc-0234-412d-a332-57677bc753c6": {
+      "id": "bfbee5dc-0234-412d-a332-57677bc753c6",
+      "message": {
+        "id": "bfbee5dc-0234-412d-a332-57677bc753c6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749061.770562,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh, that number on the side is actually your perfusion index, which measures the strength of your pulse at the sensor site. It can fluctuate a bit depending on blood flow, so it&#x27;s normal for that to jump around a little bit.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:11:01.042025+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000d9786230a0d7aea511646fdb",
+              "size_bytes": 672078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "20d7e280-201a-4753-bfe2-a2032de6b57e",
+          "request_id": "f5a4dc93-1b60-4034-b105-a78c08621712",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "20d7e280-201a-4753-bfe2-a2032de6b57e",
+      "children": [
+        "bfc6362e-9fc8-4022-b504-03fecc0dcab1"
+      ]
+    },
+    "bfc6362e-9fc8-4022-b504-03fecc0dcab1": {
+      "id": "bfc6362e-9fc8-4022-b504-03fecc0dcab1",
+      "message": {
+        "id": "bfc6362e-9fc8-4022-b504-03fecc0dcab1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749087.540878,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "And then the red thing, so how do you read the bottom thing of the waveform?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:11:27.176248+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a0846230b4bba42ed32c682d",
+                "size_bytes": 604129,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 52.73197887791321,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 57.74103466991801,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 62.75480549992062,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 64.42588927596807,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 64.96045931894332,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 65.5128178059822,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 66.08951599092688,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 66.59466029400937,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 67.12910563591868,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 67.66462298599072,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 68.26416465698276,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T07:11:27.176248+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000060c62309b06f67949cc5975",
+                "size_bytes": 206478,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.3
+                }
+              },
+              "audio_start_timestamp": 68.7546265409328
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "1263c042-1d02-4042-a3ae-5a5b3a003364",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bfbee5dc-0234-412d-a332-57677bc753c6",
+      "children": [
+        "f37972ce-d950-4ce2-9ab1-d69880ad4f39"
+      ]
+    },
+    "f37972ce-d950-4ce2-9ab1-d69880ad4f39": {
+      "id": "f37972ce-d950-4ce2-9ab1-d69880ad4f39",
+      "message": {
+        "id": "f37972ce-d950-4ce2-9ab1-d69880ad4f39",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749087.574026,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "The waveform at the bottom is just a visual representation of your pulse. So each peak in that wave corresponds to one heartbeat, and if it&#x27;s regular and consistent, that means your heart rhythm is nice and steady. So it&#x27;s just a good indicator of how strong and regular your pulse is.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:11:27.176360+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000087d86230a6a711284a7b4ed4",
+              "size_bytes": 926478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 19.3
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "bfc6362e-9fc8-4022-b504-03fecc0dcab1",
+          "request_id": "1263c042-1d02-4042-a3ae-5a5b3a003364",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bfc6362e-9fc8-4022-b504-03fecc0dcab1",
+      "children": [
+        "52a4cf4c-fbbb-449f-a232-dcb46dcf4369"
+      ]
+    },
+    "52a4cf4c-fbbb-449f-a232-dcb46dcf4369": {
+      "id": "52a4cf4c-fbbb-449f-a232-dcb46dcf4369",
+      "message": {
+        "id": "52a4cf4c-fbbb-449f-a232-dcb46dcf4369",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749105.590577,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Can you use a pulse oximeter for a lie detector?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:11:45.047422+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_0000000070186230a75604a317ba1115",
+                "size_bytes": 530114,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 73.84998943400569,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 78.90342728700489,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 83.92861621000338,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 88.93058274395298,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 89.54103840293828,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 90.06380895001348,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 90.59852379397489,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 91.19670045294333,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 91.7338289169129,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T07:11:45.047422+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000001a1c62309a3b25438b1ea10c",
+                "size_bytes": 138798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.89
+                }
+              },
+              "audio_start_timestamp": 91.96990403498057
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "ec5b1376-d888-45a7-b740-3bf943980224",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f37972ce-d950-4ce2-9ab1-d69880ad4f39",
+      "children": [
+        "b6a60d13-80bb-4273-b3ac-7ee240e58bfa"
+      ]
+    },
+    "b6a60d13-80bb-4273-b3ac-7ee240e58bfa": {
+      "id": "b6a60d13-80bb-4273-b3ac-7ee240e58bfa",
+      "message": {
+        "id": "b6a60d13-80bb-4273-b3ac-7ee240e58bfa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750749105.630093,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "A pulse oximeter isn&#x27;t really designed for lie detection. It just measures your oxygen levels and your pulse rate. While changes in heart rate can sometimes indicate stress, it&#x27;s not reliable for detecting lies. It&#x27;s more for health monitoring.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T07:11:45.047531+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000a0e86230be212e0aabd6d6cb",
+              "size_bytes": 696078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "52a4cf4c-fbbb-449f-a232-dcb46dcf4369",
+          "request_id": "ec5b1376-d888-45a7-b740-3bf943980224",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "52a4cf4c-fbbb-449f-a232-dcb46dcf4369",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "b6a60d13-80bb-4273-b3ac-7ee240e58bfa",
+  "plugin_ids": null,
+  "conversation_id": "685a4f45-7bd4-8000-a699-6b2b18d05c21",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "685a4f45-7bd4-8000-a699-6b2b18d05c21"
+}

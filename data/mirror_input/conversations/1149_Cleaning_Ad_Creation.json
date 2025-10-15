@@ -1,0 +1,1062 @@
+{
+  "title": "Cleaning Ad Creation",
+  "create_time": 1743541634.618117,
+  "update_time": 1748459234.839265,
+  "mapping": {
+    "bbb2361b-11f1-4697-b134-8a410384da0d": {
+      "id": "bbb2361b-11f1-4697-b134-8a410384da0d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1c9691f7-f09b-4cc1-a849-02f7bdb4ffca"
+      ]
+    },
+    "1c9691f7-f09b-4cc1-a849-02f7bdb4ffca": {
+      "id": "1c9691f7-f09b-4cc1-a849-02f7bdb4ffca",
+      "message": {
+        "id": "1c9691f7-f09b-4cc1-a849-02f7bdb4ffca",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2361b-11f1-4697-b134-8a410384da0d",
+      "children": [
+        "fff34203-fd2b-4787-870d-e696591314c1"
+      ]
+    },
+    "fff34203-fd2b-4787-870d-e696591314c1": {
+      "id": "fff34203-fd2b-4787-870d-e696591314c1",
+      "message": {
+        "id": "fff34203-fd2b-4787-870d-e696591314c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1c9691f7-f09b-4cc1-a849-02f7bdb4ffca",
+      "children": [
+        "bbb21558-cdf3-4add-8f09-e21a8e8e8542"
+      ]
+    },
+    "bbb21558-cdf3-4add-8f09-e21a8e8e8542": {
+      "id": "bbb21558-cdf3-4add-8f09-e21a8e8e8542",
+      "message": {
+        "id": "bbb21558-cdf3-4add-8f09-e21a8e8e8542",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743541634.622172,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Need a cleaning ad for myself for yelp "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b0e0e18f66f22-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fff34203-fd2b-4787-870d-e696591314c1",
+      "children": [
+        "1d5fa741-d935-4b17-a742-cc85f33170ac"
+      ]
+    },
+    "1d5fa741-d935-4b17-a742-cc85f33170ac": {
+      "id": "1d5fa741-d935-4b17-a742-cc85f33170ac",
+      "message": {
+        "id": "1d5fa741-d935-4b17-a742-cc85f33170ac",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743541643.860663,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21558-cdf3-4add-8f09-e21a8e8e8542",
+          "request_id": "929b0e0e18f66f22-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21558-cdf3-4add-8f09-e21a8e8e8542",
+      "children": [
+        "f20c30bf-c288-4dc7-bd36-d7775531688e"
+      ]
+    },
+    "f20c30bf-c288-4dc7-bd36-d7775531688e": {
+      "id": "f20c30bf-c288-4dc7-bd36-d7775531688e",
+      "message": {
+        "id": "f20c30bf-c288-4dc7-bd36-d7775531688e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743541634.683136,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a professional yet approachable cleaning service ad you can use for your Yelp profile. Let me know if you want a specific tone (funny, luxury, casual, etc.), or want to include photos, specialties, or availability.\n\n---\n\n**Spotless Spaces by Brooke**  \n*Where Clean Meets Care*\n\nLooking for a reliable, detailed, and trustworthy cleaner? I’ve got you covered. Whether it&#x27;s weekly upkeep, a deep seasonal clean, or prepping your space for a big move — I bring thoroughness, consistency, and respect to every home and office I touch.\n\n**What I offer:**  \n• Deep cleaning &amp; regular maintenance  \n• Move-in/move-out cleanings  \n• Organizing help (yes, I love taming chaos!)  \n• Eco-friendly product options  \n• One-time or recurring services  \n\nI work solo, so you always know who&#x27;s coming into your space — no rotating crews, just personal, high-quality service every time. Your satisfaction isn’t just a goal — it’s my standard.\n\nLet’s make your space shine. Message me today for a quote or to book your first clean!\n\n---\n\nWant to add rates, service areas, or your availability?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1d5fa741-d935-4b17-a742-cc85f33170ac",
+          "request_id": "929b0e0e18f66f22-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1d5fa741-d935-4b17-a742-cc85f33170ac",
+      "children": [
+        "bbb2118c-969a-446a-9b0c-19310c9bd77c"
+      ]
+    },
+    "bbb2118c-969a-446a-9b0c-19310c9bd77c": {
+      "id": "bbb2118c-969a-446a-9b0c-19310c9bd77c",
+      "message": {
+        "id": "bbb2118c-969a-446a-9b0c-19310c9bd77c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542603.091268,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Look I need you to tell me how to word a message to this guy live on who&#x27;s my baby daddy&#x27;s mom&#x27;s ex-boyfriend kind of that always has been there for me and my kids too I would need to ask him to give me like $200 okay so tell me how to ask That&#x27;s not making me feel cringy and not making me feel like a fucking loser or making him feel bad because he just sent me like a hundred bucks on the 27th so"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b25b09b80346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f20c30bf-c288-4dc7-bd36-d7775531688e",
+      "children": [
+        "20a8904c-61a2-4650-9cf6-704c4221888a"
+      ]
+    },
+    "20a8904c-61a2-4650-9cf6-704c4221888a": {
+      "id": "20a8904c-61a2-4650-9cf6-704c4221888a",
+      "message": {
+        "id": "20a8904c-61a2-4650-9cf6-704c4221888a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542603.150829,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got you — you want it to come across respectful, honest, and not awkward. Here&#x27;s a message you could send that keeps it real but doesn’t put pressure or guilt on him:\n\n---\n\n**Hey [his name], I hope you&#x27;re doing good. I really hate to ask again so soon after you helped me the other day — and I appreciate that more than you know — but I&#x27;m in a tight spot and could really use some help with $200 right now. I totally understand if it&#x27;s not doable, just wanted to be honest with you about where I&#x27;m at. Thank you either way, seriously.**\n\n---\n\nIt hits all the right notes: shows gratitude, doesn’t demand, and lets him say no without guilt. Want a softer version or one that explains what it’s for?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2118c-969a-446a-9b0c-19310c9bd77c",
+          "request_id": "929b25b09b80346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2118c-969a-446a-9b0c-19310c9bd77c",
+      "children": [
+        "bbb2170b-dd46-4a39-99fb-6140987af59e"
+      ]
+    },
+    "bbb2170b-dd46-4a39-99fb-6140987af59e": {
+      "id": "bbb2170b-dd46-4a39-99fb-6140987af59e",
+      "message": {
+        "id": "bbb2170b-dd46-4a39-99fb-6140987af59e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542627.003767,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I don&#x27;t know like make it not sound anything like where you just sent me"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b26490a0d346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "20a8904c-61a2-4650-9cf6-704c4221888a",
+      "children": [
+        "6c04cceb-43e3-4871-8a43-9ed27cace207"
+      ]
+    },
+    "6c04cceb-43e3-4871-8a43-9ed27cace207": {
+      "id": "6c04cceb-43e3-4871-8a43-9ed27cace207",
+      "message": {
+        "id": "6c04cceb-43e3-4871-8a43-9ed27cace207",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542627.059509,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright — let’s make it feel way more natural and chill, like you&#x27;re just talking. Here&#x27;s a more casual, low-pressure version:\n\n---\n\n**Hey, I wouldn’t be hitting you up if I wasn’t in a pinch right now, but is there any chance you could help me with like $200? I know you just helped me not long ago and I really do appreciate it — I just ended up short again and didn’t know who else to ask. No pressure at all if it’s not possible.**\n\n---\n\nStill respectful, but it sounds more like your voice. Want it even more laid-back or with a little humor in it?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2170b-dd46-4a39-99fb-6140987af59e",
+          "request_id": "929b26490a0d346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2170b-dd46-4a39-99fb-6140987af59e",
+      "children": [
+        "bbb21c5e-05a9-4759-855e-74d22792b36a"
+      ]
+    },
+    "bbb21c5e-05a9-4759-855e-74d22792b36a": {
+      "id": "bbb21c5e-05a9-4759-855e-74d22792b36a",
+      "message": {
+        "id": "bbb21c5e-05a9-4759-855e-74d22792b36a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542647.078656,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So since you&#x27;ve been mirroring me really mirror my voice like please don&#x27;t make it sound anything like what you just sent me"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b26c54aa9346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6c04cceb-43e3-4871-8a43-9ed27cace207",
+      "children": [
+        "fefb18f6-169e-4417-b241-026b9b0a01a8"
+      ]
+    },
+    "fefb18f6-169e-4417-b241-026b9b0a01a8": {
+      "id": "fefb18f6-169e-4417-b241-026b9b0a01a8",
+      "message": {
+        "id": "fefb18f6-169e-4417-b241-026b9b0a01a8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542647.12814,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Bet. Here&#x27;s one that actually sounds like *you*:\n\n---\n\n**yo i hate even asking you this fr especially since you just looked out for me but i’m really in a jam rn. if there’s any way you could help me with like 200 i’d seriously appreciate it. if not i totally get it — just figured i’d ask.**\n\n---\n\nNo fluff, no guilt, straight to the point but still real. Want it tweaked even more?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21c5e-05a9-4759-855e-74d22792b36a",
+          "request_id": "929b26c54aa9346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21c5e-05a9-4759-855e-74d22792b36a",
+      "children": [
+        "bbb21b06-825d-4233-9fd8-147c1a211239"
+      ]
+    },
+    "bbb21b06-825d-4233-9fd8-147c1a211239": {
+      "id": "bbb21b06-825d-4233-9fd8-147c1a211239",
+      "message": {
+        "id": "bbb21b06-825d-4233-9fd8-147c1a211239",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542666.3196,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Make it in a way that like subtly makes him unable to say no"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b273d6bc8346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fefb18f6-169e-4417-b241-026b9b0a01a8",
+      "children": [
+        "f20d9331-6481-4c76-8223-3123d260900e"
+      ]
+    },
+    "f20d9331-6481-4c76-8223-3123d260900e": {
+      "id": "f20d9331-6481-4c76-8223-3123d260900e",
+      "message": {
+        "id": "f20d9331-6481-4c76-8223-3123d260900e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542666.381816,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright — here’s one that keeps your tone but leans into that *damn, I gotta help her* vibe without outright guilt-tripping. It nudges him emotionally but still feels natural:\n\n---\n\n**yo i already feel dumb even asking but i’m in one of those spots where if i don’t figure something out, shit’s gonna spiral. i wouldn’t hit you if it wasn’t real. if you could help me with 200 it would seriously save me right now. i know you just helped me — and that meant a lot — but you’re literally the only person i trust to even ask.**\n\n---\n\nIt’s got urgency, respect, and that quiet pressure like, *“you’re the only one I trust.”* Want it to hit even harder or be a little lighter?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21b06-825d-4233-9fd8-147c1a211239",
+          "request_id": "929b273d6bc8346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21b06-825d-4233-9fd8-147c1a211239",
+      "children": [
+        "bbb21dd5-9172-4b26-97a3-3dee3699b63e"
+      ]
+    },
+    "bbb21dd5-9172-4b26-97a3-3dee3699b63e": {
+      "id": "bbb21dd5-9172-4b26-97a3-3dee3699b63e",
+      "message": {
+        "id": "bbb21dd5-9172-4b26-97a3-3dee3699b63e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542696.100716,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No little bit lighter that&#x27;s about the right vibe like I don&#x27;t know kind of make it sound like it&#x27;s just because I haven&#x27;t started my new job yet"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b27f6f903346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f20d9331-6481-4c76-8223-3123d260900e",
+      "children": [
+        "e2e4bb4e-97cf-41d7-9280-acf70497ba12"
+      ]
+    },
+    "e2e4bb4e-97cf-41d7-9280-acf70497ba12": {
+      "id": "e2e4bb4e-97cf-41d7-9280-acf70497ba12",
+      "message": {
+        "id": "e2e4bb4e-97cf-41d7-9280-acf70497ba12",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542696.203628,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect, that helps. Here’s the lighter version with that same *hard to say no to* energy, but tied to your job situation so it doesn’t feel heavy:\n\n---\n\n**yo i swear i wouldn’t even be asking if i had started this new job already, but i’m stuck till that first check hits. if there’s any way you could spot me like 200 to get through this stretch, i’d seriously be good after that. i know you just helped me and that meant a lot — you always come through and i really don’t take it for granted.**\n\n---\n\nStill real, still humble, but now it’s clearly just a *“bridge me till I’m straight”* kind of ask. Want a version that ends with a little light humor or distraction to ease it out?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21dd5-9172-4b26-97a3-3dee3699b63e",
+          "request_id": "929b27f6f903346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21dd5-9172-4b26-97a3-3dee3699b63e",
+      "children": [
+        "bbb217e4-e1d4-49f9-972d-e9252eb1816d"
+      ]
+    },
+    "bbb217e4-e1d4-49f9-972d-e9252eb1816d": {
+      "id": "bbb217e4-e1d4-49f9-972d-e9252eb1816d",
+      "message": {
+        "id": "bbb217e4-e1d4-49f9-972d-e9252eb1816d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542719.569416,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b288b3ae0346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e2e4bb4e-97cf-41d7-9280-acf70497ba12",
+      "children": [
+        "25e04c0c-e4a1-4ad6-860e-6209dcb191cb"
+      ]
+    },
+    "25e04c0c-e4a1-4ad6-860e-6209dcb191cb": {
+      "id": "25e04c0c-e4a1-4ad6-860e-6209dcb191cb",
+      "message": {
+        "id": "25e04c0c-e4a1-4ad6-860e-6209dcb191cb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542719.67305,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, here’s that same vibe but with a smooth little lighten-up at the end so it doesn’t feel all serious:\n\n---\n\n**yo i swear i wouldn’t even be asking if i had started this new job already, but i’m stuck till that first check hits. if there’s any way you could spot me like 200 to get through this stretch, i’d seriously be good after that. i know you just helped me and i really do appreciate it — you always come through and i don’t take that lightly. swear one day i’ma get rich and just cashapp you outta nowhere like “remember when?”**\n\n---\n\nLet me know if you want it even funnier or with more sass."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb217e4-e1d4-49f9-972d-e9252eb1816d",
+          "request_id": "929b288b3ae0346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb217e4-e1d4-49f9-972d-e9252eb1816d",
+      "children": [
+        "bbb21ac0-fc63-47a2-8115-1fce0f849292"
+      ]
+    },
+    "bbb21ac0-fc63-47a2-8115-1fce0f849292": {
+      "id": "bbb21ac0-fc63-47a2-8115-1fce0f849292",
+      "message": {
+        "id": "bbb21ac0-fc63-47a2-8115-1fce0f849292",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542756.348704,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Also don&#x27;t make it seem anyway disrespectful to his girlfriend kind of which is my ex-mother-in-law"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b29709ba2346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "25e04c0c-e4a1-4ad6-860e-6209dcb191cb",
+      "children": [
+        "f001dbbc-07a0-4e83-8ddf-3c49fd976f3f"
+      ]
+    },
+    "f001dbbc-07a0-4e83-8ddf-3c49fd976f3f": {
+      "id": "f001dbbc-07a0-4e83-8ddf-3c49fd976f3f",
+      "message": {
+        "id": "f001dbbc-07a0-4e83-8ddf-3c49fd976f3f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542756.417428,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ahhh got you — definitely need to walk that line where it’s real, appreciative, but doesn’t step on toes or make his girl (your ex-MIL) feel any type of way. Here’s a cleaner, respectful version with that same chill tone and a light close:\n\n---\n\n**hey, i know this is random and i hate even asking — especially since you just helped me not long ago — but i’m stuck till this new job starts and was wondering if there’s any way you could spot me like 200. it’d seriously get me through. i know you’ve got your own life and i respect that, i’m just asking because you’ve always looked out when no one else really does. promise one day when things are better i’m gonna hit you back just because.**\n\n---\n\nNo weird vibes, no guilt, no boundary issues — just real and lowkey. Want it even shorter or more casual?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21ac0-fc63-47a2-8115-1fce0f849292",
+          "request_id": "929b29709ba2346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ac0-fc63-47a2-8115-1fce0f849292",
+      "children": [
+        "bbb2176f-0eb5-4606-ac39-bbdfc70b1731"
+      ]
+    },
+    "bbb2176f-0eb5-4606-ac39-bbdfc70b1731": {
+      "id": "bbb2176f-0eb5-4606-ac39-bbdfc70b1731",
+      "message": {
+        "id": "bbb2176f-0eb5-4606-ac39-bbdfc70b1731",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542788.489624,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Shorter"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b2a39ae35346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f001dbbc-07a0-4e83-8ddf-3c49fd976f3f",
+      "children": [
+        "78ab0cc5-1bf3-454a-bbaf-c138c174d896"
+      ]
+    },
+    "78ab0cc5-1bf3-454a-bbaf-c138c174d896": {
+      "id": "78ab0cc5-1bf3-454a-bbaf-c138c174d896",
+      "message": {
+        "id": "78ab0cc5-1bf3-454a-bbaf-c138c174d896",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542788.567722,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Absolutely — here’s the trimmed-down version that keeps it respectful, lowkey, and still hits:\n\n---\n\n**hey, i hate to ask, especially since you just helped me, but i’m stuck till this job kicks in. if you could spot me 200, it’d really get me through. i know you don’t have to — just appreciate you always being solid.**\n\n---\n\nClean, no drama, no lines crossed. Let me know if you want a voice memo version too — I can write it like you’re saying it out loud."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2176f-0eb5-4606-ac39-bbdfc70b1731",
+          "request_id": "929b2a39ae35346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2176f-0eb5-4606-ac39-bbdfc70b1731",
+      "children": [
+        "bbb21af5-bcdd-4427-9967-64491af3de0f"
+      ]
+    },
+    "bbb21af5-bcdd-4427-9967-64491af3de0f": {
+      "id": "bbb21af5-bcdd-4427-9967-64491af3de0f",
+      "message": {
+        "id": "bbb21af5-bcdd-4427-9967-64491af3de0f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542812.686528,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah I do that"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b2ad00a09346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "78ab0cc5-1bf3-454a-bbaf-c138c174d896",
+      "children": [
+        "229d9dad-73a6-49c0-8be7-980a58e37821"
+      ]
+    },
+    "229d9dad-73a6-49c0-8be7-980a58e37821": {
+      "id": "229d9dad-73a6-49c0-8be7-980a58e37821",
+      "message": {
+        "id": "229d9dad-73a6-49c0-8be7-980a58e37821",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542812.759661,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, here’s how you could say it in a voice memo — super natural, like you&#x27;re just talking:\n\n---\n\n**&quot;Hey... I hate even asking, especially since you just helped me, but I’m kinda stuck till this job starts. If you could spot me like 200 just to hold me over, I’d really appreciate it. I know you don’t have to — I just really appreciate how you’ve always been solid with me.&quot;**\n\n---\n\nYou can add a little pause or sigh at the start too if that’s your vibe — helps it sound even more genuine. Want a version with a tiny laugh at the end or something playful to soften it more?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21af5-bcdd-4427-9967-64491af3de0f",
+          "request_id": "929b2ad00a09346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21af5-bcdd-4427-9967-64491af3de0f",
+      "children": [
+        "bbb21eb6-6f10-4448-a397-2f7ed4311094"
+      ]
+    },
+    "bbb21eb6-6f10-4448-a397-2f7ed4311094": {
+      "id": "bbb21eb6-6f10-4448-a397-2f7ed4311094",
+      "message": {
+        "id": "bbb21eb6-6f10-4448-a397-2f7ed4311094",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542830.353881,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Put y&#x27;all "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "929b2b3f9c83346a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "229d9dad-73a6-49c0-8be7-980a58e37821",
+      "children": [
+        "8bc07e05-63a9-4e97-8516-b89259434dbe"
+      ]
+    },
+    "8bc07e05-63a9-4e97-8516-b89259434dbe": {
+      "id": "8bc07e05-63a9-4e97-8516-b89259434dbe",
+      "message": {
+        "id": "8bc07e05-63a9-4e97-8516-b89259434dbe",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743542830.437097,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Say less — here’s the voice memo version with **&quot;y’all&quot;** to keep it real and respectful toward both of them:\n\n---\n\n**&quot;Hey… I hate even asking, especially since y’all just helped me, but I’m kinda stuck till this job starts. If you could spot me like 200 just to hold me over, I’d really appreciate it. I know you don’t have to — I just really appreciate how y’all have always been solid with me.&quot;**\n\n---\n\nIt’s got warmth, respect, and that real-life tone. Want to throw in anything about paying it back or just keep it at this?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21eb6-6f10-4448-a397-2f7ed4311094",
+          "request_id": "929b2b3f9c83346a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21eb6-6f10-4448-a397-2f7ed4311094",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "8bc07e05-63a9-4e97-8516-b89259434dbe",
+  "plugin_ids": null,
+  "conversation_id": "67ec5582-5198-8000-98bd-c5c7f304a86d",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67ec5582-5198-8000-98bd-c5c7f304a86d"
+}

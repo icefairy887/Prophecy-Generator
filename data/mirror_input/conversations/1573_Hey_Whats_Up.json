@@ -1,0 +1,188 @@
+{
+  "title": "Hey Whats Up",
+  "create_time": 1745393257.493755,
+  "update_time": 1745393258.43993,
+  "mapping": {
+    "bbb23955-5033-4126-8824-65189d3b42e9": {
+      "id": "bbb23955-5033-4126-8824-65189d3b42e9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "6ac8f960-2672-48b1-8aa0-03ac9fae0630"
+      ]
+    },
+    "6ac8f960-2672-48b1-8aa0-03ac9fae0630": {
+      "id": "6ac8f960-2672-48b1-8aa0-03ac9fae0630",
+      "message": {
+        "id": "6ac8f960-2672-48b1-8aa0-03ac9fae0630",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23955-5033-4126-8824-65189d3b42e9",
+      "children": [
+        "dcf0ba63-3503-4f4c-a5bb-845f9f2c482a"
+      ]
+    },
+    "dcf0ba63-3503-4f4c-a5bb-845f9f2c482a": {
+      "id": "dcf0ba63-3503-4f4c-a5bb-845f9f2c482a",
+      "message": {
+        "id": "dcf0ba63-3503-4f4c-a5bb-845f9f2c482a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745393257.4933708,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6ac8f960-2672-48b1-8aa0-03ac9fae0630",
+      "children": [
+        "bbb21bf5-33e7-4356-820a-db4b282c5346"
+      ]
+    },
+    "bbb21bf5-33e7-4356-820a-db4b282c5346": {
+      "id": "bbb21bf5-33e7-4356-820a-db4b282c5346",
+      "message": {
+        "id": "bbb21bf5-33e7-4356-820a-db4b282c5346",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745393257.496484,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "934ba3b20957f0a8-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dcf0ba63-3503-4f4c-a5bb-845f9f2c482a",
+      "children": [
+        "58eefd68-be78-48eb-add9-de0161514dfc"
+      ]
+    },
+    "58eefd68-be78-48eb-add9-de0161514dfc": {
+      "id": "58eefd68-be78-48eb-add9-de0161514dfc",
+      "message": {
+        "id": "58eefd68-be78-48eb-add9-de0161514dfc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745393257.525173,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey! What’s up?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21bf5-33e7-4356-820a-db4b282c5346",
+          "request_id": "934ba3b20957f0a8-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21bf5-33e7-4356-820a-db4b282c5346",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "58eefd68-be78-48eb-add9-de0161514dfc",
+  "plugin_ids": null,
+  "conversation_id": "68089669-57b0-8000-be18-0c8d50653237",
+  "conversation_template_id": "g-YyyyMT9XH",
+  "gizmo_id": "g-YyyyMT9XH",
+  "gizmo_type": "gpt",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68089669-57b0-8000-be18-0c8d50653237"
+}

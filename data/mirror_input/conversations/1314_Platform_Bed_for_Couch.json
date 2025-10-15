@@ -1,0 +1,480 @@
+{
+  "title": "Platform Bed for Couch",
+  "create_time": 1747245228.080589,
+  "update_time": 1747245677.135909,
+  "mapping": {
+    "bbb23099-dbd9-4cdb-85e0-a913100ca4d6": {
+      "id": "bbb23099-dbd9-4cdb-85e0-a913100ca4d6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e44ca262-4478-4d35-a44a-e0476ec2779c"
+      ]
+    },
+    "e44ca262-4478-4d35-a44a-e0476ec2779c": {
+      "id": "e44ca262-4478-4d35-a44a-e0476ec2779c",
+      "message": {
+        "id": "e44ca262-4478-4d35-a44a-e0476ec2779c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23099-dbd9-4cdb-85e0-a913100ca4d6",
+      "children": [
+        "a6f0ca24-e0de-40b8-8303-73aabcd46e16"
+      ]
+    },
+    "a6f0ca24-e0de-40b8-8303-73aabcd46e16": {
+      "id": "a6f0ca24-e0de-40b8-8303-73aabcd46e16",
+      "message": {
+        "id": "a6f0ca24-e0de-40b8-8303-73aabcd46e16",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```.\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n",
+            "about_model_message": ".\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e44ca262-4478-4d35-a44a-e0476ec2779c",
+      "children": [
+        "04e3fccf-f98c-4358-9406-6360cebde10a"
+      ]
+    },
+    "04e3fccf-f98c-4358-9406-6360cebde10a": {
+      "id": "04e3fccf-f98c-4358-9406-6360cebde10a",
+      "message": {
+        "id": "04e3fccf-f98c-4358-9406-6360cebde10a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747245228.315423,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I have a platform, like twin bed frame. I was wondering if you think I could use that for under my couch.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-10T17:53:48.118148+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-10T17:53:48.118148+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000be7c6230b49ac1f1c6a64fb9",
+                "size_bytes": 327438,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.82
+                }
+              },
+              "audio_start_timestamp": 9.523569552227855
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e498f72e-7d5f-4612-81ce-c0f8c4898ec1",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a6f0ca24-e0de-40b8-8303-73aabcd46e16",
+      "children": [
+        "27e5ec5f-a862-4ae9-bf4d-cce633056453"
+      ]
+    },
+    "27e5ec5f-a862-4ae9-bf4d-cce633056453": {
+      "id": "27e5ec5f-a862-4ae9-bf4d-cce633056453",
+      "message": {
+        "id": "27e5ec5f-a862-4ae9-bf4d-cce633056453",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747245228.383404,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Using a platform twin bed frame under your couch could actually work, especially if the dimensions line up pretty well. It’ll raise your couch off the floor and give it a stable base. Just make sure it’s sturdy enough and supports the weight evenly. You might have to secure it so it doesn’t shift around, but it could definitely add a unique touch to your setup.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-10T17:53:48.118381+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000f7a06230a7138e37e6660c6d",
+              "size_bytes": 1034478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 21.55
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "04e3fccf-f98c-4358-9406-6360cebde10a",
+          "request_id": "e498f72e-7d5f-4612-81ce-c0f8c4898ec1",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04e3fccf-f98c-4358-9406-6360cebde10a",
+      "children": [
+        "640df522-f8a7-40b3-a3c8-950bea986460"
+      ]
+    },
+    "640df522-f8a7-40b3-a3c8-950bea986460": {
+      "id": "640df522-f8a7-40b3-a3c8-950bea986460",
+      "message": {
+        "id": "640df522-f8a7-40b3-a3c8-950bea986460",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747245270.469441,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-11-10T17:54:30.229913+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-10T17:54:30.229913+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009ee46230b5846f4c74aca67c",
+                "size_bytes": 444078,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.25
+                }
+              },
+              "audio_start_timestamp": 51.62639673240483
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "It&#x27;s one of those bed frames that, like, goes together with another one for a twin, like a queen, and it&#x27;s wiry. It&#x27;s one that doesn&#x27;t require a box frame.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "58c510c8-395e-4ee7-bb2c-77d8131f3238",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27e5ec5f-a862-4ae9-bf4d-cce633056453",
+      "children": [
+        "07bec83d-363e-48f4-9536-b4a8c5cbc5f2"
+      ]
+    },
+    "07bec83d-363e-48f4-9536-b4a8c5cbc5f2": {
+      "id": "07bec83d-363e-48f4-9536-b4a8c5cbc5f2",
+      "message": {
+        "id": "07bec83d-363e-48f4-9536-b4a8c5cbc5f2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747245273.509127,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Gotcha, so it&#x27;s one of those expandable frames with a metal grid. That could definitely work as a couch base, especially if you place a solid board or some plywood on top of it to even out the surface and support the couch. It might even give you some storage space underneath. Just make sure everything’s stable and the height feels comfortable for sitting.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-10T17:54:30.230158+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000c18c6230b9bee6080dbbb6fb",
+              "size_bytes": 1027278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 21.4
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "640df522-f8a7-40b3-a3c8-950bea986460",
+          "request_id": "58c510c8-395e-4ee7-bb2c-77d8131f3238",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "640df522-f8a7-40b3-a3c8-950bea986460",
+      "children": [
+        "4174f067-cb1e-4f3a-9036-320f84688c08"
+      ]
+    },
+    "4174f067-cb1e-4f3a-9036-320f84688c08": {
+      "id": "4174f067-cb1e-4f3a-9036-320f84688c08",
+      "message": {
+        "id": "4174f067-cb1e-4f3a-9036-320f84688c08",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747245676.074169,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Thank you.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-10T18:01:15.894965+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-10T18:01:15.894965+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a1e06230b37a333c0a15114d",
+                "size_bytes": 80238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.67
+                }
+              },
+              "audio_start_timestamp": 471.88742345850915
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c8a2355d-b7ad-454c-86a7-21673123e7a6",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "07bec83d-363e-48f4-9536-b4a8c5cbc5f2",
+      "children": [
+        "83de5b36-6f0c-4c3c-97c9-f4fa2e035263"
+      ]
+    },
+    "83de5b36-6f0c-4c3c-97c9-f4fa2e035263": {
+      "id": "83de5b36-6f0c-4c3c-97c9-f4fa2e035263",
+      "message": {
+        "id": "83de5b36-6f0c-4c3c-97c9-f4fa2e035263",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747245676.184222,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No worries! If you&#x27;ve got any other questions or want to bounce around some ideas, I&#x27;m here.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-10T18:01:15.895110+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000523862309a731ce480f07729",
+              "size_bytes": 295278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.15
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "4174f067-cb1e-4f3a-9036-320f84688c08",
+          "request_id": "c8a2355d-b7ad-454c-86a7-21673123e7a6",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4174f067-cb1e-4f3a-9036-320f84688c08",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "83de5b36-6f0c-4c3c-97c9-f4fa2e035263",
+  "plugin_ids": null,
+  "conversation_id": "6824d88b-9dfc-8000-8761-45efa8fdd7dd",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "fathom",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6824d88b-9dfc-8000-8761-45efa8fdd7dd"
+}

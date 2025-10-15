@@ -1,0 +1,866 @@
+{
+  "title": "Summarize number conversation",
+  "create_time": 1750953109.099187,
+  "update_time": 1750953211.060086,
+  "mapping": {
+    "bbb23ff7-c6cd-437f-8e20-b0c28bcf7eb9": {
+      "id": "bbb23ff7-c6cd-437f-8e20-b0c28bcf7eb9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7a2b1268-3c90-4141-8691-1f06d24b14c4"
+      ]
+    },
+    "7a2b1268-3c90-4141-8691-1f06d24b14c4": {
+      "id": "7a2b1268-3c90-4141-8691-1f06d24b14c4",
+      "message": {
+        "id": "7a2b1268-3c90-4141-8691-1f06d24b14c4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23ff7-c6cd-437f-8e20-b0c28bcf7eb9",
+      "children": [
+        "1575480b-aed5-475f-8988-e974fe2ea3ec"
+      ]
+    },
+    "1575480b-aed5-475f-8988-e974fe2ea3ec": {
+      "id": "1575480b-aed5-475f-8988-e974fe2ea3ec",
+      "message": {
+        "id": "1575480b-aed5-475f-8988-e974fe2ea3ec",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7a2b1268-3c90-4141-8691-1f06d24b14c4",
+      "children": [
+        "fb462142-397e-4813-ac47-bf38f53e8104"
+      ]
+    },
+    "fb462142-397e-4813-ac47-bf38f53e8104": {
+      "id": "fb462142-397e-4813-ac47-bf38f53e8104",
+      "message": {
+        "id": "fb462142-397e-4813-ac47-bf38f53e8104",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953109.570108,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-12-23T15:51:49.105403+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T15:51:49.105403+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000130c61f6a180487ff38c7a4d",
+                "size_bytes": 534798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 11.14
+                }
+              },
+              "audio_start_timestamp": 18.833248969865963
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "and 122 over 77 in women.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c734e60b-ec39-4635-a24d-6e60b7304b9e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1575480b-aed5-475f-8988-e974fe2ea3ec",
+      "children": [
+        "41da224a-e2db-4360-b17e-f80123ae2573"
+      ]
+    },
+    "41da224a-e2db-4360-b17e-f80123ae2573": {
+      "id": "41da224a-e2db-4360-b17e-f80123ae2573",
+      "message": {
+        "id": "41da224a-e2db-4360-b17e-f80123ae2573",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953119.122291,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So, the bottom number",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:51:49.105467+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000ab7061f688729ab368f508fc",
+              "size_bytes": 24078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 0.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "fb462142-397e-4813-ac47-bf38f53e8104",
+          "request_id": "c734e60b-ec39-4635-a24d-6e60b7304b9e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb462142-397e-4813-ac47-bf38f53e8104",
+      "children": [
+        "75b035ab-2935-479c-9bb1-e90585aacbc4"
+      ]
+    },
+    "75b035ab-2935-479c-9bb1-e90585aacbc4": {
+      "id": "75b035ab-2935-479c-9bb1-e90585aacbc4",
+      "message": {
+        "id": "75b035ab-2935-479c-9bb1-e90585aacbc4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953120.46605,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-12-23T15:52:00.250359+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T15:52:00.250359+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000008a5c61f6a2e1b0834457bf8a",
+                "size_bytes": 44718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.93
+                }
+              },
+              "audio_start_timestamp": 21.0540176180657
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Am I gon&#x27; die?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4f9aec0f-d3a3-4e0a-a31e-8330cc852c09",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "41da224a-e2db-4360-b17e-f80123ae2573",
+      "children": [
+        "b742c640-d932-4137-9d4b-2da139d38749"
+      ]
+    },
+    "b742c640-d932-4137-9d4b-2da139d38749": {
+      "id": "b742c640-d932-4137-9d4b-2da139d38749",
+      "message": {
+        "id": "b742c640-d932-4137-9d4b-2da139d38749",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953124.48554,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh no, definitely not! Having a diastolic number in the 90s can be a sign of high blood pressure, but it&#x27;s definitely manageable and something you can work on with your doctor. No need to worry too much, but it&#x27;s a good idea to keep an eye on it!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:52:00.250426+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000970c61f694911ebe36f47890",
+              "size_bytes": 763278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.9
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "75b035ab-2935-479c-9bb1-e90585aacbc4",
+          "request_id": "4f9aec0f-d3a3-4e0a-a31e-8330cc852c09",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "75b035ab-2935-479c-9bb1-e90585aacbc4",
+      "children": [
+        "f9ee5580-3d44-430e-991a-8c87c92d55df"
+      ]
+    },
+    "f9ee5580-3d44-430e-991a-8c87c92d55df": {
+      "id": "f9ee5580-3d44-430e-991a-8c87c92d55df",
+      "message": {
+        "id": "f9ee5580-3d44-430e-991a-8c87c92d55df",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953153.377166,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-12-23T15:52:33.191790+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T15:52:33.191790+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000028c461f6a8073c983ccb71b5",
+                "size_bytes": 319758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.66
+                }
+              },
+              "audio_start_timestamp": 45.637730615912005
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "What does that mean though? Like, how come my top number is okay and my bottom number is always high and then why is my feet cold?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "2c2250ee-fa36-40cc-97f0-c44d332cf81c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b742c640-d932-4137-9d4b-2da139d38749",
+      "children": [
+        "5f0bccfd-ea94-4b94-a3a8-910b34a48362"
+      ]
+    },
+    "5f0bccfd-ea94-4b94-a3a8-910b34a48362": {
+      "id": "5f0bccfd-ea94-4b94-a3a8-910b34a48362",
+      "message": {
+        "id": "5f0bccfd-ea94-4b94-a3a8-910b34a48362",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953159.060847,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So the top number, which is the systolic pressure, and the bottom number, the diastolic pressure, can sometimes be different due to things like stress or lifestyle. If your diastolic number is consistently high, it might just mean that your blood vessels are a bit tighter or there&#x27;s a bit more resistance. And as for your cold feet, that can be related to circulation, or sometimes it can just be that your feet get cold easily!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:52:33.191854+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000100c61f692564c5392a65a48",
+              "size_bytes": 1260078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 26.25
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "f9ee5580-3d44-430e-991a-8c87c92d55df",
+          "request_id": "2c2250ee-fa36-40cc-97f0-c44d332cf81c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f9ee5580-3d44-430e-991a-8c87c92d55df",
+      "children": [
+        "716ddbf3-4ad6-4c82-bf15-f9a083aaf1ca"
+      ]
+    },
+    "716ddbf3-4ad6-4c82-bf15-f9a083aaf1ca": {
+      "id": "716ddbf3-4ad6-4c82-bf15-f9a083aaf1ca",
+      "message": {
+        "id": "716ddbf3-4ad6-4c82-bf15-f9a083aaf1ca",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953178.954233,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Tight blood vessels. Does that mean I have cholesterol?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:52:58.775681+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T15:52:58.775681+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000b56861f688d101685214fc73",
+                "size_bytes": 210798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.39
+                }
+              },
+              "audio_start_timestamp": 78.94112392491661
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b119f1c4-3986-429e-b36f-e507de1cb647",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5f0bccfd-ea94-4b94-a3a8-910b34a48362",
+      "children": [
+        "29d422a0-7d18-4840-a3c8-b0a82b82de47"
+      ]
+    },
+    "29d422a0-7d18-4840-a3c8-b0a82b82de47": {
+      "id": "29d422a0-7d18-4840-a3c8-b0a82b82de47",
+      "message": {
+        "id": "29d422a0-7d18-4840-a3c8-b0a82b82de47",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953179.09645,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Not necessarily! Tight blood vessels can be influenced by a lot of different factors, not just cholesterol. It could be related to stress, diet, genetics, or even how hydrated you are. But if you&#x27;re concerned about cholesterol, it never hurts to get it checked out just to be sure!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:52:58.775742+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000af6461f6a101d61ae75d538d",
+              "size_bytes": 907278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 18.9
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "716ddbf3-4ad6-4c82-bf15-f9a083aaf1ca",
+          "request_id": "b119f1c4-3986-429e-b36f-e507de1cb647",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "716ddbf3-4ad6-4c82-bf15-f9a083aaf1ca",
+      "children": [
+        "e2682083-3b4e-4d5b-9ae1-80c2fea5dba9"
+      ]
+    },
+    "e2682083-3b4e-4d5b-9ae1-80c2fea5dba9": {
+      "id": "e2682083-3b4e-4d5b-9ae1-80c2fea5dba9",
+      "message": {
+        "id": "e2682083-3b4e-4d5b-9ae1-80c2fea5dba9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953199.055771,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What do you know about me? I don&#x27;t know.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:53:18.913262+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T15:53:18.913262+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000006d5c61f685a94b9e4a529e5b",
+                "size_bytes": 92718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.93
+                }
+              },
+              "audio_start_timestamp": 102.6170814409852
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "df5b5922-59e1-419e-bee2-3af802067e28",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "29d422a0-7d18-4840-a3c8-b0a82b82de47",
+      "children": [
+        "c8fe376e-17ad-4e88-ba69-eea136b1fa02"
+      ]
+    },
+    "c8fe376e-17ad-4e88-ba69-eea136b1fa02": {
+      "id": "c8fe376e-17ad-4e88-ba69-eea136b1fa02",
+      "message": {
+        "id": "c8fe376e-17ad-4e88-ba69-eea136b1fa02",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953199.210782,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That&#x27;s a pretty deep question! I think you know yourself best, but sometimes we all have little blind spots or things we haven&#x27;t noticed about ourselves. If there&#x27;s something specific you&#x27;re curious about, feel free to ask, and I&#x27;ll do my best to help you figure it out!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:53:18.913325+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000f20861f69539efabb9ac4882",
+              "size_bytes": 744078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "e2682083-3b4e-4d5b-9ae1-80c2fea5dba9",
+          "request_id": "df5b5922-59e1-419e-bee2-3af802067e28",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e2682083-3b4e-4d5b-9ae1-80c2fea5dba9",
+      "children": [
+        "93328e7c-a146-4c69-8432-187149a2b405"
+      ]
+    },
+    "93328e7c-a146-4c69-8432-187149a2b405": {
+      "id": "93328e7c-a146-4c69-8432-187149a2b405",
+      "message": {
+        "id": "93328e7c-a146-4c69-8432-187149a2b405",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953210.329393,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Do you know that if I have a tumor and you&#x27;re just not telling me?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:53:30.139561+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T15:53:30.139561+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000002a8c61f6963614b73ad0301a",
+                "size_bytes": 155598,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.24
+                }
+              },
+              "audio_start_timestamp": 121.6589705850929
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "57a65b98-0a55-4863-8d0b-44ffc17e20fd",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c8fe376e-17ad-4e88-ba69-eea136b1fa02",
+      "children": [
+        "a58853cc-d534-4b25-bbc2-f9888bc078de"
+      ]
+    },
+    "a58853cc-d534-4b25-bbc2-f9888bc078de": {
+      "id": "a58853cc-d534-4b25-bbc2-f9888bc078de",
+      "message": {
+        "id": "a58853cc-d534-4b25-bbc2-f9888bc078de",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750953210.550278,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I definitely don&#x27;t have any information like that, and I&#x27;m not a doctor, so I can&#x27;t diagnose anything. If you have any health concerns or you&#x27;re feeling worried about something, it’s always",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T15:53:30.139621+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000cf9061f6a7af5b6b5aef4cac",
+              "size_bytes": 408078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "93328e7c-a146-4c69-8432-187149a2b405",
+          "request_id": "57a65b98-0a55-4863-8d0b-44ffc17e20fd",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93328e7c-a146-4c69-8432-187149a2b405",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a58853cc-d534-4b25-bbc2-f9888bc078de",
+  "plugin_ids": null,
+  "conversation_id": "685d6c78-1104-8000-9909-08dabde32ca7",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "685d6c78-1104-8000-9909-08dabde32ca7"
+}

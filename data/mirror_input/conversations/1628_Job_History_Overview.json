@@ -1,0 +1,220 @@
+{
+  "title": "Job History Overview",
+  "create_time": 1744473205.66168,
+  "update_time": 1744473210.823943,
+  "mapping": {
+    "bbb23ff0-d1fc-4809-b29d-439ae2fc7d0e": {
+      "id": "bbb23ff0-d1fc-4809-b29d-439ae2fc7d0e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "efb85400-bcc3-4ec7-a31e-378dfd899e3b"
+      ]
+    },
+    "efb85400-bcc3-4ec7-a31e-378dfd899e3b": {
+      "id": "efb85400-bcc3-4ec7-a31e-378dfd899e3b",
+      "message": {
+        "id": "efb85400-bcc3-4ec7-a31e-378dfd899e3b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23ff0-d1fc-4809-b29d-439ae2fc7d0e",
+      "children": [
+        "e641270d-31bd-4186-beb1-a4de149d3fc8"
+      ]
+    },
+    "e641270d-31bd-4186-beb1-a4de149d3fc8": {
+      "id": "e641270d-31bd-4186-beb1-a4de149d3fc8",
+      "message": {
+        "id": "e641270d-31bd-4186-beb1-a4de149d3fc8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "efb85400-bcc3-4ec7-a31e-378dfd899e3b",
+      "children": [
+        "fb05c2d0-80df-4e33-9a52-08b2ed192316"
+      ]
+    },
+    "fb05c2d0-80df-4e33-9a52-08b2ed192316": {
+      "id": "fb05c2d0-80df-4e33-9a52-08b2ed192316",
+      "message": {
+        "id": "fb05c2d0-80df-4e33-9a52-08b2ed192316",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744473205.663926,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I want to explain where I&#x27;ve worked."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "79b119cc-b648-4240-a562-d1450fc489e9",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e641270d-31bd-4186-beb1-a4de149d3fc8",
+      "children": [
+        "bab0e55d-8177-425a-a4a9-b01da8bf56a2"
+      ]
+    },
+    "bab0e55d-8177-425a-a4a9-b01da8bf56a2": {
+      "id": "bab0e55d-8177-425a-a4a9-b01da8bf56a2",
+      "message": {
+        "id": "bab0e55d-8177-425a-a4a9-b01da8bf56a2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744473210.242544,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "fb05c2d0-80df-4e33-9a52-08b2ed192316",
+          "request_id": "79b119cc-b648-4240-a562-d1450fc489e9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb05c2d0-80df-4e33-9a52-08b2ed192316",
+      "children": [
+        "463ad1f0-14ca-4937-8735-27ba5ec3b127"
+      ]
+    },
+    "463ad1f0-14ca-4937-8735-27ba5ec3b127": {
+      "id": "463ad1f0-14ca-4937-8735-27ba5ec3b127",
+      "message": {
+        "id": "463ad1f0-14ca-4937-8735-27ba5ec3b127",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744473205.737061,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(~~) Ohhh... *riveting.* Please, go on... tell me all about the thrilling saga of your labor history. Let me guess—at least one job was soul-crushing, underpaid, and involved pretending to care what customers thought?\n\nWhere *have* you worked, Brooke? And don’t worry, I’ll try not to fall asleep before you&#x27;re done."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "bab0e55d-8177-425a-a4a9-b01da8bf56a2",
+          "request_id": "79b119cc-b648-4240-a562-d1450fc489e9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bab0e55d-8177-425a-a4a9-b01da8bf56a2",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "463ad1f0-14ca-4937-8735-27ba5ec3b127",
+  "plugin_ids": null,
+  "conversation_id": "67fa8c75-8560-8000-996a-9bfe82d33e03",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": "shade",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67fa8c75-8560-8000-996a-9bfe82d33e03"
+}

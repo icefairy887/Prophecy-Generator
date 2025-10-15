@@ -1,0 +1,255 @@
+{
+  "title": "Cloud Type Identification",
+  "create_time": 1749760703.677796,
+  "update_time": 1749760716.275041,
+  "mapping": {
+    "e38030fd-2355-46ee-9961-505d3162d3ed": {
+      "id": "e38030fd-2355-46ee-9961-505d3162d3ed",
+      "message": null,
+      "parent": null,
+      "children": [
+        "24bb7735-961b-46bc-b852-cdce328a56e7"
+      ]
+    },
+    "24bb7735-961b-46bc-b852-cdce328a56e7": {
+      "id": "24bb7735-961b-46bc-b852-cdce328a56e7",
+      "message": {
+        "id": "24bb7735-961b-46bc-b852-cdce328a56e7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e38030fd-2355-46ee-9961-505d3162d3ed",
+      "children": [
+        "9b1c2a84-5729-4433-a435-0e7863989976"
+      ]
+    },
+    "9b1c2a84-5729-4433-a435-0e7863989976": {
+      "id": "9b1c2a84-5729-4433-a435-0e7863989976",
+      "message": {
+        "id": "9b1c2a84-5729-4433-a435-0e7863989976",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "24bb7735-961b-46bc-b852-cdce328a56e7",
+      "children": [
+        "bbb21c82-ceee-404c-b9fb-de70090abc0a"
+      ]
+    },
+    "bbb21c82-ceee-404c-b9fb-de70090abc0a": {
+      "id": "bbb21c82-ceee-404c-b9fb-de70090abc0a",
+      "message": {
+        "id": "bbb21c82-ceee-404c-b9fb-de70090abc0a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749760705.040863,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-BearmVM66Jqy6As724NTpk",
+              "size_bytes": 228762,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "What kind of clouds are these "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-BearmVM66Jqy6As724NTpk",
+              "id": "file-BearmVM66Jqy6As724NTpk",
+              "size": 228762,
+              "mime_type": "application/octet-stream"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94ec26cae82dfb19-BNA",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9b1c2a84-5729-4433-a435-0e7863989976",
+      "children": [
+        "fd6cb93a-6c45-4d14-81eb-c1f9ae2b5b7c"
+      ]
+    },
+    "fd6cb93a-6c45-4d14-81eb-c1f9ae2b5b7c": {
+      "id": "fd6cb93a-6c45-4d14-81eb-c1f9ae2b5b7c",
+      "message": {
+        "id": "fd6cb93a-6c45-4d14-81eb-c1f9ae2b5b7c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749760715.138573,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21c82-ceee-404c-b9fb-de70090abc0a",
+          "request_id": "94ec26cae82dfb19-BNA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21c82-ceee-404c-b9fb-de70090abc0a",
+      "children": [
+        "26ecfcad-e607-434e-8a9d-c61e79e08629"
+      ]
+    },
+    "26ecfcad-e607-434e-8a9d-c61e79e08629": {
+      "id": "26ecfcad-e607-434e-8a9d-c61e79e08629",
+      "message": {
+        "id": "26ecfcad-e607-434e-8a9d-c61e79e08629",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749760705.294901,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The clouds in this image appear to be **altostratus clouds**, with possible **cumulonimbus** development underneath.\n\nHere&#x27;s why:\n\n- **Altostratus clouds**: These are mid-level clouds that often cover the entire sky with a gray or blue-gray appearance, making the sun appear as a bright spot behind a thin veil. That effect is clearly visible here.\n  \n- **Cumulonimbus** (possible): Near the horizon, the darker, more vertically developed and textured clouds may suggest building storm clouds—cumulonimbus—which are often hidden beneath a veil of altostratus when storms are brewing.\n\nThese cloud formations typically indicate **an approaching weather system**, such as a front, and often precede rain or thunderstorms—especially when they darken and thicken like this.\n\nLet me know if you&#x27;d like a weather prediction or symbolic interpretation too."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "fd6cb93a-6c45-4d14-81eb-c1f9ae2b5b7c",
+          "request_id": "94ec26cae82dfb19-BNA",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd6cb93a-6c45-4d14-81eb-c1f9ae2b5b7c",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "26ecfcad-e607-434e-8a9d-c61e79e08629",
+  "plugin_ids": null,
+  "conversation_id": "684b3abf-44ac-8000-85c6-1e9fb93d8b69",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/share/r/16Z9GQhsod/?mibextid=wwXIfr"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684b3abf-44ac-8000-85c6-1e9fb93d8b69"
+}

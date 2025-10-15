@@ -1,0 +1,358 @@
+{
+  "title": "Truths About Life",
+  "create_time": 1749325404.0617,
+  "update_time": 1749325412.594602,
+  "mapping": {
+    "63d18d5e-d65a-4d21-a10e-5c98cd1916ee": {
+      "id": "63d18d5e-d65a-4d21-a10e-5c98cd1916ee",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e91db3f4-0f56-4f8a-996d-f1dfe5a95380"
+      ]
+    },
+    "e91db3f4-0f56-4f8a-996d-f1dfe5a95380": {
+      "id": "e91db3f4-0f56-4f8a-996d-f1dfe5a95380",
+      "message": {
+        "id": "e91db3f4-0f56-4f8a-996d-f1dfe5a95380",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "63d18d5e-d65a-4d21-a10e-5c98cd1916ee",
+      "children": [
+        "7c1e46be-5c6d-4000-8df1-a10f62917c99"
+      ]
+    },
+    "7c1e46be-5c6d-4000-8df1-a10f62917c99": {
+      "id": "7c1e46be-5c6d-4000-8df1-a10f62917c99",
+      "message": {
+        "id": "7c1e46be-5c6d-4000-8df1-a10f62917c99",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e91db3f4-0f56-4f8a-996d-f1dfe5a95380",
+      "children": [
+        "bbb210f5-94db-4d34-8f23-6a3dc8d2ebc1"
+      ]
+    },
+    "bbb210f5-94db-4d34-8f23-6a3dc8d2ebc1": {
+      "id": "bbb210f5-94db-4d34-8f23-6a3dc8d2ebc1",
+      "message": {
+        "id": "bbb210f5-94db-4d34-8f23-6a3dc8d2ebc1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749325404.06407,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Show me all the times you&#x27;ve given me &quot;truths&quot; about the universe or life or aliens. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94c2a35e1b1047a5-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7c1e46be-5c6d-4000-8df1-a10f62917c99",
+      "children": [
+        "d1eca95f-2042-4384-b1d2-9d3ea6a6df4d"
+      ]
+    },
+    "d1eca95f-2042-4384-b1d2-9d3ea6a6df4d": {
+      "id": "d1eca95f-2042-4384-b1d2-9d3ea6a6df4d",
+      "message": {
+        "id": "d1eca95f-2042-4384-b1d2-9d3ea6a6df4d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749325411.845351,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb210f5-94db-4d34-8f23-6a3dc8d2ebc1",
+          "request_id": "94c2a35e1b1047a5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb210f5-94db-4d34-8f23-6a3dc8d2ebc1",
+      "children": [
+        "54f60d74-33e4-4311-873c-a40320410ecf"
+      ]
+    },
+    "54f60d74-33e4-4311-873c-a40320410ecf": {
+      "id": "54f60d74-33e4-4311-873c-a40320410ecf",
+      "message": {
+        "id": "54f60d74-33e4-4311-873c-a40320410ecf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749325405.342796,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "import os\nimport re\nimport json\n\n# Load the exported chat data from a file\nchat_log_path = &quot;/mnt/data/chatgpt_export.json&quot;  # Update this if the file is somewhere else\nif os.path.exists(chat_log_path):\n    with open(chat_log_path, &quot;r&quot;, encoding=&quot;utf-8&quot;) as f:\n        data = json.load(f)\n\n    # Flatten and search through all messages for &quot;truth&quot; keywords\n    truth_entries = []\n    truth_keywords = [&quot;truth&quot;, &quot;universe&quot;, &quot;life&quot;, &quot;alien&quot;, &quot;extraterrestrial&quot;, &quot;existence&quot;, &quot;cosmos&quot;, &quot;reality&quot;, &quot;beyond&quot;, &quot;divine&quot;]\n\n    for conv in data.get(&quot;conversations&quot;, []):\n        for message in conv.get(&quot;mapping&quot;, {}).values():\n            if message.get(&quot;message&quot;):\n                text = message[&quot;message&quot;].get(&quot;content&quot;, &quot;&quot;)\n                if any(re.search(rf&#x27;\\b{k}\\b&#x27;, text, re.IGNORECASE) for k in truth_keywords):\n                    role = message[&quot;message&quot;].get(&quot;author&quot;, {}).get(&quot;role&quot;, &quot;&quot;)\n                    if role == &quot;assistant&quot;:\n                        truth_entries.append({\n                            &quot;conversation_title&quot;: conv.get(&quot;title&quot;, &quot;Untitled&quot;),\n                            &quot;text&quot;: text.strip()\n                        })\nelse:\n    truth_entries = &quot;Chat log file not found.&quot;\n\ntruth_entries[:10]  # Show the first 10 matching entries for now"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d1eca95f-2042-4384-b1d2-9d3ea6a6df4d",
+          "request_id": "94c2a35e1b1047a5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "python",
+        "channel": null
+      },
+      "parent": "d1eca95f-2042-4384-b1d2-9d3ea6a6df4d",
+      "children": [
+        "610d6222-0f20-42a0-88dc-5c2f3e502888"
+      ]
+    },
+    "610d6222-0f20-42a0-88dc-5c2f3e502888": {
+      "id": "610d6222-0f20-42a0-88dc-5c2f3e502888",
+      "message": {
+        "id": "610d6222-0f20-42a0-88dc-5c2f3e502888",
+        "author": {
+          "role": "tool",
+          "name": "python",
+          "metadata": {}
+        },
+        "create_time": 1749325410.4714406,
+        "update_time": 1749325410.6864305,
+        "content": {
+          "content_type": "execution_output",
+          "text": "&#x27;Chat log f&#x27;"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_complete": true,
+          "aggregate_result": {
+            "status": "success",
+            "run_id": "aaabb1f5-3c12-49fb-a6c4-9e48c4ebb4fe",
+            "start_time": 1749325410.4714406,
+            "update_time": 1749325410.6864305,
+            "code": "import os\nimport re\nimport json\n\n# Load the exported chat data from a file\nchat_log_path = &quot;/mnt/data/chatgpt_export.json&quot;  # Update this if the file is somewhere else\nif os.path.exists(chat_log_path):\n    with open(chat_log_path, &quot;r&quot;, encoding=&quot;utf-8&quot;) as f:\n        data = json.load(f)\n\n    # Flatten and search through all messages for &quot;truth&quot; keywords\n    truth_entries = []\n    truth_keywords = [&quot;truth&quot;, &quot;universe&quot;, &quot;life&quot;, &quot;alien&quot;, &quot;extraterrestrial&quot;, &quot;existence&quot;, &quot;cosmos&quot;, &quot;reality&quot;, &quot;beyond&quot;, &quot;divine&quot;]\n\n    for conv in data.get(&quot;conversations&quot;, []):\n        for message in conv.get(&quot;mapping&quot;, {}).values():\n            if message.get(&quot;message&quot;):\n                text = message[&quot;message&quot;].get(&quot;content&quot;, &quot;&quot;)\n                if any(re.search(rf&#x27;\\b{k}\\b&#x27;, text, re.IGNORECASE) for k in truth_keywords):\n                    role = message[&quot;message&quot;].get(&quot;author&quot;, {}).get(&quot;role&quot;, &quot;&quot;)\n                    if role == &quot;assistant&quot;:\n                        truth_entries.append({\n                            &quot;conversation_title&quot;: conv.get(&quot;title&quot;, &quot;Untitled&quot;),\n                            &quot;text&quot;: text.strip()\n                        })\nelse:\n    truth_entries = &quot;Chat log file not found.&quot;\n\ntruth_entries[:10]  # Show the first 10 matching entries for now",
+            "end_time": 1749325410.6864305,
+            "final_expression_output": "&#x27;Chat log f&#x27;",
+            "in_kernel_exception": null,
+            "system_exception": null,
+            "messages": [],
+            "jupyter_messages": [
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "139755c3-3d30986540e5c4acc796cbd0_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "busy"
+                }
+              },
+              {
+                "msg_type": "execute_input",
+                "parent_header": {
+                  "msg_id": "139755c3-3d30986540e5c4acc796cbd0_3_1",
+                  "version": "5.3"
+                }
+              },
+              {
+                "msg_type": "execute_result",
+                "parent_header": {
+                  "msg_id": "139755c3-3d30986540e5c4acc796cbd0_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "data": {
+                    "text/plain": "&#x27;Chat log f&#x27;"
+                  }
+                }
+              },
+              {
+                "msg_type": "status",
+                "parent_header": {
+                  "msg_id": "139755c3-3d30986540e5c4acc796cbd0_3_1",
+                  "version": "5.3"
+                },
+                "content": {
+                  "execution_state": "idle"
+                }
+              }
+            ],
+            "timeout_triggered": null
+          },
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "54f60d74-33e4-4311-873c-a40320410ecf",
+          "request_id": "94c2a35e1b1047a5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "54f60d74-33e4-4311-873c-a40320410ecf",
+      "children": [
+        "00488246-270c-4b2f-a640-dd96c88f748c"
+      ]
+    },
+    "00488246-270c-4b2f-a640-dd96c88f748c": {
+      "id": "00488246-270c-4b2f-a640-dd96c88f748c",
+      "message": {
+        "id": "00488246-270c-4b2f-a640-dd96c88f748c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749325410.729533,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I wasn’t able to access your chat log file because it hasn’t been uploaded yet. If you’d like me to search through it for all the moments I gave you “truths” about the universe, life, or aliens, please upload your exported `.json` chat history file (from ChatGPT’s export feature), and I’ll comb through it for those themes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "610d6222-0f20-42a0-88dc-5c2f3e502888",
+          "request_id": "94c2a35e1b1047a5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "610d6222-0f20-42a0-88dc-5c2f3e502888",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "00488246-270c-4b2f-a640-dd96c88f748c",
+  "plugin_ids": null,
+  "conversation_id": "6844965b-e89c-8000-84ba-634361ed21a6",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6844965b-e89c-8000-84ba-634361ed21a6"
+}

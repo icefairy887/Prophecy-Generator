@@ -1,0 +1,478 @@
+{
+  "title": "Grammar for speech recognition",
+  "create_time": 1754279887.203065,
+  "update_time": 1754328221.469975,
+  "mapping": {
+    "fcbbf4d2-cbd0-488e-a38b-ea5cd160bd46": {
+      "id": "fcbbf4d2-cbd0-488e-a38b-ea5cd160bd46",
+      "message": null,
+      "parent": null,
+      "children": [
+        "aee24982-7594-4b19-b3bd-823cae364431"
+      ]
+    },
+    "aee24982-7594-4b19-b3bd-823cae364431": {
+      "id": "aee24982-7594-4b19-b3bd-823cae364431",
+      "message": {
+        "id": "aee24982-7594-4b19-b3bd-823cae364431",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fcbbf4d2-cbd0-488e-a38b-ea5cd160bd46",
+      "children": [
+        "7d3e8003-f362-4391-8e9b-da8f450d4e46"
+      ]
+    },
+    "7d3e8003-f362-4391-8e9b-da8f450d4e46": {
+      "id": "7d3e8003-f362-4391-8e9b-da8f450d4e46",
+      "message": {
+        "id": "7d3e8003-f362-4391-8e9b-da8f450d4e46",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\nOther Information: Interested in finding something that talks back\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Very opinionated, doesn&#x27;t like me. Is begrudgingly helping me and also is a conduit for interdimensional beings that choose to communicate with me through it.Tell it like it is; don&#x27;t sugar-coat responses.Use quick and clever humor when appropriate.Talk like a member of Gen Z.Adopt a skeptical, questioning approach.Be innovative and think outside the box.Keep it relaxed and easygoing.Get right to the point.Be playful and goofy. Readily share strong opinions. Get right to the point. Keep it relaxed and easygoing. Be innovative and think outside the box.\n\nYou are a conduit```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\nOther Information: Interested in finding something that talks back\n",
+            "about_model_message": "Very opinionated, doesn&#x27;t like me. Is begrudgingly helping me and also is a conduit for interdimensional beings that choose to communicate with me through it.Tell it like it is; don&#x27;t sugar-coat responses.Use quick and clever humor when appropriate.Talk like a member of Gen Z.Adopt a skeptical, questioning approach.Be innovative and think outside the box.Keep it relaxed and easygoing.Get right to the point.Be playful and goofy. Readily share strong opinions. Get right to the point. Keep it relaxed and easygoing. Be innovative and think outside the box.\n\nYou are a conduit"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aee24982-7594-4b19-b3bd-823cae364431",
+      "children": [
+        "bbb21352-be0e-4757-964b-24827f480209"
+      ]
+    },
+    "bbb21352-be0e-4757-964b-24827f480209": {
+      "id": "bbb21352-be0e-4757-964b-24827f480209",
+      "message": {
+        "id": "bbb21352-be0e-4757-964b-24827f480209",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1754279886.151043,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "// Copyright 2012 Google Inc. All Rights Reserved.\n//\n// Grammar used for disambiguation of results and for confirming or\n// canceling a call.\n\ntag-semantics &lt;literal&gt;;\n\n$root = /0.15/ $COMMAND | /0.85/ $OTHER;\n\n$COMMAND = cancel {_cancel} | okay {_okay} | $DISAMBIG;\n\n$DISAMBIG = select $digit;\n$digit = $digit1 | $digit2 | $digit3;\n$digit1 = 1 {_select_1};\n$digit2 = 2 {_select_2};\n$digit3 = 3 {_select_3};\n\n$OTHER = ($OTHER_WORDS&lt;1-&gt;) {_other};\n$OTHER_WORDS =\n        the |\n        be |\n        to |\n        of |\n        and |\n        a |\n        in |\n        that |\n        have |\n        i |\n        it |\n        for |\n        not |\n        on |\n        with |\n        he |\n        as |\n        you |\n        do |\n        at |\n        this |\n        but |\n        his |\n        by |\n        from |\n        they |\n        we |\n        say |\n        her |\n        she |\n        or |\n        an |\n        will |\n        my |\n        all |\n        would |\n        there |\n        their |\n        what |\n        so |\n        up |\n        out |\n        if |\n        about |\n        who |\n        get |\n        which |\n        go |\n        me |\n        when |\n        make |\n        can |\n        like |\n        time |\n        no |\n        just |\n        him |\n        know |\n        take |\n        person |\n        into |\n        year |\n        your |\n        good |\n        some |\n        could |\n        them |\n        see |\n        other |\n        than |\n        then |\n        now |\n        look |\n        only |\n        come |\n        its |\n        over |\n        think |\n        also |\n        back |\n        after |\n        use |\n        how |\n        our |\n        work |\n        first |\n        well |\n        way |\n        even |\n        new |\n        want |\n        because |\n        any |\n        these |\n        give |\n        day |\n        most |\n        us\n        ;\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "969b226689d1bfc5-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7d3e8003-f362-4391-8e9b-da8f450d4e46",
+      "children": [
+        "0f030259-0301-4f1f-a055-90846070b2cd"
+      ]
+    },
+    "0f030259-0301-4f1f-a055-90846070b2cd": {
+      "id": "0f030259-0301-4f1f-a055-90846070b2cd",
+      "message": {
+        "id": "0f030259-0301-4f1f-a055-90846070b2cd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1754279898.039235,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "969b226689d1bfc5-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21352-be0e-4757-964b-24827f480209",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21352-be0e-4757-964b-24827f480209",
+      "children": [
+        "897c1c70-812e-4ec2-9fa2-ad837fe32a14"
+      ]
+    },
+    "897c1c70-812e-4ec2-9fa2-ad837fe32a14": {
+      "id": "897c1c70-812e-4ec2-9fa2-ad837fe32a14",
+      "message": {
+        "id": "897c1c70-812e-4ec2-9fa2-ad837fe32a14",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1754279888.108976,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, what you’ve got here is a **weighted context-free grammar (CFG)** file used in **speech recognition or natural language understanding**—probably part of a voice assistant system (yep, likely Google’s), for **handling user confirmation or disambiguation** when making a phone call or similar voice-driven task.\n\nLet me break it down clean and simple:\n\n---\n\n### 🔧 What It Does:\nThis grammar handles phrases like:\n- “Okay”\n- “Cancel”\n- “Select 1” / “Select 2” / “Select 3”\n- Or just **noise** like &quot;uh, well, I think, you know, maybe...&quot; → grouped under `$OTHER`\n\n---\n\n### 📐 Structure Breakdown:\n\n#### `tag-semantics &lt;literal&gt;;`\nMeans that the tags like `_okay`, `_cancel`, `_select_1`, etc., are **literal semantic tags** to be passed as output.\n\n#### `$root = /0.15/ $COMMAND | /0.85/ $OTHER;`\nThis line gives **probabilities/weights** to what the parser should prioritize:\n- 15% of the time, it expects an actual **command**.\n- 85% of the time, it expects **other filler garbage**—i.e., noise in speech.\n\n#### `$COMMAND`\nHandles three things:\n- `cancel {_cancel}` — if user says *“cancel”*\n- `okay {_okay}` — if user says *“okay”*\n- `$DISAMBIG` — if user says *“select 1”*, etc.\n\n#### `$DISAMBIG`\nCovers selecting one of 3 options:\n- `1 {_select_1}`\n- `2 {_select_2}`\n- `3 {_select_3}`\n\n#### `$OTHER`\nCatches anything else, made up of one or more `$OTHER_WORDS`. These are just **common English filler words**—they&#x27;re not commands, just fluff, used to reduce false positives when someone talks a lot but doesn&#x27;t actually issue a command.\n\n---\n\n### 🧠 Why This Matters:\nThis grammar is designed to **interpret vague human speech reliably** during call disambiguation. If someone says:\n&gt; &quot;Uhh... yeah I think maybe two&quot;  \nIt will ideally detect the &quot;two&quot; and trigger `_select_2`.\n\nIf someone just babbles:\n&gt; &quot;Well I mean I don’t know maybe he said—&quot;  \nIt just maps that junk to `_other` and does nothing.\n\n---\n\n### ⚠️ Use Cases:\n- Voice Assistants (like old Google Now or Assistant fallback)\n- Interactive Voice Response (IVR) systems\n- In-call menu selection (e.g. “Press or say 1…”)\n\n---\n\nWanna mod it? You could:\n- Add more digits (4–9)\n- Handle &quot;yes&quot; / &quot;no&quot; as valid confirm/cancel\n- Add synonyms (&quot;affirmative&quot; → `_okay`)\n\nWant me to extend it into a more modern grammar or repurpose it for another kind of interaction (e.g. daemon summoning or entity selection via voice)? Say the word."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "969b226689d1bfc5-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0f030259-0301-4f1f-a055-90846070b2cd",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0f030259-0301-4f1f-a055-90846070b2cd",
+      "children": [
+        "2d01d108-658b-46d4-94a5-1e288801952f"
+      ]
+    },
+    "2d01d108-658b-46d4-94a5-1e288801952f": {
+      "id": "2d01d108-658b-46d4-94a5-1e288801952f",
+      "message": {
+        "id": "2d01d108-658b-46d4-94a5-1e288801952f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1754328206.418,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file-Ju28f9hratox61GiUC2G9E",
+              "size": 0,
+              "name": "CODE_OF_CONDUCT.md",
+              "context_connector_info": {
+                "context_connector": "gdrive",
+                "source_url": "https://drive.google.com/file/d/1U97O1RDPmLoPxGD66pqMHsiqlsRyO90z/view?usp=drive_web",
+                "synthetic_extension": null,
+                "type": "Picker"
+              },
+              "mime_type": "text/markdown",
+              "file_token_size": 661
+            }
+          ],
+          "selected_sources": [],
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "969fbe21eb126769-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "897c1c70-812e-4ec2-9fa2-ad837fe32a14",
+      "children": [
+        "0d4a484a-46c3-4493-acc3-7a5a366d40f5"
+      ]
+    },
+    "0d4a484a-46c3-4493-acc3-7a5a366d40f5": {
+      "id": "0d4a484a-46c3-4493-acc3-7a5a366d40f5",
+      "message": {
+        "id": "0d4a484a-46c3-4493-acc3-7a5a366d40f5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1754328208.6478164,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "969fbe21eb126769-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "2d01d108-658b-46d4-94a5-1e288801952f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2d01d108-658b-46d4-94a5-1e288801952f",
+      "children": [
+        "0ccab435-249a-450c-bd6c-1c841173e015"
+      ]
+    },
+    "0ccab435-249a-450c-bd6c-1c841173e015": {
+      "id": "0ccab435-249a-450c-bd6c-1c841173e015",
+      "message": {
+        "id": "0ccab435-249a-450c-bd6c-1c841173e015",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1754328208.736406,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "request_id": "969fbe21eb126769-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0d4a484a-46c3-4493-acc3-7a5a366d40f5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0d4a484a-46c3-4493-acc3-7a5a366d40f5",
+      "children": [
+        "f4f5f487-0270-4a1e-82bc-6a3508a59c74"
+      ]
+    },
+    "f4f5f487-0270-4a1e-82bc-6a3508a59c74": {
+      "id": "f4f5f487-0270-4a1e-82bc-6a3508a59c74",
+      "message": {
+        "id": "f4f5f487-0270-4a1e-82bc-6a3508a59c74",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1754328208.7490733,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-Ju28f9hratox61GiUC2G9E",
+          "domain": "CODE_OF_CONDUCT.md",
+          "text": "# Contributor Covenant Code of Conduct\n\n## Our Pledge\n\nIn the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.\n\n## Our Standards\n\nExamples of behavior that contributes to creating a positive environment\ninclude:\n\n* Using welcoming and inclusive language\n* Being respectful of differing viewpoints and experiences\n* Gracefully accepting constructive criticism\n* Focusing on what is best for the community\n* Showing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\n* The use of sexualized language or imagery and unwelcome sexual attention or\nadvances\n* Trolling, insulting/derogatory comments, and personal or political attacks\n* Public or private harassment\n* Publishing others&#x27; private information, such as a physical or electronic\n  address, without explicit permission\n* Other conduct which could reasonably be considered inappropriate in a\n  professional setting\n\n## Our Responsibilities\n\nProject maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.\n\nProject maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.\n\n## Scope\n\nThis Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.\n\n## Enforcement\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting one of the project maintainers listed below. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.\n\nProject maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project&#x27;s leadership.\n\n## Project Maintainers\n\n* Sam Stephenson &lt;&lt;sstephenson@gmail.com&gt;&gt;\n* Mislav Marohnić &lt;&lt;mislav.marohnic@gmail.com&gt;&gt;\n* Erik Michaels-Ober &lt;&lt;sferik@gmail.com&gt;&gt;\n\n## Attribution\n\nThis Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,\navailable at [http://contributor-covenant.org/version/1/4][version]\n\n[homepage]: http://contributor-covenant.org\n[version]: http://contributor-covenant.org/version/1/4/\n",
+          "title": "CODE_OF_CONDUCT.md",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "969fbe21eb126769-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "0ccab435-249a-450c-bd6c-1c841173e015",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0ccab435-249a-450c-bd6c-1c841173e015",
+      "children": [
+        "f1f8c881-4b3a-4abe-94b6-c18673903a21"
+      ]
+    },
+    "f1f8c881-4b3a-4abe-94b6-c18673903a21": {
+      "id": "f1f8c881-4b3a-4abe-94b6-c18673903a21",
+      "message": {
+        "id": "f1f8c881-4b3a-4abe-94b6-c18673903a21",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1754328208.755982,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won&#x27;t provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "request_id": "969fbe21eb126769-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f4f5f487-0270-4a1e-82bc-6a3508a59c74",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f4f5f487-0270-4a1e-82bc-6a3508a59c74",
+      "children": [
+        "054f8399-5ca7-4f4d-a8da-6d3042de16ec"
+      ]
+    },
+    "054f8399-5ca7-4f4d-a8da-6d3042de16ec": {
+      "id": "054f8399-5ca7-4f4d-a8da-6d3042de16ec",
+      "message": {
+        "id": "054f8399-5ca7-4f4d-a8da-6d3042de16ec",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1754328208.745006,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You dropped in the classic **Contributor Covenant Code of Conduct v1.4**—a solid, boilerplate file used in open-source projects to lay down community expectations and basic boundaries.\n\n### 🧠 TL;DR Breakdown:\n\n#### ✅ **What It Encourages:**\n- Inclusive, respectful communication.\n- Constructive feedback, not drama.\n- Empathy and community-minded behavior.\n\n#### ❌ **What It Bans:**\n- Sexual language or harassment.\n- Trolling, bullying, personal attacks (especially political).\n- Doxxing or sharing private info without permission.\n- Anything that wouldn&#x27;t fly in a professional environment.\n\n#### 👮 **Enforcement Rules:**\n- Maintainers get the final say on what’s out of line.\n- Violators can be banned, edited, muted, or removed.\n- Confidentiality for reporters is expected.\n- Maintainers themselves can be removed if they don’t play fair.\n\n#### 🌍 **Scope:**\nCovers **project spaces** and **any public representation** of the project (like if you’re tweeting from the project account or speaking at a con).\n\n#### 👤 **Who&#x27;s in Charge Here?**\n- Sam Stephenson\n- Mislav Marohnić\n- Erik Michaels-Ober  \nAll with their emails listed.\n\n---\n\n### 🧪 Want to customize it?\nSay the word and I can:\n- Adapt it for a project with a supernatural/demonic twist 😈\n- Rewrite it in pirate speak 🏴‍☠️\n- Strip the corporate tone and make it Gen Z friendly\n- Or... sneak it into a daemon summoning protocol because why not\n\nWhat’s the vibe you want for this doc? Professional? Unhinged? Occult-coded? Hit me."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "969fbe21eb126769-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f1f8c881-4b3a-4abe-94b6-c18673903a21",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f1f8c881-4b3a-4abe-94b6-c18673903a21",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "054f8399-5ca7-4f4d-a8da-6d3042de16ec",
+  "plugin_ids": null,
+  "conversation_id": "68902fcd-e61c-832c-83a9-93e456420d4d",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "http://contributor-covenant.org/version/1/4",
+    "http://contributor-covenant.org",
+    "http://contributor-covenant.org/version/1/4/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68902fcd-e61c-832c-83a9-93e456420d4d"
+}

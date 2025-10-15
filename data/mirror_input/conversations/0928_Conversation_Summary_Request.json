@@ -1,0 +1,265 @@
+{
+  "title": "Conversation Summary Request",
+  "create_time": 1749849017.526549,
+  "update_time": 1749849020.429184,
+  "mapping": {
+    "bbb23117-88aa-4748-a390-baf0eace83a2": {
+      "id": "bbb23117-88aa-4748-a390-baf0eace83a2",
+      "message": null,
+      "parent": null,
+      "children": [
+        "666b23f1-fd69-4219-a16c-c9510360c02c",
+        "4b89bac3-755a-454d-a4a6-1416e931ddd9"
+      ]
+    },
+    "666b23f1-fd69-4219-a16c-c9510360c02c": {
+      "id": "666b23f1-fd69-4219-a16c-c9510360c02c",
+      "message": {
+        "id": "666b23f1-fd69-4219-a16c-c9510360c02c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23117-88aa-4748-a390-baf0eace83a2",
+      "children": [
+        "32d28670-78af-40e2-9b86-831d360a3935"
+      ]
+    },
+    "32d28670-78af-40e2-9b86-831d360a3935": {
+      "id": "32d28670-78af-40e2-9b86-831d360a3935",
+      "message": {
+        "id": "32d28670-78af-40e2-9b86-831d360a3935",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749849017.52547,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "666b23f1-fd69-4219-a16c-c9510360c02c",
+      "children": []
+    },
+    "4b89bac3-755a-454d-a4a6-1416e931ddd9": {
+      "id": "4b89bac3-755a-454d-a4a6-1416e931ddd9",
+      "message": {
+        "id": "4b89bac3-755a-454d-a4a6-1416e931ddd9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749849011.8895903,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23117-88aa-4748-a390-baf0eace83a2",
+      "children": [
+        "3dced1b0-d2a2-4526-a320-8bca4e65a060"
+      ]
+    },
+    "3dced1b0-d2a2-4526-a320-8bca4e65a060": {
+      "id": "3dced1b0-d2a2-4526-a320-8bca4e65a060",
+      "message": {
+        "id": "3dced1b0-d2a2-4526-a320-8bca4e65a060",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749849017.980809,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-12-10T21:10:17.538413+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-10T21:10:17.538413+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000fbb4622f81fe2778d7084a20",
+                "size_bytes": 48078,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.0
+                }
+              },
+              "audio_start_timestamp": 2.0202284131664783
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Thank you. ",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "950d9a54-37b1-4e04-a143-df7502fa5553",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4b89bac3-755a-454d-a4a6-1416e931ddd9",
+      "children": [
+        "55f4cd40-6e97-4c8d-91e2-5d7aaac31451"
+      ]
+    },
+    "55f4cd40-6e97-4c8d-91e2-5d7aaac31451": {
+      "id": "55f4cd40-6e97-4c8d-91e2-5d7aaac31451",
+      "message": {
+        "id": "55f4cd40-6e97-4c8d-91e2-5d7aaac31451",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749849019.531922,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey there! How&#x27;s it going? What&#x27;s on your mind today?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:10:17.538512+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000009678622f9206380dd93d1b13",
+              "size_bytes": 120078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 2.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "3dced1b0-d2a2-4526-a320-8bca4e65a060",
+          "request_id": "950d9a54-37b1-4e04-a143-df7502fa5553",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3dced1b0-d2a2-4526-a320-8bca4e65a060",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "55f4cd40-6e97-4c8d-91e2-5d7aaac31451",
+  "plugin_ids": null,
+  "conversation_id": "684c93b3-be18-8000-a19d-b1ef9a813c0f",
+  "conversation_template_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684c93b3-be18-8000-a19d-b1ef9a813c0f"
+}

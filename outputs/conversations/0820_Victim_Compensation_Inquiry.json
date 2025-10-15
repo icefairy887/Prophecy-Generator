@@ -1,0 +1,1483 @@
+{
+  "title": "Victim Compensation Inquiry",
+  "create_time": 1750787833.340212,
+  "update_time": 1750788038.099725,
+  "mapping": {
+    "bbb23915-3c41-4839-83c4-e6f39de9d53e": {
+      "id": "bbb23915-3c41-4839-83c4-e6f39de9d53e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a703af55-ca1f-4e6f-8957-bde34a245ecd"
+      ]
+    },
+    "a703af55-ca1f-4e6f-8957-bde34a245ecd": {
+      "id": "a703af55-ca1f-4e6f-8957-bde34a245ecd",
+      "message": {
+        "id": "a703af55-ca1f-4e6f-8957-bde34a245ecd",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23915-3c41-4839-83c4-e6f39de9d53e",
+      "children": [
+        "93d040bf-db48-4b04-abb3-04da0147ab73"
+      ]
+    },
+    "93d040bf-db48-4b04-abb3-04da0147ab73": {
+      "id": "93d040bf-db48-4b04-abb3-04da0147ab73",
+      "message": {
+        "id": "93d040bf-db48-4b04-abb3-04da0147ab73",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a703af55-ca1f-4e6f-8957-bde34a245ecd",
+      "children": [
+        "819b06be-c569-42fd-ac3e-633ff517df70"
+      ]
+    },
+    "819b06be-c569-42fd-ac3e-633ff517df70": {
+      "id": "819b06be-c569-42fd-ac3e-633ff517df70",
+      "message": {
+        "id": "819b06be-c569-42fd-ac3e-633ff517df70",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787834.362923,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:57:13.391005+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T17:57:13.391005+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000bc6861f6859d4bf916c2ef7c",
+                "size_bytes": 460878,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.6
+                }
+              },
+              "audio_start_timestamp": 11.76495404401794
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a4e0283d-36c4-45d3-9670-40244448d494",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93d040bf-db48-4b04-abb3-04da0147ab73",
+      "children": [
+        "47c72771-88a8-4abf-94d9-cd1da40cc435"
+      ]
+    },
+    "47c72771-88a8-4abf-94d9-cd1da40cc435": {
+      "id": "47c72771-88a8-4abf-94d9-cd1da40cc435",
+      "message": {
+        "id": "47c72771-88a8-4abf-94d9-cd1da40cc435",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787834.573787,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "It&#x27;s not super common for victims to get direct checks just because the perpetrator is in jail. However, there are victim compensation programs in many places that can help cover certain expenses related to the crime, like medical bills or counseling. If that&#x27;s something you&#x27;re looking into, it might be worth checking out the resources available in your area.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:57:13.391119+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000a4f061f68e689bb333f5c303",
+              "size_bytes": 1048878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 21.85
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "819b06be-c569-42fd-ac3e-633ff517df70",
+          "request_id": "a4e0283d-36c4-45d3-9670-40244448d494",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "819b06be-c569-42fd-ac3e-633ff517df70",
+      "children": [
+        "18ade1d3-e472-4c07-829b-bf08a4ad5273"
+      ]
+    },
+    "18ade1d3-e472-4c07-829b-bf08a4ad5273": {
+      "id": "18ade1d3-e472-4c07-829b-bf08a4ad5273",
+      "message": {
+        "id": "18ade1d3-e472-4c07-829b-bf08a4ad5273",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787886.192347,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No, I mean, in, like, Texas, like, I was just wondering, is it a thing for them to get, like, checks or something if the person that hurt them is in jail, like, victim&#x27;s, a victim&#x27;s, a victim&#x27;s hotline nurse, I don&#x27;t know, what is it called, Amy? Hotline bling? Victim&#x27;s check. Mesothelioma.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:58:06.033375+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T17:58:06.033375+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000ede461f68162daec505abfde",
+                "size_bytes": 1212558,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 25.26
+                }
+              },
+              "audio_start_timestamp": 58.99051151704043
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "06fc97cb-95f0-436d-91d7-0a6953cae309",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "47c72771-88a8-4abf-94d9-cd1da40cc435",
+      "children": [
+        "446dfdfb-73f9-4d42-8667-ce508ad067e7"
+      ]
+    },
+    "446dfdfb-73f9-4d42-8667-ce508ad067e7": {
+      "id": "446dfdfb-73f9-4d42-8667-ce508ad067e7",
+      "message": {
+        "id": "446dfdfb-73f9-4d42-8667-ce508ad067e7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787856.699229,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(&quot;No I mean in like Texas like I was just wondering is it a thing for them to get like checks or something if the person that hurt them is in jail like victims comp victims a victims hotline nurse I don&#x27;t know what is it called hotline bling victims check mesothelioma&quot;)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "18ade1d3-e472-4c07-829b-bf08a4ad5273",
+          "request_id": "06fc97cb-95f0-436d-91d7-0a6953cae309",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "18ade1d3-e472-4c07-829b-bf08a4ad5273",
+      "children": [
+        "5080e4ee-4779-40ff-bd45-1c15f65dd7db"
+      ]
+    },
+    "5080e4ee-4779-40ff-bd45-1c15f65dd7db": {
+      "id": "5080e4ee-4779-40ff-bd45-1c15f65dd7db",
+      "message": {
+        "id": "5080e4ee-4779-40ff-bd45-1c15f65dd7db",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1750787858.3616369,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes, in Texas, the Crime Victims&#x27; Compensation Program can assist victims with expenses like medical bills, counseling, and lost wages, regardless of whether the offender is incarcerated."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_685ae7125548800081f4ba8e9109eb81",
+          "is_visually_hidden_from_conversation": true,
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "texasattorneygeneral.gov",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com",
+                  "title": "Crime Victims&#x27; Compensation Program | Office of the Attorney General",
+                  "snippet": "The Texas Attorney General&#x27;s Crime Victims&#x27; Compensation (CVC) Program helps victims and their families by covering costs like medical bills, counseling, lost ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "texasattorneygeneral.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims?utm_source=chatgpt.com",
+                  "title": "Crime Victims | Office of the Attorney General",
+                  "snippet": "The Crime Victims&#x27; Compensation (CVC) Program can help you cover costs related to the crime — including medical, child care, lost wages, relocation, etc ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "texasattorneygeneral.gov"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "texaslawhelp.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://texaslawhelp.org/article/crime-victims-compensation-cvc-program?utm_source=chatgpt.com",
+                  "title": "Crime Victims&#x27; Compensation (CVC) Program - Texas Law Help",
+                  "snippet": "CVC reimburses out-of-pocket expenses and can help eligible victims pay for medical and counseling bills related to the crime and can help ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1716508800.0,
+                  "attributions": null,
+                  "attribution": "texaslawhelp.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dallaspolice.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dallaspolice.net/resource/victimsCompensation?utm_source=chatgpt.com",
+                  "title": "Victims Compensation - Dallas Police Department",
+                  "snippet": "The Texas Crime Victims&#x27; Compensation Fund helps innocent victims and their families when they have no other means for the financial cost of crime.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "dallaspolice.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "civiclive.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_12410832/File/Departments/Police%20Department/Operational%20Support/Victim%20Advocacy/Crime%20Victim%20Compensation/English.pdf?utm_source=chatgpt.com",
+                  "title": "[PDF] TEXAS CRIME VICTIMS&#x27; COMPENSATION PROGRAM APPLICATION",
+                  "snippet": "The victim must be a resident of Texas, a United States resident who is victimized while in Texas, a Texas resident victimized in another state or country that ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "cdnsm5-hosted.civiclive.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "san-saba.tx.us",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.co.san-saba.tx.us/upload/page/6017/docs/Co.Attorney/Texas_Crime_Victimsx_Compensation_Program_Application-English.pdf?utm_source=chatgpt.com",
+                  "title": "[PDF] Texas Crime Victims&#x27; Compensation Program Application",
+                  "snippet": "The victim must be a resident of Texas, a United States resident who is victimized while in Texas or a Texas resident victimized in another state or country ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "co.san-saba.tx.us"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "houstontx.gov",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.houstontx.gov/police/victim_services/crime_victims_compensation_program.htm?utm_source=chatgpt.com",
+                  "title": "Crime Victims&#x27; Compensation Program - City of Houston",
+                  "snippet": "The Crime Victims&#x27; Compensation (CVC) Program helps crime victims and their immediate families with the financial costs of crime.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "houstontx.gov"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com"
+          ],
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 188,
+              "end_idx": 207,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([texasattorneygeneral.gov](https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Crime Victims&#x27; Compensation Program | Office of the Attorney General",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "The Texas Attorney General&#x27;s Crime Victims&#x27; Compensation (CVC) Program helps victims and their families by covering costs like medical bills, counseling, lost ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 207,
+              "end_idx": 207,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Crime Victims&#x27; Compensation Program | Office of the Attorney General",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com",
+                  "attribution": "texasattorneygeneral.gov"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 188,
+              "end_ix": 207,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 207,
+              "end_ix": 207,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "parent_id": "446dfdfb-73f9-4d42-8667-ce508ad067e7",
+          "request_id": "06fc97cb-95f0-436d-91d7-0a6953cae309",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "446dfdfb-73f9-4d42-8667-ce508ad067e7",
+      "children": [
+        "abed8a06-93ee-4949-84fd-e40ac92dd833"
+      ]
+    },
+    "abed8a06-93ee-4949-84fd-e40ac92dd833": {
+      "id": "abed8a06-93ee-4949-84fd-e40ac92dd833",
+      "message": {
+        "id": "abed8a06-93ee-4949-84fd-e40ac92dd833",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787886.333233,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yes, in Texas, there is a Crime Victims&#x27; Compensation Program that can help cover certain expenses like medical bills, counseling, or lost wages, even if the person who committed the crime is in jail. It&#x27;s not exactly a direct check in the way you&#x27;re describing, but it is financial assistance that can help victims recover. If you want more details, I can definitely help with that!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:58:06.033465+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000018461f6bacdef1df08d92c4",
+              "size_bytes": 1183278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 24.65
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 383,
+              "end_ix": 383,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 383,
+              "end_ix": 383,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 383,
+              "end_idx": 383,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([texasattorneygeneral.gov](https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Crime Victims&#x27; Compensation Program | Office of the Attorney General",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "The Texas Attorney General&#x27;s Crime Victims&#x27; Compensation (CVC) Program helps victims and their families by covering costs like medical bills, counseling, lost ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 383,
+              "end_idx": 383,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Crime Victims&#x27; Compensation Program | Office of the Attorney General",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com",
+                  "attribution": "texasattorneygeneral.gov"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "is_complete": true,
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "texasattorneygeneral.gov",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com",
+                  "title": "Crime Victims&#x27; Compensation Program | Office of the Attorney General",
+                  "snippet": "The Texas Attorney General&#x27;s Crime Victims&#x27; Compensation (CVC) Program helps victims and their families by covering costs like medical bills, counseling, lost ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "texasattorneygeneral.gov"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.texasattorneygeneral.gov/crime-victims?utm_source=chatgpt.com",
+                  "title": "Crime Victims | Office of the Attorney General",
+                  "snippet": "The Crime Victims&#x27; Compensation (CVC) Program can help you cover costs related to the crime — including medical, child care, lost wages, relocation, etc ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "texasattorneygeneral.gov"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "texaslawhelp.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://texaslawhelp.org/article/crime-victims-compensation-cvc-program?utm_source=chatgpt.com",
+                  "title": "Crime Victims&#x27; Compensation (CVC) Program - Texas Law Help",
+                  "snippet": "CVC reimburses out-of-pocket expenses and can help eligible victims pay for medical and counseling bills related to the crime and can help ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": 1716508800.0,
+                  "attributions": null,
+                  "attribution": "texaslawhelp.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dallaspolice.net",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dallaspolice.net/resource/victimsCompensation?utm_source=chatgpt.com",
+                  "title": "Victims Compensation - Dallas Police Department",
+                  "snippet": "The Texas Crime Victims&#x27; Compensation Fund helps innocent victims and their families when they have no other means for the financial cost of crime.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "dallaspolice.net"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "civiclive.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_12410832/File/Departments/Police%20Department/Operational%20Support/Victim%20Advocacy/Crime%20Victim%20Compensation/English.pdf?utm_source=chatgpt.com",
+                  "title": "[PDF] TEXAS CRIME VICTIMS&#x27; COMPENSATION PROGRAM APPLICATION",
+                  "snippet": "The victim must be a resident of Texas, a United States resident who is victimized while in Texas, a Texas resident victimized in another state or country that ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "cdnsm5-hosted.civiclive.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "san-saba.tx.us",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.co.san-saba.tx.us/upload/page/6017/docs/Co.Attorney/Texas_Crime_Victimsx_Compensation_Program_Application-English.pdf?utm_source=chatgpt.com",
+                  "title": "[PDF] Texas Crime Victims&#x27; Compensation Program Application",
+                  "snippet": "The victim must be a resident of Texas, a United States resident who is victimized while in Texas or a Texas resident victimized in another state or country ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "co.san-saba.tx.us"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "houstontx.gov",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.houstontx.gov/police/victim_services/crime_victims_compensation_program.htm?utm_source=chatgpt.com",
+                  "title": "Crime Victims&#x27; Compensation Program - City of Houston",
+                  "snippet": "The Crime Victims&#x27; Compensation (CVC) Program helps crime victims and their immediate families with the financial costs of crime.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "houstontx.gov"
+                }
+              ]
+            }
+          ],
+          "parent_id": "5080e4ee-4779-40ff-bd45-1c15f65dd7db",
+          "request_id": "06fc97cb-95f0-436d-91d7-0a6953cae309",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5080e4ee-4779-40ff-bd45-1c15f65dd7db",
+      "children": [
+        "46b14a1c-003e-48ab-bdf2-1635029a83e7"
+      ]
+    },
+    "46b14a1c-003e-48ab-bdf2-1635029a83e7": {
+      "id": "46b14a1c-003e-48ab-bdf2-1635029a83e7",
+      "message": {
+        "id": "46b14a1c-003e-48ab-bdf2-1635029a83e7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787928.699922,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, give me the details, like how do they get it then if it&#x27;s not a direct check?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:58:48.421806+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T17:58:48.421806+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000005c9861f6b353d2f30b34ced0",
+                "size_bytes": 189198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.94
+                }
+              },
+              "audio_start_timestamp": 91.97270572604612
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4e079058-0b75-42ec-97ca-49325659f697",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "abed8a06-93ee-4949-84fd-e40ac92dd833",
+      "children": [
+        "fd2cf82a-e856-4401-a3b9-877ebd8b68c8"
+      ]
+    },
+    "fd2cf82a-e856-4401-a3b9-877ebd8b68c8": {
+      "id": "fd2cf82a-e856-4401-a3b9-877ebd8b68c8",
+      "message": {
+        "id": "fd2cf82a-e856-4401-a3b9-877ebd8b68c8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787928.840799,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Sure! So, in Texas, the Crime Victims&#x27; Compensation Program is designed to help victims with expenses that result from violent crimes. Victims or their families can apply for compensation, and if they&#x27;re eligible, the program will pay for things like medical bills, counseling, lost wages, and sometimes even relocation costs directly to the service providers. So, it&#x27;s more like the program covers the costs rather than sending a direct check to the victim. If someone&#x27;s interested, they can apply through the Texas Attorney General&#x27;s Office, and there are advocates who can help with the process.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:58:48.421869+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000e07061f68190b72642d505fd",
+              "size_bytes": 1800078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 37.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "46b14a1c-003e-48ab-bdf2-1635029a83e7",
+          "request_id": "4e079058-0b75-42ec-97ca-49325659f697",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "46b14a1c-003e-48ab-bdf2-1635029a83e7",
+      "children": [
+        "dec892ea-f4ac-4b8d-9437-900eacd453cc"
+      ]
+    },
+    "dec892ea-f4ac-4b8d-9437-900eacd453cc": {
+      "id": "dec892ea-f4ac-4b8d-9437-900eacd453cc",
+      "message": {
+        "id": "dec892ea-f4ac-4b8d-9437-900eacd453cc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787948.832853,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I was wondering, like, what&#x27;s the potential for people to abuse that though?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:59:08.672995+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T17:59:08.672995+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000320461f6a6cc298b9d0b2f48",
+                "size_bytes": 158478,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.3
+                }
+              },
+              "audio_start_timestamp": 133.91689026803942
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b29e29a7-460c-4e0d-82bb-63554a62d2b8",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd2cf82a-e856-4401-a3b9-877ebd8b68c8",
+      "children": [
+        "53d792e1-efc5-4b8e-a484-1d0e01b7c9ea"
+      ]
+    },
+    "53d792e1-efc5-4b8e-a484-1d0e01b7c9ea": {
+      "id": "53d792e1-efc5-4b8e-a484-1d0e01b7c9ea",
+      "message": {
+        "id": "53d792e1-efc5-4b8e-a484-1d0e01b7c9ea",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787949.033772,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, that&#x27;s a fair question. The program does have safeguards in place to help prevent abuse, like requiring documentation and verification of expenses. Victims usually need to provide police reports, medical records, and proof of expenses to qualify. Of course,",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:59:08.673063+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000efd061f6a84d58b2de3e4baa",
+              "size_bytes": 792078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 16.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "dec892ea-f4ac-4b8d-9437-900eacd453cc",
+          "request_id": "b29e29a7-460c-4e0d-82bb-63554a62d2b8",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dec892ea-f4ac-4b8d-9437-900eacd453cc",
+      "children": [
+        "c7ea9f9a-0641-4acc-a1de-242dd9659f2d"
+      ]
+    },
+    "c7ea9f9a-0641-4acc-a1de-242dd9659f2d": {
+      "id": "c7ea9f9a-0641-4acc-a1de-242dd9659f2d",
+      "message": {
+        "id": "c7ea9f9a-0641-4acc-a1de-242dd9659f2d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787966.901419,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "But does the perpetrator have to be in jail for them to get the money?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:59:26.733981+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T17:59:26.733981+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000516061f69bb3e59c8cbd1e4d",
+                "size_bytes": 173838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.62
+                }
+              },
+              "audio_start_timestamp": 154.278092269029
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "2cde305b-314e-4aeb-8ca8-ad4c522ceacc",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "53d792e1-efc5-4b8e-a484-1d0e01b7c9ea",
+      "children": [
+        "6cbe439d-296a-4a0e-8f36-f7b43c03a09a"
+      ]
+    },
+    "6cbe439d-296a-4a0e-8f36-f7b43c03a09a": {
+      "id": "6cbe439d-296a-4a0e-8f36-f7b43c03a09a",
+      "message": {
+        "id": "6cbe439d-296a-4a0e-8f36-f7b43c03a09a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750787967.128154,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No, the perpetrator doesn&#x27;t have to be in jail for a victim to receive compensation. The program is really there to help victims with their recovery, regardless of the offender&#x27;s legal status. So, as long as the crime is reported and the victim meets the eligibility requirements,",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T17:59:26.734075+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000c45061f69afc75e9219b0e01",
+              "size_bytes": 648078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 13.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "c7ea9f9a-0641-4acc-a1de-242dd9659f2d",
+          "request_id": "2cde305b-314e-4aeb-8ca8-ad4c522ceacc",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c7ea9f9a-0641-4acc-a1de-242dd9659f2d",
+      "children": [
+        "1cf5c2d6-bc7d-455d-8ca1-dfc66807611c"
+      ]
+    },
+    "1cf5c2d6-bc7d-455d-8ca1-dfc66807611c": {
+      "id": "1cf5c2d6-bc7d-455d-8ca1-dfc66807611c",
+      "message": {
+        "id": "1cf5c2d6-bc7d-455d-8ca1-dfc66807611c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750788007.755739,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What if the offender is with the victim all the time? Do they still get compensated or no?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T18:00:07.455797+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T18:00:07.455797+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000004a4461f6ba859115bedf9401",
+                "size_bytes": 247758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.16
+                }
+              },
+              "audio_start_timestamp": 7.889780873025302
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "9cb7c56a-0cc8-48e1-9972-7f5fcd7d072e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6cbe439d-296a-4a0e-8f36-f7b43c03a09a",
+      "children": [
+        "eb0efb6f-d5df-44d3-9331-3dea7a0d0edc"
+      ]
+    },
+    "eb0efb6f-d5df-44d3-9331-3dea7a0d0edc": {
+      "id": "eb0efb6f-d5df-44d3-9331-3dea7a0d0edc",
+      "message": {
+        "id": "eb0efb6f-d5df-44d3-9331-3dea7a0d0edc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750788007.958217,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "In situations where the offender might still be around the victim, the victim can still apply for compensation. The goal of the program is to help victims get the support they need, no matter the circumstances. Sometimes, if there&#x27;s a safety concern, the program can even help with things like relocation costs. So, the presence of the offender doesn’t disqualify someone from getting the help they need.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T18:00:07.455887+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000007ae861f6894fc2d34d97fad2",
+              "size_bytes": 1190478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 24.8
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "1cf5c2d6-bc7d-455d-8ca1-dfc66807611c",
+          "request_id": "9cb7c56a-0cc8-48e1-9972-7f5fcd7d072e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1cf5c2d6-bc7d-455d-8ca1-dfc66807611c",
+      "children": [
+        "8e6492a6-cada-4541-a0b7-81a54c4216e9"
+      ]
+    },
+    "8e6492a6-cada-4541-a0b7-81a54c4216e9": {
+      "id": "8e6492a6-cada-4541-a0b7-81a54c4216e9",
+      "message": {
+        "id": "8e6492a6-cada-4541-a0b7-81a54c4216e9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750788037.484481,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So, tell me the worst way that somebody could, like, abuse and use that program in a wrong way.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T18:00:37.305776+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-21T18:00:37.305776+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000e3a861f6999c41ff2aec69e7",
+                "size_bytes": 261198,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.44
+                }
+              },
+              "audio_start_timestamp": 39.00057516404195
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6822e3d5-9c9c-49b7-ad58-7dabdc2a45a2",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "eb0efb6f-d5df-44d3-9331-3dea7a0d0edc",
+      "children": [
+        "a44831c4-93ec-4516-8a61-efeeeaeb5d85"
+      ]
+    },
+    "a44831c4-93ec-4516-8a61-efeeeaeb5d85": {
+      "id": "a44831c4-93ec-4516-8a61-efeeeaeb5d85",
+      "message": {
+        "id": "a44831c4-93ec-4516-8a61-efeeeaeb5d85",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750788037.724606,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I think the main concerns about potential abuse usually revolve around someone providing false information, like fake documentation, or exaggerating claims to receive funds they’re not entitled to. But the program does have those safeguards in place, like requiring official records and verification, to make sure the help goes to those who truly need it.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-21T18:00:37.305843+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000b2e061f699a3ce513ae1614e",
+              "size_bytes": 1144878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 23.85
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "8e6492a6-cada-4541-a0b7-81a54c4216e9",
+          "request_id": "6822e3d5-9c9c-49b7-ad58-7dabdc2a45a2",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8e6492a6-cada-4541-a0b7-81a54c4216e9",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a44831c4-93ec-4516-8a61-efeeeaeb5d85",
+  "plugin_ids": null,
+  "conversation_id": "685ae6d5-9e40-8000-858e-215f31faabf7",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "685ae6d5-9e40-8000-858e-215f31faabf7"
+}

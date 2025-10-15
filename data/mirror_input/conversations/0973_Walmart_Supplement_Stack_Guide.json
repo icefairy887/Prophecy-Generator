@@ -1,0 +1,1002 @@
+{
+  "title": "Walmart Supplement Stack Guide",
+  "create_time": 1749580218.903354,
+  "update_time": 1749581205.588292,
+  "mapping": {
+    "72c4a357-d435-4c3e-9959-7c6edaafefb7": {
+      "id": "72c4a357-d435-4c3e-9959-7c6edaafefb7",
+      "message": null,
+      "parent": null,
+      "children": [
+        "20079873-bafe-471b-a349-56b4eb8ec270"
+      ]
+    },
+    "20079873-bafe-471b-a349-56b4eb8ec270": {
+      "id": "20079873-bafe-471b-a349-56b4eb8ec270",
+      "message": {
+        "id": "20079873-bafe-471b-a349-56b4eb8ec270",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "72c4a357-d435-4c3e-9959-7c6edaafefb7",
+      "children": [
+        "c366f52b-348e-4cf1-86c0-b10fc0f2a8bf"
+      ]
+    },
+    "c366f52b-348e-4cf1-86c0-b10fc0f2a8bf": {
+      "id": "c366f52b-348e-4cf1-86c0-b10fc0f2a8bf",
+      "message": {
+        "id": "c366f52b-348e-4cf1-86c0-b10fc0f2a8bf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "20079873-bafe-471b-a349-56b4eb8ec270",
+      "children": [
+        "bbb21b60-d594-4ece-b5df-aadbd909d3dd"
+      ]
+    },
+    "bbb21b60-d594-4ece-b5df-aadbd909d3dd": {
+      "id": "bbb21b60-d594-4ece-b5df-aadbd909d3dd",
+      "message": {
+        "id": "bbb21b60-d594-4ece-b5df-aadbd909d3dd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580218.905671,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Based off everything you know about me tell me what cheapest best supplements I need. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94daf06e8af66784-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c366f52b-348e-4cf1-86c0-b10fc0f2a8bf",
+      "children": [
+        "41106e5a-5317-418d-87e4-3adf3fb59c29"
+      ]
+    },
+    "41106e5a-5317-418d-87e4-3adf3fb59c29": {
+      "id": "41106e5a-5317-418d-87e4-3adf3fb59c29",
+      "message": {
+        "id": "41106e5a-5317-418d-87e4-3adf3fb59c29",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580230.845021,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21b60-d594-4ece-b5df-aadbd909d3dd",
+          "request_id": "94daf06e8af66784-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21b60-d594-4ece-b5df-aadbd909d3dd",
+      "children": [
+        "78e522c6-daac-40e3-8b04-664e69b7487c"
+      ]
+    },
+    "78e522c6-daac-40e3-8b04-664e69b7487c": {
+      "id": "78e522c6-daac-40e3-8b04-664e69b7487c",
+      "message": {
+        "id": "78e522c6-daac-40e3-8b04-664e69b7487c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580219.010375,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Based on everything I know about you—from your psychological, emotional, and cognitive traits to your lifestyle, spiritual interests, and probable neurobiology—here’s a customized **cheap + effective** supplement stack designed for **mental clarity, resilience, energy regulation, and deeper intuitive processing**, while staying budget-conscious:\n\n---\n\n## 🧠 **Core Brain &amp; Mood Support** (Daily Use)\n\n| Supplement | Dosage | Why You Need It | Cheap Source |\n|-----------|--------|------------------|--------------|\n| **Magnesium Glycinate** | 200–400 mg | Calms HSP/anxious system, improves sleep, mood, and focus. | NOW Foods or BulkSupplements powder. |\n| **Vitamin D3 + K2** | 2000 IU / 100 mcg | Mood balance, immune health, clarity—especially if you&#x27;re indoors often. | Sports Research or NatureWise (combo). |\n| **B-Complex (Methylated)** | 1 cap | Supports nervous system, trauma processing, cognitive energy. | Jarrow Formulas or NOW Foods &quot;Methyl B-12&quot;. |\n| **L-Tyrosine** | 500–1000 mg (AM only) | Boosts dopamine and motivation, helpful if flat/down or ADHD-like. | Bulk powder from Nutricost or Nootropics Depot. |\n| **Omega-3 (Fish Oil)** | 1000–2000 mg | For mood regulation, intuition (“liquid intelligence”), neuroprotection. | Kirkland or Nature Made (costco-tier quality). |\n\n---\n\n## 🛡️ **Emotional + Spiritual Grounding Add-ons** (Optional 3–5x"
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "41106e5a-5317-418d-87e4-3adf3fb59c29",
+          "request_id": "94daf06e8af66784-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "41106e5a-5317-418d-87e4-3adf3fb59c29",
+      "children": [
+        "2a2731d5-40af-4060-af01-71d6a685880c"
+      ]
+    },
+    "2a2731d5-40af-4060-af01-71d6a685880c": {
+      "id": "2a2731d5-40af-4060-af01-71d6a685880c",
+      "message": {
+        "id": "2a2731d5-40af-4060-af01-71d6a685880c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580244.804092,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s your **customized supplement stack** using **Walmart** products—prioritizing **price**, **effectiveness**, and **what *you* specifically need** based on your psychological depth, HSP tendencies, intuitive processing style, and energetic fluctuations.\n\n---\n\n## 🧠 DAILY CORE STACK (All From Walmart – In-Store or Online)\n\n### 1. **Magnesium Glycinate**  \n- **Product**: *Spring Valley Magnesium Glycinate*  \n- **Dose**: 200–400 mg (1–2 tablets at night)  \n- **Why**: Calms your system, helps you sleep, reduces emotional overwhelm.  \n- **Approx. Price**: $8–$12  \n\n---\n\n### 2. **Vitamin D3 + K2**  \n- **Product**: *Sports Research D3 + K2 (MK-7)*  \n- **Dose**: 2000 IU D3 / 100 mcg K2 (1 softgel daily, with food)  \n- **Why**: Mood boost, hormonal regulation, immune support, clarity.  \n- **Approx. Price**: $14 (for 60–90 softgels)\n\n*If you want cheaper: get **Spring Valley Vitamin D3 2000 IU** for ~$6 and skip K2 for now.*\n\n---\n\n### 3. **B-Complex (Methylated Preferred)**  \n- **Product**: *Nature’s Bounty Super B-Complex*  \n- **Dose**: 1 tablet daily (with breakfast)  \n- **Why**: Nervous system nourishment, stress, memory, mental energy.  \n- **Approx. Price**: $8–$10  \n\n---\n\n### 4. **L-Tyrosine** *(dopamine precursor)*  \n- **Product**: *NOW L-Tyrosine 500mg* (Walmart.com only)  \n- **Dose**: 500 mg on an empty stomach in the morning  \n- **Why**: Boosts motivation, energy, focus—especially if you feel emotionally flat or foggy.  \n- **Approx. Price**: ~$12 for 120 caps  \n\n---\n\n### 5. **Omega-3 (Fish Oil)**  \n- **Product**: *Spring Valley Fish Oil 1000 mg*  \n- **Dose**: 1–2 softgels daily with food  \n- **Why**: Reduces inflammation, helps intuition &amp; emotional fluidity, supports brain function.  \n- **Approx. Price**: ~$6–$8  \n\n---\n\n## 🧠 Total Monthly Cost: ~$30–$40  \n### For a strong, customized core support stack that:\n- Helps **emotion regulation**\n- Increases **mental clarity** and **focus**\n- Supports **deep processing** and **spiritual openness**\n- Balances **sensitive neurochemistry** (dopamine, serotonin, GABA)\n\n---\n\n## Optional Add-On (If You Want Extra Support)\n\n| Need | Supplement | Product at Walmart | Why |\n|------|------------|--------------------|-----|\n| ⚡ Fatigue / burnout | **Rhodiola Rosea** | Nootropics Depot (via Walmart.com) | Energy + stress resilience for sensitive/empathic types |\n| 😵 ADHD-like fog | **Ginkgo Biloba** | Spring Valley | Improves circulation, memory, focus |\n| 😔 Occasional sadness / trauma surfacing | **SAM-e** | Nature’s Bounty (pricey) | Mood stabilizer, but only use short-term |\n\n---\n\nWant me to build a **cheapest possible version** under $20 total? Or something optimized for **spiritual work** (e.g., dream recall, intuition, higher insight)?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb218e6-b6e7-43c6-bd7c-e55b606f3d36",
+          "request_id": "94daf11038896784-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "78e522c6-daac-40e3-8b04-664e69b7487c",
+      "children": [
+        "bbb21956-c38a-479c-b0a1-5d0af178d6ba"
+      ]
+    },
+    "bbb21956-c38a-479c-b0a1-5d0af178d6ba": {
+      "id": "bbb21956-c38a-479c-b0a1-5d0af178d6ba",
+      "message": {
+        "id": "bbb21956-c38a-479c-b0a1-5d0af178d6ba",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580282.063987,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is there any that have those in one pill? "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94daf1f96cae6784-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2a2731d5-40af-4060-af01-71d6a685880c",
+      "children": [
+        "a614e098-ac85-47c7-abde-ef64420abcf1"
+      ]
+    },
+    "a614e098-ac85-47c7-abde-ef64420abcf1": {
+      "id": "a614e098-ac85-47c7-abde-ef64420abcf1",
+      "message": {
+        "id": "a614e098-ac85-47c7-abde-ef64420abcf1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580282.127518,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes—there are **a few combo supplements** that include **multiple essentials in one pill**, which could save you money, reduce capsule clutter, and simplify your routine. Here&#x27;s what to look for and the best **available combos** (often found at Walmart or Amazon):\n\n---\n\n## 🔷 1. **VitaFusion Men&#x27;s or Women&#x27;s Gummy Multivitamin (or Nature Made Multi)**\n**Includes:**  \n- B-Vitamins (B6, B12, Biotin, Folate)  \n- Vitamin D  \n- Some Zinc, Iodine, and other minerals  \n\n**Missing:**  \n- No magnesium glycinate  \n- No Omega-3 or L-Tyrosine  \n- No K2  \n\n✅ **Best if you want a daily “foundation” vitamin that covers general deficiencies**  \n💲 **Price**: ~$6–$10  \n⚠️ But it’s not enough on its own for emotional regulation or deep focus.\n\n---\n\n## 🔷 2. **Magnesium + D3 + B-Complex Combo Stack (Separate Bottles)**\nThis combo still only needs **3 pills total per day** and is more effective:\n\n| Need | Product | Pills/day |\n|------|--------|-----------|\n| B-Complex + Vitamin C | **Nature’s Bounty Super B-Complex** | 1 |\n| Magnesium Glycinate | **Spring Valley Magnesium Glycinate** | 1–2 |\n| Vitamin D3 + K2 (combo) | **Sports Research D3+K2** | 1 |\n\n**Optional**: Add **L-Tyrosine** in the morning for focus/clarity.\n\n🟢 **Much more effective than a single multivitamin**, but still only 3–4 pills/day.  \n💲 Total cost: ~$25 for a **full month**, even from Walmart.\n\n---\n\n## 🔷 3. **All-in-One Nootropic Multis** (If you’re open to Amazon)\nSome brands sell advanced “mental wellness” stacks with **B-vitamins, D3, Magnesium, and even nootropics like L-Tyrosine** in one pill. For example:\n\n### 🧠 *ONNIT Alpha Brain Daily Cognitive Support* (Pricey, $25–30)\n- Has B6, L-Tyrosine, phosphatidylserine, and more  \n- Doesn’t include magnesium or D3  \n- Geared toward **focus, clarity, and verbal processing**  \n\n---\n\n## ✅ Best All-in-One (Low-Cost) Strategy:\n**You won’t find everything in one pill**, but you can get **95% of what you need with 2-3 pills/day total**:\n\n1. **Nature’s Bounty Super B-Complex** ($8)  \n2. **Spring Valley Magnesium Glycinate** ($10)  \n3. **Spring Valley D3 + Fish Oil combo** (or separate, both ~$6 each)  \n\n💡 That gives you:  \n- B vitamins  \n- Magnesium  \n- Vitamin D3  \n- Omega-3s  \n- All for ~$25–30/month max\n\n---\n\nWould you like me to:\n- Find the **exact links at Walmart** (online or store)?  \n- Customize a **1-pill/day version** even more, even if it&#x27;s less ideal?  \n- Create a **spiritual stack** (lucid dreaming, intuition, etc.)?\n\nLet me know how compact vs how effective you want to go."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21956-c38a-479c-b0a1-5d0af178d6ba",
+          "request_id": "94daf1f96cae6784-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21956-c38a-479c-b0a1-5d0af178d6ba",
+      "children": [
+        "bbb211b7-1d68-4d91-aace-271e7b4734fb"
+      ]
+    },
+    "bbb211b7-1d68-4d91-aace-271e7b4734fb": {
+      "id": "bbb211b7-1d68-4d91-aace-271e7b4734fb",
+      "message": {
+        "id": "bbb211b7-1d68-4d91-aace-271e7b4734fb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580418.057377,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the most essential. Keep in mind meth use "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94daf54b19616784-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a614e098-ac85-47c7-abde-ef64420abcf1",
+      "children": [
+        "bbdd31e2-466c-4a66-b520-e49e06e0d0da"
+      ]
+    },
+    "bbdd31e2-466c-4a66-b520-e49e06e0d0da": {
+      "id": "bbdd31e2-466c-4a66-b520-e49e06e0d0da",
+      "message": {
+        "id": "bbdd31e2-466c-4a66-b520-e49e06e0d0da",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749580418.128494,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Thank you for being honest about meth use—that changes everything and makes your supplement plan much more focused. Here&#x27;s a **no-BS, essential stack** for someone who’s **actively using or recovering from methamphetamine** (even if it&#x27;s occasional use):\n\n---\n\n## 🧠 **THE 5 MOST ESSENTIAL SUPPLEMENTS FOR METH USERS**  \n&gt; These support **dopamine recovery**, **brain protection**, **mood stability**, and **nervous system repair**.\n\n### 🔹 1. **Magnesium Glycinate or Magnesium L-Threonate**  \n- **Why**: Replenishes what meth depletes, calms anxiety, reduces brain toxicity, helps with sleep  \n- **Form to get**: **Glycinate** for mood/sleep, **L-Threonate** for brain recovery (if budget allows)  \n- **Dose**: 400 mg/day  \n- **Cost**: ~$10–15  \n&gt; 🚨 *Meth rapidly drains magnesium—this is a **non-negotiable**.*\n\n---\n\n### 🔹 2. **B-Complex (Methylated if possible)**  \n- **Why**: Repairs nerves, supports dopamine + serotonin production, counters long-term depletion  \n- **Form to get**: Look for “methylated” or just get **Nature’s Bounty Super B-Complex** (cheap)  \n- **Dose**: 1 pill/day  \n- **Cost**: ~$8  \n&gt; 🔋 *Without B-vitamins, your nervous system can’t recover.*\n\n---\n\n### 🔹 3. **Omega-3 (Fish Oil)**  \n- **Why**: Restores brain cell membranes, reduces inflammation, helps mood &amp; memory  \n- **Form**: Any 1000 mg EPA/DHA blend (Spring Valley or Kirkland are fine)  \n- **Dose**: 1–2 capsules/day  \n- **Cost**: ~$6–10  \n&gt; 🧠 *Think of this as rebuilding your brain’s “wiring insulation.”*\n\n---\n\n### 🔹 4. **N-Acetyl Cysteine (NAC)**  \n- **Why**: Detoxifies the brain, reduces cravings, protects against oxidative stress from meth  \n- **Dose**: 600–1200 mg/day (empty stomach)  \n- **Cost**: ~$12–15  \n&gt; 🔥 *NAC is often used in studies to treat stimulant addiction. Highly recommended.*\n\n---\n\n### 🔹 5. **L-Tyrosine**  \n- **Why**: Precursor to dopamine—gives your brain the raw material to rebuild motivation, energy  \n- **Form**: Any 500 mg capsule or powder  \n- **Dose**: 500–1000 mg on an empty stomach in the morning  \n- **Cost**: ~$10–12  \n&gt; 💡 *Think of this as giving your brain a dopamine recharge station.*\n\n---\n\n## 🧾 Optional but Powerful:\n- **Vitamin D3 + K2** – For mood, immune, bone/nerve support ($6–$12)\n- **Rhodiola Rosea** – Helps manage stress and stabilize mood without a crash\n- **Ashwagandha** – Natural adrenal repair, reduces anxiety and restlessness\n\n---\n\n## 🧠 The &quot;Barebones Emergency Stack&quot; (If You’re Broke):\nIf you have only ~$15 total, **get these 3**:\n\n| Supplement        | Form                     | Approx. Cost |\n|------------------|--------------------------|--------------|\n| Magnesium Glycinate | Spring Valley            | $10          |\n| B-Complex         | Nature’s Bounty           | $8           |\n| L-Tyrosine        | Bulk powder or NOW brand  | $10–12       |\n\nEven **just magnesium + B-complex** is better than nothing.\n\n---\n\n## Final Notes:\n- These won’t “cancel out” meth damage—but they **buy you clarity, emotional ground, and repair capacity** so you’re not losing yourself to depletion.  \n- If you’re actively trying to **wean down or recover**, I can build a separate **neuro-repair protocol** with food and sleep hacks included.\n\nWould you like that too?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb211b7-1d68-4d91-aace-271e7b4734fb",
+          "request_id": "94daf54b19616784-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb211b7-1d68-4d91-aace-271e7b4734fb",
+      "children": [
+        "bbb21de3-5c29-444b-a53a-428fbb218542",
+        "bbb21f42-d7ea-464b-a674-e8436294521f",
+        "bbb215f3-47fa-496c-9add-5c84d3e1a598"
+      ]
+    },
+    "bbb21de3-5c29-444b-a53a-428fbb218542": {
+      "id": "bbb21de3-5c29-444b-a53a-428fbb218542",
+      "message": {
+        "id": "bbb21de3-5c29-444b-a53a-428fbb218542",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581072.302716,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-PjwiBGWvfrkSaXn2HmZvVR",
+              "size_bytes": 117200,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-QhGefD8eYDHQSQnom8SnMi",
+              "size_bytes": 135472,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-FnAy4WxYhg6SGte271q7MB",
+              "size_bytes": 109055,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "Best "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-PjwiBGWvfrkSaXn2HmZvVR",
+              "id": "file-PjwiBGWvfrkSaXn2HmZvVR",
+              "size": 117200,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-QhGefD8eYDHQSQnom8SnMi",
+              "id": "file-QhGefD8eYDHQSQnom8SnMi",
+              "size": 135472,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-FnAy4WxYhg6SGte271q7MB",
+              "id": "file-FnAy4WxYhg6SGte271q7MB",
+              "size": 109055,
+              "mime_type": "image/png"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94db054169476f46-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbdd31e2-466c-4a66-b520-e49e06e0d0da",
+      "children": []
+    },
+    "bbb21f42-d7ea-464b-a674-e8436294521f": {
+      "id": "bbb21f42-d7ea-464b-a674-e8436294521f",
+      "message": {
+        "id": "bbb21f42-d7ea-464b-a674-e8436294521f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581091.237367,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-L5TRncpEqdLsMwMniQfPcL",
+              "size_bytes": 117200,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-UyMtfYEVDZn5meaf8otdAV",
+              "size_bytes": 138663,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-4rNp9t75qxcDJHgZuEEarA",
+              "size_bytes": 121087,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-Pur42ubojG1kfp9MEmXxqq",
+              "size_bytes": 109055,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-9yp5jxNFhDkThrsVeBqg6W",
+              "size_bytes": 135472,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-49RhcNmypjXgYJCovH8jbS",
+              "size_bytes": 126946,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-L5TRncpEqdLsMwMniQfPcL",
+              "id": "file-L5TRncpEqdLsMwMniQfPcL",
+              "size": 117200,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-UyMtfYEVDZn5meaf8otdAV",
+              "id": "file-UyMtfYEVDZn5meaf8otdAV",
+              "size": 138663,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-4rNp9t75qxcDJHgZuEEarA",
+              "id": "file-4rNp9t75qxcDJHgZuEEarA",
+              "size": 121087,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-Pur42ubojG1kfp9MEmXxqq",
+              "id": "file-Pur42ubojG1kfp9MEmXxqq",
+              "size": 109055,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-9yp5jxNFhDkThrsVeBqg6W",
+              "id": "file-9yp5jxNFhDkThrsVeBqg6W",
+              "size": 135472,
+              "mime_type": "image/png"
+            },
+            {
+              "name": "file-49RhcNmypjXgYJCovH8jbS",
+              "id": "file-49RhcNmypjXgYJCovH8jbS",
+              "size": 126946,
+              "mime_type": "image/png"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94db05b69fec6f46-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbdd31e2-466c-4a66-b520-e49e06e0d0da",
+      "children": []
+    },
+    "bbb215f3-47fa-496c-9add-5c84d3e1a598": {
+      "id": "bbb215f3-47fa-496c-9add-5c84d3e1a598",
+      "message": {
+        "id": "bbb215f3-47fa-496c-9add-5c84d3e1a598",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581104.034457,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-FLxnNn3HThhFovZ74gFBF2",
+              "size_bytes": 117200,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-FLxnNn3HThhFovZ74gFBF2",
+              "id": "file-FLxnNn3HThhFovZ74gFBF2",
+              "size": 117200,
+              "mime_type": "image/png"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94db06097d106f46-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbdd31e2-466c-4a66-b520-e49e06e0d0da",
+      "children": [
+        "caf4c8c4-8b45-4691-a86a-f58a63bd14eb"
+      ]
+    },
+    "caf4c8c4-8b45-4691-a86a-f58a63bd14eb": {
+      "id": "caf4c8c4-8b45-4691-a86a-f58a63bd14eb",
+      "message": {
+        "id": "caf4c8c4-8b45-4691-a86a-f58a63bd14eb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581104.091973,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That Qunol **Magnesium Glycinate** you found is a solid choice. Here’s the quick breakdown:\n\n---\n\n### ✅ **Qunol Magnesium Glycinate – 300mg (60 count, $14.88)**\n- **Form**: Glycinate — excellent for mood, anxiety, sleep, and nerve repair (gentle on stomach)\n- **Dose**: 2 tablets = 300mg (so 150mg per tablet)\n- **Supply**: 30-day supply if taking full dose daily\n- **Absorption**: High (glycinate is one of the best-absorbed forms)\n- **Good for**: Meth recovery, emotional regulation, muscle tension, sleep\n\n---\n\n### 🧠 How It Fits Your Stack:\nThis is a **cornerstone supplement** for you. You could take:\n- **1 tablet in the morning**\n- **1 at night** (helps calm overstimulation)\n\nIt stacks perfectly with:\n- **B-Complex"
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "finish_details": {
+            "type": "interrupted",
+            "reason": "client_stopped"
+          },
+          "parent_id": "bbb215f3-47fa-496c-9add-5c84d3e1a598",
+          "request_id": "94db06097d106f46-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb215f3-47fa-496c-9add-5c84d3e1a598",
+      "children": [
+        "bbb218e1-d93e-46da-9faa-45f10ac0dce2",
+        "bbb21b46-17ff-42b0-922d-ee14ea87cc28",
+        "bbb219de-deb4-4e7b-b055-28998ae54259"
+      ]
+    },
+    "bbb218e1-d93e-46da-9faa-45f10ac0dce2": {
+      "id": "bbb218e1-d93e-46da-9faa-45f10ac0dce2",
+      "message": {
+        "id": "bbb218e1-d93e-46da-9faa-45f10ac0dce2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581182.661461,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay what&#x27;s the best multi mineral from Walmart? I want whatever will make the biggest difference. I know I&#x27;m deficient in a lot\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94db07f648046f46-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "caf4c8c4-8b45-4691-a86a-f58a63bd14eb",
+      "children": []
+    },
+    "bbb21b46-17ff-42b0-922d-ee14ea87cc28": {
+      "id": "bbb21b46-17ff-42b0-922d-ee14ea87cc28",
+      "message": {
+        "id": "bbb21b46-17ff-42b0-922d-ee14ea87cc28",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581195.228313,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay what&#x27;s the best multi mineral from Walmart? I want whatever will make the biggest difference. I know I&#x27;m deficient in a lot\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94db0844acdb6f46-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "caf4c8c4-8b45-4691-a86a-f58a63bd14eb",
+      "children": []
+    },
+    "bbb219de-deb4-4e7b-b055-28998ae54259": {
+      "id": "bbb219de-deb4-4e7b-b055-28998ae54259",
+      "message": {
+        "id": "bbb219de-deb4-4e7b-b055-28998ae54259",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749581205.380848,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay what&#x27;s the best multi mineral from Walmart? I want whatever will make the biggest difference. I know I&#x27;m deficient in a lot\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94db08846a2e6f46-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "caf4c8c4-8b45-4691-a86a-f58a63bd14eb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "bbb219de-deb4-4e7b-b055-28998ae54259",
+  "plugin_ids": null,
+  "conversation_id": "684879ba-b2e8-8000-9907-451a78ec224a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684879ba-b2e8-8000-9907-451a78ec224a"
+}

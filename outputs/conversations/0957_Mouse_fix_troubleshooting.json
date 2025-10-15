@@ -1,0 +1,226 @@
+{
+  "title": "Mouse fix troubleshooting",
+  "create_time": 1749700700.024523,
+  "update_time": 1749700708.357975,
+  "mapping": {
+    "ba34721b-3a31-4702-bbcd-96e434741102": {
+      "id": "ba34721b-3a31-4702-bbcd-96e434741102",
+      "message": null,
+      "parent": null,
+      "children": [
+        "24c61faf-c49b-4b13-b557-96fb8db04605"
+      ]
+    },
+    "24c61faf-c49b-4b13-b557-96fb8db04605": {
+      "id": "24c61faf-c49b-4b13-b557-96fb8db04605",
+      "message": {
+        "id": "24c61faf-c49b-4b13-b557-96fb8db04605",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ba34721b-3a31-4702-bbcd-96e434741102",
+      "children": [
+        "8c67a09d-16b3-4850-87c3-d7148669db00"
+      ]
+    },
+    "8c67a09d-16b3-4850-87c3-d7148669db00": {
+      "id": "8c67a09d-16b3-4850-87c3-d7148669db00",
+      "message": {
+        "id": "8c67a09d-16b3-4850-87c3-d7148669db00",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "24c61faf-c49b-4b13-b557-96fb8db04605",
+      "children": [
+        "bbb21633-7128-459a-b139-9ef0c35412f0"
+      ]
+    },
+    "bbb21633-7128-459a-b139-9ef0c35412f0": {
+      "id": "bbb21633-7128-459a-b139-9ef0c35412f0",
+      "message": {
+        "id": "bbb21633-7128-459a-b139-9ef0c35412f0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749700700.055816,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Dude, my mouse is like, toward the fuck up, like, what do I do for it?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": true,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94e66ddbdbeab076-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c67a09d-16b3-4850-87c3-d7148669db00",
+      "children": [
+        "51af6b5d-cff3-4f13-870a-163638983951"
+      ]
+    },
+    "51af6b5d-cff3-4f13-870a-163638983951": {
+      "id": "51af6b5d-cff3-4f13-870a-163638983951",
+      "message": {
+        "id": "51af6b5d-cff3-4f13-870a-163638983951",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749700707.246461,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21633-7128-459a-b139-9ef0c35412f0",
+          "request_id": "94e66ddbdbeab076-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21633-7128-459a-b139-9ef0c35412f0",
+      "children": [
+        "a4e78f67-f952-4c3b-864b-3693cfa2b259"
+      ]
+    },
+    "a4e78f67-f952-4c3b-864b-3693cfa2b259": {
+      "id": "a4e78f67-f952-4c3b-864b-3693cfa2b259",
+      "message": {
+        "id": "a4e78f67-f952-4c3b-864b-3693cfa2b259",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749700700.323871,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got you, Brooke. Let’s fix your janky-ass mouse. Here&#x27;s a checklist depending on what&#x27;s going wrong:\n\n---\n\n### 🖱️ **If it&#x27;s acting glitchy, laggy, or skipping:**\n- **Wired?**  \n  - Unplug and replug it into a different USB port.\n  - Check the cord for damage or kinks.\n- **Wireless?**  \n  - Replace or recharge the batteries.\n  - Try re-pairing it if it&#x27;s Bluetooth.\n  - Check if there’s interference from other devices (like routers or metal surfaces nearby).\n- **Both:**  \n  - Clean the sensor underneath with a Q-tip or soft cloth.\n  - Use a mousepad or clean surface—some textures can confuse the sensor.\n\n---\n\n### 🧠 **If it’s not clicking right or double-clicking weirdly:**\n- **Double-click when you single-click?**\n  - Go to Mouse Settings &gt; Adjust the double-click speed (slow it down).\n- **Stuck button or no click?**\n  - Spray a *tiny* bit of compressed air around the button.\n  - If it’s old, it might be a mechanical issue—worn-out switch.\n\n---\n\n### 💻 **On software/driver level:**\n- Restart your device. Sometimes it’s just some background process bugging out.\n- **Windows?**  \n  - `Device Manager` → Find your mouse → Uninstall → Reboot (it’ll auto reinstall).\n- **Linux/Termux setup?**  \n  - Let me know your environment and I’ll walk you through checking input logs or configs.\n\n---\n\n### 🧪 Bonus diagnostics:\n- Try the mouse on a different device.\n  - Still busted? Hardware problem.\n  - Works fine? Problem’s with your system.\n\n---\n\nLet me know what it’s doing exactly (e.g., not moving? moves but jittery? only left click works?) and I’ll zero in on the fix."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "51af6b5d-cff3-4f13-870a-163638983951",
+          "request_id": "94e66ddbdbeab076-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "51af6b5d-cff3-4f13-870a-163638983951",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a4e78f67-f952-4c3b-864b-3693cfa2b259",
+  "plugin_ids": null,
+  "conversation_id": "684a505b-94e4-8000-9210-ff57a0b206af",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/share/r/16Z9GQhsod/?mibextid=wwXIfr"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684a505b-94e4-8000-9210-ff57a0b206af"
+}

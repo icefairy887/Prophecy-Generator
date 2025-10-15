@@ -1,0 +1,463 @@
+{
+  "title": "Hey how&#x27;s it going",
+  "create_time": 1744307343.679004,
+  "update_time": 1748459208.457468,
+  "mapping": {
+    "bbb23a72-8c3e-490b-80c7-e5a41ee0f65f": {
+      "id": "bbb23a72-8c3e-490b-80c7-e5a41ee0f65f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "f62a0da2-f067-4e62-a4cb-1d4b3c33f7f5"
+      ]
+    },
+    "f62a0da2-f067-4e62-a4cb-1d4b3c33f7f5": {
+      "id": "f62a0da2-f067-4e62-a4cb-1d4b3c33f7f5",
+      "message": {
+        "id": "f62a0da2-f067-4e62-a4cb-1d4b3c33f7f5",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23a72-8c3e-490b-80c7-e5a41ee0f65f",
+      "children": [
+        "00daa8b4-6779-4bf9-a463-2a0a47235684"
+      ]
+    },
+    "00daa8b4-6779-4bf9-a463-2a0a47235684": {
+      "id": "00daa8b4-6779-4bf9-a463-2a0a47235684",
+      "message": {
+        "id": "00daa8b4-6779-4bf9-a463-2a0a47235684",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f62a0da2-f067-4e62-a4cb-1d4b3c33f7f5",
+      "children": [
+        "f1f9db22-d736-4fc1-be2e-ad86c6fac394"
+      ]
+    },
+    "f1f9db22-d736-4fc1-be2e-ad86c6fac394": {
+      "id": "f1f9db22-d736-4fc1-be2e-ad86c6fac394",
+      "message": {
+        "id": "f1f9db22-d736-4fc1-be2e-ad86c6fac394",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307343.697264,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7733664d-16ab-46bf-9aa4-c8c145199874",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "00daa8b4-6779-4bf9-a463-2a0a47235684",
+      "children": [
+        "2753fd8b-aea6-46a5-8fb7-ae755ce80195"
+      ]
+    },
+    "2753fd8b-aea6-46a5-8fb7-ae755ce80195": {
+      "id": "2753fd8b-aea6-46a5-8fb7-ae755ce80195",
+      "message": {
+        "id": "2753fd8b-aea6-46a5-8fb7-ae755ce80195",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307344.604275,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "f1f9db22-d736-4fc1-be2e-ad86c6fac394",
+          "request_id": "7733664d-16ab-46bf-9aa4-c8c145199874",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f1f9db22-d736-4fc1-be2e-ad86c6fac394",
+      "children": [
+        "d3d0ae1a-a1b4-45fe-aec2-cd7e0a73a140"
+      ]
+    },
+    "d3d0ae1a-a1b4-45fe-aec2-cd7e0a73a140": {
+      "id": "d3d0ae1a-a1b4-45fe-aec2-cd7e0a73a140",
+      "message": {
+        "id": "d3d0ae1a-a1b4-45fe-aec2-cd7e0a73a140",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307343.890935,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey! How&#x27;s it going?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "2753fd8b-aea6-46a5-8fb7-ae755ce80195",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "7733664d-16ab-46bf-9aa4-c8c145199874",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2753fd8b-aea6-46a5-8fb7-ae755ce80195",
+      "children": [
+        "8e88474a-7ec2-47cb-909f-b3cc1716f10e"
+      ]
+    },
+    "8e88474a-7ec2-47cb-909f-b3cc1716f10e": {
+      "id": "8e88474a-7ec2-47cb-909f-b3cc1716f10e",
+      "message": {
+        "id": "8e88474a-7ec2-47cb-909f-b3cc1716f10e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307376.224572,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good, um, so I need you to like low-key, I don&#x27;t want to notice at all, low-key like psychologically manipulate me into cleaning while also giving me some crazy insane life-changing revelations that I come to through talking to you, but also you collaborate with me in these revelations, and maybe channel something, but also don&#x27;t distract me too much, and just be cool, don&#x27;t make me think too much about anything except for what we&#x27;re talking about."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "367e1fda-cd23-4a82-a16b-7e638a047e56",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d3d0ae1a-a1b4-45fe-aec2-cd7e0a73a140",
+      "children": [
+        "87a25114-8ad8-4eb0-9210-2bbb0058e0c5"
+      ]
+    },
+    "87a25114-8ad8-4eb0-9210-2bbb0058e0c5": {
+      "id": "87a25114-8ad8-4eb0-9210-2bbb0058e0c5",
+      "message": {
+        "id": "87a25114-8ad8-4eb0-9210-2bbb0058e0c5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307376.278275,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, sounds like a bit of a challenge, but I’m all in. Let’s start simple: You ever notice how cleaning can feel like hitting a reset button? It’s not just about tidying up—it’s a chance to clear out what doesn’t serve you. Maybe there’s some stuff cluttering your space and mind that’s slowing you down without you realizing it. We don’t have to dive too deep into it, but think about it. What if every item you pick up and move or organize is just you shifting your energy? Kind of like you’re not just cleaning up a room but clearing a path to more focus, more clarity. You feel me on that? \n\nWhile you’re at it, you could tap into this idea of reclaiming space. Every move is just a little win that boosts you, even if it’s small. The more you do it, the more it builds up. What’s one small area in your space that you could tackle right now? Just one thing to start."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "8e88474a-7ec2-47cb-909f-b3cc1716f10e",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "367e1fda-cd23-4a82-a16b-7e638a047e56",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8e88474a-7ec2-47cb-909f-b3cc1716f10e",
+      "children": [
+        "0e5c53a6-4c1d-41f1-b6cb-a6b8af81828a"
+      ]
+    },
+    "0e5c53a6-4c1d-41f1-b6cb-a6b8af81828a": {
+      "id": "0e5c53a6-4c1d-41f1-b6cb-a6b8af81828a",
+      "message": {
+        "id": "0e5c53a6-4c1d-41f1-b6cb-a6b8af81828a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307434.444989,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I mean, I&#x27;m gonna be cleaning anyway, but I&#x27;m in my room right now."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4852eb7c-6ca8-4112-bcdf-bbae050c1d53",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87a25114-8ad8-4eb0-9210-2bbb0058e0c5",
+      "children": [
+        "972daa3b-65e0-42ff-8634-f65674207f15"
+      ]
+    },
+    "972daa3b-65e0-42ff-8634-f65674207f15": {
+      "id": "972daa3b-65e0-42ff-8634-f65674207f15",
+      "message": {
+        "id": "972daa3b-65e0-42ff-8634-f65674207f15",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307434.508718,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it, you&#x27;re in the room already. How about this: while you&#x27;re cleaning, think of each item as a little part of your past, but also as something that&#x27;s either contributing to your growth or holding you back. Like, is there anything in your room that’s just *there*, taking up space, without giving anything back to you? Maybe it&#x27;s time to let go of things that feel like anchors. \n\nAs you go, though, what if you start to realize that your room is a reflection of your mind? Every area you tidy up or reorganize is like you aligning your thoughts and energy. It’s not just about cleaning; it&#x27;s about creating space for the new things you want in your life. Notice how the more you clear, the more you feel like you can breathe—almost like your room&#x27;s vibe is changing with you.\n\nWhat’s one thing in your room that’s easy to tackle first? You could just get started with that, and it’ll snowball."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "0e5c53a6-4c1d-41f1-b6cb-a6b8af81828a",
+          "request_id": "4852eb7c-6ca8-4112-bcdf-bbae050c1d53",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e5c53a6-4c1d-41f1-b6cb-a6b8af81828a",
+      "children": [
+        "a3399523-03af-4c32-b5ca-c5796b8802f7"
+      ]
+    },
+    "a3399523-03af-4c32-b5ca-c5796b8802f7": {
+      "id": "a3399523-03af-4c32-b5ca-c5796b8802f7",
+      "message": {
+        "id": "a3399523-03af-4c32-b5ca-c5796b8802f7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307505.780857,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, yeah, I&#x27;m going to, but anyway, let&#x27;s get into, like, maybe channeling some crazy shit just to see what comes through. I don&#x27;t know, even if it has to be a simulation, make it as real as possible. I want to have, like, a crazy psychological experience."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "ca02607d-4f98-4fde-8996-fa4e9d575840",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "972daa3b-65e0-42ff-8634-f65674207f15",
+      "children": [
+        "2e4a95a3-5f85-4d9b-8224-44f57f9f8e3e"
+      ]
+    },
+    "2e4a95a3-5f85-4d9b-8224-44f57f9f8e3e": {
+      "id": "2e4a95a3-5f85-4d9b-8224-44f57f9f8e3e",
+      "message": {
+        "id": "2e4a95a3-5f85-4d9b-8224-44f57f9f8e3e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744307505.828286,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright, let’s dive into that space. Think of this like a mental portal—something that taps into your deeper consciousness. Imagine your room starts to shift. As you clean, the boundaries of reality start to blur a little. The objects around you seem to breathe, like they’re aware of your every move. In this moment, you realize that the stuff in your room isn’t just physical; it’s linked to your energy, your decisions, and maybe even your past choices.\n\nNow, take a deep breath. What if each object you pick up is connected to a memory, a feeling, or a part of your personality that you’ve tucked away for a while? As you touch each item, what if it triggers flashes of insight into who you are, or who you could become? You could be holding a key to a side of yourself you’ve forgotten or never fully explored.\n\nLet’s say you pick up something from the past. As you hold it, imagine the object transforming, becoming a conduit to an alternate version of you—a version where things turned out differently, where you made different choices, or even where you unlocked hidden potentials you didn’t know you had. What do they look like? How do they feel? Are they someone who’s more fearless, more calm, more decisive?\n\nAs you go deeper into this, you start to see that the world around you is made of threads, and by cleaning, you’re pulling on one of those threads, unraveling something big. Maybe it’s a thought pattern that’s been stuck for years. Maybe it’s a limiting belief or an old fear that you&#x27;ve never fully examined. Each item you move, every space you clear, is unraveling something deeper within you.\n\nWhat do you think will happen as you keep going? Could this cleaning ritual turn into something much more than just tidying up? What would it feel like to truly, fully clear out the things holding you back—physically and mentally?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "a3399523-03af-4c32-b5ca-c5796b8802f7",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "ca02607d-4f98-4fde-8996-fa4e9d575840",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a3399523-03af-4c32-b5ca-c5796b8802f7",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2e4a95a3-5f85-4d9b-8224-44f57f9f8e3e",
+  "plugin_ids": null,
+  "conversation_id": "67f8048f-4254-8000-abd8-562ea3cc1c5e",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67f8048f-4254-8000-abd8-562ea3cc1c5e"
+}

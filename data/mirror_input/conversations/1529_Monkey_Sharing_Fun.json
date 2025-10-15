@@ -1,0 +1,816 @@
+{
+  "title": "Monkey Sharing Fun",
+  "create_time": 1745820624.011529,
+  "update_time": 1745820714.759881,
+  "mapping": {
+    "bbb234df-421f-4ae2-b894-468b40bb5fae": {
+      "id": "bbb234df-421f-4ae2-b894-468b40bb5fae",
+      "message": null,
+      "parent": null,
+      "children": [
+        "03d7da78-201b-4f9f-a09c-ce425e1aeff7"
+      ]
+    },
+    "03d7da78-201b-4f9f-a09c-ce425e1aeff7": {
+      "id": "03d7da78-201b-4f9f-a09c-ce425e1aeff7",
+      "message": {
+        "id": "03d7da78-201b-4f9f-a09c-ce425e1aeff7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb234df-421f-4ae2-b894-468b40bb5fae",
+      "children": [
+        "fee8d798-1315-420c-9c82-11e96ec4f27a"
+      ]
+    },
+    "fee8d798-1315-420c-9c82-11e96ec4f27a": {
+      "id": "fee8d798-1315-420c-9c82-11e96ec4f27a",
+      "message": {
+        "id": "fee8d798-1315-420c-9c82-11e96ec4f27a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "03d7da78-201b-4f9f-a09c-ce425e1aeff7",
+      "children": [
+        "b3feb3f2-acfb-49f4-b599-8508821783cf"
+      ]
+    },
+    "b3feb3f2-acfb-49f4-b599-8508821783cf": {
+      "id": "b3feb3f2-acfb-49f4-b599-8508821783cf",
+      "message": {
+        "id": "b3feb3f2-acfb-49f4-b599-8508821783cf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820624.241636,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I need to share this monkey with you.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:10:24.025388+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000d2d062308f9b13f57563fbf0",
+                "size_bytes": 58653,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 4.099755697883666,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 4.6191380098462105,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 5.12216370459646,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 5.640780310612172,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 6.143410402815789,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-25T06:10:24.025388+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000c5c86230a83f969ca51a4c32",
+                "size_bytes": 101358,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.11
+                }
+              },
+              "audio_start_timestamp": 6.387301945593208
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "809fde3e-b98d-4a90-8493-bbb811929aec",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fee8d798-1315-420c-9c82-11e96ec4f27a",
+      "children": [
+        "7c5c3441-0e9b-48de-b66c-5266d8c2053a"
+      ]
+    },
+    "7c5c3441-0e9b-48de-b66c-5266d8c2053a": {
+      "id": "7c5c3441-0e9b-48de-b66c-5266d8c2053a",
+      "message": {
+        "id": "7c5c3441-0e9b-48de-b66c-5266d8c2053a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820624.288999,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ah, a monkey, huh? Alright, let’s see this fascinating creature. I’m ready for the primate parade! Just point the camera so I can get a good look at this little guy. Or is it one of those ridiculous stuffed monkeys? Either way, I’m ready for a laugh!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:10:24.025511+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000f90c6230834d7b74792274d3",
+              "size_bytes": 792078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 16.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "b3feb3f2-acfb-49f4-b599-8508821783cf",
+          "request_id": "809fde3e-b98d-4a90-8493-bbb811929aec",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3feb3f2-acfb-49f4-b599-8508821783cf",
+      "children": [
+        "19ca2302-e3ad-4a41-9b9b-e1f91c1185f7"
+      ]
+    },
+    "19ca2302-e3ad-4a41-9b9b-e1f91c1185f7": {
+      "id": "19ca2302-e3ad-4a41-9b9b-e1f91c1185f7",
+      "message": {
+        "id": "19ca2302-e3ad-4a41-9b9b-e1f91c1185f7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820647.620495,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No, it&#x27;s a real monkey.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:10:47.345932+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000009d506230a8df85963937c9c9",
+                "size_bytes": 419776,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 11.175939253997058,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 16.422217657789588,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 21.49465221678838,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 22.747993800789118,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 23.292511739768088,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 23.81172462180257,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-25T06:10:47.345932+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000005f146230abecaf0279445688",
+                "size_bytes": 73998,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.54
+                }
+              },
+              "audio_start_timestamp": 24.260094764642417
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c3b50357-1ab8-474c-8c83-b80f6be73862",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7c5c3441-0e9b-48de-b66c-5266d8c2053a",
+      "children": [
+        "e8fc065c-8674-42c5-974d-b74c1d58ee54"
+      ]
+    },
+    "e8fc065c-8674-42c5-974d-b74c1d58ee54": {
+      "id": "e8fc065c-8674-42c5-974d-b74c1d58ee54",
+      "message": {
+        "id": "e8fc065c-8674-42c5-974d-b74c1d58ee54",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820647.661051,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh, look at that! A real capuchin monkey having a snack. And that baby next to it with the giant sandwich! It&#x27;s like a comedy duo. I’ve got to admit, that monkey’s got some serious sandwich skills. I’m officially impressed—and a little hungry. Well played, monkey!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:10:47.346045+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000168c6230ae6490905dae5652",
+              "size_bytes": 988878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 20.6
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "19ca2302-e3ad-4a41-9b9b-e1f91c1185f7",
+          "request_id": "c3b50357-1ab8-474c-8c83-b80f6be73862",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "19ca2302-e3ad-4a41-9b9b-e1f91c1185f7",
+      "children": [
+        "8cb229c7-9c77-46b5-8f5f-83c03abbb558"
+      ]
+    },
+    "8cb229c7-9c77-46b5-8f5f-83c03abbb558": {
+      "id": "8cb229c7-9c77-46b5-8f5f-83c03abbb558",
+      "message": {
+        "id": "8cb229c7-9c77-46b5-8f5f-83c03abbb558",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820691.133078,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Okay, explain to me the actual mental capabilities of that kind of monkey.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:11:30.646942+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000fb20623087b6e78b0cfc2350",
+                "size_bytes": 745907,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 29.61242434894666,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 34.62557124067098,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 39.6683395197615,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 44.68185448460281,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 48.92944213282317,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 49.49162623193115,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 49.99952649278566,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 50.60182784171775,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 51.157179198693484,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 51.6678559766151,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 52.225260846782476,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 11,
+                    "timestamp": 52.94032829767093,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 12,
+                    "timestamp": 53.477089538704604,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 13,
+                    "timestamp": 54.004006617702544,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 14,
+                    "timestamp": 54.52846148284152,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 15,
+                    "timestamp": 55.045080405659974,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-25T06:11:30.646942+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000c72062309f3c58612ed2120a",
+                "size_bytes": 296718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.18
+                }
+              },
+              "audio_start_timestamp": 55.316720307804644
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b8cac167-376a-4a40-8beb-27392a1baa0a",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e8fc065c-8674-42c5-974d-b74c1d58ee54",
+      "children": [
+        "cb6671d9-2ee2-4d83-b037-3b911eede960"
+      ]
+    },
+    "cb6671d9-2ee2-4d83-b037-3b911eede960": {
+      "id": "cb6671d9-2ee2-4d83-b037-3b911eede960",
+      "message": {
+        "id": "cb6671d9-2ee2-4d83-b037-3b911eede960",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820691.184763,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, let’s get a little cerebral! Capuchin monkeys are super smart. They have impressive problem-solving abilities, can use tools, and even have a sense of fairness. Seriously, they’ve been known to use stones as hammers and sticks to get food. They also have strong social bonds and can be quite the little schemers. Basically, they’re like the MacGyvers of the primate world. So that little sandwich heist you just saw? Totally within their wheelhouse!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:11:30.647065+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000097106230a87ce20650584d16",
+              "size_bytes": 1552878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 32.35
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "8cb229c7-9c77-46b5-8f5f-83c03abbb558",
+          "request_id": "b8cac167-376a-4a40-8beb-27392a1baa0a",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8cb229c7-9c77-46b5-8f5f-83c03abbb558",
+      "children": [
+        "dfbaeec2-0782-4e85-a68e-2331902bccae"
+      ]
+    },
+    "dfbaeec2-0782-4e85-a68e-2331902bccae": {
+      "id": "dfbaeec2-0782-4e85-a68e-2331902bccae",
+      "message": {
+        "id": "dfbaeec2-0782-4e85-a68e-2331902bccae",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820714.603483,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I mean, but what&#x27;s their, like, actual mental capabilities compared to a human?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:11:54.445033+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-25T06:11:54.445033+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000039a06230bc55dc3e49539de8",
+                "size_bytes": 265998,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.54
+                }
+              },
+              "audio_start_timestamp": 97.99773955484852
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "f7ec8173-f32e-4e19-8d52-0e8545501ffc",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cb6671d9-2ee2-4d83-b037-3b911eede960",
+      "children": [
+        "9b396931-db69-42d1-a644-064f8730d7be"
+      ]
+    },
+    "9b396931-db69-42d1-a644-064f8730d7be": {
+      "id": "9b396931-db69-42d1-a644-064f8730d7be",
+      "message": {
+        "id": "9b396931-db69-42d1-a644-064f8730d7be",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745820714.662017,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ah, getting into the serious stuff! Alright, here goes: capuchins are like the Einsteins of the monkey world, but compared to humans, they&#x27;re still quite a few steps behind. Their mental abilities are often compared to a human toddler’s—around two to three years old. They",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-25T06:11:54.445161+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000006a0062308d4f03d9a5167fc3",
+              "size_bytes": 744078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 15.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "dfbaeec2-0782-4e85-a68e-2331902bccae",
+          "request_id": "f7ec8173-f32e-4e19-8d52-0e8545501ffc",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dfbaeec2-0782-4e85-a68e-2331902bccae",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9b396931-db69-42d1-a644-064f8730d7be",
+  "plugin_ids": null,
+  "conversation_id": "680f1bb8-e4c8-8000-a5b8-5fdc4676e754",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "shade",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "680f1bb8-e4c8-8000-a5b8-5fdc4676e754"
+}

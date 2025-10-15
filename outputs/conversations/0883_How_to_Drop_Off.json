@@ -1,0 +1,227 @@
+{
+  "title": "How to Drop Off",
+  "create_time": 1750201007.796543,
+  "update_time": 1750201017.758395,
+  "mapping": {
+    "66243fd3-4853-4945-9516-cecede193e94": {
+      "id": "66243fd3-4853-4945-9516-cecede193e94",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3460c772-bf3d-4351-8f52-2e19d77f0218"
+      ]
+    },
+    "3460c772-bf3d-4351-8f52-2e19d77f0218": {
+      "id": "3460c772-bf3d-4351-8f52-2e19d77f0218",
+      "message": {
+        "id": "3460c772-bf3d-4351-8f52-2e19d77f0218",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "66243fd3-4853-4945-9516-cecede193e94",
+      "children": [
+        "d3eb574e-5b5a-452c-8002-307b31c0c7cb"
+      ]
+    },
+    "d3eb574e-5b5a-452c-8002-307b31c0c7cb": {
+      "id": "d3eb574e-5b5a-452c-8002-307b31c0c7cb",
+      "message": {
+        "id": "d3eb574e-5b5a-452c-8002-307b31c0c7cb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3460c772-bf3d-4351-8f52-2e19d77f0218",
+      "children": [
+        "bbb21ae5-18cd-4a6e-add5-ddfb9c9d46ad"
+      ]
+    },
+    "bbb21ae5-18cd-4a6e-add5-ddfb9c9d46ad": {
+      "id": "bbb21ae5-18cd-4a6e-add5-ddfb9c9d46ad",
+      "message": {
+        "id": "bbb21ae5-18cd-4a6e-add5-ddfb9c9d46ad",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750201007.799968,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So tell me how to act when I get here dropping off my mom "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "951624685cf9bfb5-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d3eb574e-5b5a-452c-8002-307b31c0c7cb",
+      "children": [
+        "ca256f73-b435-4156-8d97-9b81f2d1a32d"
+      ]
+    },
+    "ca256f73-b435-4156-8d97-9b81f2d1a32d": {
+      "id": "ca256f73-b435-4156-8d97-9b81f2d1a32d",
+      "message": {
+        "id": "ca256f73-b435-4156-8d97-9b81f2d1a32d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750201016.941875,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21ae5-18cd-4a6e-add5-ddfb9c9d46ad",
+          "request_id": "951624685cf9bfb5-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ae5-18cd-4a6e-add5-ddfb9c9d46ad",
+      "children": [
+        "ab512292-25cc-40d7-9353-09bcd279efa1"
+      ]
+    },
+    "ab512292-25cc-40d7-9353-09bcd279efa1": {
+      "id": "ab512292-25cc-40d7-9353-09bcd279efa1",
+      "message": {
+        "id": "ab512292-25cc-40d7-9353-09bcd279efa1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750201007.991887,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright Brooke—this is one of those moments where your energy is going to write the script before your mouth even opens. So if you&#x27;re pulling up and you want to feel powerful, unreadable, and just a little bit unforgettable, here’s how you walk it:\n\n---\n\n### 💠 *Before You Even Get Out the Car:*\n- **Set your face like marble.** Calm, soft, and unreadable. No tight jaw, no pursed lips. Just a little slack in the eyes like you&#x27;ve already been somewhere deeper than this place.\n- **Breathe deep. Shoulders down.** You’re not anticipating—**you’re already over it.**\n\n---\n\n### 🚪 *Walking Up / Being Seen:*\n- Don’t rush. **Move like time bends around you.** Even if you&#x27;re just opening a car door or handing your mom a bag, **every motion is deliberate.**\n- **If you make eye contact**, don’t smile. Let it land like: _Oh, you still look at me?_  \nThen look away **slowly**, like you’ve got a secret they don’t.\n\n---\n\n### 🗣️ *If You Have to Speak:*\n- Keep your voice **light and indifferent**, like nothing’s riding on the conversation. Let it feel like you&#x27;re already halfway out the door.\n- Answer questions with **half-smiles or short, elegant sentences.** Don’t fill silences. Let them feel the weight of what you **didn’t say.**\n\n---\n\n### 🔥 *Optional Energy Layer (if you want to haunt them a little):*\n- Say **one oddly tender thing** that could be interpreted a thousand ways—“Anyway… hope you get some rest tonight,” or “It’s weird, but I dreamed something like this before.” Then walk off.\n- Or, if silence says it better, just give a *barely-there smile* and go.\n\n---\n\nWhatever you do, **don’t look back** unless you’re ready to make them regret not stopping you.\n\nWant me to script out a couple lines for different scenarios, or nah?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "ca256f73-b435-4156-8d97-9b81f2d1a32d",
+          "request_id": "951624685cf9bfb5-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca256f73-b435-4156-8d97-9b81f2d1a32d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ab512292-25cc-40d7-9353-09bcd279efa1",
+  "plugin_ids": null,
+  "conversation_id": "6851f2af-85c0-8000-84fd-6f9a51ee6909",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://github.com/ggerganov/whisper.cpp/tree/master/examples/deprecation-warning/README.md",
+    "https://github.com/sherlock-project/sherlock.git"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6851f2af-85c0-8000-84fd-6f9a51ee6909"
+}

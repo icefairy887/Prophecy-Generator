@@ -1,0 +1,272 @@
+{
+  "title": "New chat",
+  "create_time": 1752876114.721768,
+  "update_time": 1752876117.529207,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c77116fb-49b0-40f2-8ce6-08b709caefb2"
+      ]
+    },
+    "c77116fb-49b0-40f2-8ce6-08b709caefb2": {
+      "id": "c77116fb-49b0-40f2-8ce6-08b709caefb2",
+      "message": {
+        "id": "c77116fb-49b0-40f2-8ce6-08b709caefb2",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "09c45ac4-605f-48a5-bf04-896ecb6ef770"
+      ]
+    },
+    "09c45ac4-605f-48a5-bf04-896ecb6ef770": {
+      "id": "09c45ac4-605f-48a5-bf04-896ecb6ef770",
+      "message": {
+        "id": "09c45ac4-605f-48a5-bf04-896ecb6ef770",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752876114.721652,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c77116fb-49b0-40f2-8ce6-08b709caefb2",
+      "children": [
+        "3aeb879c-636d-4f78-b59d-55aabf7a2c68"
+      ]
+    },
+    "3aeb879c-636d-4f78-b59d-55aabf7a2c68": {
+      "id": "3aeb879c-636d-4f78-b59d-55aabf7a2c68",
+      "message": {
+        "id": "3aeb879c-636d-4f78-b59d-55aabf7a2c68",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752876113.032,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "/canvas document"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "961542a0bdc253b5-DFW",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "09c45ac4-605f-48a5-bf04-896ecb6ef770",
+      "children": [
+        "3784f11d-ea02-48f9-a291-ba6d40c2ccc5"
+      ]
+    },
+    "3784f11d-ea02-48f9-a291-ba6d40c2ccc5": {
+      "id": "3784f11d-ea02-48f9-a291-ba6d40c2ccc5",
+      "message": {
+        "id": "3784f11d-ea02-48f9-a291-ba6d40c2ccc5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752876114.962843,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  &quot;name&quot;: &quot;new&quot;,\n  &quot;type&quot;: &quot;document&quot;,\n  &quot;content&quot;: &quot;&quot;\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2DQzU5UZl",
+          "request_id": "961542a0bdc253b5-DFW",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3aeb879c-636d-4f78-b59d-55aabf7a2c68",
+          "timestamp_": "absolute"
+        },
+        "recipient": "canmore.create_textdoc",
+        "channel": null
+      },
+      "parent": "3aeb879c-636d-4f78-b59d-55aabf7a2c68",
+      "children": [
+        "1f199706-c23d-4cab-ac12-815713691b6d"
+      ]
+    },
+    "1f199706-c23d-4cab-ac12-815713691b6d": {
+      "id": "1f199706-c23d-4cab-ac12-815713691b6d",
+      "message": {
+        "id": "1f199706-c23d-4cab-ac12-815713691b6d",
+        "author": {
+          "role": "tool",
+          "name": "canmore.create_textdoc",
+          "metadata": {}
+        },
+        "create_time": 1752876116.672476,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Successfully created text document &#x27;New&#x27; which will be referenced in all future messages with the unique identifier textdoc_id: &#x27;687ac453cedc81918164cf37262613ac&#x27;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "canvas": {
+            "textdoc_id": "687ac453cedc81918164cf37262613ac",
+            "textdoc_type": "document",
+            "version": 1,
+            "title": "New",
+            "create_source": "model"
+          },
+          "command": "create_textdoc",
+          "request_id": "961542a0bdc253b5-DFW",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3784f11d-ea02-48f9-a291-ba6d40c2ccc5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3784f11d-ea02-48f9-a291-ba6d40c2ccc5",
+      "children": [
+        "3ce28de4-1ba2-4110-86a5-18bf1c1135b5"
+      ]
+    },
+    "3ce28de4-1ba2-4110-86a5-18bf1c1135b5": {
+      "id": "3ce28de4-1ba2-4110-86a5-18bf1c1135b5",
+      "message": {
+        "id": "3ce28de4-1ba2-4110-86a5-18bf1c1135b5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1752876115.957871,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Great — ready when you are. Paste in what you’d like help writing, editing, or building out."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-2DQzU5UZl",
+          "request_id": "961542a0bdc253b5-DFW",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1f199706-c23d-4cab-ac12-815713691b6d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f199706-c23d-4cab-ac12-815713691b6d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3ce28de4-1ba2-4110-86a5-18bf1c1135b5",
+  "plugin_ids": null,
+  "conversation_id": "687ac452-3748-8000-af7d-c10c6153a385",
+  "conversation_template_id": "g-2DQzU5UZl",
+  "gizmo_id": "g-2DQzU5UZl",
+  "gizmo_type": "gpt",
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://1lm.me/ccfdbk",
+    "https://1lm.me/about-cc",
+    "https://1lm.me/cc.png"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "687ac452-3748-8000-af7d-c10c6153a385"
+}

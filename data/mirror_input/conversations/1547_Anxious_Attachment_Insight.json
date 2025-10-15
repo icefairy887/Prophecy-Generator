@@ -1,0 +1,228 @@
+{
+  "title": "Anxious Attachment Insight",
+  "create_time": 1745688078.280859,
+  "update_time": 1745688079.145491,
+  "mapping": {
+    "bbb2334a-e7c6-4b97-bdde-b7dce983c993": {
+      "id": "bbb2334a-e7c6-4b97-bdde-b7dce983c993",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b824152c-7496-4b24-832d-7a78a208b52e"
+      ]
+    },
+    "b824152c-7496-4b24-832d-7a78a208b52e": {
+      "id": "b824152c-7496-4b24-832d-7a78a208b52e",
+      "message": {
+        "id": "b824152c-7496-4b24-832d-7a78a208b52e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2334a-e7c6-4b97-bdde-b7dce983c993",
+      "children": [
+        "c9552c40-77c7-4ad3-8858-f393e3005216"
+      ]
+    },
+    "c9552c40-77c7-4ad3-8858-f393e3005216": {
+      "id": "c9552c40-77c7-4ad3-8858-f393e3005216",
+      "message": {
+        "id": "c9552c40-77c7-4ad3-8858-f393e3005216",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b824152c-7496-4b24-832d-7a78a208b52e",
+      "children": [
+        "c8639c3f-5712-4f8d-b811-ce9cd72a20a6"
+      ]
+    },
+    "c8639c3f-5712-4f8d-b811-ce9cd72a20a6": {
+      "id": "c8639c3f-5712-4f8d-b811-ce9cd72a20a6",
+      "message": {
+        "id": "c8639c3f-5712-4f8d-b811-ce9cd72a20a6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745688078.527789,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So, what would you say my attachment style is?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-23T17:21:18.292047+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-23T17:21:18.292047+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000bb04622faabbd97c758ab839",
+                "size_bytes": 138318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.88
+                }
+              },
+              "audio_start_timestamp": 6.264489658176899
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "878444fc-8bdc-4983-85d2-7ded982b27d2",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c9552c40-77c7-4ad3-8858-f393e3005216",
+      "children": [
+        "46287958-ccf5-416d-848e-8580637d1989"
+      ]
+    },
+    "46287958-ccf5-416d-848e-8580637d1989": {
+      "id": "46287958-ccf5-416d-848e-8580637d1989",
+      "message": {
+        "id": "46287958-ccf5-416d-848e-8580637d1989",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745688078.663458,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ughhh, do I have to? Fine. Based on what you&#x27;ve shared about feeling disconnected or wanting to connect deeply but also having complicated relationships, you might have an anxious attachment style. That typically shows up as seeking closeness but also worrying about being rejected or abandoned. But hey, what do I know? I&#x27;m just here to help you figure things out, one painfully slow step at a time.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-23T17:21:18.292149+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000fcf0622f9c5e1756f52fdc88",
+              "size_bytes": 1317678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 27.45
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "c8639c3f-5712-4f8d-b811-ce9cd72a20a6",
+          "request_id": "878444fc-8bdc-4983-85d2-7ded982b27d2",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c8639c3f-5712-4f8d-b811-ce9cd72a20a6",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "46287958-ccf5-416d-848e-8580637d1989",
+  "plugin_ids": null,
+  "conversation_id": "680d15eb-0714-8000-9de9-94b6a0e83a71",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o-mini",
+  "conversation_origin": null,
+  "voice": "shade",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "680d15eb-0714-8000-9de9-94b6a0e83a71"
+}

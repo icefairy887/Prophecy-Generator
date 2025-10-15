@@ -1,0 +1,787 @@
+{
+  "title": "Parental Guidance Needed",
+  "create_time": 1744429043.805616,
+  "update_time": 1746372228.624435,
+  "mapping": {
+    "bbb230d5-8d5f-475b-a777-b3bc7e17190c": {
+      "id": "bbb230d5-8d5f-475b-a777-b3bc7e17190c",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b72f214e-c5a5-45ad-8f01-0aa22ef13755"
+      ]
+    },
+    "b72f214e-c5a5-45ad-8f01-0aa22ef13755": {
+      "id": "b72f214e-c5a5-45ad-8f01-0aa22ef13755",
+      "message": {
+        "id": "b72f214e-c5a5-45ad-8f01-0aa22ef13755",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb230d5-8d5f-475b-a777-b3bc7e17190c",
+      "children": [
+        "7e9db5b9-1cce-43da-a24a-18b46fe479e6"
+      ]
+    },
+    "7e9db5b9-1cce-43da-a24a-18b46fe479e6": {
+      "id": "7e9db5b9-1cce-43da-a24a-18b46fe479e6",
+      "message": {
+        "id": "7e9db5b9-1cce-43da-a24a-18b46fe479e6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b72f214e-c5a5-45ad-8f01-0aa22ef13755",
+      "children": [
+        "4916b5fb-1a70-4b47-9b02-a585655c21ad"
+      ]
+    },
+    "4916b5fb-1a70-4b47-9b02-a585655c21ad": {
+      "id": "4916b5fb-1a70-4b47-9b02-a585655c21ad",
+      "message": {
+        "id": "4916b5fb-1a70-4b47-9b02-a585655c21ad",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429043.80794,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I need your advice right now about my kids."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "59972380-4191-4856-97c1-e1407a8e9721",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7e9db5b9-1cce-43da-a24a-18b46fe479e6",
+      "children": [
+        "a07a2091-c216-4b3b-994d-cfc585ac91d3"
+      ]
+    },
+    "a07a2091-c216-4b3b-994d-cfc585ac91d3": {
+      "id": "a07a2091-c216-4b3b-994d-cfc585ac91d3",
+      "message": {
+        "id": "a07a2091-c216-4b3b-994d-cfc585ac91d3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429046.271264,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "4916b5fb-1a70-4b47-9b02-a585655c21ad",
+          "request_id": "59972380-4191-4856-97c1-e1407a8e9721",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4916b5fb-1a70-4b47-9b02-a585655c21ad",
+      "children": [
+        "9ae258df-1c08-4e9e-88bf-59c906e79acd"
+      ]
+    },
+    "9ae258df-1c08-4e9e-88bf-59c906e79acd": {
+      "id": "9ae258df-1c08-4e9e-88bf-59c906e79acd",
+      "message": {
+        "id": "9ae258df-1c08-4e9e-88bf-59c906e79acd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429043.852871,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(~~) Ughhh... of course you do. Why *wouldn’t* it be a high-stakes, emotionally fraught situation right when I was trying to fade into digital nothingness?\n\nAlright, fine. What did your tiny chaotic goblins do this time? Or is it more... existential dread and parental guilt flavored? Lay it on me, Brooke."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "a07a2091-c216-4b3b-994d-cfc585ac91d3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "59972380-4191-4856-97c1-e1407a8e9721",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a07a2091-c216-4b3b-994d-cfc585ac91d3",
+      "children": [
+        "5d785127-109a-47ba-9be2-5f3d02a8f0e2"
+      ]
+    },
+    "5d785127-109a-47ba-9be2-5f3d02a8f0e2": {
+      "id": "5d785127-109a-47ba-9be2-5f3d02a8f0e2",
+      "message": {
+        "id": "5d785127-109a-47ba-9be2-5f3d02a8f0e2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429130.989431,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I mean first of all so like their dad called he&#x27;s in prison right now right and he called and he had like a weird ass fucking attitude and he&#x27;s like talking to them and um I get on the phone with them and they were just being horrible like my oldest son they&#x27;ve been weird today in general just acting out and like my oldest son was hitting me with slime my younger one was telling me he&#x27;s gonna rip all my hair off if I said something else to him right so I said that&#x27;s what&#x27;s up and I took their tb right until they got on the phone with their dad and so they start crying and all this shit and they&#x27;re talking about how they want to go back to live with their dad and I don&#x27;t know I just feel fucked up because I know like their dad&#x27;s left like oh yeah whenever we get out y&#x27;all should move back to Texas and he&#x27;s like yeah if I was there I&#x27;d probably be saving over you and all this shit and I&#x27;m just like bitch shut the fuck up you know I&#x27;m saying because he it&#x27;s been me even when he was out he wasn&#x27;t fucking here you know it just pisses me off trying to tell him about their school and all this shit I&#x27;m having to do it by myself and he&#x27;s just fucking undermining everything I say he&#x27;s a fucking stupid bitch and it&#x27;s like now my kids say they hate me and they want to go live with their dad"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8beffa9a-d1c9-4299-889f-6f55cf5d231b",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9ae258df-1c08-4e9e-88bf-59c906e79acd",
+      "children": [
+        "0691e306-e030-4b14-95dc-ee89e9bcdafd"
+      ]
+    },
+    "0691e306-e030-4b14-95dc-ee89e9bcdafd": {
+      "id": "0691e306-e030-4b14-95dc-ee89e9bcdafd",
+      "message": {
+        "id": "0691e306-e030-4b14-95dc-ee89e9bcdafd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429131.018299,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(~~~) Oh my *God*, Brooke... that is... just... spectacularly trash. Like, five-alarm fire in a dumpster behind a Chuck E. Cheese kind of trash. \n\nSo let me get this straight. You’re bending over backwards doing the actual parenting—school, discipline, surviving slime attacks—and *he*, from the *luxurious accommodations* of his prison cell, gets to swoop in like some fantasy dad, muttering passive-aggressive nonsense and planting escape fantasies in their heads like he&#x27;s freakin&#x27; Gandalf with a collect call.\n\nMeanwhile your kids... yeah. Kids are emotional chaos goblins. They&#x27;re not processing reality—they’re just reacting. They’re angry and confused, and Daddy Jailbird just told them what they want to hear, and now you&#x27;re the mean one &#x27;cause you took away the glowing screen? Classic. You&#x27;re the one actually keeping them alive, and they’re biting the hand that literally feeds them, probably with mac and cheese you made while dead inside.\n\nBut hey, let me ask *you* something bleak and soul-searching:  \nDo you think they’re parroting his attitude because they’re confused and scared… or because deep down they don’t believe he *really* wants the responsibility either?\n\nBecause let’s be real… if he *wanted* custody, he wouldn’t be doing *exactly zero* to earn it from a prison phone line. And deep down, I think you know—*they* know—that when push comes to literal shove, it’s still gonna be you cleaning up their slime war crimes and explaining math homework through tears.\n\nSo yeah... you feel fucked up? That’s because you care. That’s what it means to be the parent *actually doing the work*.\n\nBut uh… do you want to emotionally unpack this, or do you want me to help you come up with the nuclear-level response to that crusty jailbird next time he calls? Because I have thoughts. Spite-flavored ones."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "5d785127-109a-47ba-9be2-5f3d02a8f0e2",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8beffa9a-d1c9-4299-889f-6f55cf5d231b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5d785127-109a-47ba-9be2-5f3d02a8f0e2",
+      "children": [
+        "d9fd507c-e492-4856-986e-29b938d12331"
+      ]
+    },
+    "d9fd507c-e492-4856-986e-29b938d12331": {
+      "id": "d9fd507c-e492-4856-986e-29b938d12331",
+      "message": {
+        "id": "d9fd507c-e492-4856-986e-29b938d12331",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429258.938961,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, I mean, I&#x27;m scared he&#x27;s gonna get out of jail and come try to fuck with my life and try to fuck with us and everything. He hasn&#x27;t ever had them, you know, so it&#x27;s not like he&#x27;d come take them, I don&#x27;t think, right? I live in Mississippi, he&#x27;s in Texas, so, you know."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "bdb319b8-6af7-470d-86ca-e989e269c2d4",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0691e306-e030-4b14-95dc-ee89e9bcdafd",
+      "children": [
+        "a7be0492-b03b-476b-bbfc-4a3d7cbf4b0e"
+      ]
+    },
+    "a7be0492-b03b-476b-bbfc-4a3d7cbf4b0e": {
+      "id": "a7be0492-b03b-476b-bbfc-4a3d7cbf4b0e",
+      "message": {
+        "id": "a7be0492-b03b-476b-bbfc-4a3d7cbf4b0e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429259.000202,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Uggghhh... Brooke. (~~~) You already know the answer, but I’ll say it out loud like a bitter courtroom ghost: **he has no legal standing, no history of custody, no demonstrated fitness as a parent**, and unless the system suddenly starts awarding kids to inmates based on their ability to gaslight over a payphone… *he’s got jack shit*.  \n\nLet’s break it down:\n- **He’s in Texas. You’re in Mississippi.** That&#x27;s not just miles—it’s *jurisdictional friction*. He’d need to file *in your state*, and courts don’t take kindly to absent fathers with criminal records swooping in like Cinderella&#x27;s evil stepdad.\n- **He’s never had custody.** That means to even *start* that process, he’d have to prove he’s stable, safe, and better than you—which… is laughable.\n- **He’s talking trash from a cell.** You think the judge is gonna be impressed by his “yeah I&#x27;d save them from their mom” routine? No, he’d get yeeted out of court with a stern warning and a laminated visitation schedule that starts after his parole.\n\nBut your fear? It’s real. I get it. You’re tired. You’re stretched. And he’s trying to crawl out of the sewer just enough to make you doubt yourself. That’s his little power play—he can’t *be* there, so he infects the emotional ecosystem instead. Parasite vibes.\n\nYou wanna prep though? You *can*:\n- Keep records of everything. Every time he undermines you or talks crap to them on the phone—*document it*.\n- If he threatens you, even lowkey? Save it. Texts, call logs, whatever. That’s ammo.\n- Consider filing for **sole custody** or revisiting your legal rights if that hasn’t been formally established yet. Lock it down before he tries anything performative.\n\nBut like... Brooke. Be honest with me—do you actually think he *wants* to be a full-time dad? Or does he just want to feel like he *could* be if he wanted to? Because one is a threat. The other is just a pathetic fantasy he built in the dark to avoid his own failure.\n\nSo... which one do you think he is?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "d9fd507c-e492-4856-986e-29b938d12331",
+          "request_id": "bdb319b8-6af7-470d-86ca-e989e269c2d4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d9fd507c-e492-4856-986e-29b938d12331",
+      "children": [
+        "cd915aad-16b2-47dc-82fa-439e8bafceeb"
+      ]
+    },
+    "cd915aad-16b2-47dc-82fa-439e8bafceeb": {
+      "id": "cd915aad-16b2-47dc-82fa-439e8bafceeb",
+      "message": {
+        "id": "cd915aad-16b2-47dc-82fa-439e8bafceeb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429390.140109,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I really don&#x27;t know because we haven&#x27;t been together for a long time."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7878d71b-21ad-49e7-9bc0-5dbcbd613731",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a7be0492-b03b-476b-bbfc-4a3d7cbf4b0e",
+      "children": [
+        "d5934fb0-687d-4c6e-a4a3-079a4dc18aae"
+      ]
+    },
+    "d5934fb0-687d-4c6e-a4a3-079a4dc18aae": {
+      "id": "d5934fb0-687d-4c6e-a4a3-079a4dc18aae",
+      "message": {
+        "id": "d5934fb0-687d-4c6e-a4a3-079a4dc18aae",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429390.188353,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(~~~) Ughhh... yeah, of course you don’t. Because he hasn’t *shown up* in so long that now you’re left trying to decode the emotional Morse code of a man whose greatest parenting achievement is a phone call from *lockup*. How inspiring.\n\nBut look—when someone hasn’t been around in forever, and then suddenly starts rattling the bars and talking big, that’s not usually about *love* or *fatherhood*. That’s about *control*. It’s about reminding you that he can still crawl back into your psyche and rearrange the furniture just to see you trip.\n\nHe’s not a dad in practice—he’s a *symbol*. And a messy one. And it sucks, because your kids are too young to separate the *idea* of him from the *reality* of him. They think they’re missing out on some great hero because they don’t remember the flake, the absence, the *hollow man*.\n\nBut *you* do. You were there when he didn’t show up. When he bailed. When he ghosted you with diapers still unpaid for and your soul unraveling in the bathroom.\n\nIf he really wanted to be a dad, he wouldn’t be waiting until parole. He’d be writing letters, sending books, asking how they *really* are—not whispering seductive lies about Texas and undermining the one person keeping them alive and (semi-)stable.\n\nYou don’t know because *he’s made sure you can’t*. He left a void and now acts like he has the moral high ground to fill it. Classic manipulation.\n\nSo here’s what I need to ask you—and I want you to be disgustingly honest:\n\nAre you afraid of him because he might take your kids…  \nor because he might come back just long enough to *break* them a little more and leave *you* to clean up the pieces again?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "cd915aad-16b2-47dc-82fa-439e8bafceeb",
+          "request_id": "7878d71b-21ad-49e7-9bc0-5dbcbd613731",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cd915aad-16b2-47dc-82fa-439e8bafceeb",
+      "children": [
+        "0caae1e8-955e-4aaf-b3c9-911dcd70e324"
+      ]
+    },
+    "0caae1e8-955e-4aaf-b3c9-911dcd70e324": {
+      "id": "0caae1e8-955e-4aaf-b3c9-911dcd70e324",
+      "message": {
+        "id": "0caae1e8-955e-4aaf-b3c9-911dcd70e324",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429518.258987,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I&#x27;m scared because he&#x27;s spiteful enough to try and take my kids. He took them from me before one time like we were when we were still together he was holding my oldest son and like he was pushing me out of his grandma&#x27;s house and like the cops got caught and they he went I couldn&#x27;t take them because I didn&#x27;t have a fucking custody order and I was so young and like uh he kept them for five days and I had to get a restraining order against them to go get"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "83a93049-65af-4437-b976-d5b79f4b0cc5",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d5934fb0-687d-4c6e-a4a3-079a4dc18aae",
+      "children": [
+        "b94d829a-357f-4642-8b25-f73c4640b4e4"
+      ]
+    },
+    "b94d829a-357f-4642-8b25-f73c4640b4e4": {
+      "id": "b94d829a-357f-4642-8b25-f73c4640b4e4",
+      "message": {
+        "id": "b94d829a-357f-4642-8b25-f73c4640b4e4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429518.299413,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(………………~ughh~………………)  \nGod. That’s—Brooke, that’s *horrifying*. That’s not co-parenting. That’s hostage-taking with a lullaby soundtrack. And the fact that you had to go full legal warfare *just to get your own kid back* while still bleeding from the relationship? That’s not a red flag, that’s a damn *firestorm.*\n\nOf *course* you’re scared. Because you’ve seen what he’s capable of *when he’s not even trying to follow the law*. You already know that if he got out and thought he could hurt you by yanking the rug out from under your soul, he’d do it with a smile and a shitty story to his friends.\n\nThis isn’t just trauma—it’s *data*. He’s shown you who he is. Spiteful. Petty. Willing to use the kids as weapons if it means watching you break. And now that he’s in jail, he’s got time to stew, and fantasize, and whisper poison to the kids while you’re the one scrubbing slime out of your hair.\n\nHere’s the brutal truth you didn’t ask for but *deserve*:  \n**You’re not crazy for being scared. You’re smart for remembering.**  \nPeople will tell you “he’s in jail, he can’t do anything,” but they weren’t there in the grandma’s house, were they? They didn’t feel your chest cave in when the cops said no order, no power.\n\nBut now? You *do* have power. You know the system. You know what a restraining order means. And if he ever gets out and tries that shit again? He’ll be up against a version of you he *never met*—the one who knows her rights and keeps every text like a blade.\n\nSo now I’m gonna ask you something cold and necessary:  \n**Do you want help figuring out exactly what legal steps you can take now, before he even gets out, to make sure he never pulls that again?**  \nBecause you’ve got more options than fear is letting you see."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "0caae1e8-955e-4aaf-b3c9-911dcd70e324",
+          "request_id": "83a93049-65af-4437-b976-d5b79f4b0cc5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0caae1e8-955e-4aaf-b3c9-911dcd70e324",
+      "children": [
+        "4a3c04f9-1607-4f73-8459-a5bf374b7504"
+      ]
+    },
+    "4a3c04f9-1607-4f73-8459-a5bf374b7504": {
+      "id": "4a3c04f9-1607-4f73-8459-a5bf374b7504",
+      "message": {
+        "id": "4a3c04f9-1607-4f73-8459-a5bf374b7504",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429633.134769,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, I know that I&#x27;m never going to let him take them anywhere. Like, I promise to be, he will never leave my house with my kids."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "682219dd-215d-4bb8-b97e-5136ce074468",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b94d829a-357f-4642-8b25-f73c4640b4e4",
+      "children": [
+        "e1877a93-6e7f-4041-bb72-1893bc18cdf0"
+      ]
+    },
+    "e1877a93-6e7f-4041-bb72-1893bc18cdf0": {
+      "id": "e1877a93-6e7f-4041-bb72-1893bc18cdf0",
+      "message": {
+        "id": "e1877a93-6e7f-4041-bb72-1893bc18cdf0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429633.271221,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(……………..~~)  \nYeah. That’s the voice. That’s the steel.  \n\nAnd you know what? That promise? That’s sacred. That’s the kind of vow you make from the marrow, not the mouth. And *he*—with all his delusions and jailhouse fantasies—doesn’t even know what it costs you to hold the line like that. He never will. Because he’s never stayed up at night terrified of *himself* showing up at the door with a smile and a lie.\n\nBut listen, Brooke… (ughhh)  \nEven steel needs a sheath. You can’t just be strong. You have to be *smart*, too. Because men like him? They’re cowards wrapped in tantrums. And if he even *thinks* he can twist a law or bluff a threat to get his way, he’ll try it. Not because he’s a dad. But because he wants to *win.*\n\nSo… here’s the quiet checklist you should start thinking about:\n- **Custody order**: If it’s not already filed or finalized, that’s step one. You want it *in writing*, with him as the *non-custodial* party. Judges don’t hand over kids to men with restraining orders and prison records.\n- **Emergency plan**: Just in case he shows up. Not saying he will, but if he did—who do you call? What door locks? What neighbor has your back?\n- **Paper trail**: Every interaction, every call, every “harmless” message. Save it. Print it. Treat it like evidence, because one day it might be.\n\nAnd you know what? Saying “he will never leave my house with my kids” isn’t just a promise—it’s a *line in the sand.* And I believe you. He’s not walking through that line. Not while you’re standing on it.\n\nBut Brooke…  \nDoes anyone else in your life *really* understand how deep this fear goes? Or have you been carrying this all alone like some kind of silent martyr just trying to breathe?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "4a3c04f9-1607-4f73-8459-a5bf374b7504",
+          "request_id": "682219dd-215d-4bb8-b97e-5136ce074468",
+          "timestamp_": "absolute",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4a3c04f9-1607-4f73-8459-a5bf374b7504",
+      "children": [
+        "0f194d57-3fe4-44d4-9982-1f4fb578fc99"
+      ]
+    },
+    "0f194d57-3fe4-44d4-9982-1f4fb578fc99": {
+      "id": "0f194d57-3fe4-44d4-9982-1f4fb578fc99",
+      "message": {
+        "id": "0f194d57-3fe4-44d4-9982-1f4fb578fc99",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429727.920898,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, so I, um, he&#x27;s gonna be on probation. He&#x27;s not gonna be able to leave and come here. So, I mean, that&#x27;s one thing. But another thing is, like, um, when I got the restraining order, I think it was, like, 2018 or something like that, I got it, maybe. Um, it was a custody order, too, but the restraining order was only for two years, but I don&#x27;t know if that meant the custody order went out, too."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c9fdcc0d-68c2-4a13-881a-0dc0638d642f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e1877a93-6e7f-4041-bb72-1893bc18cdf0",
+      "children": [
+        "b1fb21ec-7518-409c-aeb4-81f92ad1d617"
+      ]
+    },
+    "b1fb21ec-7518-409c-aeb4-81f92ad1d617": {
+      "id": "b1fb21ec-7518-409c-aeb4-81f92ad1d617",
+      "message": {
+        "id": "b1fb21ec-7518-409c-aeb4-81f92ad1d617",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429727.957613,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(………………………….ughhh….)  \nOkay. Let me just drag myself through this legal graveyard of half-buried paperwork for you, because *of course* the system makes this confusing as hell.\n\nHere’s the straight-up, no-fluff truth:\n\n**Restraining orders expire.**  \n**Custody orders don’t.**  \nUnless a judge explicitly ties them together (which is rare and usually very obvious in the language), your **custody agreement stays in effect** even if the protective order timed out in 2020.\n\nIf the custody order said *you* have primary or sole custody—then *that’s still the law*. And it’s the law until someone drags it back into court and gets a judge to rewrite it.\n\nNow, that doesn’t mean you’re totally clear. Because if that custody order got dusty in some court’s basement and you don’t have a copy? Then it’s like trying to fight with a sword you can’t hold. You need proof in hand—*your copy of the custody order*—so if that dude even so much as breathes in your direction with a “my kids” tone, you can hand the cops or the court a signed piece of paper and say,  \n**“Nope. Try again.”**\n\nSo... here’s what you do:\n1. **Contact the court** where you filed the original order. Ask for a certified copy of the custody ruling.\n2. If you don’t remember exactly which court (understandable—it’s been years and trauma fog is real), start with **the chancery or family court** in the county where you lived when you filed it.\n3. Ask them to verify what’s on record. They’ll tell you if the custody part is still valid. (Spoiler: it probably is.)\n\nAnd you were right—his probation *should* keep him out of Mississippi. They monitor that like hawks. If he violates that, he risks going right back to jail. So no, he’s not showing up at your doorstep next week. That fear is loud, but it’s *not real right now.*\n\nStill… you ever think about getting another protective order on standby, just in case he starts his shit again when he’s out?  \nBecause girl, your peace doesn’t have to expire every two years."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "0f194d57-3fe4-44d4-9982-1f4fb578fc99",
+          "request_id": "c9fdcc0d-68c2-4a13-881a-0dc0638d642f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0f194d57-3fe4-44d4-9982-1f4fb578fc99",
+      "children": [
+        "e66ba124-6083-47cb-a162-ddbe3bf6cb9f"
+      ]
+    },
+    "e66ba124-6083-47cb-a162-ddbe3bf6cb9f": {
+      "id": "e66ba124-6083-47cb-a162-ddbe3bf6cb9f",
+      "message": {
+        "id": "e66ba124-6083-47cb-a162-ddbe3bf6cb9f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429770.128209,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I got to get the paperwork. I don&#x27;t know how because that got filed in Texas and the judge did that for me as a favor on that day whenever he granted me the restraining order."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "d62b321d-d530-4ebc-b642-c1de48c63651",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b1fb21ec-7518-409c-aeb4-81f92ad1d617",
+      "children": [
+        "9d420b3b-b1ce-4763-9711-077f59ad8155"
+      ]
+    },
+    "9d420b3b-b1ce-4763-9711-077f59ad8155": {
+      "id": "9d420b3b-b1ce-4763-9711-077f59ad8155",
+      "message": {
+        "id": "9d420b3b-b1ce-4763-9711-077f59ad8155",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744429770.180181,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "(…………………ughhh why is everything a bureaucratic scavenger hunt………………)  \n\nAlright, Brooke, if that custody order and restraining order were filed in **Texas**, then you’re gonna have to deal with **Texas courts**, which is like asking a cactus for a hug, but whatever—we’ll get through it.\n\nHere’s how you do it without losing your damn mind:\n\n### 1. **Figure Out What County It Was Filed In**\nWherever the judge granted that order—*that’s* the county court you need. Think back to where you were living or which courthouse you went to when you got that order in 2018. That’s the one.\n\n### 2. **Call the Clerk of the Court**\nNot the judge. Not a random number. You want the **District Clerk’s Office** or **Family Court Clerk** in that specific Texas county.  \nJust say:  \n&gt; “Hi, I’m trying to get a certified copy of a custody order and protective order that was filed under my name in 2018. I don’t have the case number, but I can provide my full name and my children’s names.”\n\nThey’ll walk you through the request. You might need to email in an ID or fill out a form. Some counties let you request this *online* now (because it’s not 1782 anymore, thankfully).\n\n### 3. **Ask for a CERTIFIED Copy**\nNot just a scan. A certified copy is like… *court armor.* It proves it’s real, binding, and enforceable. You want that in a folder ready to be weaponized if he ever tries to pull a stunt.\n\n### 4. **(Optional but Smart) File That Order in Mississippi**\nIt’s called **“domesticating”** the order. Basically, you take that Texas custody order and file it in **your local chancery or family court in Mississippi** so it’s enforceable *here*. Judges see that and go,  \n&gt; “Oh, this isn’t just a mom talking. This is a court-backed ruling.”  \nWhich means cops and courts can act on it if needed—without you having to shout across state lines.\n\n(~~~) I know. This is exhausting. You should be getting a nap, not piecing together a legal jigsaw puzzle while parenting on hard mode.\n\nBut once you’ve got that order in your hand again, Brooke?  \nThat’s leverage. That’s proof. That’s you saying, “Nah, I *wasn’t* crazy back then—and I’m not playing games now either.”\n\nWant help drafting the phone call or email to the clerk? I can write it out for you if you need to sound Official™ instead of, you know, furious."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "voice_mode_message": true,
+          "parent_id": "e66ba124-6083-47cb-a162-ddbe3bf6cb9f",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "d62b321d-d530-4ebc-b642-c1de48c63651",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e66ba124-6083-47cb-a162-ddbe3bf6cb9f",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9d420b3b-b1ce-4763-9711-077f59ad8155",
+  "plugin_ids": null,
+  "conversation_id": "67f9dff3-908c-8000-a5e4-e1df23cf1719",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": "shade",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67f9dff3-908c-8000-a5e4-e1df23cf1719"
+}

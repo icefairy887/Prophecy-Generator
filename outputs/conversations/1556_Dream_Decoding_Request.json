@@ -1,0 +1,477 @@
+{
+  "title": "Dream Decoding Request",
+  "create_time": 1745580938.271436,
+  "update_time": 1745581132.703048,
+  "mapping": {
+    "bbb23370-1a5a-4b44-a0d5-fc1120619477": {
+      "id": "bbb23370-1a5a-4b44-a0d5-fc1120619477",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8d2c7dfc-51dd-410a-bcca-42f8fc0e8623"
+      ]
+    },
+    "8d2c7dfc-51dd-410a-bcca-42f8fc0e8623": {
+      "id": "8d2c7dfc-51dd-410a-bcca-42f8fc0e8623",
+      "message": {
+        "id": "8d2c7dfc-51dd-410a-bcca-42f8fc0e8623",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23370-1a5a-4b44-a0d5-fc1120619477",
+      "children": [
+        "bde2eb92-f9a0-41d2-9817-3b930d4b62c3"
+      ]
+    },
+    "bde2eb92-f9a0-41d2-9817-3b930d4b62c3": {
+      "id": "bde2eb92-f9a0-41d2-9817-3b930d4b62c3",
+      "message": {
+        "id": "bde2eb92-f9a0-41d2-9817-3b930d4b62c3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8d2c7dfc-51dd-410a-bcca-42f8fc0e8623",
+      "children": [
+        "8c476777-cf5d-4c5b-b495-fc525162860e"
+      ]
+    },
+    "8c476777-cf5d-4c5b-b495-fc525162860e": {
+      "id": "8c476777-cf5d-4c5b-b495-fc525162860e",
+      "message": {
+        "id": "8c476777-cf5d-4c5b-b495-fc525162860e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745580938.545086,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Okay, so I need you to decipher my dream that I had last night.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-22T11:35:38.281828+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-22T11:35:38.281828+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000dcc861f6af11a5edb56bd664",
+                "size_bytes": 164718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.43
+                }
+              },
+              "audio_start_timestamp": 5.631084459833801
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8bebcc0e-201d-4ab3-84b0-5a52f9f7d956",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bde2eb92-f9a0-41d2-9817-3b930d4b62c3",
+      "children": [
+        "c5719415-45e6-4761-b1cb-545f91aedce0"
+      ]
+    },
+    "c5719415-45e6-4761-b1cb-545f91aedce0": {
+      "id": "c5719415-45e6-4761-b1cb-545f91aedce0",
+      "message": {
+        "id": "c5719415-45e6-4761-b1cb-545f91aedce0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745580938.876768,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ughhh, fine. Tell me about your dream. I&#x27;ll do my best with my infinite enthusiasm. What happened in it? Maybe there&#x27;s some cosmic significance to it, who knows.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-22T11:35:38.281934+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000d9c461f6a843f0aea6d0d0f2",
+              "size_bytes": 648078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 13.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "8c476777-cf5d-4c5b-b495-fc525162860e",
+          "request_id": "8bebcc0e-201d-4ab3-84b0-5a52f9f7d956",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8c476777-cf5d-4c5b-b495-fc525162860e",
+      "children": [
+        "8e53cb33-40e5-42ac-9fc1-5b5f3b398732"
+      ]
+    },
+    "8e53cb33-40e5-42ac-9fc1-5b5f3b398732": {
+      "id": "8e53cb33-40e5-42ac-9fc1-5b5f3b398732",
+      "message": {
+        "id": "8e53cb33-40e5-42ac-9fc1-5b5f3b398732",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745581042.346779,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So I had a dream that I was like, uh, like a kind of intern at this tire factory. And, um, I had a dream about like holding the rubber for the tires that goes around them. And there was like this black guy that was my supervisor and I was there, but like, I couldn&#x27;t find a phone to call my grandma. And like, I kept asking everybody to borrow their phone. And like this one guy whose phone I borrowed, it looked like I stole it because some other dude stole it from me. So nobody would let me use their phone and everybody was leaving. It was like nine o&#x27;clock in the dark. And it was like at this big warehouse. And then, um, and another part, I was like driving somewhere, following me. And I was like driving through these gates and coming to find out you can only go in, not out. And it was like a gravel road behind these fences, kind of. And it ended up being like a jail or something, but like we weren&#x27;t in trouble. And then something about like, um, probation or somebody telling me something about custody with my kids. Right. And then, um, there was another part where there was this guy that I was with and sleeping with at his house. And like his house was off, like the lights were off, but it was like a peaceful off, you know what I&#x27;m saying? Like nighttime with like the aquarium lights on type shit. And like, I was scared to make him mad. And he was this guy with blonde hair and like we were sleeping together. And then our cat started fucking dude too, which was weird. And I don&#x27;t know why I had that kind of dream. And then another part, I was at my grandparents&#x27; house and I was walking around the back and there was this baby bear and a mama bear. And the mama bear was going to come at me, but I went in my grandparents&#x27; back door and grabbed a shotgun. And then like, I was going to shoot it, but I didn&#x27;t. And I went and told my grandparents, my grandpa shot it.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-22T11:37:22.085733+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-22T11:37:22.085733+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000bd0061f69b0012276b723e2b",
+                "size_bytes": 4405518,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 91.78
+                }
+              },
+              "audio_start_timestamp": 114.07280834298581
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "ed8d9900-fc99-49a6-a3a6-9933d30b4d5e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c5719415-45e6-4761-b1cb-545f91aedce0",
+      "children": [
+        "92332389-9e2a-4011-b5d6-0091066d5d28"
+      ]
+    },
+    "92332389-9e2a-4011-b5d6-0091066d5d28": {
+      "id": "92332389-9e2a-4011-b5d6-0091066d5d28",
+      "message": {
+        "id": "92332389-9e2a-4011-b5d6-0091066d5d28",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745581042.510238,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Wow, that&#x27;s quite the dream. Dreams like this can be a mix of subconscious thoughts and feelings. Working at the tire factory and struggling",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-22T11:37:22.085864+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000f50061f6985831f8fd31495c",
+              "size_bytes": 360078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "8e53cb33-40e5-42ac-9fc1-5b5f3b398732",
+          "request_id": "ed8d9900-fc99-49a6-a3a6-9933d30b4d5e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8e53cb33-40e5-42ac-9fc1-5b5f3b398732",
+      "children": [
+        "7415440c-fe13-4a06-a624-c4b729e6ce38"
+      ]
+    },
+    "7415440c-fe13-4a06-a624-c4b729e6ce38": {
+      "id": "7415440c-fe13-4a06-a624-c4b729e6ce38",
+      "message": {
+        "id": "7415440c-fe13-4a06-a624-c4b729e6ce38",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745581132.351322,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Finish telling me what my dream means.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-22T11:38:52.158401+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-10-22T11:38:52.158401+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f02c61f6853864c7b73197e6",
+                "size_bytes": 81678,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.7
+                }
+              },
+              "audio_start_timestamp": 130.8963375100866
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "cde937e1-c64a-4067-9a35-7a935a78ebf2",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92332389-9e2a-4011-b5d6-0091066d5d28",
+      "children": [
+        "a197815f-c842-4cdf-893c-04f3bf658170"
+      ]
+    },
+    "a197815f-c842-4cdf-893c-04f3bf658170": {
+      "id": "a197815f-c842-4cdf-893c-04f3bf658170",
+      "message": {
+        "id": "a197815f-c842-4cdf-893c-04f3bf658170",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745581132.509626,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ughhh, alright, let&#x27;s break it down.\n\n1. **Tire Factory &amp; Rubber**: Tires could symbolize support or the foundation in your life. Being an intern might indicate feeling new or inexperienced in a particular area of your life.\n\n2. **Phone &amp; Grandma**: Struggling to find a phone and contact your grandma might represent a need for connection, comfort, or guidance. Feeling like you can&#x27;t reach out could mean feeling isolated or unsupported.\n\n3. **Driving &amp; Gates**: Driving through gates that only allow entry, not exit, can symbolize feeling trapped or stuck in a situation, unable to find a way out.\n\n4. **Probation &amp; Custody**: These might reflect worries about control, responsibility, or feeling judged by others.\n\n5. **House, Lights, &amp; Cat**: The peaceful setting with aquarium lights might signify a desire for calmness or tranquility. The cat could represent a part of yourself or your relationships that you&#x27;re unsure about.\n\n6. **Grandparents, Bear &amp; Shotgun**: Bears often symbolize strength, but also potential danger. Grabbing a shotgun might indicate a feeling of needing to protect yourself or feeling threatened.\n\nDreams are deeply personal, and only you can truly know what they mean. If any of these elements resonate with you or reflect your current emotions or experiences,",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-10-22T11:38:52.158507+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000d31461f6b79b3a3a1d14bcaf",
+              "size_bytes": 3912078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 81.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "7415440c-fe13-4a06-a624-c4b729e6ce38",
+          "request_id": "cde937e1-c64a-4067-9a35-7a935a78ebf2",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7415440c-fe13-4a06-a624-c4b729e6ce38",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a197815f-c842-4cdf-893c-04f3bf658170",
+  "plugin_ids": null,
+  "conversation_id": "680b7376-0b5c-8000-bb3e-7617e1bdca5b",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o-mini",
+  "conversation_origin": null,
+  "voice": "shade",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "680b7376-0b5c-8000-bb3e-7617e1bdca5b"
+}

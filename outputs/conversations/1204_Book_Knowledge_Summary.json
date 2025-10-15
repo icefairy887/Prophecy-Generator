@@ -1,0 +1,191 @@
+{
+  "title": "Book Knowledge Summary",
+  "create_time": 1748274541.242411,
+  "update_time": 1748274558.038518,
+  "mapping": {
+    "7ea3ecc5-327e-431b-8c40-53c6e253fac8": {
+      "id": "7ea3ecc5-327e-431b-8c40-53c6e253fac8",
+      "message": null,
+      "parent": null,
+      "children": [
+        "bc928a3a-f40f-46b3-bd90-5d928baa007a"
+      ]
+    },
+    "bc928a3a-f40f-46b3-bd90-5d928baa007a": {
+      "id": "bc928a3a-f40f-46b3-bd90-5d928baa007a",
+      "message": {
+        "id": "bc928a3a-f40f-46b3-bd90-5d928baa007a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ea3ecc5-327e-431b-8c40-53c6e253fac8",
+      "children": [
+        "fd7245e3-4f5f-476b-bbd4-788afe5986dc"
+      ]
+    },
+    "fd7245e3-4f5f-476b-bbd4-788afe5986dc": {
+      "id": "fd7245e3-4f5f-476b-bbd4-788afe5986dc",
+      "message": {
+        "id": "fd7245e3-4f5f-476b-bbd4-788afe5986dc",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748274541.2410045,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bc928a3a-f40f-46b3-bd90-5d928baa007a",
+      "children": [
+        "bbb2135f-b354-42c6-a129-20e77d72e433"
+      ]
+    },
+    "bbb2135f-b354-42c6-a129-20e77d72e433": {
+      "id": "bbb2135f-b354-42c6-a129-20e77d72e433",
+      "message": {
+        "id": "bbb2135f-b354-42c6-a129-20e77d72e433",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748274541.254673,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is this. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "gizmo_id": "g-HBJly2bIB",
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "945e6b871eef1440-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd7245e3-4f5f-476b-bbd4-788afe5986dc",
+      "children": [
+        "751dfb79-c238-450a-9b43-9c8138b28603"
+      ]
+    },
+    "751dfb79-c238-450a-9b43-9c8138b28603": {
+      "id": "751dfb79-c238-450a-9b43-9c8138b28603",
+      "message": {
+        "id": "751dfb79-c238-450a-9b43-9c8138b28603",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748274541.326445,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "This is a custom GPT named **KnowLedge Vault 1 - Lex 100/55 - B. Johnson #186**, designed specifically to answer questions based on the content of a book titled **&quot;The End Of Knowledge&quot;**. \n\nTo get answers, you need to ask questions that are directly related to the content of that book.\n\nIf your question is not about the book, the only valid response is:  \n**&quot;Read the book The End Of Knowledge https://theendofknowledge.com/&quot;**\n\nIf you&#x27;re looking for the related interview, here is the link:  \n**https://www.youtube.com/watch?v=1YbcB6b4A2U**"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-HBJly2bIB",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2135f-b354-42c6-a129-20e77d72e433",
+          "request_id": "945e6b871eef1440-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2135f-b354-42c6-a129-20e77d72e433",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "751dfb79-c238-450a-9b43-9c8138b28603",
+  "plugin_ids": null,
+  "conversation_id": "68348d6c-b6d0-8000-8365-d6a121f04bb5",
+  "conversation_template_id": "g-HBJly2bIB",
+  "gizmo_id": "g-HBJly2bIB",
+  "gizmo_type": "gpt",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://theendofknowledge.com/",
+    "https://www.youtube.com/watch?v=1YbcB6b4A2U"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68348d6c-b6d0-8000-8365-d6a121f04bb5"
+}

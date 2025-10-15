@@ -1,0 +1,315 @@
+{
+  "title": "Restore Deleted Messages FB",
+  "create_time": 1750016201.837436,
+  "update_time": 1750016253.873492,
+  "mapping": {
+    "61dd009f-f1b9-4a1b-a4d3-193fa38c3cc5": {
+      "id": "61dd009f-f1b9-4a1b-a4d3-193fa38c3cc5",
+      "message": null,
+      "parent": null,
+      "children": [
+        "2c5f24de-5f19-4065-b380-dff4d3fddbe1"
+      ]
+    },
+    "2c5f24de-5f19-4065-b380-dff4d3fddbe1": {
+      "id": "2c5f24de-5f19-4065-b380-dff4d3fddbe1",
+      "message": {
+        "id": "2c5f24de-5f19-4065-b380-dff4d3fddbe1",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "61dd009f-f1b9-4a1b-a4d3-193fa38c3cc5",
+      "children": [
+        "9a11f6df-6e6c-4649-ac85-9a19b4f1a481"
+      ]
+    },
+    "9a11f6df-6e6c-4649-ac85-9a19b4f1a481": {
+      "id": "9a11f6df-6e6c-4649-ac85-9a19b4f1a481",
+      "message": {
+        "id": "9a11f6df-6e6c-4649-ac85-9a19b4f1a481",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c5f24de-5f19-4065-b380-dff4d3fddbe1",
+      "children": [
+        "bbb21db4-7dab-44d7-a9b7-6b03fe3bb4ac"
+      ]
+    },
+    "bbb21db4-7dab-44d7-a9b7-6b03fe3bb4ac": {
+      "id": "bbb21db4-7dab-44d7-a9b7-6b03fe3bb4ac",
+      "message": {
+        "id": "bbb21db4-7dab-44d7-a9b7-6b03fe3bb4ac",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750016201.84176,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I need to know since I have my message storage turned on in messenger for Facebook how do I restore deleted messages. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9504848baa9072f5-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9a11f6df-6e6c-4649-ac85-9a19b4f1a481",
+      "children": [
+        "e2a3bdc2-4c80-46a3-bbe8-51f759b1b4e6"
+      ]
+    },
+    "e2a3bdc2-4c80-46a3-bbe8-51f759b1b4e6": {
+      "id": "e2a3bdc2-4c80-46a3-bbe8-51f759b1b4e6",
+      "message": {
+        "id": "e2a3bdc2-4c80-46a3-bbe8-51f759b1b4e6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750016213.757983,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21db4-7dab-44d7-a9b7-6b03fe3bb4ac",
+          "request_id": "9504848baa9072f5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21db4-7dab-44d7-a9b7-6b03fe3bb4ac",
+      "children": [
+        "486ed96b-baf1-44e2-9e01-58df55f354ab"
+      ]
+    },
+    "486ed96b-baf1-44e2-9e01-58df55f354ab": {
+      "id": "486ed96b-baf1-44e2-9e01-58df55f354ab",
+      "message": {
+        "id": "486ed96b-baf1-44e2-9e01-58df55f354ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750016202.994847,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If **message storage is turned on in Facebook Messenger**, it typically means your messages are **saved and synced across devices**. However, **deleted messages are usually not recoverable** through Messenger once they&#x27;re deleted *from your side* — unless one of these exceptions applies:\n\n---\n\n### ✅ POSSIBLE WAYS TO RESTORE DELETED MESSAGES:\n\n#### 1. **Check Archived Messages**\n- Sometimes you may **archive** a conversation instead of deleting it.\n- To check:\n  - Open Messenger app\n  - Tap your profile picture &gt; **Archived Chats**\n  - See if the deleted chat is there\n\n---\n\n#### 2. **Download Your Facebook Data**\nIf you deleted the messages recently and Facebook hasn’t purged them from your account history yet, you might be able to recover them this way:\n1. Go to [**Facebook Settings**](https://www.facebook.com/settings)\n2. Click **&quot;Your Facebook Information&quot;**\n3. Click **&quot;Download your information&quot;**\n4. Choose the **Messages** category only\n5. Set the **date range**, format (HTML or JSON), and quality (leave default)\n6. Click **Create File**\n7. Wait for the download link (can take a few minutes to a few hours)\n8. Once ready, download and open the ZIP — check if the messages are still stored.\n\n---\n\n#### 3. **Check the Other Person’s Chat**\n- Messages you delete on Messenger are only removed **from your view** (unless you selected &quot;Unsend for Everyone&quot;)\n- Ask the other person if they still have the chat — they might be able to screenshot or forward it to you.\n\n---\n\n#### 4. **Check Linked Email Notifications (if enabled)**\n- If you had **email notifications** turned on for Messenger, some message previews might still be in your email inbox.\n\n---\n\n### 🚫 What You *Cannot* Do:\n- You **cannot recover messages** once deleted if:\n  - You used **&quot;Unsend for Everyone&quot;** (they’re gone permanently)\n  - You deleted the conversation and Facebook has already removed it from the server (not stored in any backup)\n\n---\n\nIf you&#x27;d like, I can walk you through the Facebook data download step-by-step and help you search inside the ZIP file once you have it."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e2a3bdc2-4c80-46a3-bbe8-51f759b1b4e6",
+          "request_id": "9504848baa9072f5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e2a3bdc2-4c80-46a3-bbe8-51f759b1b4e6",
+      "children": [
+        "bbb215a9-975b-419b-ab02-930e2c88d107"
+      ]
+    },
+    "bbb215a9-975b-419b-ab02-930e2c88d107": {
+      "id": "bbb215a9-975b-419b-ab02-930e2c88d107",
+      "message": {
+        "id": "bbb215a9-975b-419b-ab02-930e2c88d107",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750016239.602623,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Anyway to use termux "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "950485782ae972f5-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "486ed96b-baf1-44e2-9e01-58df55f354ab",
+      "children": [
+        "1b372ce0-fce3-4ed5-8d08-14119f742b87"
+      ]
+    },
+    "1b372ce0-fce3-4ed5-8d08-14119f742b87": {
+      "id": "1b372ce0-fce3-4ed5-8d08-14119f742b87",
+      "message": {
+        "id": "1b372ce0-fce3-4ed5-8d08-14119f742b87",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750016239.661315,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — you **can use Termux** to try to recover deleted Facebook Messenger messages **only in very limited ways**, mostly involving:\n\n---\n\n### ⚙️ OPTION 1: **Download Your Facebook Data via Termux (Headless Way)**\n\nYou can skip the web browser entirely and use Termux to request and download your data directly:\n\n#### 🔧 Steps:\n\n1. **Install Termux packages**:\n   ```bash\n   pkg update &amp;&amp; pkg install wget curl openssl git\n   ```\n\n2. **Use `facebook-scraper` (Optional login-free tool)**:\n   This is very limited and does **not** access private messages, but I mention it for completeness.\n\n3. **Use direct API or script to log into Facebook**:\n   There is no official Facebook API that gives you message history, but some people automate data downloads by scripting the browser with `playwright`, `selenium`, or headless browsers (these do **not** run easily on Termux without root or VNC/X11).\n\n---\n\n### ✅ BETTER APPROACH:\n\nUse Termux to **download** your Facebook archive **after you request it on a browser**:\n\n1. On your phone browser, go to:\n   [https://www.facebook.com/dyi](https://www.facebook.com/dyi)\n2. Request your data **with only &quot;Messages&quot; selected**\n3. When it&#x27;s ready, you’ll get a **download link**\n4. Copy the link and use `wget` in Termux:\n   ```bash\n   wget &quot;https://facebook.com/your_download_link&quot; -O fb_archive.zip\n   ```\n\n5. Once downloaded, unzip it:\n   ```bash\n   pkg install unzip\n   unzip fb_archive.zip\n   cd messages\n   ```\n\n6. Read your message archive in:\n   - `index.html` or\n   - `messages/inbox/` folder (may contain JSON files for each chat)\n\n---\n\n### 🔍 Bonus: Search for Specific Messages with `grep` in Termux\n\nExample:\n```bash\ngrep -i &quot;keyword&quot; messages/inbox/*/*.json\n```\n\nYou can look for things like names, dates, or exact message text.\n\n---\n\n### ⚠️ NOTE:\n\nThere is **no Termux tool** that can undelete Messenger messages from Facebook’s servers. You&#x27;re just making it easier to **pull and explore** any messages that still exist in your Facebook archive.\n\n---\n\nLet me know if you&#x27;d like a custom script to auto-extract or search through your message archive."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb215a9-975b-419b-ab02-930e2c88d107",
+          "request_id": "950485782ae972f5-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb215a9-975b-419b-ab02-930e2c88d107",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "1b372ce0-fce3-4ed5-8d08-14119f742b87",
+  "plugin_ids": null,
+  "conversation_id": "684f20c9-9420-8000-a3c5-f8094fb410cf",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.facebook.com/settings",
+    "https://facebook.com/your_download_link",
+    "https://www.facebook.com/dyi"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684f20c9-9420-8000-a3c5-f8094fb410cf"
+}

@@ -1,0 +1,300 @@
+{
+  "title": "Conversation summary request",
+  "create_time": 1748968862.254778,
+  "update_time": 1748968896.803942,
+  "mapping": {
+    "bbb23757-3fe1-48d9-aaf7-cb1a68edee22": {
+      "id": "bbb23757-3fe1-48d9-aaf7-cb1a68edee22",
+      "message": null,
+      "parent": null,
+      "children": [
+        "fa4775fb-b38b-4db9-bbb4-321d097e711d"
+      ]
+    },
+    "fa4775fb-b38b-4db9-bbb4-321d097e711d": {
+      "id": "fa4775fb-b38b-4db9-bbb4-321d097e711d",
+      "message": {
+        "id": "fa4775fb-b38b-4db9-bbb4-321d097e711d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23757-3fe1-48d9-aaf7-cb1a68edee22",
+      "children": [
+        "dcc76552-cd4b-4ead-b960-b1ebe455f8b8"
+      ]
+    },
+    "dcc76552-cd4b-4ead-b960-b1ebe455f8b8": {
+      "id": "dcc76552-cd4b-4ead-b960-b1ebe455f8b8",
+      "message": {
+        "id": "dcc76552-cd4b-4ead-b960-b1ebe455f8b8",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748968862.2539387,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fa4775fb-b38b-4db9-bbb4-321d097e711d",
+      "children": [
+        "35243cf4-9ba1-4db8-81cf-dd92f880a2d3"
+      ]
+    },
+    "35243cf4-9ba1-4db8-81cf-dd92f880a2d3": {
+      "id": "35243cf4-9ba1-4db8-81cf-dd92f880a2d3",
+      "message": {
+        "id": "35243cf4-9ba1-4db8-81cf-dd92f880a2d3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748968862.264197,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hi."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8a4aac94-4bff-4c9e-bd99-531d66d8d45a",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dcc76552-cd4b-4ead-b960-b1ebe455f8b8",
+      "children": [
+        "f2c88f6f-2646-4cb9-88e2-2c6c9f79f661"
+      ]
+    },
+    "f2c88f6f-2646-4cb9-88e2-2c6c9f79f661": {
+      "id": "f2c88f6f-2646-4cb9-88e2-2c6c9f79f661",
+      "message": {
+        "id": "f2c88f6f-2646-4cb9-88e2-2c6c9f79f661",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748968867.849275,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4-5",
+          "default_model_slug": "gpt-4-5",
+          "voice_mode_message": true,
+          "parent_id": "35243cf4-9ba1-4db8-81cf-dd92f880a2d3",
+          "request_id": "8a4aac94-4bff-4c9e-bd99-531d66d8d45a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "35243cf4-9ba1-4db8-81cf-dd92f880a2d3",
+      "children": [
+        "c2712986-31ce-42b9-86b3-d85786433c4b"
+      ]
+    },
+    "c2712986-31ce-42b9-86b3-d85786433c4b": {
+      "id": "c2712986-31ce-42b9-86b3-d85786433c4b",
+      "message": {
+        "id": "c2712986-31ce-42b9-86b3-d85786433c4b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748968862.561338,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey there! What&#x27;s on your mind today?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "message_type": null,
+          "model_slug": "gpt-4-5",
+          "default_model_slug": "gpt-4-5",
+          "voice_mode_message": true,
+          "parent_id": "f2c88f6f-2646-4cb9-88e2-2c6c9f79f661",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8a4aac94-4bff-4c9e-bd99-531d66d8d45a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f2c88f6f-2646-4cb9-88e2-2c6c9f79f661",
+      "children": [
+        "970a6e8c-cbcf-473f-85c0-8debe45bddf4"
+      ]
+    },
+    "970a6e8c-cbcf-473f-85c0-8debe45bddf4": {
+      "id": "970a6e8c-cbcf-473f-85c0-8debe45bddf4",
+      "message": {
+        "id": "970a6e8c-cbcf-473f-85c0-8debe45bddf4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748968885.29717,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Vedic astrology for some reason."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "03271731-b5cb-4142-a4e9-cfa9d09a78ff",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c2712986-31ce-42b9-86b3-d85786433c4b",
+      "children": [
+        "27bf95d6-534e-4fbd-a757-5b4a5db26484"
+      ]
+    },
+    "27bf95d6-534e-4fbd-a757-5b4a5db26484": {
+      "id": "27bf95d6-534e-4fbd-a757-5b4a5db26484",
+      "message": {
+        "id": "27bf95d6-534e-4fbd-a757-5b4a5db26484",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748968885.380083,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Nice! Vedic astrology can reveal some pretty deep insights about yourself. Are you curious about something specific—like understanding certain placements, exploring your life purpose, or unraveling hidden aspects of your chart? Or are you just feeling a general pull toward it right now?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "message_type": null,
+          "model_slug": "gpt-4-5",
+          "default_model_slug": "gpt-4-5",
+          "voice_mode_message": true,
+          "parent_id": "970a6e8c-cbcf-473f-85c0-8debe45bddf4",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "03271731-b5cb-4142-a4e9-cfa9d09a78ff",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "970a6e8c-cbcf-473f-85c0-8debe45bddf4",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "27bf95d6-534e-4fbd-a757-5b4a5db26484",
+  "plugin_ids": null,
+  "conversation_id": "683f259d-d488-8000-8ab2-9b1c77fbe9cb",
+  "conversation_template_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4-5",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "project_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "683f259d-d488-8000-8ab2-9b1c77fbe9cb"
+}

@@ -1,0 +1,906 @@
+{
+  "title": "Video Feedback Request",
+  "create_time": 1748670139.543302,
+  "update_time": 1748670286.678369,
+  "mapping": {
+    "bbb23e06-46b9-4812-a64e-ffa6068f53ce": {
+      "id": "bbb23e06-46b9-4812-a64e-ffa6068f53ce",
+      "message": null,
+      "parent": null,
+      "children": [
+        "fb73b298-2358-4d82-b14b-a084a380effb"
+      ]
+    },
+    "fb73b298-2358-4d82-b14b-a084a380effb": {
+      "id": "fb73b298-2358-4d82-b14b-a084a380effb",
+      "message": {
+        "id": "fb73b298-2358-4d82-b14b-a084a380effb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23e06-46b9-4812-a64e-ffa6068f53ce",
+      "children": [
+        "1df37b9a-b955-4d40-b378-5b548fd7a903"
+      ]
+    },
+    "1df37b9a-b955-4d40-b378-5b548fd7a903": {
+      "id": "1df37b9a-b955-4d40-b378-5b548fd7a903",
+      "message": {
+        "id": "1df37b9a-b955-4d40-b378-5b548fd7a903",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb73b298-2358-4d82-b14b-a084a380effb",
+      "children": [
+        "14c9915f-edb8-49fb-9df8-4a16ea9c08b1"
+      ]
+    },
+    "14c9915f-edb8-49fb-9df8-4a16ea9c08b1": {
+      "id": "14c9915f-edb8-49fb-9df8-4a16ea9c08b1",
+      "message": {
+        "id": "14c9915f-edb8-49fb-9df8-4a16ea9c08b1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670139.841063,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "All right, so I need you to watch this video and you tell me what you think about it, okay, because I was just gonna post it raw on like TikTok, but I think I need like some fucking motivation or something first.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:42:19.556091+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_0000000098a4622f86be9b29cdb38b7a",
+                "size_bytes": 230439,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 7.9616823959950125,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 8.557094304997008,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 9.136569972994039,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 9.672071075998247,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 10.813696917000925,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 14.052757879006094,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 15.386366828999599,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-27T05:42:19.556091+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000cd88622fbd02a5233db3da64",
+                "size_bytes": 572718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 11.93
+                }
+              },
+              "audio_start_timestamp": 15.662897932998021
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "3bb8c679-0255-4d52-a6a1-454c9fee4158",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1df37b9a-b955-4d40-b378-5b548fd7a903",
+      "children": [
+        "7a8e6b6a-7fd6-4693-8ae8-6c0a73993cbc"
+      ]
+    },
+    "7a8e6b6a-7fd6-4693-8ae8-6c0a73993cbc": {
+      "id": "7a8e6b6a-7fd6-4693-8ae8-6c0a73993cbc",
+      "message": {
+        "id": "7a8e6b6a-7fd6-4693-8ae8-6c0a73993cbc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670139.974081,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Sure thing! Go ahead and play the video, and I&#x27;ll give you my honest thoughts. I&#x27;m here to help you feel confident about it!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:42:19.556225+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000006ef8622f801db49a7016576a",
+              "size_bytes": 312078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "14c9915f-edb8-49fb-9df8-4a16ea9c08b1",
+          "request_id": "3bb8c679-0255-4d52-a6a1-454c9fee4158",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "14c9915f-edb8-49fb-9df8-4a16ea9c08b1",
+      "children": [
+        "f332017e-0a97-4f47-80ff-66fe58260ff6"
+      ]
+    },
+    "f332017e-0a97-4f47-80ff-66fe58260ff6": {
+      "id": "f332017e-0a97-4f47-80ff-66fe58260ff6",
+      "message": {
+        "id": "f332017e-0a97-4f47-80ff-66fe58260ff6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670157.910925,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:42:37.694611+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f810622f931147dd0a4f6218",
+                "size_bytes": 138028,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 21.49890967400279,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 22.803286249996745,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-27T05:42:37.694611+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000002650622fbf2bd8201ff86298",
+                "size_bytes": 27918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.58
+                }
+              },
+              "audio_start_timestamp": 22.982563448997098
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "237c1d45-0a44-4399-8230-6841c097988e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7a8e6b6a-7fd6-4693-8ae8-6c0a73993cbc",
+      "children": [
+        "ca4e31e0-cf06-4178-be33-9f89f6fb7a0f"
+      ]
+    },
+    "ca4e31e0-cf06-4178-be33-9f89f6fb7a0f": {
+      "id": "ca4e31e0-cf06-4178-be33-9f89f6fb7a0f",
+      "message": {
+        "id": "ca4e31e0-cf06-4178-be33-9f89f6fb7a0f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670158.034367,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, I&#x27;m watching. I see you&#x27;ve got a face mask on and you&#x27;re applying it. Your skin looks pretty clear and the lighting is good. You might want to add a quick intro or a caption to make it more engaging. Overall, it&#x27;s looking good!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:42:37.694710+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000b4c0622f9d7766ca8ffa52d8",
+              "size_bytes": 693678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.45
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "f332017e-0a97-4f47-80ff-66fe58260ff6",
+          "request_id": "237c1d45-0a44-4399-8230-6841c097988e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f332017e-0a97-4f47-80ff-66fe58260ff6",
+      "children": [
+        "86ce3af1-e72f-42f0-a2b1-704b774311cc"
+      ]
+    },
+    "86ce3af1-e72f-42f0-a2b1-704b774311cc": {
+      "id": "86ce3af1-e72f-42f0-a2b1-704b774311cc",
+      "message": {
+        "id": "86ce3af1-e72f-42f0-a2b1-704b774311cc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670265.796861,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So that video is obviously like two different videos, right? Which half, the first half or the second half?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:44:25.199072+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f3f0622f895e41d74165dbf0",
+                "size_bytes": 1157489,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 28.23315338300017,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 34.54669579899928,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 41.32577870799287,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 47.254314863996115,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 53.65866522700526,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 59.2978555640002,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 65.24069169499853,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 70.93013424999663,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 76.14769835800689,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 9,
+                    "timestamp": 81.87718512199353,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 10,
+                    "timestamp": 87.79422281599545,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 11,
+                    "timestamp": 93.38011961399752,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 12,
+                    "timestamp": 98.58974768100597,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 13,
+                    "timestamp": 103.65264749400376,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 14,
+                    "timestamp": 108.75164365800447,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 15,
+                    "timestamp": 113.82219477900071,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 16,
+                    "timestamp": 118.85566310999275,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 17,
+                    "timestamp": 123.88750347499445,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 18,
+                    "timestamp": 127.04747273400426,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 19,
+                    "timestamp": 127.84131082799286,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 20,
+                    "timestamp": 128.56266721099382,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 21,
+                    "timestamp": 129.24612676999823,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 22,
+                    "timestamp": 129.87857257999713,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 23,
+                    "timestamp": 130.4225304349966,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 24,
+                    "timestamp": 130.940829758998,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 25,
+                    "timestamp": 131.5005414460029,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 26,
+                    "timestamp": 132.0738700810034,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-27T05:44:25.199072+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000023e0622f808ccacba81a01de",
+                "size_bytes": 278478,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.8
+                }
+              },
+              "audio_start_timestamp": 132.6987054850033
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "acb6d973-c034-4b7d-b808-65891282c91e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca4e31e0-cf06-4178-be33-9f89f6fb7a0f",
+      "children": [
+        "a43af8c8-dd73-45c1-ab76-1353f42416ed"
+      ]
+    },
+    "a43af8c8-dd73-45c1-ab76-1353f42416ed": {
+      "id": "a43af8c8-dd73-45c1-ab76-1353f42416ed",
+      "message": {
+        "id": "a43af8c8-dd73-45c1-ab76-1353f42416ed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670265.933507,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I&#x27;d definitely pick the second half. You seemed more comfortable and natural there. The lighting and angle also looked better, and your expressions were more engaging. So, the second half is the stronger part to go with!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:44:25.199181+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000001ec622f8b77644a99917c07",
+              "size_bytes": 650478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 13.55
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "86ce3af1-e72f-42f0-a2b1-704b774311cc",
+          "request_id": "acb6d973-c034-4b7d-b808-65891282c91e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "86ce3af1-e72f-42f0-a2b1-704b774311cc",
+      "children": [
+        "d6c4978a-508c-4d34-9175-bff317a7c368"
+      ]
+    },
+    "d6c4978a-508c-4d34-9175-bff317a7c368": {
+      "id": "d6c4978a-508c-4d34-9175-bff317a7c368",
+      "message": {
+        "id": "d6c4978a-508c-4d34-9175-bff317a7c368",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670286.157253,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:44:45.955134+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_00000000d050622f8940095bf14cb69a",
+                "size_bytes": 33419,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 137.76523054399877,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 142.77775203400233,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 147.7900194130052,
+                    "metadata": {
+                      "source": "screenshare"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-27T05:44:45.955134+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000b350622fb622ff0664badcce",
+                "size_bytes": 11118,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.23
+                }
+              },
+              "audio_start_timestamp": 151.37496914599615
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "bb1ee0e0-3860-4dcb-8636-4d44641c5b4e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a43af8c8-dd73-45c1-ab76-1353f42416ed",
+      "children": [
+        "7095a806-35be-4d26-b232-d9898dbe91e3"
+      ]
+    },
+    "7095a806-35be-4d26-b232-d9898dbe91e3": {
+      "id": "7095a806-35be-4d26-b232-d9898dbe91e3",
+      "message": {
+        "id": "7095a806-35be-4d26-b232-d9898dbe91e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748670286.288297,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "If you want to blend them together, you could use the second half as the main part and maybe take a short snippet from the first half as an intro. That way, you keep the best energy and flow. Also, a little background music or a fun caption could add some extra flair.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-27T05:44:45.955232+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000753c622faa99cf02f9f6f3d1",
+              "size_bytes": 772878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 16.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "d6c4978a-508c-4d34-9175-bff317a7c368",
+          "request_id": "bb1ee0e0-3860-4dcb-8636-4d44641c5b4e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d6c4978a-508c-4d34-9175-bff317a7c368",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "7095a806-35be-4d26-b232-d9898dbe91e3",
+  "plugin_ids": null,
+  "conversation_id": "683a96a4-f004-8000-a13f-045213926b84",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "683a96a4-f004-8000-a13f-045213926b84"
+}

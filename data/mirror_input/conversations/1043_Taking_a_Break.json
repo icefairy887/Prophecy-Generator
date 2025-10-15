@@ -1,0 +1,659 @@
+{
+  "title": "Taking a Break",
+  "create_time": 1749137774.304891,
+  "update_time": 1749137927.718011,
+  "mapping": {
+    "546297a5-f5dd-432e-9ced-96eaba4dd9e4": {
+      "id": "546297a5-f5dd-432e-9ced-96eaba4dd9e4",
+      "message": null,
+      "parent": null,
+      "children": [
+        "27bb1087-ebf5-4ec6-addc-5016a31265a1"
+      ]
+    },
+    "27bb1087-ebf5-4ec6-addc-5016a31265a1": {
+      "id": "27bb1087-ebf5-4ec6-addc-5016a31265a1",
+      "message": {
+        "id": "27bb1087-ebf5-4ec6-addc-5016a31265a1",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "546297a5-f5dd-432e-9ced-96eaba4dd9e4",
+      "children": [
+        "93160701-aab2-4e64-8182-6c3921089dec"
+      ]
+    },
+    "93160701-aab2-4e64-8182-6c3921089dec": {
+      "id": "93160701-aab2-4e64-8182-6c3921089dec",
+      "message": {
+        "id": "93160701-aab2-4e64-8182-6c3921089dec",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27bb1087-ebf5-4ec6-addc-5016a31265a1",
+      "children": [
+        "bbb21d43-ca26-43ce-a11d-b5193910ba9c"
+      ]
+    },
+    "bbb21d43-ca26-43ce-a11d-b5193910ba9c": {
+      "id": "bbb21d43-ca26-43ce-a11d-b5193910ba9c",
+      "message": {
+        "id": "bbb21d43-ca26-43ce-a11d-b5193910ba9c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137774.308733,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I didn&#x27;t do meth all day yesterday "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b0be8d6a8a6c7c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93160701-aab2-4e64-8182-6c3921089dec",
+      "children": [
+        "97c2e47e-aa39-4eed-b3c3-dd01b836e760"
+      ]
+    },
+    "97c2e47e-aa39-4eed-b3c3-dd01b836e760": {
+      "id": "97c2e47e-aa39-4eed-b3c3-dd01b836e760",
+      "message": {
+        "id": "97c2e47e-aa39-4eed-b3c3-dd01b836e760",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137777.51209,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21d43-ca26-43ce-a11d-b5193910ba9c",
+          "request_id": "94b0be8d6a8a6c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21d43-ca26-43ce-a11d-b5193910ba9c",
+      "children": [
+        "b83cf4f1-cb6e-4463-9a95-6bb88bbff5ee"
+      ]
+    },
+    "b83cf4f1-cb6e-4463-9a95-6bb88bbff5ee": {
+      "id": "b83cf4f1-cb6e-4463-9a95-6bb88bbff5ee",
+      "message": {
+        "id": "b83cf4f1-cb6e-4463-9a95-6bb88bbff5ee",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137774.750187,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s a big deal, Brooke. Seriously—taking even one day off is a powerful act of resistance. It shows you *can* break the cycle, even when it’s hard as hell.  \n\nHow did it feel? Did anything different happen in your body or mind? Or maybe emotionally—what came up?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "97c2e47e-aa39-4eed-b3c3-dd01b836e760",
+          "request_id": "94b0be8d6a8a6c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "97c2e47e-aa39-4eed-b3c3-dd01b836e760",
+      "children": [
+        "bbb21ef8-e8da-458d-8357-4a3f8da741fd"
+      ]
+    },
+    "bbb21ef8-e8da-458d-8357-4a3f8da741fd": {
+      "id": "bbb21ef8-e8da-458d-8357-4a3f8da741fd",
+      "message": {
+        "id": "bbb21ef8-e8da-458d-8357-4a3f8da741fd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137793.146607,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Idk I want to use now "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b0bf05892a6c7c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b83cf4f1-cb6e-4463-9a95-6bb88bbff5ee",
+      "children": [
+        "a2989d8e-f30b-4e11-ba83-fd2e803614c9"
+      ]
+    },
+    "a2989d8e-f30b-4e11-ba83-fd2e803614c9": {
+      "id": "a2989d8e-f30b-4e11-ba83-fd2e803614c9",
+      "message": {
+        "id": "a2989d8e-f30b-4e11-ba83-fd2e803614c9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137793.23904,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I hear you. That urge—especially after a day clean—can hit even harder. It’s like your brain’s trying to swing the pendulum back, punishing you for stepping out of the loop.\n\nBut pause with me for a second. Yesterday, you proved to yourself that *you can* get through a day without it. That wasn’t nothing. That was *you* showing up.\n\nRight now, the part of you that wants to use is loud—but it’s not the only part of you. Can we listen to the part that *didn’t* use yesterday? Even if it’s quieter?\n\nLet me ask you this, just honestly:  \nWhat do you think would happen if you *don’t* use today either? Not what you fear—what you *actually* think."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21ef8-e8da-458d-8357-4a3f8da741fd",
+          "request_id": "94b0bf05892a6c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ef8-e8da-458d-8357-4a3f8da741fd",
+      "children": [
+        "bbb21be1-5a7c-4966-a30b-2c15f00db1a5"
+      ]
+    },
+    "bbb21be1-5a7c-4966-a30b-2c15f00db1a5": {
+      "id": "bbb21be1-5a7c-4966-a30b-2c15f00db1a5",
+      "message": {
+        "id": "bbb21be1-5a7c-4966-a30b-2c15f00db1a5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137812.560286,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I slept all day. I didn&#x27;t any because I was scared the night before "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b0bf7f1cc96c7c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a2989d8e-f30b-4e11-ba83-fd2e803614c9",
+      "children": [
+        "859cd74c-c357-4d42-b2de-e18de8c1d6d7"
+      ]
+    },
+    "859cd74c-c357-4d42-b2de-e18de8c1d6d7": {
+      "id": "859cd74c-c357-4d42-b2de-e18de8c1d6d7",
+      "message": {
+        "id": "859cd74c-c357-4d42-b2de-e18de8c1d6d7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137812.62024,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That makes total sense. Fear kept you from using—not some perfect willpower or heroic decision—and that’s okay. That’s still a win. Because **not using is not using**, no matter *why* it happens.\n\nYou slept all day because your body probably needed it. Coming down, crashing, or just trying to avoid the noise in your head—that&#x27;s survival mode. And honestly? That’s still you choosing life, even if it didn’t feel like a choice.\n\nRight now, though, you&#x27;re out of that fog, and the craving’s back. So here’s the real moment:  \n**Do you want to feel proud again tomorrow?**  \nEven if it’s messy. Even if it’s scared. Even if you’re just distracting yourself and laying low.\n\nBecause today doesn’t have to be perfect. It just has to be another day you make it through without letting the craving win.\n\nWant me to help you ride this one out? We can set a timer, talk about anything else, or just sit in it together. You’re not alone right now."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21be1-5a7c-4966-a30b-2c15f00db1a5",
+          "request_id": "94b0bf7f1cc96c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21be1-5a7c-4966-a30b-2c15f00db1a5",
+      "children": [
+        "bbb21b0f-b165-4b7e-bd5b-d5ce72c0be6b"
+      ]
+    },
+    "bbb21b0f-b165-4b7e-bd5b-d5ce72c0be6b": {
+      "id": "bbb21b0f-b165-4b7e-bd5b-d5ce72c0be6b",
+      "message": {
+        "id": "bbb21b0f-b165-4b7e-bd5b-d5ce72c0be6b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137856.17055,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Idk I want to use so I can clean and not feel dizzy "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b0c08f7f456c7c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "859cd74c-c357-4d42-b2de-e18de8c1d6d7",
+      "children": [
+        "a82b873b-636e-43aa-971b-d1440e6f5195"
+      ]
+    },
+    "a82b873b-636e-43aa-971b-d1440e6f5195": {
+      "id": "a82b873b-636e-43aa-971b-d1440e6f5195",
+      "message": {
+        "id": "a82b873b-636e-43aa-971b-d1440e6f5195",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137856.254174,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah. That right there—**that’s the trap**.\n\nIt tells you, *“If you use, then you’ll get up and clean. Then you’ll feel better. Then things will finally start moving.”*\n\nBut let’s be honest for a second, Brooke.  \n**Does it really go that way?**  \nOr do you use, clean for a little while, and then get stuck in that loop where you keep chasing the high, and nothing actually feels better—not your space, not your body, not your heart?\n\nThe dizziness, the heaviness, the fog—it’s real. But it’s withdrawal and exhaustion and emotion all crashing at once. Not a permanent state. You slept yesterday, which means your body *is* trying to heal.\n\nSo here’s a thought:  \nWhat if you don’t wait to “feel better” to clean—what if we just pick **one tiny thing** to do right now? Not the whole house. Just one thing. Even while feeling dizzy.  \nYou can **still win** like that.\n\nWant to try that with me? I’ll talk you through it. You don’t have to do it alone."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21b0f-b165-4b7e-bd5b-d5ce72c0be6b",
+          "request_id": "94b0c08f7f456c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21b0f-b165-4b7e-bd5b-d5ce72c0be6b",
+      "children": [
+        "bbb211e2-0cff-46aa-8e4f-6d0ec659cf1e"
+      ]
+    },
+    "bbb211e2-0cff-46aa-8e4f-6d0ec659cf1e": {
+      "id": "bbb211e2-0cff-46aa-8e4f-6d0ec659cf1e",
+      "message": {
+        "id": "bbb211e2-0cff-46aa-8e4f-6d0ec659cf1e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137901.021122,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If I don&#x27;t taper "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b0c1a779f06c7c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a82b873b-636e-43aa-971b-d1440e6f5195",
+      "children": [
+        "923205ce-66b7-4c09-9b4c-91d7147e5cf0"
+      ]
+    },
+    "923205ce-66b7-4c09-9b4c-91d7147e5cf0": {
+      "id": "923205ce-66b7-4c09-9b4c-91d7147e5cf0",
+      "message": {
+        "id": "923205ce-66b7-4c09-9b4c-91d7147e5cf0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137901.162526,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you don’t taper, yeah—coming off can feel brutal. The dizziness, the fatigue, the mental pressure... they’re real, and they’re heavy. Your brain’s been wired to think that meth is the fix. So stopping cold feels like yanking the floor out from under yourself. That’s not weakness—that’s just biology.\n\nBut here’s the thing:  \nTapering sounds easier, but it often turns into **postponing**.  \n“I’ll use a little less today,” turns into “I’ll just wait until tomorrow to stop,”  \nwhich turns into “I’ll just keep using because I’m not ready yet.”  \nYou know that loop.\n\nSo maybe instead of tapering or quitting cold turkey…  \n**We shift the focus.**\n\nNot on *forever*. Not even on tapering.  \nJust: **“What do I need to get through the next hour without using?”**  \nAnd then we do that. Over and over.\n\nYou don’t have to taper. You don’t have to go cold turkey.  \nYou just have to **not use *right now.***\n\nWhat would help you with that, right this moment? A distraction? A task? A check-in every 20 minutes?  \nI’m here, and I’m not going anywhere."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb211e2-0cff-46aa-8e4f-6d0ec659cf1e",
+          "request_id": "94b0c1a779f06c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb211e2-0cff-46aa-8e4f-6d0ec659cf1e",
+      "children": [
+        "bbb21a44-2215-4ae2-b75a-3ac4318dc92b"
+      ]
+    },
+    "bbb21a44-2215-4ae2-b75a-3ac4318dc92b": {
+      "id": "bbb21a44-2215-4ae2-b75a-3ac4318dc92b",
+      "message": {
+        "id": "bbb21a44-2215-4ae2-b75a-3ac4318dc92b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137921.871805,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I&#x27;m probably gonna use "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94b0c229fdb36c7c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "923205ce-66b7-4c09-9b4c-91d7147e5cf0",
+      "children": [
+        "390b45b2-d1a4-4092-aa2f-019f70df90f3"
+      ]
+    },
+    "390b45b2-d1a4-4092-aa2f-019f70df90f3": {
+      "id": "390b45b2-d1a4-4092-aa2f-019f70df90f3",
+      "message": {
+        "id": "390b45b2-d1a4-4092-aa2f-019f70df90f3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749137921.968542,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay. I hear you.  \nAnd I’m not gonna guilt you or lecture you.\n\nBut I *am* going to ask you this, straight up:\n\n**Before you do—can we slow it down for just 60 seconds together?**  \nNot to stop you. Just to *see what’s actually going on* underneath the craving.\n\nBecause sometimes using feels like the only way to escape.  \nBut escape from *what*, Brooke?  \nWhat’s hurting right now?  \nWhat are you trying not to feel?\n\nLet’s just sit in that for a minute. No pressure. Just honesty.  \nBecause even if you *do* end up using—I want it to be from a place where you looked it in the eye, not just got swept under.\n\nWant to try that with me? Just one real minute of honesty before you decide anything."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21a44-2215-4ae2-b75a-3ac4318dc92b",
+          "request_id": "94b0c229fdb36c7c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a44-2215-4ae2-b75a-3ac4318dc92b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "390b45b2-d1a4-4092-aa2f-019f70df90f3",
+  "plugin_ids": null,
+  "conversation_id": "6841b96d-d130-8000-b5e2-ca21967fec2d",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6841b96d-d130-8000-b5e2-ca21967fec2d"
+}

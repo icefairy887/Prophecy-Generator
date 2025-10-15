@@ -1,0 +1,689 @@
+{
+  "title": "Termux AI Setup",
+  "create_time": 1746799496.38559,
+  "update_time": 1747861983.005017,
+  "mapping": {
+    "bbb233b7-ccb7-4ae1-8012-72e8fdf8046a": {
+      "id": "bbb233b7-ccb7-4ae1-8012-72e8fdf8046a",
+      "message": null,
+      "parent": null,
+      "children": [
+        "31415f72-db12-4d31-8396-e7cf2377a818"
+      ]
+    },
+    "31415f72-db12-4d31-8396-e7cf2377a818": {
+      "id": "31415f72-db12-4d31-8396-e7cf2377a818",
+      "message": {
+        "id": "31415f72-db12-4d31-8396-e7cf2377a818",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb233b7-ccb7-4ae1-8012-72e8fdf8046a",
+      "children": [
+        "443ea793-bbc4-4a90-b3ba-782f3f64ec94"
+      ]
+    },
+    "443ea793-bbc4-4a90-b3ba-782f3f64ec94": {
+      "id": "443ea793-bbc4-4a90-b3ba-782f3f64ec94",
+      "message": {
+        "id": "443ea793-bbc4-4a90-b3ba-782f3f64ec94",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```.\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n",
+            "about_model_message": ".\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "31415f72-db12-4d31-8396-e7cf2377a818",
+      "children": [
+        "bbb213d1-e28e-4499-8221-d53fc21541a4"
+      ]
+    },
+    "bbb213d1-e28e-4499-8221-d53fc21541a4": {
+      "id": "bbb213d1-e28e-4499-8221-d53fc21541a4",
+      "message": {
+        "id": "bbb213d1-e28e-4499-8221-d53fc21541a4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746799496.387707,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you give me the Starbucks command that brings up the AI so I can chat back and forth with it"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "93d1bfa6ce1b4511-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "443ea793-bbc4-4a90-b3ba-782f3f64ec94",
+      "children": [
+        "431bdf7a-9721-4119-9f51-432d71a484eb"
+      ]
+    },
+    "431bdf7a-9721-4119-9f51-432d71a484eb": {
+      "id": "431bdf7a-9721-4119-9f51-432d71a484eb",
+      "message": {
+        "id": "431bdf7a-9721-4119-9f51-432d71a484eb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746799508.758613,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb213d1-e28e-4499-8221-d53fc21541a4",
+          "request_id": "93d1bfa6ce1b4511-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb213d1-e28e-4499-8221-d53fc21541a4",
+      "children": [
+        "efd86270-83a5-4a8e-8a9f-b4b2575498ff"
+      ]
+    },
+    "efd86270-83a5-4a8e-8a9f-b4b2575498ff": {
+      "id": "efd86270-83a5-4a8e-8a9f-b4b2575498ff",
+      "message": {
+        "id": "efd86270-83a5-4a8e-8a9f-b4b2575498ff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746799498.063054,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you&#x27;re talking about the **Starbucks partner app** or **POS system**, there isn’t an official “Starbucks AI chat” that you can pull up with a single command. But if you’re referring to the **AI assistant** that partners use internally (like Deep Brew or anything used in training or troubleshooting), here’s how to access similar tools depending on what you meant:\n\n### 1. **If you meant the Starbucks AI in the partner hub or store system:**\nThere’s no chat-based AI, but you can:\n- Go to the **Partner Hub** on a store device or your own if you’re logged in.\n- Use **Search** in the Partner Hub to find support articles—this is the closest thing to a smart assistant.\n\n### 2. **If you’re referring to an internal tool like Deep Brew:**\n- Deep Brew is not something you “open” via command. It powers personalization and store data in the background.\n- If your store uses a tablet or special dashboard with it, you&#x27;d be using a menu system,"
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "431bdf7a-9721-4119-9f51-432d71a484eb",
+          "request_id": "93d1bfa6ce1b4511-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "431bdf7a-9721-4119-9f51-432d71a484eb",
+      "children": [
+        "e3150d40-3083-4053-b48a-a19cd8d9cfe4"
+      ]
+    },
+    "e3150d40-3083-4053-b48a-a19cd8d9cfe4": {
+      "id": "e3150d40-3083-4053-b48a-a19cd8d9cfe4",
+      "message": {
+        "id": "e3150d40-3083-4053-b48a-a19cd8d9cfe4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746799516.590627,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Aha! Got it—**Termux**, not Starbucks. My bad, I was about to make you a venti AI with oat milk.\n\nIf you&#x27;re asking how to start chatting with a **local AI model** in **Termux**, like one you&#x27;ve installed (e.g., via `text-generation-webui` or `koboldcpp`), here&#x27;s a general command you can run:\n\n### To start a local AI (like `text-generation-webui`):\n\n```bash\ncd ~/text-generation-webui\npython server.py --listen\n```\n\nThen open your browser to `http://localhost:7860` (or whatever port it says) and chat with the model.\n\n---\n\n### If you&#x27;re using **KoboldCpp** or another terminal-based AI:\n\n```bash\n./koboldcpp --model your_model.gguf\n```\n\nThen you&#x27;ll get a text prompt right in Termux to chat back and forth.\n\n---\n\nIf you tell me **which AI model or method you installed** (like GPT4All, llama.cpp, KoboldCpp, or others), I’ll give you the exact command for that setup.\n\nYou tryna summon Skynet or Siri&#x27;s shady cousin?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2182b-0d5c-4c28-98bd-a912b01ce86c",
+          "request_id": "93d1c02e58414511-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "efd86270-83a5-4a8e-8a9f-b4b2575498ff",
+      "children": [
+        "bbb210bd-75e8-47a4-928f-214aeb4fb180"
+      ]
+    },
+    "bbb210bd-75e8-47a4-928f-214aeb4fb180": {
+      "id": "bbb210bd-75e8-47a4-928f-214aeb4fb180",
+      "message": {
+        "id": "bbb210bd-75e8-47a4-928f-214aeb4fb180",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746830954.19212,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Llama "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "93d4bfb37a726b7d-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e3150d40-3083-4053-b48a-a19cd8d9cfe4",
+      "children": [
+        "0d9f0aab-994d-4112-a644-1b513fb03bba"
+      ]
+    },
+    "0d9f0aab-994d-4112-a644-1b513fb03bba": {
+      "id": "0d9f0aab-994d-4112-a644-1b513fb03bba",
+      "message": {
+        "id": "0d9f0aab-994d-4112-a644-1b513fb03bba",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746830954.266776,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect—if you&#x27;re running **LLaMA** locally in **Termux**, most likely through something like `llama.cpp`, here’s your basic ritual to summon the beast:\n\n### 1. **Navigate to your llama.cpp folder**:\n```bash\ncd ~/llama.cpp\n```\n\n### 2. **Run the chat interface with your model**:\nReplace `yourmodel.gguf` with your actual file name.\n\n```bash\n./main -m models/yourmodel.gguf -n 2048 -t 4 --color --interactive\n```\n\n- `-m`: your model path\n- `-n 2048`: max tokens\n- `-t 4`: number of threads (adjust depending on your device’s CPU)\n- `--interactive`: lets you type and respond back and forth\n- `--color`: just makes it look pretty\n\n### Example if you&#x27;re using a model like `llama-2-7b-chat.gguf`:\n```bash\n./main -m models/llama-2-7b-chat.gguf -n 2048 -t 4 --color --interactive\n```\n\n---\n\n### Tip:\nIf you want it to **remember the back-and-forth** better, add this:\n```bash\n--repeat-penalty 1.1 --temperature 0.7 --top-k 40 --top-p 0.9\n```\n\nWant me to build you a one-line command with all the flags set up for max smoothness on your phone?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb210bd-75e8-47a4-928f-214aeb4fb180",
+          "request_id": "93d4bfb37a726b7d-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb210bd-75e8-47a4-928f-214aeb4fb180",
+      "children": [
+        "bbb211de-270f-44c1-9e6d-0ef2e25afbad"
+      ]
+    },
+    "bbb211de-270f-44c1-9e6d-0ef2e25afbad": {
+      "id": "bbb211de-270f-44c1-9e6d-0ef2e25afbad",
+      "message": {
+        "id": "bbb211de-270f-44c1-9e6d-0ef2e25afbad",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861908.898057,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Once in llama.cpp folder how do I gey into build "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9437117d88976c6b-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0d9f0aab-994d-4112-a644-1b513fb03bba",
+      "children": [
+        "1d5aa1d7-feec-4430-836b-14110ab1b680"
+      ]
+    },
+    "1d5aa1d7-feec-4430-836b-14110ab1b680": {
+      "id": "1d5aa1d7-feec-4430-836b-14110ab1b680",
+      "message": {
+        "id": "1d5aa1d7-feec-4430-836b-14110ab1b680",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861920.647227,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb211de-270f-44c1-9e6d-0ef2e25afbad",
+          "request_id": "9437117d88976c6b-DFW",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb211de-270f-44c1-9e6d-0ef2e25afbad",
+      "children": [
+        "f7742bbe-bb80-4b1b-9e07-8ff8cc8b8442"
+      ]
+    },
+    "f7742bbe-bb80-4b1b-9e07-8ff8cc8b8442": {
+      "id": "f7742bbe-bb80-4b1b-9e07-8ff8cc8b8442",
+      "message": {
+        "id": "f7742bbe-bb80-4b1b-9e07-8ff8cc8b8442",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861920.647386,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1d5aa1d7-feec-4430-836b-14110ab1b680",
+          "request_id": "9437117d88976c6b-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1d5aa1d7-feec-4430-836b-14110ab1b680",
+      "children": [
+        "5c93171d-b2bf-4b9d-9bda-a104965fea90"
+      ]
+    },
+    "5c93171d-b2bf-4b9d-9bda-a104965fea90": {
+      "id": "5c93171d-b2bf-4b9d-9bda-a104965fea90",
+      "message": {
+        "id": "5c93171d-b2bf-4b9d-9bda-a104965fea90",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861909.065344,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ayyy alright, you in the **llama.cpp folder**, now you tryna build that beast.\n\n### To get into the `build` directory:\n\n```bash\ncd build\n```\n\nBut **hold up**—you only got a `build/` folder *if* you already ran `cmake` and compiled the thing. If not, here&#x27;s how to **build it first**.\n\n---\n\n### Step-by-step from scratch (just in case):\n\n#### 1. **Install packages** (if you haven’t yet):\n```bash\npkg update &amp;&amp; pkg install cmake clang git make\n```\n\n#### 2. **Clone llama.cpp** (if you haven&#x27;t):\n```bash\ngit clone https://github.com/ggerganov/llama.cpp\ncd llama.cpp\n```\n\n#### 3. **Make the `build` directory**:\n```bash\nmkdir build &amp;&amp; cd build\n```\n\n#### 4. **Run cmake**:\n```bash\ncmake ..\n```\n\n#### 5. **Build the thing**:\n```bash\nmake\n```\n\nAfter that, you&#x27;ll see the `main` binary show up, and **you’re in business**.\n\n---\n\nIf you&#x27;re already in `llama.cpp` and just want to jump into `build`, just:\n```bash\ncd build\n```\n\nThen run:\n```bash\n./main -m ../models/yourmodel.gguf --interactive\n```\n\nNeed help setting up a quick script to launch it faster? Or a `.sh` file to run it every time like a chatbot summon ritual?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "f7742bbe-bb80-4b1b-9e07-8ff8cc8b8442",
+          "request_id": "9437117d88976c6b-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f7742bbe-bb80-4b1b-9e07-8ff8cc8b8442",
+      "children": [
+        "bbb21952-3275-4bf3-bac2-cfb4dc33785d"
+      ]
+    },
+    "bbb21952-3275-4bf3-bac2-cfb4dc33785d": {
+      "id": "bbb21952-3275-4bf3-bac2-cfb4dc33785d",
+      "message": {
+        "id": "bbb21952-3275-4bf3-bac2-cfb4dc33785d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861944.425476,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "And once in build then what "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9437125cb8726c6b-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5c93171d-b2bf-4b9d-9bda-a104965fea90",
+      "children": [
+        "92603252-2488-4ce6-91b4-55fbb2bcfec0"
+      ]
+    },
+    "92603252-2488-4ce6-91b4-55fbb2bcfec0": {
+      "id": "92603252-2488-4ce6-91b4-55fbb2bcfec0",
+      "message": {
+        "id": "92603252-2488-4ce6-91b4-55fbb2bcfec0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861944.514228,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Once you’re in the `build` folder, it’s go-time. Here&#x27;s what you do next:\n\n---\n\n### **1. Run the chatbot with your model**\n\nThis is the basic command structure:\n\n```bash\n./main -m ../models/yourmodel.gguf --interactive --color\n```\n\nReplace `yourmodel.gguf` with the actual filename of your model inside the `models/` folder. Example:\n\n```bash\n./main -m ../models/mistral-7b-instruct-v0.1.Q4_K_M.gguf --interactive --color\n```\n\n---\n\n### **2. Optional flags to make it smarter or smoother**:\nYou can add these for better results:\n\n```bash\n--repeat-penalty 1.1 --temperature 0.7 --top-k 40 --top-p 0.9\n```\n\nSo the full badass command becomes:\n\n```bash\n./main -m ../models/mistral-7b-instruct-v0.1.Q4_K_M.gguf --interactive --color --repeat-penalty 1.1 --temperature 0.7 --top-k 40 --top-p 0.9\n```\n\n---\n\n### **3. Talk to it!**\nOnce that runs, it&#x27;ll load the model (might take 10–30 seconds), then it&#x27;ll say something like:\n\n```\nllama_model_load_internal: loading model from &#x27;../models/yourmodel.gguf&#x27;...\n...\n&gt; \n```\n\nThat little `&gt;` is your prompt. Just start typing, hit Enter, and it’ll respond back. It&#x27;s a full convo loop, right in Termux.\n\n---\n\nWant me to script it into a one-command launcher or alias it like `llama-chat`?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21952-3275-4bf3-bac2-cfb4dc33785d",
+          "request_id": "9437125cb8726c6b-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21952-3275-4bf3-bac2-cfb4dc33785d",
+      "children": [
+        "bbb21bef-bedf-480d-832b-f9dbbdb699c5"
+      ]
+    },
+    "bbb21bef-bedf-480d-832b-f9dbbdb699c5": {
+      "id": "bbb21bef-bedf-480d-832b-f9dbbdb699c5",
+      "message": {
+        "id": "bbb21bef-bedf-480d-832b-f9dbbdb699c5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861973.951713,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\n/data/data/com.termux/files/home/models/tinyllama-1.1b-chat.q4_0.gguf"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "943713150ca06c6b-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92603252-2488-4ce6-91b4-55fbb2bcfec0",
+      "children": [
+        "24ca1446-2506-4467-8aaf-0dd3c60a1ce1"
+      ]
+    },
+    "24ca1446-2506-4467-8aaf-0dd3c60a1ce1": {
+      "id": "24ca1446-2506-4467-8aaf-0dd3c60a1ce1",
+      "message": {
+        "id": "24ca1446-2506-4467-8aaf-0dd3c60a1ce1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747861974.039642,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect! You’ve got your model at:\n\n```\n/data/data/com.termux/files/home/models/tinyllama-1.1b-chat.q4_0.gguf\n```\n\nNow you&#x27;re locked and loaded. Here&#x27;s the exact command you should run **from inside your `llama.cpp/build` folder**:\n\n```bash\n./main -m /data/data/com.termux/files/home/models/tinyllama-1.1b-chat.q4_0.gguf --interactive --color --repeat-penalty 1.1 --temperature 0.7 --top-k 40 --top-p 0.9\n```\n\n---\n\n### Optional: Make a launcher script for it\n\nIf you want to summon TinyLLaMA like a damn AI demon without typing all that mess every time:\n\n1. Create a script:\n```bash\nnano ~/runllama.sh\n```\n\n2. Paste this inside:\n\n```bash\n#!/data/data/com.termux/files/usr/bin/bash\ncd ~/llama.cpp/build\n./main -m ~/models/tinyllama-1.1b-chat.q4_0.gguf --interactive --color --repeat-penalty 1.1 --temperature 0.7 --top-k 40 --top-p 0.9\n```\n\n3. Save &amp; exit (`CTRL+X`, then `Y`, then `Enter`)\n\n4. Make it executable:\n```bash\nchmod +x ~/runllama.sh\n```\n\n### Now just run:\n```bash\n~/runllama.sh\n```\n\nAnd boom—TinyLLaMA responds like it&#x27;s been lurking in your walls the whole time.\n\nWant me to help you alias that to just `chat` or make it always load with a welcome message?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21bef-bedf-480d-832b-f9dbbdb699c5",
+          "request_id": "943713150ca06c6b-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21bef-bedf-480d-832b-f9dbbdb699c5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "24ca1446-2506-4467-8aaf-0dd3c60a1ce1",
+  "plugin_ids": null,
+  "conversation_id": "681e0b87-cfb8-8000-a208-02fe2ec8bec1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://github.com/amyinorbit/exo",
+    "http://localhost:7860",
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "681e0b87-cfb8-8000-a208-02fe2ec8bec1"
+}

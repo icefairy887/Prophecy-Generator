@@ -1,0 +1,255 @@
+{
+  "title": "Conversation Introduction",
+  "create_time": 1749848897.139328,
+  "update_time": 1749848898.782142,
+  "mapping": {
+    "bbb23255-2734-4a2c-aa9b-13027932ab83": {
+      "id": "bbb23255-2734-4a2c-aa9b-13027932ab83",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a14f991c-aa32-428e-85e2-3cb320956815",
+        "22bbb8f0-a255-4eb6-bc0e-906c474acdba"
+      ]
+    },
+    "a14f991c-aa32-428e-85e2-3cb320956815": {
+      "id": "a14f991c-aa32-428e-85e2-3cb320956815",
+      "message": {
+        "id": "a14f991c-aa32-428e-85e2-3cb320956815",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23255-2734-4a2c-aa9b-13027932ab83",
+      "children": [
+        "94aec48b-f35d-41c7-92e7-a12b56720cf5"
+      ]
+    },
+    "94aec48b-f35d-41c7-92e7-a12b56720cf5": {
+      "id": "94aec48b-f35d-41c7-92e7-a12b56720cf5",
+      "message": {
+        "id": "94aec48b-f35d-41c7-92e7-a12b56720cf5",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848897.1380906,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a14f991c-aa32-428e-85e2-3cb320956815",
+      "children": []
+    },
+    "22bbb8f0-a255-4eb6-bc0e-906c474acdba": {
+      "id": "22bbb8f0-a255-4eb6-bc0e-906c474acdba",
+      "message": {
+        "id": "22bbb8f0-a255-4eb6-bc0e-906c474acdba",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848887.5420396,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23255-2734-4a2c-aa9b-13027932ab83",
+      "children": [
+        "4cdefeb3-c02f-4d23-9f50-94fd6275c57a"
+      ]
+    },
+    "4cdefeb3-c02f-4d23-9f50-94fd6275c57a": {
+      "id": "4cdefeb3-c02f-4d23-9f50-94fd6275c57a",
+      "message": {
+        "id": "4cdefeb3-c02f-4d23-9f50-94fd6275c57a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848897.494002,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:08:17.150337+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-10T21:08:17.150337+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f5ec622fb82e13cc043da1db",
+                "size_bytes": 18798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.39
+                }
+              },
+              "audio_start_timestamp": 4.639846144011244
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "5e6d0da1-c6f3-40fb-b760-6714224c59c8",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "22bbb8f0-a255-4eb6-bc0e-906c474acdba",
+      "children": [
+        "7593e950-ab4b-415c-a863-8e7d2ce16a80"
+      ]
+    },
+    "7593e950-ab4b-415c-a863-8e7d2ce16a80": {
+      "id": "7593e950-ab4b-415c-a863-8e7d2ce16a80",
+      "message": {
+        "id": "7593e950-ab4b-415c-a863-8e7d2ce16a80",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749848897.569073,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey there! How&#x27;s it going? Let me know if there&#x27;s anything on your mind or if you",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-10T21:08:17.150440+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000053d8622f9da240946e9e44f1",
+              "size_bytes": 120078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 2.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "4cdefeb3-c02f-4d23-9f50-94fd6275c57a",
+          "request_id": "5e6d0da1-c6f3-40fb-b760-6714224c59c8",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4cdefeb3-c02f-4d23-9f50-94fd6275c57a",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "7593e950-ab4b-415c-a863-8e7d2ce16a80",
+  "plugin_ids": null,
+  "conversation_id": "684c9337-6a1c-8000-8cd6-71885b83775d",
+  "conversation_template_id": "g-p-684658fdfac4819198c41351dcb744c4",
+  "gizmo_id": "g-p-684658fdfac4819198c41351dcb744c4",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684c9337-6a1c-8000-8cd6-71885b83775d"
+}

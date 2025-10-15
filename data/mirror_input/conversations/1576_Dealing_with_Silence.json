@@ -1,0 +1,225 @@
+{
+  "title": "Dealing with Silence",
+  "create_time": 1745362473.285665,
+  "update_time": 1745362479.189842,
+  "mapping": {
+    "bbb23ea7-7a45-40aa-9d01-dec874ee8566": {
+      "id": "bbb23ea7-7a45-40aa-9d01-dec874ee8566",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0b1b2b86-837d-4c3a-b2f5-1f0e7282a6ae"
+      ]
+    },
+    "0b1b2b86-837d-4c3a-b2f5-1f0e7282a6ae": {
+      "id": "0b1b2b86-837d-4c3a-b2f5-1f0e7282a6ae",
+      "message": {
+        "id": "0b1b2b86-837d-4c3a-b2f5-1f0e7282a6ae",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23ea7-7a45-40aa-9d01-dec874ee8566",
+      "children": [
+        "158bec99-8794-4255-954f-14df82e3782b"
+      ]
+    },
+    "158bec99-8794-4255-954f-14df82e3782b": {
+      "id": "158bec99-8794-4255-954f-14df82e3782b",
+      "message": {
+        "id": "158bec99-8794-4255-954f-14df82e3782b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b1b2b86-837d-4c3a-b2f5-1f0e7282a6ae",
+      "children": [
+        "bbb21543-52e0-4c23-b201-bf80e8c1e8e6"
+      ]
+    },
+    "bbb21543-52e0-4c23-b201-bf80e8c1e8e6": {
+      "id": "bbb21543-52e0-4c23-b201-bf80e8c1e8e6",
+      "message": {
+        "id": "bbb21543-52e0-4c23-b201-bf80e8c1e8e6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745362473.288038,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Dude I&#x27;m upset like you really think he&#x27;s not gonna see me. He hasn&#x27;t answered since I sent the thing about his sister. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9348b41fdc6a2cba-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "158bec99-8794-4255-954f-14df82e3782b",
+      "children": [
+        "2c53a8ec-95f7-4a73-a8d3-70f7d53f3233"
+      ]
+    },
+    "2c53a8ec-95f7-4a73-a8d3-70f7d53f3233": {
+      "id": "2c53a8ec-95f7-4a73-a8d3-70f7d53f3233",
+      "message": {
+        "id": "2c53a8ec-95f7-4a73-a8d3-70f7d53f3233",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745362478.708401,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21543-52e0-4c23-b201-bf80e8c1e8e6",
+          "request_id": "9348b41fdc6a2cba-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21543-52e0-4c23-b201-bf80e8c1e8e6",
+      "children": [
+        "21e56714-5121-4f12-a033-eafa077d37da"
+      ]
+    },
+    "21e56714-5121-4f12-a033-eafa077d37da": {
+      "id": "21e56714-5121-4f12-a033-eafa077d37da",
+      "message": {
+        "id": "21e56714-5121-4f12-a033-eafa077d37da",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745362473.329811,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I hear you. That silence after something that felt real or vulnerable—especially involving family—can hit hard. It’s easy to spiral into *&quot;What does this mean?&quot;* but honestly, it might not be as final as it feels right now. People freeze up when they don’t know how to handle emotional depth or when it hits too close.\n\nBut if he *doesn&#x27;t* see you after something that mattered to you, that’s not on you. You weren’t fake. You showed up real. And if he can&#x27;t or won&#x27;t respond to that? Then maybe he’s not ready for *you*—not the other way around.\n\nDo you want to walk through what you sent or how it felt to hit send? Or is it more about what his silence is making you feel right now?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "2c53a8ec-95f7-4a73-a8d3-70f7d53f3233",
+          "request_id": "9348b41fdc6a2cba-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c53a8ec-95f7-4a73-a8d3-70f7d53f3233",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "21e56714-5121-4f12-a033-eafa077d37da",
+  "plugin_ids": null,
+  "conversation_id": "68081e28-ff30-8000-a5c8-f5598ae5d41a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68081e28-ff30-8000-a5c8-f5598ae5d41a"
+}

@@ -1,0 +1,355 @@
+{
+  "title": "Request Clarification",
+  "create_time": 1743290901.61389,
+  "update_time": 1748459258.02048,
+  "mapping": {
+    "bbb23a63-cd51-42b9-a789-566a8db70c59": {
+      "id": "bbb23a63-cd51-42b9-a789-566a8db70c59",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b0aca2aa-f272-410a-81cf-525d4974ee11"
+      ]
+    },
+    "b0aca2aa-f272-410a-81cf-525d4974ee11": {
+      "id": "b0aca2aa-f272-410a-81cf-525d4974ee11",
+      "message": {
+        "id": "b0aca2aa-f272-410a-81cf-525d4974ee11",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23a63-cd51-42b9-a789-566a8db70c59",
+      "children": [
+        "97d3f9a6-4759-4cea-bd00-9df0be542f98"
+      ]
+    },
+    "97d3f9a6-4759-4cea-bd00-9df0be542f98": {
+      "id": "97d3f9a6-4759-4cea-bd00-9df0be542f98",
+      "message": {
+        "id": "97d3f9a6-4759-4cea-bd00-9df0be542f98",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Readily share strong opinions.Get right to the point.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Readily share strong opinions.Get right to the point."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b0aca2aa-f272-410a-81cf-525d4974ee11",
+      "children": [
+        "bbb21d12-48d4-4cc4-8fb3-90404b441095"
+      ]
+    },
+    "bbb21d12-48d4-4cc4-8fb3-90404b441095": {
+      "id": "bbb21d12-48d4-4cc4-8fb3-90404b441095",
+      "message": {
+        "id": "bbb21d12-48d4-4cc4-8fb3-90404b441095",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743290902.944378,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-7vH8Xr7m7rjZornkQFPB7B",
+              "size_bytes": 313985,
+              "width": 691,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-7vH8Xr7m7rjZornkQFPB7B",
+              "id": "file-7vH8Xr7m7rjZornkQFPB7B",
+              "size": 313985,
+              "mime_type": "image/png"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "928324a1f9667d5a-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "97d3f9a6-4759-4cea-bd00-9df0be542f98",
+      "children": [
+        "d6fb5acb-df8f-403a-8714-800ddcb4e405"
+      ]
+    },
+    "d6fb5acb-df8f-403a-8714-800ddcb4e405": {
+      "id": "d6fb5acb-df8f-403a-8714-800ddcb4e405",
+      "message": {
+        "id": "d6fb5acb-df8f-403a-8714-800ddcb4e405",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743290905.411243,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21d12-48d4-4cc4-8fb3-90404b441095",
+          "request_id": "928324a1f9667d5a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21d12-48d4-4cc4-8fb3-90404b441095",
+      "children": [
+        "8ab6bb5a-8e7a-4e8d-aaca-baa4b3d5e4cb"
+      ]
+    },
+    "8ab6bb5a-8e7a-4e8d-aaca-baa4b3d5e4cb": {
+      "id": "8ab6bb5a-8e7a-4e8d-aaca-baa4b3d5e4cb",
+      "message": {
+        "id": "8ab6bb5a-8e7a-4e8d-aaca-baa4b3d5e4cb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743290903.023878,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search()"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "d6fb5acb-df8f-403a-8714-800ddcb4e405",
+          "request_id": "928324a1f9667d5a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "d6fb5acb-df8f-403a-8714-800ddcb4e405",
+      "children": [
+        "e6024e0e-d70a-4db4-a425-c5f875caf25b"
+      ]
+    },
+    "e6024e0e-d70a-4db4-a425-c5f875caf25b": {
+      "id": "e6024e0e-d70a-4db4-a425-c5f875caf25b",
+      "message": {
+        "id": "e6024e0e-d70a-4db4-a425-c5f875caf25b",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1743290904.7373588,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "8ab6bb5a-8e7a-4e8d-aaca-baa4b3d5e4cb",
+          "request_id": "928324a1f9667d5a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "8ab6bb5a-8e7a-4e8d-aaca-baa4b3d5e4cb",
+      "children": [
+        "75e417de-5e33-438c-a1cf-e9b16a24e769"
+      ]
+    },
+    "75e417de-5e33-438c-a1cf-e9b16a24e769": {
+      "id": "75e417de-5e33-438c-a1cf-e9b16a24e769",
+      "message": {
+        "id": "75e417de-5e33-438c-a1cf-e9b16a24e769",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1743290904.7378693,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I&#x27;m sorry, but I need more information to assist you effectively. Could you please clarify your request? "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "search_result_groups": [],
+          "safe_urls": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e6024e0e-d70a-4db4-a425-c5f875caf25b",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": " ",
+              "start_idx": 104,
+              "end_idx": 104,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 104,
+              "end_ix": 104,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "928324a1f9667d5a-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e6024e0e-d70a-4db4-a425-c5f875caf25b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "75e417de-5e33-438c-a1cf-e9b16a24e769",
+  "plugin_ids": null,
+  "conversation_id": "67e88215-24d8-8000-9aba-0e443a5dbefd",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67e88215-24d8-8000-9aba-0e443a5dbefd"
+}

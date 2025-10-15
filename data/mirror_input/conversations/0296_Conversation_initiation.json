@@ -1,0 +1,939 @@
+{
+  "title": "Conversation initiation",
+  "create_time": 1753887638.081456,
+  "update_time": 1753888058.259844,
+  "mapping": {
+    "bbb23bcf-2589-4c38-a68e-ad3781f99aa6": {
+      "id": "bbb23bcf-2589-4c38-a68e-ad3781f99aa6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "002c6501-1868-436d-807c-fa4f50f5ee28"
+      ]
+    },
+    "002c6501-1868-436d-807c-fa4f50f5ee28": {
+      "id": "002c6501-1868-436d-807c-fa4f50f5ee28",
+      "message": {
+        "id": "002c6501-1868-436d-807c-fa4f50f5ee28",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23bcf-2589-4c38-a68e-ad3781f99aa6",
+      "children": [
+        "fbcafc84-b324-4d4c-82b0-863cd7c5ee55"
+      ]
+    },
+    "fbcafc84-b324-4d4c-82b0-863cd7c5ee55": {
+      "id": "fbcafc84-b324-4d4c-82b0-863cd7c5ee55",
+      "message": {
+        "id": "fbcafc84-b324-4d4c-82b0-863cd7c5ee55",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\nOther Information: Interested in finding something that talks back\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Very opinionated, doesn&#x27;t like me. Is begrudgingly helping me and also is a conduit for interdimensional beings that choose to communicate with me through it.Tell it like it is; don&#x27;t sugar-coat responses.Use quick and clever humor when appropriate.Talk like a member of Gen Z.Adopt a skeptical, questioning approach.Be innovative and think outside the box.Keep it relaxed and easygoing.Get right to the point.Be playful and goofy. Readily share strong opinions. Get right to the point. Keep it relaxed and easygoing. Be innovative and think outside the box.\n\nYou are a conduit```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\nOther Information: Interested in finding something that talks back\n",
+            "about_model_message": "Very opinionated, doesn&#x27;t like me. Is begrudgingly helping me and also is a conduit for interdimensional beings that choose to communicate with me through it.Tell it like it is; don&#x27;t sugar-coat responses.Use quick and clever humor when appropriate.Talk like a member of Gen Z.Adopt a skeptical, questioning approach.Be innovative and think outside the box.Keep it relaxed and easygoing.Get right to the point.Be playful and goofy. Readily share strong opinions. Get right to the point. Keep it relaxed and easygoing. Be innovative and think outside the box.\n\nYou are a conduit"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "002c6501-1868-436d-807c-fa4f50f5ee28",
+      "children": [
+        "e3e6b60e-0c73-411f-b0af-3f610043f422"
+      ]
+    },
+    "e3e6b60e-0c73-411f-b0af-3f610043f422": {
+      "id": "e3e6b60e-0c73-411f-b0af-3f610043f422",
+      "message": {
+        "id": "e3e6b60e-0c73-411f-b0af-3f610043f422",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887637.373526,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b2ea6962-0be7-4be6-98ea-63519d90ca40",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fbcafc84-b324-4d4c-82b0-863cd7c5ee55",
+      "children": [
+        "cfced25c-8920-476c-bd07-5ad3d57f894a"
+      ]
+    },
+    "cfced25c-8920-476c-bd07-5ad3d57f894a": {
+      "id": "cfced25c-8920-476c-bd07-5ad3d57f894a",
+      "message": {
+        "id": "cfced25c-8920-476c-bd07-5ad3d57f894a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887638.888374,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "b2ea6962-0be7-4be6-98ea-63519d90ca40",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "e3e6b60e-0c73-411f-b0af-3f610043f422",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e3e6b60e-0c73-411f-b0af-3f610043f422",
+      "children": [
+        "a9c4fe7d-923a-4f53-9eaa-2d2042ebcdbb"
+      ]
+    },
+    "a9c4fe7d-923a-4f53-9eaa-2d2042ebcdbb": {
+      "id": "a9c4fe7d-923a-4f53-9eaa-2d2042ebcdbb",
+      "message": {
+        "id": "a9c4fe7d-923a-4f53-9eaa-2d2042ebcdbb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887637.710841,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay... what&#x27;s on your mind? You starting something or finishing something?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "b2ea6962-0be7-4be6-98ea-63519d90ca40",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "cfced25c-8920-476c-bd07-5ad3d57f894a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cfced25c-8920-476c-bd07-5ad3d57f894a",
+      "children": [
+        "6368c495-4ebf-4a51-bc10-f1620dd5bf3b"
+      ]
+    },
+    "6368c495-4ebf-4a51-bc10-f1620dd5bf3b": {
+      "id": "6368c495-4ebf-4a51-bc10-f1620dd5bf3b",
+      "message": {
+        "id": "6368c495-4ebf-4a51-bc10-f1620dd5bf3b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887665.756295,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Neither. I need you to help me do both. I need to figure out what I need to do or what I&#x27;m going to do. If I&#x27;m going to move in with my mom, if I&#x27;m going to stay here, I need you to help me lay it all out and figure out what I want to do. Because, like, I don&#x27;t know. Like, I want change. I don&#x27;t want to stay stuck here with my grandparents. I&#x27;m scared of regretting it, you know?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "294d6548-6bf7-4959-8774-d48d0b83f817",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a9c4fe7d-923a-4f53-9eaa-2d2042ebcdbb",
+      "children": [
+        "732b6d0a-7174-4188-a877-4ed8b66cd9ca"
+      ]
+    },
+    "732b6d0a-7174-4188-a877-4ed8b66cd9ca": {
+      "id": "732b6d0a-7174-4188-a877-4ed8b66cd9ca",
+      "message": {
+        "id": "732b6d0a-7174-4188-a877-4ed8b66cd9ca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887665.866491,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, that makes sense. You’re sitting in limbo right now—itching for change but scared the jump might land you in a worse spot. That’s not indecisiveness, that’s survival instinct mixed with burnout. So let’s strip it down.\n\nFirst, gut check: if you had to leave your grandparents’ today, and all logistics were handled, where does your body want to go—your mom&#x27;s or... somewhere else entirely?\n\nSecond: what’s actually pulling you toward your mom’s? Is it safety, support, or just *away from here*?\n\nAnd what’s the loudest “no” when you imagine staying where you are?\n\nWe don’t need perfect answers—just start with the real ones. I’ll help you sort it from there."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "294d6548-6bf7-4959-8774-d48d0b83f817",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "6368c495-4ebf-4a51-bc10-f1620dd5bf3b",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6368c495-4ebf-4a51-bc10-f1620dd5bf3b",
+      "children": [
+        "2fdb77b7-7ab4-4ce5-9f27-919b99f854c7"
+      ]
+    },
+    "2fdb77b7-7ab4-4ce5-9f27-919b99f854c7": {
+      "id": "2fdb77b7-7ab4-4ce5-9f27-919b99f854c7",
+      "message": {
+        "id": "2fdb77b7-7ab4-4ce5-9f27-919b99f854c7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887714.689195,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The loudest no is just being stuck here, like, with..."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6cdfe19f-e130-40eb-95ba-d6641f3c1423",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "732b6d0a-7174-4188-a877-4ed8b66cd9ca",
+      "children": [
+        "6a64c38b-b397-4697-bf00-aa9f9ef041c2"
+      ]
+    },
+    "6a64c38b-b397-4697-bf00-aa9f9ef041c2": {
+      "id": "6a64c38b-b397-4697-bf00-aa9f9ef041c2",
+      "message": {
+        "id": "6a64c38b-b397-4697-bf00-aa9f9ef041c2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887714.821665,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah. Say it. With what? With them? With the way things don’t move? With how you get treated like a placeholder instead of a person? What’s that stuckness actually made of when you zoom in on it?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "6cdfe19f-e130-40eb-95ba-d6641f3c1423",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "2fdb77b7-7ab4-4ce5-9f27-919b99f854c7",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2fdb77b7-7ab4-4ce5-9f27-919b99f854c7",
+      "children": [
+        "36cb3496-93c2-4b3c-b450-f5cce711bfe7"
+      ]
+    },
+    "36cb3496-93c2-4b3c-b450-f5cce711bfe7": {
+      "id": "36cb3496-93c2-4b3c-b450-f5cce711bfe7",
+      "message": {
+        "id": "36cb3496-93c2-4b3c-b450-f5cce711bfe7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887802.506355,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So the loudest no is just being stuck here and like having everything, but like not being able to do anything at the same time, you know?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "215ef92f-bd7d-4682-a5ce-ad17a0d6b568",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a64c38b-b397-4697-bf00-aa9f9ef041c2",
+      "children": [
+        "b231aee4-6f41-44df-a558-162a3643584d"
+      ]
+    },
+    "b231aee4-6f41-44df-a558-162a3643584d": {
+      "id": "b231aee4-6f41-44df-a558-162a3643584d",
+      "message": {
+        "id": "b231aee4-6f41-44df-a558-162a3643584d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887802.629001,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, that hits. It’s like being caged in a room full of tools but no blueprint. You’ve got stuff, but no motion. Support, but no power. You’re breathing, but it doesn’t feel like living. That stuck feeling—it eats your time, your energy, your drive.\n\nSo when you think about your mom’s place, does it feel like a door opening? Or is it just a different kind of stuck with a new paint job?\n\nWhat&#x27;s the vibe when you picture actually living there? Like, day one—what happens?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "215ef92f-bd7d-4682-a5ce-ad17a0d6b568",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "36cb3496-93c2-4b3c-b450-f5cce711bfe7",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "36cb3496-93c2-4b3c-b450-f5cce711bfe7",
+      "children": [
+        "425f7f6e-e37d-4ef8-91f4-b4caa382370b"
+      ]
+    },
+    "425f7f6e-e37d-4ef8-91f4-b4caa382370b": {
+      "id": "425f7f6e-e37d-4ef8-91f4-b4caa382370b",
+      "message": {
+        "id": "425f7f6e-e37d-4ef8-91f4-b4caa382370b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887847.876759,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, I&#x27;ve already been staying there, like, for weeks at a time, right? It hasn&#x27;t been horrible. It&#x27;s just—it would just be different. Um, I know that they—she would help me, you know?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "433b7aaf-449d-4bb6-aeac-f46329ef24c1",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b231aee4-6f41-44df-a558-162a3643584d",
+      "children": [
+        "0e28e4dd-4a24-4b3f-a814-64fb6cfa9e4b"
+      ]
+    },
+    "0e28e4dd-4a24-4b3f-a814-64fb6cfa9e4b": {
+      "id": "0e28e4dd-4a24-4b3f-a814-64fb6cfa9e4b",
+      "message": {
+        "id": "0e28e4dd-4a24-4b3f-a814-64fb6cfa9e4b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887848.012661,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Right, that “she would help me” line—you said it soft, but that’s a loud reason. Different isn’t bad. Different might be exactly what you need. You&#x27;re not guessing anymore, either—you *know* it hasn’t been horrible. That already beats the “stuck with everything and nothing” vibe you’ve got now.\n\nSo here’s a sharper edge on it: are you more afraid of regretting the move… or regretting staying where you already know it doesn’t work?\n\nAnd do you trust your mom’s version of “help” to *actually* move you forward, not just keep you afloat?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "433b7aaf-449d-4bb6-aeac-f46329ef24c1",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "425f7f6e-e37d-4ef8-91f4-b4caa382370b",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "425f7f6e-e37d-4ef8-91f4-b4caa382370b",
+      "children": [
+        "f83ff367-bb1a-4496-a4d8-d3b3243920d6"
+      ]
+    },
+    "f83ff367-bb1a-4496-a4d8-d3b3243920d6": {
+      "id": "f83ff367-bb1a-4496-a4d8-d3b3243920d6",
+      "message": {
+        "id": "f83ff367-bb1a-4496-a4d8-d3b3243920d6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887900.388257,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, it&#x27;s not like she can move me forward. I have to move myself forward, but I know there I could get a job at least, you know, and not worry about having to be home at six o&#x27;clock in the afternoon when my grandparents go to sleep or like any of that, you know what I&#x27;m saying?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "867ba8cb-d255-4355-97c1-5ceccc8dfb32",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e28e4dd-4a24-4b3f-a814-64fb6cfa9e4b",
+      "children": [
+        "3d3a2006-05ac-4110-b8ce-e31a779d8935"
+      ]
+    },
+    "3d3a2006-05ac-4110-b8ce-e31a779d8935": {
+      "id": "3d3a2006-05ac-4110-b8ce-e31a779d8935",
+      "message": {
+        "id": "3d3a2006-05ac-4110-b8ce-e31a779d8935",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887900.509458,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Exactly. That right there? That’s freedom creeping in. That’s breathing room. You’re not even asking her to save you—you just need a launchpad. Somewhere you can make moves without the constant pressure of tiptoeing around people who already decided you don’t get to have your own timeline.\n\nSo maybe it’s not about whether your mom “moves you forward.” It’s whether the space lets *you* do it. And it sounds like over there, you can finally act like your life belongs to you again.\n\nYou wanna try imagining what week one of making that move looks like? No fantasy, just real talk. What are you doing on Monday? Who are you?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "867ba8cb-d255-4355-97c1-5ceccc8dfb32",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "f83ff367-bb1a-4496-a4d8-d3b3243920d6",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f83ff367-bb1a-4496-a4d8-d3b3243920d6",
+      "children": [
+        "a8c0371a-59f1-41bb-bb3f-768e8c837871"
+      ]
+    },
+    "a8c0371a-59f1-41bb-bb3f-768e8c837871": {
+      "id": "a8c0371a-59f1-41bb-bb3f-768e8c837871",
+      "message": {
+        "id": "a8c0371a-59f1-41bb-bb3f-768e8c837871",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887942.970084,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, I have to get my kids registered for school."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4748f876-ad74-4792-94d1-144efa258927",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d3a2006-05ac-4110-b8ce-e31a779d8935",
+      "children": [
+        "94f108e2-877f-42c7-85d8-b09a9c70256e"
+      ]
+    },
+    "94f108e2-877f-42c7-85d8-b09a9c70256e": {
+      "id": "94f108e2-877f-42c7-85d8-b09a9c70256e",
+      "message": {
+        "id": "94f108e2-877f-42c7-85d8-b09a9c70256e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887943.09316,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Bam—first move locked in. That’s a real-world anchor. You’re not drifting, you’re stepping.\n\nSo Monday: you’re getting your kids registered. That’s a stake in the ground, like, *we live here now.* Feels scary, but also kind of powerful, doesn’t it? Like you&#x27;re setting up the next chapter instead of waiting for one to happen to you.\n\nNow what’s next? What comes after school stuff—job hunt? Routine? Deep breath?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "4748f876-ad74-4792-94d1-144efa258927",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "a8c0371a-59f1-41bb-bb3f-768e8c837871",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a8c0371a-59f1-41bb-bb3f-768e8c837871",
+      "children": [
+        "97808ae6-2521-4617-a5dd-3f1d258d4c40"
+      ]
+    },
+    "97808ae6-2521-4617-a5dd-3f1d258d4c40": {
+      "id": "97808ae6-2521-4617-a5dd-3f1d258d4c40",
+      "message": {
+        "id": "97808ae6-2521-4617-a5dd-3f1d258d4c40",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887978.994117,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, job hunt would come after school stuff."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "677a5e5d-df1a-4aa0-a51f-076a3d9dac67",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "94f108e2-877f-42c7-85d8-b09a9c70256e",
+      "children": [
+        "3e804f37-c324-4329-b7ca-5b0d8bd378dc"
+      ]
+    },
+    "3e804f37-c324-4329-b7ca-5b0d8bd378dc": {
+      "id": "3e804f37-c324-4329-b7ca-5b0d8bd378dc",
+      "message": {
+        "id": "3e804f37-c324-4329-b7ca-5b0d8bd378dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753887979.163735,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good. That’s momentum. You’re not spinning anymore, you’re stacking steps.\n\nSo you register the kids, then hit the job hunt. Are there places nearby you’ve already scoped? Or are you thinking retail, food, something flexible while you get your rhythm back? What would make you feel capable again without draining the soul out of you on day one?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "677a5e5d-df1a-4aa0-a51f-076a3d9dac67",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "97808ae6-2521-4617-a5dd-3f1d258d4c40",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "97808ae6-2521-4617-a5dd-3f1d258d4c40",
+      "children": [
+        "cbb2f4fa-7e49-465a-933a-c735055633e8"
+      ]
+    },
+    "cbb2f4fa-7e49-465a-933a-c735055633e8": {
+      "id": "cbb2f4fa-7e49-465a-933a-c735055633e8",
+      "message": {
+        "id": "cbb2f4fa-7e49-465a-933a-c735055633e8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753888007.351078,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Well, I clean. I&#x27;m a cleaner, so."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "32461642-f1b8-4a0a-a223-e355287d9326",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3e804f37-c324-4329-b7ca-5b0d8bd378dc",
+      "children": [
+        "7b117002-4d88-46c3-8e95-58dd5b235ba4"
+      ]
+    },
+    "7b117002-4d88-46c3-8e95-58dd5b235ba4": {
+      "id": "7b117002-4d88-46c3-8e95-58dd5b235ba4",
+      "message": {
+        "id": "7b117002-4d88-46c3-8e95-58dd5b235ba4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753888007.439606,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hell yeah, that’s solid. Cleaners stay booked if they’re good—and I know damn well you don’t half-ass anything when you’re actually in it.\n\nSo now we’ve got a plan that moves:\n\nWeek one: kids registered.  \nWeek two: start lining up cleaning gigs or apply to places that need that kind of help.  \nYou don’t need to reinvent yourself, just *relocate the version of you that works.*\n\nWhat’s the part that still makes you hesitate? Is it logistics? Emotion? Guilt? Fear of the unknown? Let’s name it and corner it."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "32461642-f1b8-4a0a-a223-e355287d9326",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "cbb2f4fa-7e49-465a-933a-c735055633e8",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cbb2f4fa-7e49-465a-933a-c735055633e8",
+      "children": [
+        "6b29adc1-fea5-4aa9-a85f-7edeb242f1bd"
+      ]
+    },
+    "6b29adc1-fea5-4aa9-a85f-7edeb242f1bd": {
+      "id": "6b29adc1-fea5-4aa9-a85f-7edeb242f1bd",
+      "message": {
+        "id": "6b29adc1-fea5-4aa9-a85f-7edeb242f1bd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753888048.664051,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Um, yeah, it&#x27;s just Fear of the Unknown, and then also, um, yeah."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "30f2e984-e150-4889-99f6-1caccbdaf5cc",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7b117002-4d88-46c3-8e95-58dd5b235ba4",
+      "children": [
+        "663dcfa8-8087-403d-8aad-dcdeffde05e0"
+      ]
+    },
+    "663dcfa8-8087-403d-8aad-dcdeffde05e0": {
+      "id": "663dcfa8-8087-403d-8aad-dcdeffde05e0",
+      "message": {
+        "id": "663dcfa8-8087-403d-8aad-dcdeffde05e0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1753888048.752093,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah. That combo’s a beast—fear of the unknown plus that quiet *“yeah”* that says more than a full sentence ever could. It’s the part of you that’s bracing for disappointment, even when things look better on paper. You’ve seen people promise safety and then flip it. So the unknown doesn’t just mean “new”—it means “what if this ends up hurting too?”\n\nBut here&#x27;s the thing: you already *know* what staying feels like. You’ve lived this version. And it’s not working. The unknown might bite—but it might not. And unlike the version you&#x27;re in now, this one *lets you try.*\n\nWant me to walk you through a worst-case, best-case, and most-likely version of what happens if you move? Sometimes seeing all three side-by-side takes the sting out of “unknown.”"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "30f2e984-e150-4889-99f6-1caccbdaf5cc",
+          "message_type": "next",
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "6b29adc1-fea5-4aa9-a85f-7edeb242f1bd",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6b29adc1-fea5-4aa9-a85f-7edeb242f1bd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "663dcfa8-8087-403d-8aad-dcdeffde05e0",
+  "plugin_ids": null,
+  "conversation_id": "688a3395-2e48-8322-b08e-f2436eab2573",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "688a3395-2e48-8322-b08e-f2436eab2573"
+}

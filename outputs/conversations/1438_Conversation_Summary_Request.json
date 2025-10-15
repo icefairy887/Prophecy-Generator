@@ -1,0 +1,228 @@
+{
+  "title": "Conversation Summary Request",
+  "create_time": 1743351466.261253,
+  "update_time": 1746372393.409749,
+  "mapping": {
+    "bbb238e5-3f29-4367-bcbc-b14b9f91db79": {
+      "id": "bbb238e5-3f29-4367-bcbc-b14b9f91db79",
+      "message": null,
+      "parent": null,
+      "children": [
+        "84ce942e-abf7-4738-b6bf-e551e7a72dfb"
+      ]
+    },
+    "84ce942e-abf7-4738-b6bf-e551e7a72dfb": {
+      "id": "84ce942e-abf7-4738-b6bf-e551e7a72dfb",
+      "message": {
+        "id": "84ce942e-abf7-4738-b6bf-e551e7a72dfb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb238e5-3f29-4367-bcbc-b14b9f91db79",
+      "children": [
+        "d9f04bf6-9520-4371-bd74-a82b76680ce4"
+      ]
+    },
+    "d9f04bf6-9520-4371-bd74-a82b76680ce4": {
+      "id": "d9f04bf6-9520-4371-bd74-a82b76680ce4",
+      "message": {
+        "id": "d9f04bf6-9520-4371-bd74-a82b76680ce4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Readily share strong opinions.Get right to the point.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Readily share strong opinions.Get right to the point."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "84ce942e-abf7-4738-b6bf-e551e7a72dfb",
+      "children": [
+        "40be29d9-6a42-4565-963f-de312f099bbb"
+      ]
+    },
+    "40be29d9-6a42-4565-963f-de312f099bbb": {
+      "id": "40be29d9-6a42-4565-963f-de312f099bbb",
+      "message": {
+        "id": "40be29d9-6a42-4565-963f-de312f099bbb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743351466.678477,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-04-29T16:17:46.270546+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-04-29T16:17:46.270546+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000af0851f684b81eff01fd1bc0",
+                "size_bytes": 25998,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.54
+                }
+              },
+              "audio_start_timestamp": 1.9979571069125086
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "8b989bd1-2c52-42f7-812e-ea7273dd0513",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d9f04bf6-9520-4371-bd74-a82b76680ce4",
+      "children": [
+        "59e31ee2-42dc-4daa-bc91-5cb09ce7c044"
+      ]
+    },
+    "59e31ee2-42dc-4daa-bc91-5cb09ce7c044": {
+      "id": "59e31ee2-42dc-4daa-bc91-5cb09ce7c044",
+      "message": {
+        "id": "59e31ee2-42dc-4daa-bc91-5cb09ce7c044",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1743351467.028659,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey, what&#x27;s up?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-04-29T16:17:46.270635+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000c41851f69e796af56b546a1b",
+              "size_bytes": 64878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 1.35
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "40be29d9-6a42-4565-963f-de312f099bbb",
+          "request_id": "8b989bd1-2c52-42f7-812e-ea7273dd0513",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "40be29d9-6a42-4565-963f-de312f099bbb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "59e31ee2-42dc-4daa-bc91-5cb09ce7c044",
+  "plugin_ids": null,
+  "conversation_id": "67e96ea4-da88-8000-ad19-f120d9be7d88",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67e96ea4-da88-8000-ad19-f120d9be7d88"
+}

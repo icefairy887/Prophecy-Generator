@@ -1,0 +1,220 @@
+{
+  "title": "ADB Capabilities Beyond Root",
+  "create_time": 1749235131.730511,
+  "update_time": 1749235151.456011,
+  "mapping": {
+    "bbb23611-5246-434e-950a-fe0f5e6ce44d": {
+      "id": "bbb23611-5246-434e-950a-fe0f5e6ce44d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1750e570-790e-474c-a9b9-5684b0cce5da"
+      ]
+    },
+    "1750e570-790e-474c-a9b9-5684b0cce5da": {
+      "id": "1750e570-790e-474c-a9b9-5684b0cce5da",
+      "message": {
+        "id": "1750e570-790e-474c-a9b9-5684b0cce5da",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23611-5246-434e-950a-fe0f5e6ce44d",
+      "children": [
+        "9d023085-4c52-4cf5-b43a-53bd63387a26"
+      ]
+    },
+    "9d023085-4c52-4cf5-b43a-53bd63387a26": {
+      "id": "9d023085-4c52-4cf5-b43a-53bd63387a26",
+      "message": {
+        "id": "9d023085-4c52-4cf5-b43a-53bd63387a26",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749235131.7291088,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1750e570-790e-474c-a9b9-5684b0cce5da",
+      "children": [
+        "41b32300-8485-4e0b-b6af-b37efd08699d"
+      ]
+    },
+    "41b32300-8485-4e0b-b6af-b37efd08699d": {
+      "id": "41b32300-8485-4e0b-b6af-b37efd08699d",
+      "message": {
+        "id": "41b32300-8485-4e0b-b6af-b37efd08699d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749235131.739518,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, so what can we do with ADB besides, I guess, like, root my phone because I can&#x27;t get the OEM unlock code, but what else can we do with ADB that we haven&#x27;t done yet?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "d474a95b-146a-4b52-b033-b8ffb9c4269c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9d023085-4c52-4cf5-b43a-53bd63387a26",
+      "children": [
+        "5035c16e-037c-4f0a-8783-dcd402b29aed"
+      ]
+    },
+    "5035c16e-037c-4f0a-8783-dcd402b29aed": {
+      "id": "5035c16e-037c-4f0a-8783-dcd402b29aed",
+      "message": {
+        "id": "5035c16e-037c-4f0a-8783-dcd402b29aed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749235138.716393,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "41b32300-8485-4e0b-b6af-b37efd08699d",
+          "request_id": "d474a95b-146a-4b52-b033-b8ffb9c4269c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "41b32300-8485-4e0b-b6af-b37efd08699d",
+      "children": [
+        "60dcd160-6692-4f18-8ad3-64fa42392072"
+      ]
+    },
+    "60dcd160-6692-4f18-8ad3-64fa42392072": {
+      "id": "60dcd160-6692-4f18-8ad3-64fa42392072",
+      "message": {
+        "id": "60dcd160-6692-4f18-8ad3-64fa42392072",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749235133.65299,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That&#x27;s a good question. ADB can actually do *a lot* even without root or OEM unlock. Since your bootloader’s still locked, we can’t flash custom images or root—*but* here’s some powerful and creative stuff you *can* still do:\n\nSo, first off—you can **install, uninstall, or disable system apps** that normally can’t be touched. That’s great for a digital cleanse.\n\nYou can also **read logs, monitor processes, and track performance** using `adb logcat` or `adb shell top`, so it’s handy for debugging or spying on shady apps.\n\nThen there’s **screen recording or screenshot capturing** remotely, which is nice for automation or tutorials.\n\nIf you&#x27;re creative, you can even use `adb shell input` to **automate gestures, taps, and typing**. That lets you script full app flows like auto-login or daily actions. It’s like low-level bot control.\n\nAlso cool: You can **forward ports or create network tunnels**, which lets you connect local services or AI servers (like your local Vicuna) to your phone.\n\nWanna dive into any of those deeper, or want me to show you something fresh with it?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67e7357790a081918f786a73f98ad051",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "5035c16e-037c-4f0a-8783-dcd402b29aed",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "d474a95b-146a-4b52-b033-b8ffb9c4269c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5035c16e-037c-4f0a-8783-dcd402b29aed",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "60dcd160-6692-4f18-8ad3-64fa42392072",
+  "plugin_ids": null,
+  "conversation_id": "684335bb-5cac-8000-abb7-a13992a49594",
+  "conversation_template_id": "g-p-67e7357790a081918f786a73f98ad051",
+  "gizmo_id": "g-p-67e7357790a081918f786a73f98ad051",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://github.com/amyinorbit/exo"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "684335bb-5cac-8000-abb7-a13992a49594"
+}

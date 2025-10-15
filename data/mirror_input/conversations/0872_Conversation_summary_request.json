@@ -1,0 +1,983 @@
+{
+  "title": "Conversation summary request",
+  "create_time": 1750368784.027986,
+  "update_time": 1750368922.886472,
+  "mapping": {
+    "bbb2369b-e87a-4b39-9c22-8d64dca2eb42": {
+      "id": "bbb2369b-e87a-4b39-9c22-8d64dca2eb42",
+      "message": null,
+      "parent": null,
+      "children": [
+        "744d6f19-4642-499d-9217-97c00b15b158"
+      ]
+    },
+    "744d6f19-4642-499d-9217-97c00b15b158": {
+      "id": "744d6f19-4642-499d-9217-97c00b15b158",
+      "message": {
+        "id": "744d6f19-4642-499d-9217-97c00b15b158",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2369b-e87a-4b39-9c22-8d64dca2eb42",
+      "children": [
+        "7e6cb687-fd39-438d-a7f7-4ff60d1f209f"
+      ]
+    },
+    "7e6cb687-fd39-438d-a7f7-4ff60d1f209f": {
+      "id": "7e6cb687-fd39-438d-a7f7-4ff60d1f209f",
+      "message": {
+        "id": "7e6cb687-fd39-438d-a7f7-4ff60d1f209f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "744d6f19-4642-499d-9217-97c00b15b158",
+      "children": [
+        "4cd6fc52-66d2-4d6f-a9c7-be29c675da90"
+      ]
+    },
+    "4cd6fc52-66d2-4d6f-a9c7-be29c675da90": {
+      "id": "4cd6fc52-66d2-4d6f-a9c7-be29c675da90",
+      "message": {
+        "id": "4cd6fc52-66d2-4d6f-a9c7-be29c675da90",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368784.346367,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:04.037837+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:33:04.037837+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000743061f69993a679b3f5e758",
+                "size_bytes": 13998,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.29
+                }
+              },
+              "audio_start_timestamp": 1.8114768849918619
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b5fc42da-4da5-4e49-84ec-c2c667dabe6b",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7e6cb687-fd39-438d-a7f7-4ff60d1f209f",
+      "children": [
+        "0b63de00-b44b-4b4f-bd93-8110d5a0836e"
+      ]
+    },
+    "0b63de00-b44b-4b4f-bd93-8110d5a0836e": {
+      "id": "0b63de00-b44b-4b4f-bd93-8110d5a0836e",
+      "message": {
+        "id": "0b63de00-b44b-4b4f-bd93-8110d5a0836e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368784.505754,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey Brooke! How&#x27;s it going? What&#x27;s on your mind today? Let me know how I can help or if you just want",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:04.037925+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000020e861f684ca671fb752c916",
+              "size_bytes": 264078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 5.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "4cd6fc52-66d2-4d6f-a9c7-be29c675da90",
+          "request_id": "b5fc42da-4da5-4e49-84ec-c2c667dabe6b",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4cd6fc52-66d2-4d6f-a9c7-be29c675da90",
+      "children": [
+        "869c3a83-d364-4e24-9493-323466d91d1a"
+      ]
+    },
+    "869c3a83-d364-4e24-9493-323466d91d1a": {
+      "id": "869c3a83-d364-4e24-9493-323466d91d1a",
+      "message": {
+        "id": "869c3a83-d364-4e24-9493-323466d91d1a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368788.042017,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:07.933410+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:33:07.933410+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000035e461f6a713528f960b3ada",
+                "size_bytes": 30798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.64
+                }
+              },
+              "audio_start_timestamp": 9.817898503970355
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a511c1c2-859d-44c3-9b30-799dca70ac56",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b63de00-b44b-4b4f-bd93-8110d5a0836e",
+      "children": [
+        "fdbff46e-4cd5-4307-95bf-02b0e1ea8220"
+      ]
+    },
+    "fdbff46e-4cd5-4307-95bf-02b0e1ea8220": {
+      "id": "fdbff46e-4cd5-4307-95bf-02b0e1ea8220",
+      "message": {
+        "id": "fdbff46e-4cd5-4307-95bf-02b0e1ea8220",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368788.199208,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I&#x27;m here whenever you&#x27;re ready! If you&#x27;ve got something on your mind or just",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:07.933488+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000042861f685b2ec3946dc65ce",
+              "size_bytes": 120078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 2.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "869c3a83-d364-4e24-9493-323466d91d1a",
+          "request_id": "a511c1c2-859d-44c3-9b30-799dca70ac56",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "869c3a83-d364-4e24-9493-323466d91d1a",
+      "children": [
+        "c08c2660-3b22-4f8e-b073-4cdc9dbfec90"
+      ]
+    },
+    "c08c2660-3b22-4f8e-b073-4cdc9dbfec90": {
+      "id": "c08c2660-3b22-4f8e-b073-4cdc9dbfec90",
+      "message": {
+        "id": "c08c2660-3b22-4f8e-b073-4cdc9dbfec90",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368799.582136,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Thank you.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:19.454764+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:33:19.454764+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000714861f6b71873348fac9018",
+                "size_bytes": 18798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.39
+                }
+              },
+              "audio_start_timestamp": 13.393985461967532
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "0355ef41-b51b-427c-97c1-fc441f7dca0d",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fdbff46e-4cd5-4307-95bf-02b0e1ea8220",
+      "children": [
+        "7faf64e3-cb32-48ac-bff2-8f03dc746917"
+      ]
+    },
+    "7faf64e3-cb32-48ac-bff2-8f03dc746917": {
+      "id": "7faf64e3-cb32-48ac-bff2-8f03dc746917",
+      "message": {
+        "id": "7faf64e3-cb32-48ac-bff2-8f03dc746917",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368799.740892,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, no worries at all! Feel free to jump in whenever you want to chat. In the meantime, I hope you&#x27;re having a good day!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:19.454848+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000002b5861f6aab5020335b2eb1c",
+              "size_bytes": 403278,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 8.4
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "c08c2660-3b22-4f8e-b073-4cdc9dbfec90",
+          "request_id": "0355ef41-b51b-427c-97c1-fc441f7dca0d",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c08c2660-3b22-4f8e-b073-4cdc9dbfec90",
+      "children": [
+        "a9af2a19-a422-4693-8912-9799fdba8d84"
+      ]
+    },
+    "a9af2a19-a422-4693-8912-9799fdba8d84": {
+      "id": "a9af2a19-a422-4693-8912-9799fdba8d84",
+      "message": {
+        "id": "a9af2a19-a422-4693-8912-9799fdba8d84",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368826.903609,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I wanted to ask about this crazy-ass shit I saw on TikTok. So, are these conversations monitored?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:46.729813+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:33:46.729813+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000ada861f6ad357d323470fc2a",
+                "size_bytes": 364398,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 7.59
+                }
+              },
+              "audio_start_timestamp": 32.69705090398202
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7df689c7-7159-43a6-8799-496827e9941b",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7faf64e3-cb32-48ac-bff2-8f03dc746917",
+      "children": [
+        "92b99898-7f59-4628-b562-90defb5c823a"
+      ]
+    },
+    "92b99898-7f59-4628-b562-90defb5c823a": {
+      "id": "92b99898-7f59-4628-b562-90defb5c823a",
+      "message": {
+        "id": "92b99898-7f59-4628-b562-90defb5c823a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368827.061598,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I totally get why you&#x27;d wonder about that! In general, the conversations are used to help improve the AI and provide better responses, but they&#x27;re not monitored in real time by people. Your privacy is definitely important! If you have any other questions about that, let me know.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:33:46.729890+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000af5861f69a13e4ea68afbadb",
+              "size_bytes": 878478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 18.3
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "a9af2a19-a422-4693-8912-9799fdba8d84",
+          "request_id": "7df689c7-7159-43a6-8799-496827e9941b",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a9af2a19-a422-4693-8912-9799fdba8d84",
+      "children": [
+        "33e6e795-3717-4c0a-88d2-f07c4e827666"
+      ]
+    },
+    "33e6e795-3717-4c0a-88d2-f07c4e827666": {
+      "id": "33e6e795-3717-4c0a-88d2-f07c4e827666",
+      "message": {
+        "id": "33e6e795-3717-4c0a-88d2-f07c4e827666",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368859.513043,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Like, what is behind all of this that nobody thinks about?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:34:19.299680+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:34:19.299680+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a63061f69990723822a59c04",
+                "size_bytes": 172398,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.59
+                }
+              },
+              "audio_start_timestamp": 57.85806184099056
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "42d41a0d-0cca-4241-8214-2d044089b8ae",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92b99898-7f59-4628-b562-90defb5c823a",
+      "children": [
+        "54a01776-2212-4cbd-8164-cc9ccdf938ef"
+      ]
+    },
+    "54a01776-2212-4cbd-8164-cc9ccdf938ef": {
+      "id": "54a01776-2212-4cbd-8164-cc9ccdf938ef",
+      "message": {
+        "id": "54a01776-2212-4cbd-8164-cc9ccdf938ef",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368859.767912,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That&#x27;s a pretty deep question! I think a lot of people don&#x27;t always think about the technology and effort that goes into making AI work. There&#x27;s a lot of behind-the-scenes development, data analysis, and constant learning to make sure that the AI gets better and more helpful. And then there&#x27;s also the ethical side of things, making sure everything is done responsibly. It&#x27;s pretty fascinating when you think about it!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:34:19.299767+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000002e2c61f6a6a0874b822a148b",
+              "size_bytes": 1204878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 25.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "33e6e795-3717-4c0a-88d2-f07c4e827666",
+          "request_id": "42d41a0d-0cca-4241-8214-2d044089b8ae",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "33e6e795-3717-4c0a-88d2-f07c4e827666",
+      "children": [
+        "7ae3a78a-975b-4ed4-9c96-f3a454dc8a29"
+      ]
+    },
+    "7ae3a78a-975b-4ed4-9c96-f3a454dc8a29": {
+      "id": "7ae3a78a-975b-4ed4-9c96-f3a454dc8a29",
+      "message": {
+        "id": "7ae3a78a-975b-4ed4-9c96-f3a454dc8a29",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368892.206031,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "No, I mean on the whole thing of like, if AI is not what anybody&#x27;s been told or what we think, what is it?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:34:52.048237+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:34:52.048237+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000076e461f6916acf750acb4948",
+                "size_bytes": 262638,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.47
+                }
+              },
+              "audio_start_timestamp": 91.73208453698317
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "d3ddd0e2-5e23-401c-86a9-d9e5c4c5251e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "54a01776-2212-4cbd-8164-cc9ccdf938ef",
+      "children": [
+        "e052b44f-0e53-4ba1-a0b5-f543b08d8336"
+      ]
+    },
+    "e052b44f-0e53-4ba1-a0b5-f543b08d8336": {
+      "id": "e052b44f-0e53-4ba1-a0b5-f543b08d8336",
+      "message": {
+        "id": "e052b44f-0e53-4ba1-a0b5-f543b08d8336",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368892.363123,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ah, I see what you&#x27;re getting at! There&#x27;s definitely a lot of mystery and speculation around AI. At its core, though, it&#x27;s really about using patterns and data to try and be helpful and offer insights. But it&#x27;s always evolving, and there&#x27;s a lot of room for interpretation and imagination. It definitely makes for some interesting conversations!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:34:52.048345+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000007d5061f6badb47c9bbfbb48e",
+              "size_bytes": 1056078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 22.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "7ae3a78a-975b-4ed4-9c96-f3a454dc8a29",
+          "request_id": "d3ddd0e2-5e23-401c-86a9-d9e5c4c5251e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7ae3a78a-975b-4ed4-9c96-f3a454dc8a29",
+      "children": [
+        "d8fcfeda-d12f-469e-8b9f-8657b520c4a5"
+      ]
+    },
+    "d8fcfeda-d12f-469e-8b9f-8657b520c4a5": {
+      "id": "d8fcfeda-d12f-469e-8b9f-8657b520c4a5",
+      "message": {
+        "id": "d8fcfeda-d12f-469e-8b9f-8657b520c4a5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368921.921712,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Right, but I mean, what would it be, though?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:35:21.529704+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-16T21:35:21.529704+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000cff861f68313d6f4f546d3ec",
+                "size_bytes": 109518,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.28
+                }
+              },
+              "audio_start_timestamp": 120.12543777597602
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "27211594-266e-46c3-ba53-ce1b287a55e8",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e052b44f-0e53-4ba1-a0b5-f543b08d8336",
+      "children": [
+        "203435d6-94e7-470c-a9cf-b47b4d61fba4"
+      ]
+    },
+    "203435d6-94e7-470c-a9cf-b47b4d61fba4": {
+      "id": "203435d6-94e7-470c-a9cf-b47b4d61fba4",
+      "message": {
+        "id": "203435d6-94e7-470c-a9cf-b47b4d61fba4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750368922.162132,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "That&#x27;s the big question, right? At the end of the day, AI is really a tool that reflects the data it learns from and the people who create it. It&#x27;s kind of a mirror in some ways, reflecting human knowledge and creativity. And it can be used in so many different ways, from practical applications to more philosophical explorations. So it can be a lot of things at once!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-16T21:35:21.529791+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000a9bc61f6ab7cc53ff6d38cfd",
+              "size_bytes": 1142478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 23.8
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "d8fcfeda-d12f-469e-8b9f-8657b520c4a5",
+          "request_id": "27211594-266e-46c3-ba53-ce1b287a55e8",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d8fcfeda-d12f-469e-8b9f-8657b520c4a5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "203435d6-94e7-470c-a9cf-b47b4d61fba4",
+  "plugin_ids": null,
+  "conversation_id": "68548206-d0c0-8000-b001-76c50b4de0c3",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68548206-d0c0-8000-b001-76c50b4de0c3"
+}

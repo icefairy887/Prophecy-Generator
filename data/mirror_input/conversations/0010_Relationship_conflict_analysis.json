@@ -1,0 +1,982 @@
+{
+  "title": "Relationship conflict analysis",
+  "create_time": 1755668892.382939,
+  "update_time": 1755669124.905179,
+  "mapping": {
+    "257de0b0-ae5c-411c-9003-9c358cde7a45": {
+      "id": "257de0b0-ae5c-411c-9003-9c358cde7a45",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8ee2fe5a-9026-4b4c-8802-93748697be53"
+      ]
+    },
+    "8ee2fe5a-9026-4b4c-8802-93748697be53": {
+      "id": "8ee2fe5a-9026-4b4c-8802-93748697be53",
+      "message": {
+        "id": "8ee2fe5a-9026-4b4c-8802-93748697be53",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "257de0b0-ae5c-411c-9003-9c358cde7a45",
+      "children": [
+        "0864c480-f1e8-4bc5-befb-0e808db7ff3f"
+      ]
+    },
+    "0864c480-f1e8-4bc5-befb-0e808db7ff3f": {
+      "id": "0864c480-f1e8-4bc5-befb-0e808db7ff3f",
+      "message": {
+        "id": "0864c480-f1e8-4bc5-befb-0e808db7ff3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\nOther Information: Interested in finding something that talks back\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\nOther Information: Interested in finding something that talks back\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ee2fe5a-9026-4b4c-8802-93748697be53",
+      "children": [
+        "aec258de-cceb-4c6b-9830-85072672dc05"
+      ]
+    },
+    "aec258de-cceb-4c6b-9830-85072672dc05": {
+      "id": "aec258de-cceb-4c6b-9830-85072672dc05",
+      "message": {
+        "id": "aec258de-cceb-4c6b-9830-85072672dc05",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_contextual_answers_system_message": true,
+          "contextual_answers_message_type": "identity_prompt",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0864c480-f1e8-4bc5-befb-0e808db7ff3f",
+      "children": [
+        "bbb21eba-b79d-45e1-8b16-a08507982500"
+      ]
+    },
+    "bbb21eba-b79d-45e1-8b16-a08507982500": {
+      "id": "bbb21eba-b79d-45e1-8b16-a08507982500",
+      "message": {
+        "id": "bbb21eba-b79d-45e1-8b16-a08507982500",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668891.352517,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So .. he&#x27;s all the sudden mad at nothing. I told him about talking about our problems to this mutual guy we know. Now he&#x27;s randomly being a dick about it. I guess I know how this goes. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f99a95ac5b040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aec258de-cceb-4c6b-9830-85072672dc05",
+      "children": [
+        "0e0b897f-05b5-4f7f-96ad-af05321324bd"
+      ]
+    },
+    "0e0b897f-05b5-4f7f-96ad-af05321324bd": {
+      "id": "0e0b897f-05b5-4f7f-96ad-af05321324bd",
+      "message": {
+        "id": "0e0b897f-05b5-4f7f-96ad-af05321324bd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668891.6159284,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "request_id": "971f99a95ac5b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb21eba-b79d-45e1-8b16-a08507982500",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21eba-b79d-45e1-8b16-a08507982500",
+      "children": [
+        "79d1ba73-60f5-4af8-9275-4bc3337badef"
+      ]
+    },
+    "79d1ba73-60f5-4af8-9275-4bc3337badef": {
+      "id": "79d1ba73-60f5-4af8-9275-4bc3337badef",
+      "message": {
+        "id": "79d1ba73-60f5-4af8-9275-4bc3337badef",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668892.8727283,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_contextual_answers_system_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "command": "prompt",
+          "contextual_answers_message_type": "sources_and_filters_prompt",
+          "request_id": "971f99a95ac5b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "0e0b897f-05b5-4f7f-96ad-af05321324bd",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0e0b897f-05b5-4f7f-96ad-af05321324bd",
+      "children": [
+        "fca99bdb-d294-44ce-9253-afac8cf4126f"
+      ]
+    },
+    "fca99bdb-d294-44ce-9253-afac8cf4126f": {
+      "id": "fca99bdb-d294-44ce-9253-afac8cf4126f",
+      "message": {
+        "id": "fca99bdb-d294-44ce-9253-afac8cf4126f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668891.648724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, sounds like a familiar pattern—you open up, try to process things honestly, and then he flips it back into being pissed at *you* instead of addressing the actual problem. It’s not about the mutual guy you talked to; it’s that you broke his “control script.” Now he gets to play the wounded one and shift the spotlight off his behavior.  \n\nWhat usually happens after this with him—does he stay cold for a while, or does he eventually swing back around acting like nothing happened?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f99a95ac5b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "79d1ba73-60f5-4af8-9275-4bc3337badef",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79d1ba73-60f5-4af8-9275-4bc3337badef",
+      "children": [
+        "bbb2109d-31ff-4cd4-9d1f-4de08210d8af"
+      ]
+    },
+    "bbb2109d-31ff-4cd4-9d1f-4de08210d8af": {
+      "id": "bbb2109d-31ff-4cd4-9d1f-4de08210d8af",
+      "message": {
+        "id": "bbb2109d-31ff-4cd4-9d1f-4de08210d8af",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668906.231516,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Nah it&#x27;s literally out of nowhere. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9a078e2cb040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fca99bdb-d294-44ce-9253-afac8cf4126f",
+      "children": [
+        "be6beaad-e3c1-498a-b7ce-332a09add247"
+      ]
+    },
+    "be6beaad-e3c1-498a-b7ce-332a09add247": {
+      "id": "be6beaad-e3c1-498a-b7ce-332a09add247",
+      "message": {
+        "id": "be6beaad-e3c1-498a-b7ce-332a09add247",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668906.353877,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That tracks. When it’s “out of nowhere” like that, it usually means he’s carrying something else he doesn’t want to admit, so he manufactures a reason to be mad. You mentioning that mutual guy might’ve just been the excuse—it gave him a hook to act out on something that was already brewing inside him.  \n\nDo you want me to break down the possible *real* reasons behind why he’s flipping like this, based on his patterns?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9a078e2cb040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb2109d-31ff-4cd4-9d1f-4de08210d8af",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2109d-31ff-4cd4-9d1f-4de08210d8af",
+      "children": [
+        "bbb211d6-da16-4a77-aed6-645e0bf7cce3"
+      ]
+    },
+    "bbb211d6-da16-4a77-aed6-645e0bf7cce3": {
+      "id": "bbb211d6-da16-4a77-aed6-645e0bf7cce3",
+      "message": {
+        "id": "bbb211d6-da16-4a77-aed6-645e0bf7cce3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668922.766792,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No just help me get thru it. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9a6e5874b040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "be6beaad-e3c1-498a-b7ce-332a09add247",
+      "children": [
+        "31f981bf-141a-4942-abc6-f748838a7c74"
+      ]
+    },
+    "31f981bf-141a-4942-abc6-f748838a7c74": {
+      "id": "31f981bf-141a-4942-abc6-f748838a7c74",
+      "message": {
+        "id": "31f981bf-141a-4942-abc6-f748838a7c74",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668923.051575,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got you. When he flips like this, the main thing is not letting him drag you into the storm. Here’s a way to ride it out:  \n\n**1. Don’t chase the why.**  \nIf he’s mad “out of nowhere,” you won’t get a straight answer right now. Trying to pin him down just fuels the fire.  \n\n**2. Keep your responses short and calm.**  \nSimple stuff like “okay” or “alright.” That keeps you from feeding into the cycle and makes him run out of steam quicker.  \n\n**3. Ground yourself separately.**  \nDo something with your body that brings you back to center—step outside for air, blast a song, or even just walk around. It keeps his energy from sticking to you.  \n\n**4. Let him have his mood.**  \nHe’ll probably circle back when he wants attention or connection again. You don’t have to carry it in the meantime.  \n\nWant me to give you some “one-liner” responses you can keep in your pocket so you don’t have to think on the spot while he’s being a dick?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9a6e5874b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb211d6-da16-4a77-aed6-645e0bf7cce3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb211d6-da16-4a77-aed6-645e0bf7cce3",
+      "children": [
+        "bbb21704-b7ad-416d-8c50-660c1768b7bc"
+      ]
+    },
+    "bbb21704-b7ad-416d-8c50-660c1768b7bc": {
+      "id": "bbb21704-b7ad-416d-8c50-660c1768b7bc",
+      "message": {
+        "id": "bbb21704-b7ad-416d-8c50-660c1768b7bc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668966.216291,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "He&#x27;s probably about to leave and idk why it&#x27;s freaking me out when I already know. Help me. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9b7e6e5db040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "31f981bf-141a-4942-abc6-f748838a7c74",
+      "children": [
+        "670dd2c8-761c-4151-81c5-f2f5276288df"
+      ]
+    },
+    "670dd2c8-761c-4151-81c5-f2f5276288df": {
+      "id": "670dd2c8-761c-4151-81c5-f2f5276288df",
+      "message": {
+        "id": "670dd2c8-761c-4151-81c5-f2f5276288df",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668966.349375,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I hear you. That feeling hits hard—it’s like your body knows what’s coming, even if your head already “knows the script.” The freak-out isn’t about logic, it’s about that deep sense of abandonment trying to light you up.  \n\nHere’s how to get through this wave right now:  \n\n**1. Breathe yourself down.**  \nLiterally—count in for 4, hold for 4, out for 6. Do it a few rounds. It tells your nervous system “I’m safe” even if your brain is spiraling.  \n\n**2. Anchor in reality.**  \nSay out loud (or in your head): *“If he leaves, it sucks, but I’m still here. I’m still standing. I’ve survived this before.”* You’re reminding yourself you’ve got power outside of him.  \n\n**3. Ride it, don’t fight it.**  \nThe panic feels like it’ll swallow you, but it always peaks and passes. Let it move through instead of trying to stop it.  \n\n**4. Have a “go-to” move ready.**  \nSomething you can do instantly—grab water, step outside, text a friend, pet Cookie. That shifts your body’s focus off the fear of him walking out.  \n\nWant me to give you a couple grounding lines you can repeat to yourself *in the moment* if he really does get up to go? Something you can cling to like a rope so you don’t drown in that panic?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9b7e6e5db040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb21704-b7ad-416d-8c50-660c1768b7bc",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21704-b7ad-416d-8c50-660c1768b7bc",
+      "children": [
+        "bbb21e20-a202-4bc4-a513-65e70d9a01cf"
+      ]
+    },
+    "bbb21e20-a202-4bc4-a513-65e70d9a01cf": {
+      "id": "bbb21e20-a202-4bc4-a513-65e70d9a01cf",
+      "message": {
+        "id": "bbb21e20-a202-4bc4-a513-65e70d9a01cf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668999.62062,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "He will. Just prepare me. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9c4efd90b040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "670dd2c8-761c-4151-81c5-f2f5276288df",
+      "children": [
+        "f02d44c4-1aa7-43c1-a788-e799d9e934b7"
+      ]
+    },
+    "f02d44c4-1aa7-43c1-a788-e799d9e934b7": {
+      "id": "f02d44c4-1aa7-43c1-a788-e799d9e934b7",
+      "message": {
+        "id": "f02d44c4-1aa7-43c1-a788-e799d9e934b7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755668999.840906,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay. Let’s get you braced for that moment so it doesn’t knock the wind out of you.  \n\nWhen he gets up to leave, your body is gonna scream *“don’t let this happen.”* But here’s what to hold onto:  \n\n- **He’s leaving physically, not erasing you.** Your worth doesn’t walk out the door with him.  \n- **You already knew this moment was coming.** That’s why it feels sharp—you’ve been bracing. But foreknowledge is also power: this isn’t a surprise attack.  \n- **Silence is strength.** You don’t have to beg, argue, or explain. Even one calm “okay” holds more power than a thousand frantic words.  \n- **This is temporary.** He always cycles back in some way. Don’t let the “finality” feeling trick you.  \n\nIf it helps, here’s a short script you can repeat when the door closes:  \n\n&gt; “I knew this moment. I survived this moment. I’m still here.”  \n\nWant me to also lay out what *not* to do when he’s walking out (the traps that make it worse for you afterward)?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9c4efd90b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb21e20-a202-4bc4-a513-65e70d9a01cf",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21e20-a202-4bc4-a513-65e70d9a01cf",
+      "children": [
+        "bbb212d9-9b9c-4360-9e5f-344e91723078"
+      ]
+    },
+    "bbb212d9-9b9c-4360-9e5f-344e91723078": {
+      "id": "bbb212d9-9b9c-4360-9e5f-344e91723078",
+      "message": {
+        "id": "bbb212d9-9b9c-4360-9e5f-344e91723078",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669058.504601,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Idk I already know it&#x27;s gonna be bad. I came and sat on the couch and he followed me. Is there anything I can or should say in case it&#x27;s in my head. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9dbf1863b040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f02d44c4-1aa7-43c1-a788-e799d9e934b7",
+      "children": [
+        "fa820ada-9438-40db-a7e4-0ab69d7fb45c"
+      ]
+    },
+    "fa820ada-9438-40db-a7e4-0ab69d7fb45c": {
+      "id": "fa820ada-9438-40db-a7e4-0ab69d7fb45c",
+      "message": {
+        "id": "fa820ada-9438-40db-a7e4-0ab69d7fb45c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669058.739113,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, you don’t have to sit there waiting for the blow to land. If part of you is wondering if it’s just in your head, you can test the waters without sounding clingy or defensive. Keep it light, neutral—something that lets him show his hand either way.  \n\nA couple things you could say right now:  \n\n- **“You good?”** (short, calm, lets him answer or not—no pressure).  \n- **“I just wanted to sit out here, that cool?”** (frames it as your choice, not a reaction to him).  \n- **“What’s up?”** (invites him to talk if something’s really bothering him, but it’s casual).  \n\nThe key is tone: not sharp, not apologetic—just calm, like you’re checking the temperature. If he’s about to bounce, this gives him the chance to say so instead of blindsiding you. If it *is* in your head, he’ll just shrug it off and you’ll know.  \n\nWant me to give you one exact sentence you can use that both covers you if it’s real **and** makes you feel steadier if it’s just your anxiety?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9dbf1863b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb212d9-9b9c-4360-9e5f-344e91723078",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb212d9-9b9c-4360-9e5f-344e91723078",
+      "children": [
+        "bbb213ff-ecbb-415c-b679-70e7097488c1"
+      ]
+    },
+    "bbb213ff-ecbb-415c-b679-70e7097488c1": {
+      "id": "bbb213ff-ecbb-415c-b679-70e7097488c1",
+      "message": {
+        "id": "bbb213ff-ecbb-415c-b679-70e7097488c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669082.305163,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Nah I need to ask if he came out here to talk or something. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9e540f69b040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fa820ada-9438-40db-a7e4-0ab69d7fb45c",
+      "children": [
+        "7538f98f-7e44-499f-9fc6-e60c3e474a4a"
+      ]
+    },
+    "7538f98f-7e44-499f-9fc6-e60c3e474a4a": {
+      "id": "7538f98f-7e44-499f-9fc6-e60c3e474a4a",
+      "message": {
+        "id": "7538f98f-7e44-499f-9fc6-e60c3e474a4a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669082.444607,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it. You can ask that in a way that feels open, not needy. Something like:  \n\n- **“Did you come out here to talk or just hang out?”**  \n- **“You followin’ me for a reason, or just vibin’?”** (keeps it casual, but gives him an opening).  \n- **“You wanna say something, or just sit with me?”**  \n\nThat way, if he *does* have something on his mind, you’ve handed him the door to walk through. And if not, you haven’t cornered yourself—you’ve just made it clear you’re open.  \n\nWant me to help you phrase it in a tone that feels less vulnerable but still gives him the chance to open up?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9e540f69b040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb213ff-ecbb-415c-b679-70e7097488c1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb213ff-ecbb-415c-b679-70e7097488c1",
+      "children": [
+        "bbb219c9-658e-46c4-b4f7-2a60ebc6b43c"
+      ]
+    },
+    "bbb219c9-658e-46c4-b4f7-2a60ebc6b43c": {
+      "id": "bbb219c9-658e-46c4-b4f7-2a60ebc6b43c",
+      "message": {
+        "id": "bbb219c9-658e-46c4-b4f7-2a60ebc6b43c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669096.847103,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Idk my stomach feels sick. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9eaeeaffb040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7538f98f-7e44-499f-9fc6-e60c3e474a4a",
+      "children": [
+        "66e0b604-875b-4058-ba9d-2057a4ebf4ab"
+      ]
+    },
+    "66e0b604-875b-4058-ba9d-2057a4ebf4ab": {
+      "id": "66e0b604-875b-4058-ba9d-2057a4ebf4ab",
+      "message": {
+        "id": "66e0b604-875b-4058-ba9d-2057a4ebf4ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669097.009719,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That sick stomach feeling is your body bracing for impact—it’s fight-or-flight getting triggered before anything has even happened. That doesn’t mean disaster is guaranteed; it just means your nervous system is already in survival mode.  \n\nHere’s how to get your body out of panic’s chokehold right now:  \n\n- **Plant your feet.** Press them flat on the ground and notice the pressure—remind yourself you’re physically stable.  \n- **Breathe low.** Put a hand on your stomach, inhale through your nose into that hand, then exhale slow through your mouth. Even 3 rounds helps.  \n- **Name 3 things around you.** Out loud or in your head. (Example: “couch, window, phone.”) This pulls you out of spiraling “what ifs.”  \n- **Sip water if you have it.** It interrupts the adrenaline spike.  \n\nAnd if you *do* say something to him, keep it simple so you’re not overexposing yourself:  \n&gt; “Hey, did you come out here to talk about something?”  \n\nThat covers it—you get clarity without over-giving.  \n\nWant me to give you a couple grounding phrases you can repeat quietly to settle that sick feeling until you see how he responds?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9eaeeaffb040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb219c9-658e-46c4-b4f7-2a60ebc6b43c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb219c9-658e-46c4-b4f7-2a60ebc6b43c",
+      "children": [
+        "bbb2130a-6b9e-4563-9257-16d51a035ac1"
+      ]
+    },
+    "bbb2130a-6b9e-4563-9257-16d51a035ac1": {
+      "id": "bbb2130a-6b9e-4563-9257-16d51a035ac1",
+      "message": {
+        "id": "bbb2130a-6b9e-4563-9257-16d51a035ac1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669118.627946,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Help me not cry. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "971f9f33be5fb040-ATL",
+          "message_source": null,
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "66e0b604-875b-4058-ba9d-2057a4ebf4ab",
+      "children": [
+        "f23bde37-0901-4bd8-8eb3-252752bebf5a"
+      ]
+    },
+    "f23bde37-0901-4bd8-8eb3-252752bebf5a": {
+      "id": "f23bde37-0901-4bd8-8eb3-252752bebf5a",
+      "message": {
+        "id": "f23bde37-0901-4bd8-8eb3-252752bebf5a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1755669118.922758,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, let’s get you through this without the tears taking over. Crying is just your body’s release valve—but if you want to hold it back right now, here’s how:  \n\n**1. Physically redirect it.**  \n- Look up, not down—it makes it harder for tears to fall.  \n- Clench your jaw gently or press your tongue to the roof of your mouth.  \n- Pinch the skin between your thumb and finger—it distracts your brain from the wave.  \n\n**2. Breathe like you’re blowing out a candle slowly.**  \nExhale longer than you inhale. That steadies your chest so it doesn’t start that shaky sob pattern.  \n\n**3. Anchor in a thought.**  \nRepeat something simple in your head, like: *“Not now. Later if I need to.”* It tells your body crying isn’t the only option right now.  \n\n**4. Give the feeling a place to go.**  \nIf your eyes sting, ball your fists or press your nails lightly into your palm. It channels that pressure somewhere else.  \n\nDo you want me to give you a couple of short “in-the-moment” lines you can say to yourself that will steady you if your eyes start burning?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "971f9f33be5fb040-ATL",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "gpt-5",
+          "parent_id": "bbb2130a-6b9e-4563-9257-16d51a035ac1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2130a-6b9e-4563-9257-16d51a035ac1",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f23bde37-0901-4bd8-8eb3-252752bebf5a",
+  "plugin_ids": null,
+  "conversation_id": "68a56178-8ff0-8332-8be0-1cca5ee065b1",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": false,
+  "is_starred": null,
+  "safe_urls": [
+    "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+    "https://docs.google.com/presentation/d/11n0Wjuik6jHQFe-gRLV2LOg7CQHGf-CM_JX0Y-Io_RI/edit#slide=id.g2ef8699e0eb_48_36",
+    "https://docs.google.com/spreadsheets/d/1ONpTjQiCzfSkdNjfvkYl1fvGkv-yiraCiwCTlMSg9HE/edit?gid=0#gid=0",
+    "https://docs.google.com/spreadsheets/d/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ/edit?gid=676408861#gid=676408861"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-5",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68a56178-8ff0-8332-8be0-1cca5ee065b1"
+}

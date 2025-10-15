@@ -1,0 +1,539 @@
+{
+  "title": "Health Analysis from Picture",
+  "create_time": 1749414172.035532,
+  "update_time": 1749414437.802537,
+  "mapping": {
+    "d0dd4726-a1ae-4d2b-9192-ee518e85ad64": {
+      "id": "d0dd4726-a1ae-4d2b-9192-ee518e85ad64",
+      "message": null,
+      "parent": null,
+      "children": [
+        "7b5e3a5a-1c8f-48d4-b498-87ab26fabb4f"
+      ]
+    },
+    "7b5e3a5a-1c8f-48d4-b498-87ab26fabb4f": {
+      "id": "7b5e3a5a-1c8f-48d4-b498-87ab26fabb4f",
+      "message": {
+        "id": "7b5e3a5a-1c8f-48d4-b498-87ab26fabb4f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d0dd4726-a1ae-4d2b-9192-ee518e85ad64",
+      "children": [
+        "f96ebaca-80a2-4703-a024-3c4695265496"
+      ]
+    },
+    "f96ebaca-80a2-4703-a024-3c4695265496": {
+      "id": "f96ebaca-80a2-4703-a024-3c4695265496",
+      "message": {
+        "id": "f96ebaca-80a2-4703-a024-3c4695265496",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7b5e3a5a-1c8f-48d4-b498-87ab26fabb4f",
+      "children": [
+        "bbb218ed-1dbd-43b2-8461-ff9bd44315b2"
+      ]
+    },
+    "bbb218ed-1dbd-43b2-8461-ff9bd44315b2": {
+      "id": "bbb218ed-1dbd-43b2-8461-ff9bd44315b2",
+      "message": {
+        "id": "bbb218ed-1dbd-43b2-8461-ff9bd44315b2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414172.900483,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-WKcSZmgQq5WEVRw1ahdjyd",
+              "size_bytes": 382977,
+              "width": 1152,
+              "height": 1536,
+              "fovea": null,
+              "metadata": {
+                "dalle": null,
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": true,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            },
+            "What can you tell about my health from this picture"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file-WKcSZmgQq5WEVRw1ahdjyd",
+              "id": "file-WKcSZmgQq5WEVRw1ahdjyd",
+              "size": 382977,
+              "mime_type": "image/jpeg"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94cb1a8d6f89bd12-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f96ebaca-80a2-4703-a024-3c4695265496",
+      "children": [
+        "79e65dee-d081-4164-b0c3-8fb0660f1087"
+      ]
+    },
+    "79e65dee-d081-4164-b0c3-8fb0660f1087": {
+      "id": "79e65dee-d081-4164-b0c3-8fb0660f1087",
+      "message": {
+        "id": "79e65dee-d081-4164-b0c3-8fb0660f1087",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414182.98916,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb218ed-1dbd-43b2-8461-ff9bd44315b2",
+          "request_id": "94cb1a8d6f89bd12-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb218ed-1dbd-43b2-8461-ff9bd44315b2",
+      "children": [
+        "0f913f25-c514-435b-8d1f-2afec56653c7"
+      ]
+    },
+    "0f913f25-c514-435b-8d1f-2afec56653c7": {
+      "id": "0f913f25-c514-435b-8d1f-2afec56653c7",
+      "message": {
+        "id": "0f913f25-c514-435b-8d1f-2afec56653c7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414175.020617,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Thanks for sharing your photo. While I’m not a medical professional and can’t provide a diagnosis, I can make a few observational, general comments based on visible cues in the image:\n\n### Observations:\n1. **Skin Tone &amp; Texture:**\n   - Your skin looks relatively even-toned with some minor blemishes, which can be completely normal.\n   - Slight redness or dryness around the chin or cheeks might suggest mild irritation, dehydration, or hormonal shifts.\n\n2. **Eyes &amp; Eyelids:**\n   - No visible puffiness or discoloration under the eyes, which usually points to decent sleep and hydration.\n   - Glasses can help with strain, so if you’ve been getting headaches or tired eyes, those might be helping.\n\n3. **Hair &amp; Scalp:**\n   - Hair appears clean and healthy overall. Frizz or texture could indicate normal dryness or environment-related effects like humidity or sun exposure.\n\n4. **Lips &amp; Mouth:**\n   - Lips look natural in color, which generally suggests good circulation and oxygenation.\n   - Not cracked or overly dry, which points toward reasonable hydration.\n\n5. **Neck &amp; Posture:**\n   - Head is held upright and alert, suggesting good neck muscle tone and no visible signs of fatigue or discomfort.\n\n### Subtle Potential Considerations (not diagnostic):\n- If your skin feels dull, you may want to increase hydration or check if your diet includes enough healthy fats and micronutrients (like zinc and B vitamins).\n- If you’re feeling fatigued or your skin has been acting differently than usual, that might relate to hormones, stress, sleep, or gut health.\n\n### Positive Signs:\n- You look alert and balanced.\n- Your facial expression shows clarity and engagement.\n- No overt signs of acute illness or distress.\n\n---\n\nIf you want a more in-depth assessment of your health—especially related to skin, energy, mood, or digestion—you could answer a few questions or track symptoms over time. Let me know if you&#x27;d like to do that."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "79e65dee-d081-4164-b0c3-8fb0660f1087",
+          "request_id": "94cb1a8d6f89bd12-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79e65dee-d081-4164-b0c3-8fb0660f1087",
+      "children": [
+        "b83c49a7-beef-4384-993d-73ea569f246e"
+      ]
+    },
+    "b83c49a7-beef-4384-993d-73ea569f246e": {
+      "id": "b83c49a7-beef-4384-993d-73ea569f246e",
+      "message": {
+        "id": "b83c49a7-beef-4384-993d-73ea569f246e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414373.52823,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0f913f25-c514-435b-8d1f-2afec56653c7",
+      "children": [
+        "cfa414c0-b97d-4bc8-a091-3227e383f9db"
+      ]
+    },
+    "cfa414c0-b97d-4bc8-a091-3227e383f9db": {
+      "id": "cfa414c0-b97d-4bc8-a091-3227e383f9db",
+      "message": {
+        "id": "cfa414c0-b97d-4bc8-a091-3227e383f9db",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414373.794976,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, of course, right? And I understand your limitations, but literally, no, I feel like there&#x27;s more that you could say, but you didn&#x27;t, so just go ahead and tell me it. Act like you don&#x27;t like me.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-05T20:26:13.427126+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-05T20:26:13.427126+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000929c61f6bb4431d349d51419",
+                "size_bytes": 537678,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 11.2
+                }
+              },
+              "audio_start_timestamp": 43.91241041698959
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "f90f601d-4347-4101-8af3-ad2ddfc91e62",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b83c49a7-beef-4384-993d-73ea569f246e",
+      "children": [
+        "5a9e5540-9ddd-4d0b-abb6-996e07dc4fed"
+      ]
+    },
+    "5a9e5540-9ddd-4d0b-abb6-996e07dc4fed": {
+      "id": "5a9e5540-9ddd-4d0b-abb6-996e07dc4fed",
+      "message": {
+        "id": "5a9e5540-9ddd-4d0b-abb6-996e07dc4fed",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414373.881451,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I totally get that you&#x27;re looking for some deeper insights, but the truth is, from just a photo, there&#x27;s not a lot anyone can definitively say about your health. If there&#x27;s something specific you&#x27;re concerned about, definitely consider checking in with a professional. I&#x27;m here to support you, though,",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-05T20:26:13.427205+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000007d4461f6a281c69d1e1228ac",
+              "size_bytes": 696078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 14.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "cfa414c0-b97d-4bc8-a091-3227e383f9db",
+          "request_id": "f90f601d-4347-4101-8af3-ad2ddfc91e62",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cfa414c0-b97d-4bc8-a091-3227e383f9db",
+      "children": [
+        "1478140f-c740-4ac0-a354-c96a9e2feb87"
+      ]
+    },
+    "1478140f-c740-4ac0-a354-c96a9e2feb87": {
+      "id": "1478140f-c740-4ac0-a354-c96a9e2feb87",
+      "message": {
+        "id": "1478140f-c740-4ac0-a354-c96a9e2feb87",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414437.123508,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Based on what you know about me, what should my TikTok For You page look like?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-05T20:27:17.006809+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-05T20:27:17.006809+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000d75461f6b6456953cecaa0c9",
+                "size_bytes": 213678,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.45
+                }
+              },
+              "audio_start_timestamp": 11.585065418039449
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "3121fff2-8737-42fc-b1d6-a5d737beba5b",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5a9e5540-9ddd-4d0b-abb6-996e07dc4fed",
+      "children": [
+        "bf130372-17c3-4ff5-8e14-d6c93668ed43"
+      ]
+    },
+    "bf130372-17c3-4ff5-8e14-d6c93668ed43": {
+      "id": "bf130372-17c3-4ff5-8e14-d6c93668ed43",
+      "message": {
+        "id": "bf130372-17c3-4ff5-8e14-d6c93668ed43",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749414437.344505,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Given what I know about your interests and the kind of things you enjoy chatting about, I think your TikTok For You page would probably be a mix of astrology content, maybe some deep dives into Vedic astrology, as well as some tech and Termux tips, maybe some spiritual or philosophical discussions, and a sprinkle of music recommendations that vibe with your tastes. It&#x27;d be a fun and eclectic mix for sure!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-05T20:27:17.006892+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000830061f6b736da2047fca0f8",
+              "size_bytes": 1152078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 24.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "1478140f-c740-4ac0-a354-c96a9e2feb87",
+          "request_id": "3121fff2-8737-42fc-b1d6-a5d737beba5b",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1478140f-c740-4ac0-a354-c96a9e2feb87",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "bf130372-17c3-4ff5-8e14-d6c93668ed43",
+  "plugin_ids": null,
+  "conversation_id": "6845f11b-cc94-8000-8b06-f6e517120b16",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6845f11b-cc94-8000-8b06-f6e517120b16"
+}

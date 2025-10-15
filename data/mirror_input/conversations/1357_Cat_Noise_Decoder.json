@@ -1,0 +1,613 @@
+{
+  "title": "Cat Noise Decoder",
+  "create_time": 1746979819.061674,
+  "update_time": 1746979913.882584,
+  "mapping": {
+    "bbb23203-7860-4246-a0b4-ca59e5183823": {
+      "id": "bbb23203-7860-4246-a0b4-ca59e5183823",
+      "message": null,
+      "parent": null,
+      "children": [
+        "24e0b988-c2a5-4c18-8ca2-247efa7204e4"
+      ]
+    },
+    "24e0b988-c2a5-4c18-8ca2-247efa7204e4": {
+      "id": "24e0b988-c2a5-4c18-8ca2-247efa7204e4",
+      "message": {
+        "id": "24e0b988-c2a5-4c18-8ca2-247efa7204e4",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23203-7860-4246-a0b4-ca59e5183823",
+      "children": [
+        "55e49707-45c3-4a2a-b0d6-e77e2578be83"
+      ]
+    },
+    "55e49707-45c3-4a2a-b0d6-e77e2578be83": {
+      "id": "55e49707-45c3-4a2a-b0d6-e77e2578be83",
+      "message": {
+        "id": "55e49707-45c3-4a2a-b0d6-e77e2578be83",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```.\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n",
+            "about_model_message": ".\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "24e0b988-c2a5-4c18-8ca2-247efa7204e4",
+      "children": [
+        "53403325-3007-4a86-89bf-811db5bcc8e8"
+      ]
+    },
+    "53403325-3007-4a86-89bf-811db5bcc8e8": {
+      "id": "53403325-3007-4a86-89bf-811db5bcc8e8",
+      "message": {
+        "id": "53403325-3007-4a86-89bf-811db5bcc8e8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746979819.203705,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Decode my cat&#x27;s noises.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-07T16:10:19.070958+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-07T16:10:19.070958+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000094ec61f6968d74f6e5fdac66",
+                "size_bytes": 89358,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.86
+                }
+              },
+              "audio_start_timestamp": 4.68807649705559
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "dfe412fc-cd1b-4704-884a-9d5b2b488cd7",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "55e49707-45c3-4a2a-b0d6-e77e2578be83",
+      "children": [
+        "1c5a8b3b-5578-4e5e-9e67-a21673ddab23"
+      ]
+    },
+    "1c5a8b3b-5578-4e5e-9e67-a21673ddab23": {
+      "id": "1c5a8b3b-5578-4e5e-9e67-a21673ddab23",
+      "message": {
+        "id": "1c5a8b3b-5578-4e5e-9e67-a21673ddab23",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746979819.350317,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, let&#x27;s break it down. When your cat&#x27;s making those little chirps and trills, it&#x27;s usually like a &quot;hey, what&#x27;s up?&quot; or &quot;check this out!&quot; If she&#x27;s doing that long, drawn-out meow, she&#x27;s probably trying to tell you she wants something—food, attention, or maybe she&#x27;s just feeling chatty. And those low growls or hisses? That&#x27;s her saying, &quot;back off&quot; or &quot;I&#x27;m not in the mood.&quot; Basically, it&#x27;s all about context—if she&#x27;s purring, she&#x27;s content; if she&#x27;s yowling, she might be feeling stressed or in heat. It&#x27;s like a whole kitty language! Anything specific you&#x27;re curious about?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-07T16:10:19.071042+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000353861f680b1f9c394a5173d",
+              "size_bytes": 1581678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 32.95
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "53403325-3007-4a86-89bf-811db5bcc8e8",
+          "request_id": "dfe412fc-cd1b-4704-884a-9d5b2b488cd7",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "53403325-3007-4a86-89bf-811db5bcc8e8",
+      "children": [
+        "36e72528-2d8f-4e48-9662-8751ea077c15"
+      ]
+    },
+    "36e72528-2d8f-4e48-9662-8751ea077c15": {
+      "id": "36e72528-2d8f-4e48-9662-8751ea077c15",
+      "message": {
+        "id": "36e72528-2d8f-4e48-9662-8751ea077c15",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746979845.826012,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, her behavior.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-07T16:10:45.510241+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000005f5c61f69f3a8974a8238b3c",
+                "size_bytes": 476715,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 32.62792979273945,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 37.64476766437292,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 39.973317434079945,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 40.532172095030546,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 41.0813122857362,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 41.66334425192326,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 42.18388982489705,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 42.70530111435801,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 8,
+                    "timestamp": 43.293698869645596,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-07T16:10:45.510241+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000980461f6bcf105189a405a20",
+                "size_bytes": 172398,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.59
+                }
+              },
+              "audio_start_timestamp": 43.4446906009689
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "634f7493-a696-42a0-82f7-6add5a046713",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1c5a8b3b-5578-4e5e-9e67-a21673ddab23",
+      "children": [
+        "7b224331-3bc7-40a8-8d00-867ff72711db"
+      ]
+    },
+    "7b224331-3bc7-40a8-8d00-867ff72711db": {
+      "id": "7b224331-3bc7-40a8-8d00-867ff72711db",
+      "message": {
+        "id": "7b224331-3bc7-40a8-8d00-867ff72711db",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746979845.973048,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I see her lounging and being super relaxed on you. That stretched-out, comfy position means she&#x27;s feeling safe and totally trusting you. If she&#x27;s making those soft meows and purrs, it&#x27;s a sign she&#x27;s content and maybe looking for some cuddles or attention. Basically, she&#x27;s in her happy place with you right now! Anything else you&#x27;re noticing that you want to decode?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-07T16:10:45.510323+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000ee2861f69c24e7b1c750eb0d",
+              "size_bytes": 969678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 20.2
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "36e72528-2d8f-4e48-9662-8751ea077c15",
+          "request_id": "634f7493-a696-42a0-82f7-6add5a046713",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "36e72528-2d8f-4e48-9662-8751ea077c15",
+      "children": [
+        "b658efca-0cd2-44ab-ba74-fd27e1ba4cfc"
+      ]
+    },
+    "b658efca-0cd2-44ab-ba74-fd27e1ba4cfc": {
+      "id": "b658efca-0cd2-44ab-ba74-fd27e1ba4cfc",
+      "message": {
+        "id": "b658efca-0cd2-44ab-ba74-fd27e1ba4cfc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746979913.590481,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Look at her fat pregnant cat belly.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-07T16:11:53.310307+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": {
+                "content_type": "video_container_asset_pointer",
+                "asset_pointer": "sediment://file_000000006d1461f6900f427f422ea557",
+                "size_bytes": 474289,
+                "format": "mp4",
+                "frame_attributes": [
+                  {
+                    "frame_index": 0,
+                    "timestamp": 81.47550507169217,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 1,
+                    "timestamp": 86.56539130117744,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 2,
+                    "timestamp": 91.69376707449555,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 3,
+                    "timestamp": 96.86314252018929,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 4,
+                    "timestamp": 100.88425426185131,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 5,
+                    "timestamp": 101.48352039977908,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 6,
+                    "timestamp": 102.02178527601063,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  },
+                  {
+                    "frame_index": 7,
+                    "timestamp": 102.55189040955156,
+                    "metadata": {
+                      "source": "camera"
+                    }
+                  }
+                ]
+              },
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-07T16:11:53.310307+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000576861f698eea53de6d602f6",
+                "size_bytes": 101838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.12
+                }
+              },
+              "audio_start_timestamp": 103.03495972324163
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "61f8e15a-c044-43e0-aeaf-6b962af5f8e9",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7b224331-3bc7-40a8-8d00-867ff72711db",
+      "children": [
+        "5ce94e87-d770-4169-9dc8-3deabc7c8196"
+      ]
+    },
+    "5ce94e87-d770-4169-9dc8-3deabc7c8196": {
+      "id": "5ce94e87-d770-4169-9dc8-3deabc7c8196",
+      "message": {
+        "id": "5ce94e87-d770-4169-9dc8-3deabc7c8196",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1746979913.746465,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Aww, yeah, that little round belly does look like a pregnant cat tummy! If she&#x27;s got that plumpness and she&#x27;s been acting more affectionate or nesting, those are classic signs of pregnancy. Plus, the way she&#x27;s lounging on you shows she’s comfortable and trusts you. Looks like you might have some kittens on the way! Keep an eye on her for any more signs, like more pronounced nipples or if she starts looking for cozy spots to give birth. You&#x27;re gonna be a cat grandma!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-07T16:11:53.310404+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000221861f68ece393598c1e88d",
+              "size_bytes": 1248078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 26.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "b658efca-0cd2-44ab-ba74-fd27e1ba4cfc",
+          "request_id": "61f8e15a-c044-43e0-aeaf-6b962af5f8e9",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b658efca-0cd2-44ab-ba74-fd27e1ba4cfc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "5ce94e87-d770-4169-9dc8-3deabc7c8196",
+  "plugin_ids": null,
+  "conversation_id": "6820cbc4-8088-8000-a1d8-2cc9db54c28d",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6820cbc4-8088-8000-a1d8-2cc9db54c28d"
+}

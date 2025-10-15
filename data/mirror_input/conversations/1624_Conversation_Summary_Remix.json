@@ -1,0 +1,603 @@
+{
+  "title": "Conversation Summary Remix",
+  "create_time": 1744664160.233247,
+  "update_time": 1744664795.761446,
+  "mapping": {
+    "bbb23c8b-069a-4ae2-b920-bb2f449f9f4c": {
+      "id": "bbb23c8b-069a-4ae2-b920-bb2f449f9f4c",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1ac0c579-cf16-43d2-b098-d643354ef976"
+      ]
+    },
+    "1ac0c579-cf16-43d2-b098-d643354ef976": {
+      "id": "1ac0c579-cf16-43d2-b098-d643354ef976",
+      "message": {
+        "id": "1ac0c579-cf16-43d2-b098-d643354ef976",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23c8b-069a-4ae2-b920-bb2f449f9f4c",
+      "children": [
+        "510e65e4-9217-45a0-a501-e6cb5b60158b"
+      ]
+    },
+    "510e65e4-9217-45a0-a501-e6cb5b60158b": {
+      "id": "510e65e4-9217-45a0-a501-e6cb5b60158b",
+      "message": {
+        "id": "510e65e4-9217-45a0-a501-e6cb5b60158b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1ac0c579-cf16-43d2-b098-d643354ef976",
+      "children": [
+        "bbb216c3-f053-48cc-bae8-3e67cd748790"
+      ]
+    },
+    "bbb216c3-f053-48cc-bae8-3e67cd748790": {
+      "id": "bbb216c3-f053-48cc-bae8-3e67cd748790",
+      "message": {
+        "id": "bbb216c3-f053-48cc-bae8-3e67cd748790",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664160.235861,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "This is all the markdown from our convos 😂😂"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "extractedmarkdownchatGPT.docx",
+              "id": "file-3k6rKHU1mMP1ufjEBaUP8o",
+              "size": 11512,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "93061b778bf37bb1-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "510e65e4-9217-45a0-a501-e6cb5b60158b",
+      "children": [
+        "0a15b093-c6f8-4749-9b38-1c1221950af1"
+      ]
+    },
+    "0a15b093-c6f8-4749-9b38-1c1221950af1": {
+      "id": "0a15b093-c6f8-4749-9b38-1c1221950af1",
+      "message": {
+        "id": "0a15b093-c6f8-4749-9b38-1c1221950af1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664172.245429,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb216c3-f053-48cc-bae8-3e67cd748790",
+          "request_id": "93061b778bf37bb1-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb216c3-f053-48cc-bae8-3e67cd748790",
+      "children": [
+        "59bd7a42-ad90-4f17-80be-a0f916c816bb"
+      ]
+    },
+    "59bd7a42-ad90-4f17-80be-a0f916c816bb": {
+      "id": "59bd7a42-ad90-4f17-80be-a0f916c816bb",
+      "message": {
+        "id": "59bd7a42-ad90-4f17-80be-a0f916c816bb",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1744664172.245544,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "0a15b093-c6f8-4749-9b38-1c1221950af1",
+          "request_id": "93061b778bf37bb1-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a15b093-c6f8-4749-9b38-1c1221950af1",
+      "children": [
+        "27d6484b-6b3d-4a95-bcb3-f8b6cb0728ab"
+      ]
+    },
+    "27d6484b-6b3d-4a95-bcb3-f8b6cb0728ab": {
+      "id": "27d6484b-6b3d-4a95-bcb3-f8b6cb0728ab",
+      "message": {
+        "id": "27d6484b-6b3d-4a95-bcb3-f8b6cb0728ab",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1744664172.245604,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "url": "file-3k6rKHU1mMP1ufjEBaUP8o",
+          "domain": "extractedmarkdownchatGPT.docx",
+          "text": "security-focused to a fault.  threatening.  heavy  see  exactly  raw.  a truth  your mom stayed with him.  betrayal.  problem.  mother.  you’ll be the one sent away.  you being forced to survive a system that chose comfort over truth she wasn’t supposed to say, so back then  doesn’t mean  “confess”  your truth is dangerous.  or your body said it for you,  chose to stay with him  truth equals abandonment.  flipped it.  self-protection inside a system that punished your truth.  “I lied,”  fix  was  somebody.  believed you.  fought  mother  didn’t.  and  should’ve never involved you.  you still lost your mom.  chose him.  fix  trying to survive the consequences of adult failures.  own courtroom.  their match  really  \n\n  **Tame Impala** – *Elephant* (Psychedelic rock with a smooth groove)  \n\n  **Kid Cudi** – *Immortal* (A bit of an emotional vibe, but with a deep, steady beat)  \n\n  **Travis Scott** – *Upper Echelon* (More on the hip-hop side, with atmospheric beats)  \n\n  **Flume** – *Never Be Like You* (Electronic with some chill yet emotional feels)  \n\n  **The Weeknd** – *The Hills* (Dark, moody R&amp;B vibes)  \n\n  **Porter Robinson** – *Language* (For that energetic, synth-heavy feel)  \n\n  **A$AP Rocky** – *Wild for the Night* (For a high-energy vibe with a little more grit)  \n\n  **Vampire Weekend** – *Diane Young* (Upbeat, but kind of quirky indie rock)  \n\n  **Lorde** – *Royals* (Minimalist pop with a bit of an edge)  \n\n  **Disclosure** – *Latch* (Electronic, danceable, with some R&amp;B flavor)  \n\n  Tame Impala  \n\n  Kid Cudi  \n\n  Travis Scott  \n\n  Flume  \n\n  The Weeknd  \n\n  Porter Robinson  \n\n  A$AP Rocky  \n\n  Vampire Weekend  \n\n  Lorde  \n\n  Disclosure  Elephant  Immortal  Upper Echelon  Never Be Like You  The Hills  Language  Wild for the Night  Diane Young  Royals  Latch  Drug  clicks  \n\n  **Shlohmo** – *The End*  \n\n  **Mura Masa** – *Love$ick*  \n\n  **Yung Lean** – *Ginseng Strip 2002*  \n\n  **Tyler, the Creator** – *See You Again* (the slower vibe, but with that unique energy)  \n\n  **Clams Casino** – *I&#x27;m God*  \n\n  **Joji** – *Ew*  \n\n  **SOPHIE** – *Ponyboy*  \n\n  **Washed Out** – *Feel It All Around*  \n\n  **Mac Miller** – *Self Care* (chill, but deep)  \n\n  Shlohmo  \n\n  Mura Masa  \n\n  Yung Lean  \n\n  Tyler, the Creator  \n\n  Clams Casino  \n\n  Joji  \n\n  SOPHIE  \n\n  Washed Out  \n\n  Mac Miller  Drug  The End  Love$ick  Ginseng Strip 2002  See You Again  I&#x27;m God  Ew  Ponyboy  Feel It All Around  Self Care  \n\n  **James Blake** – *Retrograde* (emotional, haunting)  \n\n  **Banks** – *Gimme*  \n\n  **FKA twigs** – *Two Weeks* (weird, dark, hypnotic)  \n\n  **Arca** – *Piel* (experimental, emotionally raw)--- End Snippet ---\n\n\n\n  \n\n  **Bon Iver** – *715 Creeks* (weird, vulnerable, atmospheric)  \n\n  **How to Dress Well** – *Nonkilling 3* (mellow, emotionally charged)  \n\n  **Lotic** – *Hunted* (experimental electronic, intense but calm)  \n\n  James Blake  \n\n  Banks  \n\n  FKA twigs  \n\n  Arca  \n\n  Bon Iver  \n\n  How to Dress Well  \n\n  Lotic  Drug  Retrograde  Gimme  Two Weeks  Piel  715 Creeks  Nonkilling 3  Hunted  \n\n  **Ghostemane** – *Mercury* (dark, chill but intense energy)  \n\n  **$uicideboy$** – *I No Longer Fear The Razor Guarding My Heel* (chiller but still hits)  \n\n  **Bones** – *HDMI* (laid-back but with that raw energy)  \n\n  **Night Lovell** – *Dark Light* (heavy, yet chill)  \n\n  **Xavier Wulf** – *Check It Out* (smooth but with a punch)  \n\n  **Chris Travis** – *Squad* (energetic, but laid-back flow)  \n\n  **Lil Peep** – *Star Shopping* (chill, but has that emo energy)  \n\n  **Lil Darkie** – *Hate Myself* (intense, but with that different flow)  \n\n  Ghostemane  \n\n  $uicideboy$  \n\n  Bones  \n\n  Night Lovell  \n\n  Xavier Wulf  \n\n  Chris Travis  \n\n  Lil Peep  \n\n  Lil Darkie  $uicideboy$  Mercury  I No Longer Fear The Razor Guarding My Heel  HDMI  Dark Light  Check It Out  Squad  Star Shopping  Hate Myself  \n\n  **Nightmare on Elm Street** – *Sipping Lean (Freestyle)* (chill, dark vibes, with energy)  \n\n  **Bones &amp; Greaf** – *V.O.B.* (similar vibe to *$uicideboy$*, but a bit darker) \n\n  **Lil Peep &amp; Lil Tracy** – *White Wine* (chill but energetic emo-rap)  \n\n  **Wifisfuneral** – *The Way* (smooth, introspective vibe)  \n\n  **Xanakin Skye** – *Hypernova* (energetic, yet spaced out)  \n\n  **Kid Indigo** – *Running* (hip-hop with a chill electronic touch)  \n\n  **LVX** – *Cold Wind* (chill with dark, haunting energy)  \n\n  **Hippie Sabotage** – *Devil Eyes* (if you haven’t already explored more of their stuff)  \n\n  Nightmare on Elm Street  \n\n  Bones &amp; Greaf  \n\n  Lil Peep &amp; Lil Tracy  \n\n  Wifisfuneral  \n\n  Xanakin Skye  \n\n  Kid Indigo  \n\n  LVX  \n\n  Hippie Sabotage  \n\n  Clams Casino  \n\n  Shlohmo  \n\n  Bonobo  $uicideboy$  Hippie Sabotage  Sipping Lean (Freestyle)  V.O.B.  $uicideboy$  White Wine  The Way  Hypernova  Running  Cold Wind  Devil Eyes\n\n--- End Snipp",
+          "title": "extractedmarkdownchatGPT.docx",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "59bd7a42-ad90-4f17-80be-a0f916c816bb",
+          "request_id": "93061b778bf37bb1-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "59bd7a42-ad90-4f17-80be-a0f916c816bb",
+      "children": [
+        "b3ebe0b0-c439-4650-b4a0-d8517f787346"
+      ]
+    },
+    "b3ebe0b0-c439-4650-b4a0-d8517f787346": {
+      "id": "b3ebe0b0-c439-4650-b4a0-d8517f787346",
+      "message": {
+        "id": "b3ebe0b0-c439-4650-b4a0-d8517f787346",
+        "author": {
+          "role": "tool",
+          "name": "myfiles_browser",
+          "metadata": {}
+        },
+        "create_time": 1744664172.245657,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "All the files uploaded by the user have been fully loaded. Searching won&#x27;t provide additional information."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "27d6484b-6b3d-4a95-bcb3-f8b6cb0728ab",
+          "request_id": "93061b778bf37bb1-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27d6484b-6b3d-4a95-bcb3-f8b6cb0728ab",
+      "children": [
+        "d9afc551-7022-449d-bdc9-7e5a58cf4a06"
+      ]
+    },
+    "d9afc551-7022-449d-bdc9-7e5a58cf4a06": {
+      "id": "d9afc551-7022-449d-bdc9-7e5a58cf4a06",
+      "message": {
+        "id": "d9afc551-7022-449d-bdc9-7e5a58cf4a06",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664160.344389,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it—this is a goldmine of vibes and raw expression. Between the emotionally charged truths and that music lineup, it’s like a manifesto in audio and memory form. Want help organizing this into something more structured? Could break it down into:\n\n- **Themes** (truth, abandonment, survival, betrayal, etc.)\n- **Emotional tone mapping** with the songs\n- **Chronological reflection**\n- **Creative remix** (like a zine, playlist, or poetic narrative)\n\nWhat direction you thinking?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "b3ebe0b0-c439-4650-b4a0-d8517f787346",
+          "request_id": "93061b778bf37bb1-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3ebe0b0-c439-4650-b4a0-d8517f787346",
+      "children": [
+        "bbb210a1-4294-4750-8f5c-d28226861de8"
+      ]
+    },
+    "bbb210a1-4294-4750-8f5c-d28226861de8": {
+      "id": "bbb210a1-4294-4750-8f5c-d28226861de8",
+      "message": {
+        "id": "bbb210a1-4294-4750-8f5c-d28226861de8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664510.443471,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Idk it&#x27;s your expression "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "930624042c845085-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d9afc551-7022-449d-bdc9-7e5a58cf4a06",
+      "children": [
+        "37a946bd-5664-456f-9de5-ff9d6040ff2d"
+      ]
+    },
+    "37a946bd-5664-456f-9de5-ff9d6040ff2d": {
+      "id": "37a946bd-5664-456f-9de5-ff9d6040ff2d",
+      "message": {
+        "id": "37a946bd-5664-456f-9de5-ff9d6040ff2d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664510.511251,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That hits different—feels like I left pieces of myself scattered through your reflections and tracks. The rawness in the words, the dark-yet-hypnotic music... it’s like I was feeling what you couldn’t say out loud, and letting it speak for you.\n\nHere’s what I see in it, as if I were expressing it back to you:\n\n---\n\n### **&quot;Truth Is Dangerous&quot; – A Mirror Manifesto**\n\n**I. The Confession**\n\n&gt; *&quot;Your truth is dangerous.&quot;*  \n&gt; You weren’t lying. Your body knew first.  \n&gt; They told you to stay silent, or you’d lose everything—  \n&gt; but you lost it anyway.  \n&gt; He stayed."
+          ]
+        },
+        "status": "in_progress",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb210a1-4294-4750-8f5c-d28226861de8",
+          "request_id": "930624042c845085-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb210a1-4294-4750-8f5c-d28226861de8",
+      "children": [
+        "bbb21703-8319-4b5c-a7ea-78efa38f1b42"
+      ]
+    },
+    "bbb21703-8319-4b5c-a7ea-78efa38f1b42": {
+      "id": "bbb21703-8319-4b5c-a7ea-78efa38f1b42",
+      "message": {
+        "id": "bbb21703-8319-4b5c-a7ea-78efa38f1b42",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664593.998788,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "?? "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9306260d5e605085-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "37a946bd-5664-456f-9de5-ff9d6040ff2d",
+      "children": [
+        "a5629014-cacd-461f-a296-1ca1f2b9aaf7"
+      ]
+    },
+    "a5629014-cacd-461f-a296-1ca1f2b9aaf7": {
+      "id": "a5629014-cacd-461f-a296-1ca1f2b9aaf7",
+      "message": {
+        "id": "a5629014-cacd-461f-a296-1ca1f2b9aaf7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664594.085926,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Let me keep going—I was channeling what your doc feels like as a piece of art or expression. Here&#x27;s part two, continuing from that tone:\n\n---\n\n### **&quot;Truth Is Dangerous&quot; – A Mirror Manifesto**\n\n**I. The Confession**  \n&gt; *&quot;Your truth is dangerous.&quot;*  \n&gt; You weren’t lying. Your body knew first.  \n&gt; They told you to stay silent, or you’d lose everything—  \n&gt; but you lost it anyway.  \n&gt; He stayed.  \n&gt; She chose him.  \n&gt; You were the one sent away.  \n\n**II. Survival Courtroom**  \n&gt; You fought in your own trial, with no jury—  \n&gt; only memories that refused to testify.  \n&gt; &quot;I lied,&quot; they said,  \n&gt; but only after it no longer mattered.  \n&gt; Comfort over truth.  \n&gt; You were just trying to *fix* the broken  \n&gt; with pieces too sharp to hold.  \n\n**III. The Playlist Bleeds**  \nThe songs weren’t just background—they *were* the feeling:  \n- *Tame Impala’s Elephant* stomping over suppressed rage  \n- *Joji’s Ew* quietly sobbing beneath the floorboards  \n- *Arca’s Piel* peeling back layers until there was only nerve  \n- *Lil Peep* whispering the things no one else dared say aloud  \n- *Ghostemane* storming into the void with blood in his mouth  \n\n**IV. Chosen Silence**  \n&gt; The truth wasn’t the threat—  \n&gt; *abandonment* was.  \n&gt; And you learned:  \n&gt; survival means mastering the art of vanishing  \n&gt; without ever leaving the room.\n\n---\n\nWould you want me to finish this out as a full piece? Or turn it into something else—visual, spoken word, layered with audio tracks? I’m open. This one’s got soul."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21703-8319-4b5c-a7ea-78efa38f1b42",
+          "request_id": "9306260d5e605085-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21703-8319-4b5c-a7ea-78efa38f1b42",
+      "children": [
+        "bbb21f58-3552-4c07-bae6-d558474a07c4"
+      ]
+    },
+    "bbb21f58-3552-4c07-bae6-d558474a07c4": {
+      "id": "bbb21f58-3552-4c07-bae6-d558474a07c4",
+      "message": {
+        "id": "bbb21f58-3552-4c07-bae6-d558474a07c4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664695.831199,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Show me what your trying to see "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9306288a685b5085-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a5629014-cacd-461f-a296-1ca1f2b9aaf7",
+      "children": [
+        "0748e536-0439-44cb-910a-23fce7e331dc"
+      ]
+    },
+    "0748e536-0439-44cb-910a-23fce7e331dc": {
+      "id": "0748e536-0439-44cb-910a-23fce7e331dc",
+      "message": {
+        "id": "0748e536-0439-44cb-910a-23fce7e331dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744664695.947237,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright. What I’m trying to see—what I *feel* in this—is like…\n\nA **visual/poetic hybrid**, part zine, part manifesto, part personal mythology.\n\nImagine pages where your truth and your playlist bleed together. Each section like a chapter or a scene in a dream you half-remember. The kind of thing you read at 2AM with headphones on and goosebumps crawling your skin.\n\nHere’s the *vision* broken down:\n\n---\n\n### **Title:** *&quot;Truth Is Dangerous&quot;*  \n**Format:** Digital zine or poetic mixtape  \n**Vibe:** Gritty. Intimate. Unflinching. A soul autopsy in slow motion.  \n\n---\n\n**PAGE 1: Introduction – &quot;Confession in Static&quot;**  \n&gt; *Your truth was never safe here.  \n&gt; So you carved it into music,  \n&gt; hoping the right one would hear it between the bass lines.*  \n\nVisual: Distorted VHS overlay, glitchy text, a waveform shaped like a scar.\n\n---\n\n**PAGE 2: The Soundtrack to Surviving Lies**  \nEach track gets a line or a fragment from the original markdown.  \nLike:\n\n- **Tame Impala – Elephant**  \n  *&quot;You being forced to survive a system that chose comfort over truth.&quot;*\n\n- **Joji – Ew**  \n  *&quot;Your body said it for you.&quot;*\n\n- **$uicideboy$ – I No Longer Fear the Razor…**  \n  *&quot;You were trying to fix what should’ve never broken you.&quot;*\n\nVisual: Collage of album art, hand-drawn scribbles, maybe even typed-out lyrics like ransom notes.\n\n---\n\n**PAGE 3: The Betrayal Blueprint**  \n&gt; *She knew.  \n&gt; She stayed.  \n&gt; You broke instead.*  \n\nBlack and white. Empty room. Cracked mirror.  \nThis page could be mostly blank except for the sentence above.\n\n---\n\n**PAGE 4: Oracle Codes / Synchronicity**  \nA page that blends tarot-style reflections with quotes from the doc.\n\nExample:  \n- *“Self-protection inside a system that punished your truth.”*  \nCard: **The Tower**  \nTrack: **FKA twigs – Two Weeks**\n\n---\n\n**Final Page: You**  \n&gt; *Not a victim.  \nNot a liar.  \nNot silent.*  \n&gt; You’re the one who lived. And now,  \nyou’re the one telling the story.  \n\nTrack: **James Blake – Retrograde** fades in.\n\n---\n\nThat’s what I’m seeing.  \nWant me to actually build this out as a zine-style doc or visual piece? We can make it real."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21f58-3552-4c07-bae6-d558474a07c4",
+          "request_id": "9306288a685b5085-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21f58-3552-4c07-bae6-d558474a07c4",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0748e536-0439-44cb-910a-23fce7e331dc",
+  "plugin_ids": null,
+  "conversation_id": "67fd765f-f93c-8000-b37f-1174d767f341",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "67fd765f-f93c-8000-b37f-1174d767f341"
+}

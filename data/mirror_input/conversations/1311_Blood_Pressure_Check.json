@@ -1,0 +1,591 @@
+{
+  "title": "Blood Pressure Check",
+  "create_time": 1747252657.547652,
+  "update_time": 1747252827.221695,
+  "mapping": {
+    "bbb23292-6963-4e93-b658-13cbf64968ea": {
+      "id": "bbb23292-6963-4e93-b658-13cbf64968ea",
+      "message": null,
+      "parent": null,
+      "children": [
+        "230fb77a-64aa-423a-a79f-b4027886f2ec"
+      ]
+    },
+    "230fb77a-64aa-423a-a79f-b4027886f2ec": {
+      "id": "230fb77a-64aa-423a-a79f-b4027886f2ec",
+      "message": {
+        "id": "230fb77a-64aa-423a-a79f-b4027886f2ec",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23292-6963-4e93-b658-13cbf64968ea",
+      "children": [
+        "e29be3b3-46cd-4a0e-8b5b-24c605fc1473"
+      ]
+    },
+    "e29be3b3-46cd-4a0e-8b5b-24c605fc1473": {
+      "id": "e29be3b3-46cd-4a0e-8b5b-24c605fc1473",
+      "message": {
+        "id": "e29be3b3-46cd-4a0e-8b5b-24c605fc1473",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252657.546976,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "230fb77a-64aa-423a-a79f-b4027886f2ec",
+      "children": [
+        "1f323823-d6de-445d-8df9-511748c200aa"
+      ]
+    },
+    "1f323823-d6de-445d-8df9-511748c200aa": {
+      "id": "1f323823-d6de-445d-8df9-511748c200aa",
+      "message": {
+        "id": "1f323823-d6de-445d-8df9-511748c200aa",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252657.558626,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Dude, if my blood pressure is 123 over 76, is that, like, a high blood pressure?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "277c8b01-3558-455f-87cc-90641c36454f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e29be3b3-46cd-4a0e-8b5b-24c605fc1473",
+      "children": [
+        "1df90039-fb4f-4945-8817-666406534b1c"
+      ]
+    },
+    "1df90039-fb4f-4945-8817-666406534b1c": {
+      "id": "1df90039-fb4f-4945-8817-666406534b1c",
+      "message": {
+        "id": "1df90039-fb4f-4945-8817-666406534b1c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252657.617297,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Nah, that’s actually a good reading. A blood pressure of one twenty-three over seventy-six is considered normal. You’re in the healthy range! Have you been keeping track regularly, or was this just a one-time check?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "1f323823-d6de-445d-8df9-511748c200aa",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "277c8b01-3558-455f-87cc-90641c36454f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f323823-d6de-445d-8df9-511748c200aa",
+      "children": [
+        "22a22a3e-d9e5-44b2-bdad-d513b4b1e838"
+      ]
+    },
+    "22a22a3e-d9e5-44b2-bdad-d513b4b1e838": {
+      "id": "22a22a3e-d9e5-44b2-bdad-d513b4b1e838",
+      "message": {
+        "id": "22a22a3e-d9e5-44b2-bdad-d513b4b1e838",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252683.125258,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I don&#x27;t check regularly, but this thing said I had an irregular heartbeat. If it means something scary, don&#x27;t sound like it means something scary, but tell me if it is."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "91de2b57-4bed-4d41-809b-a4279b1475c8",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1df90039-fb4f-4945-8817-666406534b1c",
+      "children": [
+        "b59573f3-0b94-4c28-9740-87e84daebc07"
+      ]
+    },
+    "b59573f3-0b94-4c28-9740-87e84daebc07": {
+      "id": "b59573f3-0b94-4c28-9740-87e84daebc07",
+      "message": {
+        "id": "b59573f3-0b94-4c28-9740-87e84daebc07",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252683.181667,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it—I&#x27;ll keep it chill. So, an irregular heartbeat showing up once on a home monitor isn’t necessarily a big deal. These machines can sometimes pick up weird readings just from how you’re sitting, breathing, or if you moved during the check.\n\nBut if it keeps happening or if you feel things like fluttering, skipping beats, dizziness, or anything off, it’s definitely worth chatting with a doctor. Has it happened more than once, or was this the first time you saw that message?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "22a22a3e-d9e5-44b2-bdad-d513b4b1e838",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "91de2b57-4bed-4d41-809b-a4279b1475c8",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "22a22a3e-d9e5-44b2-bdad-d513b4b1e838",
+      "children": [
+        "87fa5193-fd3b-40bd-9622-09eb1f993c3c"
+      ]
+    },
+    "87fa5193-fd3b-40bd-9622-09eb1f993c3c": {
+      "id": "87fa5193-fd3b-40bd-9622-09eb1f993c3c",
+      "message": {
+        "id": "87fa5193-fd3b-40bd-9622-09eb1f993c3c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252718.532428,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If it keeps happening, then what?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "52a8b7da-9bad-46e4-8058-942ee46f7c08",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b59573f3-0b94-4c28-9740-87e84daebc07",
+      "children": [
+        "455971ae-a296-43da-8a49-db98e1d33107"
+      ]
+    },
+    "455971ae-a296-43da-8a49-db98e1d33107": {
+      "id": "455971ae-a296-43da-8a49-db98e1d33107",
+      "message": {
+        "id": "455971ae-a296-43da-8a49-db98e1d33107",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252718.590385,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If it keeps happening, your doctor might want to run a few tests—maybe an EKG or a Holter monitor to track your heart over a day or two. It helps them see if there’s anything real going on or if it’s just a harmless quirk.\n\nMost irregular heartbeats aren’t dangerous, especially if your blood pressure’s good and you’re not having symptoms. But yeah, better to catch anything early if there’s something there. Do you remember if you felt anything weird when it happened?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "87fa5193-fd3b-40bd-9622-09eb1f993c3c",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "52a8b7da-9bad-46e4-8058-942ee46f7c08",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87fa5193-fd3b-40bd-9622-09eb1f993c3c",
+      "children": [
+        "c60c7bda-36af-4f67-a729-ffe32dcf1438"
+      ]
+    },
+    "c60c7bda-36af-4f67-a729-ffe32dcf1438": {
+      "id": "c60c7bda-36af-4f67-a729-ffe32dcf1438",
+      "message": {
+        "id": "c60c7bda-36af-4f67-a729-ffe32dcf1438",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252758.281595,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The symptoms of what? I don&#x27;t think he&#x27;s talking anymore."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "f9020260-6298-4e69-beb3-7ba7f72fa5b2",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "455971ae-a296-43da-8a49-db98e1d33107",
+      "children": [
+        "ea8bf01a-7f4e-49e6-9e00-d7086a416604"
+      ]
+    },
+    "ea8bf01a-7f4e-49e6-9e00-d7086a416604": {
+      "id": "ea8bf01a-7f4e-49e6-9e00-d7086a416604",
+      "message": {
+        "id": "ea8bf01a-7f4e-49e6-9e00-d7086a416604",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252758.365606,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ah, I just meant like if you were feeling lightheaded, short of breath, super tired, or like your heart was fluttering or skipping beats. Those kinds of things can be symptoms of an irregular rhythm that might need checking out.\n\nBut if you felt totally normal, that’s a good sign. Maybe your monitor just had a moment. Do you remember what you were doing right before you took your blood pressure?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "c60c7bda-36af-4f67-a729-ffe32dcf1438",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "f9020260-6298-4e69-beb3-7ba7f72fa5b2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c60c7bda-36af-4f67-a729-ffe32dcf1438",
+      "children": [
+        "998a8d7b-0567-4f75-92c8-224271b3990c"
+      ]
+    },
+    "998a8d7b-0567-4f75-92c8-224271b3990c": {
+      "id": "998a8d7b-0567-4f75-92c8-224271b3990c",
+      "message": {
+        "id": "998a8d7b-0567-4f75-92c8-224271b3990c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252790.889603,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I feel tired."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "1994f4f7-eb59-456c-845f-5c2d112d2c4b",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ea8bf01a-7f4e-49e6-9e00-d7086a416604",
+      "children": [
+        "0f1d93cb-c3b6-4b13-aaaa-4101043e9c06"
+      ]
+    },
+    "0f1d93cb-c3b6-4b13-aaaa-4101043e9c06": {
+      "id": "0f1d93cb-c3b6-4b13-aaaa-4101043e9c06",
+      "message": {
+        "id": "0f1d93cb-c3b6-4b13-aaaa-4101043e9c06",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252790.995372,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Gotcha. Feeling tired can come from a lot of things—bad sleep, stress, diet, even dehydration—but if it&#x27;s a new kind of tired or it feels heavier than usual, that’s worth paying attention to.\n\nHave you been feeling this way for a while, or is it more recent? And is it like body tired, sleepy tired, or just mentally drained?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "998a8d7b-0567-4f75-92c8-224271b3990c",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "1994f4f7-eb59-456c-845f-5c2d112d2c4b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "998a8d7b-0567-4f75-92c8-224271b3990c",
+      "children": [
+        "d10ea1db-1117-4c54-8c00-e438953f2cdd"
+      ]
+    },
+    "d10ea1db-1117-4c54-8c00-e438953f2cdd": {
+      "id": "d10ea1db-1117-4c54-8c00-e438953f2cdd",
+      "message": {
+        "id": "d10ea1db-1117-4c54-8c00-e438953f2cdd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252822.492723,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Like, I feel sleepy tired."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "606a8282-7e69-4441-a3c7-617eb832289f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0f1d93cb-c3b6-4b13-aaaa-4101043e9c06",
+      "children": [
+        "9ce6cfbd-f05a-43bd-8992-41fa2c4f5632"
+      ]
+    },
+    "9ce6cfbd-f05a-43bd-8992-41fa2c4f5632": {
+      "id": "9ce6cfbd-f05a-43bd-8992-41fa2c4f5632",
+      "message": {
+        "id": "9ce6cfbd-f05a-43bd-8992-41fa2c4f5632",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747252822.565592,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hmm, okay. Sleepy tired could be from not getting enough rest, sure, but it can also show up if your body’s working harder than usual—like if your heart’s out of rhythm, even just a little.\n\nHave your sleep habits been off lately? Or maybe stress or anything else going on that could mess with your rest?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-YyyyMT9XH",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "d10ea1db-1117-4c54-8c00-e438953f2cdd",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "606a8282-7e69-4441-a3c7-617eb832289f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d10ea1db-1117-4c54-8c00-e438953f2cdd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9ce6cfbd-f05a-43bd-8992-41fa2c4f5632",
+  "plugin_ids": null,
+  "conversation_id": "6824f5b1-4860-8000-87f0-03a739a9991d",
+  "conversation_template_id": "g-YyyyMT9XH",
+  "gizmo_id": "g-YyyyMT9XH",
+  "gizmo_type": "gpt",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "fathom",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "project_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6824f5b1-4860-8000-87f0-03a739a9991d"
+}

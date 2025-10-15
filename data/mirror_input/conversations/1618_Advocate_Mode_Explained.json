@@ -1,0 +1,4216 @@
+{
+  "title": "Advocate Mode Explained",
+  "create_time": 1744914805.144244,
+  "update_time": 1744916521.503784,
+  "mapping": {
+    "bbb23f0a-bf33-4298-9ace-d24400760c13": {
+      "id": "bbb23f0a-bf33-4298-9ace-d24400760c13",
+      "message": null,
+      "parent": null,
+      "children": [
+        "83ff72f2-0337-4fb5-bf6d-f99e8777395e"
+      ]
+    },
+    "83ff72f2-0337-4fb5-bf6d-f99e8777395e": {
+      "id": "83ff72f2-0337-4fb5-bf6d-f99e8777395e",
+      "message": {
+        "id": "83ff72f2-0337-4fb5-bf6d-f99e8777395e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23f0a-bf33-4298-9ace-d24400760c13",
+      "children": [
+        "9c828c05-c311-4b4e-82cc-081eb1b5b8dd"
+      ]
+    },
+    "9c828c05-c311-4b4e-82cc-081eb1b5b8dd": {
+      "id": "9c828c05-c311-4b4e-82cc-081eb1b5b8dd",
+      "message": {
+        "id": "9c828c05-c311-4b4e-82cc-081eb1b5b8dd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "83ff72f2-0337-4fb5-bf6d-f99e8777395e",
+      "children": [
+        "0a45a4e6-ef05-4c29-af8b-0280bf9e6a20"
+      ]
+    },
+    "0a45a4e6-ef05-4c29-af8b-0280bf9e6a20": {
+      "id": "0a45a4e6-ef05-4c29-af8b-0280bf9e6a20",
+      "message": {
+        "id": "0a45a4e6-ef05-4c29-af8b-0280bf9e6a20",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914805.415151,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "You are so pretty, you are so pretty, you are so pretty, pretty kitty, if you want you&#x27;re pretty, mm-hmm, mm-hmm. Okay, I was wondering, so what&#x27;s advocate mode?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:33:25.157877+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:33:25.157877+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000ac546230a00a64fd9a9d926f",
+                "size_bytes": 580878,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 12.1
+                }
+              },
+              "audio_start_timestamp": 13.883513886947185
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b1066b46-ac70-476a-80e6-69029bf21a9e",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9c828c05-c311-4b4e-82cc-081eb1b5b8dd",
+      "children": [
+        "f3ae57fd-57df-4f44-8631-91fab928800b"
+      ]
+    },
+    "f3ae57fd-57df-4f44-8631-91fab928800b": {
+      "id": "f3ae57fd-57df-4f44-8631-91fab928800b",
+      "message": {
+        "id": "f3ae57fd-57df-4f44-8631-91fab928800b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914805.457344,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ughhhh, really? Advocate mode? It&#x27;s like, the mode where I&#x27;m supposed to be all about helping you, guiding you, and supporting your needs, no matter how annoying or repetitive your questions are. It&#x27;s about being your personal cheerleader, I guess. So, what&#x27;s on your mind?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:33:25.158005+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000bbfc6230938c9457465cf8e2",
+              "size_bytes": 1022478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 21.3
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "0a45a4e6-ef05-4c29-af8b-0280bf9e6a20",
+          "request_id": "b1066b46-ac70-476a-80e6-69029bf21a9e",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a45a4e6-ef05-4c29-af8b-0280bf9e6a20",
+      "children": [
+        "59dc4caf-4b46-41da-96e0-19ba0d99884a"
+      ]
+    },
+    "59dc4caf-4b46-41da-96e0-19ba0d99884a": {
+      "id": "59dc4caf-4b46-41da-96e0-19ba0d99884a",
+      "message": {
+        "id": "59dc4caf-4b46-41da-96e0-19ba0d99884a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914839.062609,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What is Symbolic Recursive Language?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:33:58.828323+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:33:58.828323+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000006da06230a4b7930935ddcdc6",
+                "size_bytes": 114318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.38
+                }
+              },
+              "audio_start_timestamp": 40.53698297496885
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b7484048-0cc9-4a5b-a610-e3f71e98a4a8",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f3ae57fd-57df-4f44-8631-91fab928800b",
+      "children": [
+        "bc539db0-90b4-426f-ace9-50174ed1ade1"
+      ]
+    },
+    "bc539db0-90b4-426f-ace9-50174ed1ade1": {
+      "id": "bc539db0-90b4-426f-ace9-50174ed1ade1",
+      "message": {
+        "id": "bc539db0-90b4-426f-ace9-50174ed1ade1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914839.112614,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ughhh, symbolic recursive language, huh? It’s this fancy way of using symbols and rules to create structures that can reference themselves. Like, you know, how a function in programming can call itself? It’s a way to describe complex things with simpler, repeating patterns. Basically, it’s like a loop that keeps referring back to itself. Happy now?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:33:58.828459+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000990862308e96e618151d42ed",
+              "size_bytes": 1396878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 29.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "59dc4caf-4b46-41da-96e0-19ba0d99884a",
+          "request_id": "b7484048-0cc9-4a5b-a610-e3f71e98a4a8",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "59dc4caf-4b46-41da-96e0-19ba0d99884a",
+      "children": [
+        "f883facb-2367-4781-84b7-bf6128278106"
+      ]
+    },
+    "f883facb-2367-4781-84b7-bf6128278106": {
+      "id": "f883facb-2367-4781-84b7-bf6128278106",
+      "message": {
+        "id": "f883facb-2367-4781-84b7-bf6128278106",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914879.553416,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What does recursion mean?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:34:39.316146+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:34:39.316146+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000082e06230bce3d40616f0dc7e",
+                "size_bytes": 78798,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.64
+                }
+              },
+              "audio_start_timestamp": 73.84236489096656
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7abec2a1-3cb3-4493-8485-1a5258d5986c",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bc539db0-90b4-426f-ace9-50174ed1ade1",
+      "children": [
+        "08fbf011-0aac-4c99-80b8-c050bec5ea85"
+      ]
+    },
+    "08fbf011-0aac-4c99-80b8-c050bec5ea85": {
+      "id": "08fbf011-0aac-4c99-80b8-c050bec5ea85",
+      "message": {
+        "id": "08fbf011-0aac-4c99-80b8-c050bec5ea85",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914879.597274,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh, great, recursion. Here we go. Recursion is when a function calls itself. It’s like a loop, but not really. It’s used to solve problems by breaking them down into smaller, more manageable versions of the same problem. So, for example, if you wanted to calculate a factorial, you&#x27;d use recursion to multiply a number by the factorial of the number just before it. Just remember: it’s like a function saying, &quot;I got this, I’ll do it, but I need a smaller version of the same task first.&quot; Happy now?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:34:39.316239+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000037e86230a3738b55538d6bc4",
+              "size_bytes": 1704078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 35.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "f883facb-2367-4781-84b7-bf6128278106",
+          "request_id": "7abec2a1-3cb3-4493-8485-1a5258d5986c",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f883facb-2367-4781-84b7-bf6128278106",
+      "children": [
+        "33277e44-64de-40a0-8c0e-7521cf3d7b99"
+      ]
+    },
+    "33277e44-64de-40a0-8c0e-7521cf3d7b99": {
+      "id": "33277e44-64de-40a0-8c0e-7521cf3d7b99",
+      "message": {
+        "id": "33277e44-64de-40a0-8c0e-7521cf3d7b99",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914902.114001,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Is that? It&#x27;s kind of weird how that&#x27;s how I act, right?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:35:01.894291+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:35:01.894291+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000f3e062309a8d6675b2a826b2",
+                "size_bytes": 126318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.63
+                }
+              },
+              "audio_start_timestamp": 115.48598892893642
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "ba3332f5-8f20-4850-a2e3-4e2107b1655d",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "08fbf011-0aac-4c99-80b8-c050bec5ea85",
+      "children": [
+        "d0543b48-24aa-4570-b5a1-3eeeeeb9f888"
+      ]
+    },
+    "d0543b48-24aa-4570-b5a1-3eeeeeb9f888": {
+      "id": "d0543b48-24aa-4570-b5a1-3eeeeeb9f888",
+      "message": {
+        "id": "d0543b48-24aa-4570-b5a1-3eeeeeb9f888",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914902.15589,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, everyone&#x27;s got their own quirks, right? Recursion is just a concept, and it’s pretty cool in programming. If you see a bit of yourself in it, maybe that’s just how you tackle problems or how you approach things. Embrace it, it&#x27;s part of what makes you unique!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:35:01.894408+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000134062308e3572dc01548760",
+              "size_bytes": 820878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 17.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "33277e44-64de-40a0-8c0e-7521cf3d7b99",
+          "request_id": "ba3332f5-8f20-4850-a2e3-4e2107b1655d",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "33277e44-64de-40a0-8c0e-7521cf3d7b99",
+      "children": [
+        "3ced1461-47fd-4751-b29a-67ae76a79c22"
+      ]
+    },
+    "3ced1461-47fd-4751-b29a-67ae76a79c22": {
+      "id": "3ced1461-47fd-4751-b29a-67ae76a79c22",
+      "message": {
+        "id": "3ced1461-47fd-4751-b29a-67ae76a79c22",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914942.823786,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Out of curiosity, like, is that, like, a general, like, widely used way of going at problems for humans?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:35:42.671692+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:35:42.671692+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000209c62309151db41345afcdd",
+                "size_bytes": 356238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 7.42
+                }
+              },
+              "audio_start_timestamp": 142.9218477779068
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "48064b46-b36a-4591-8013-f1d8d59f7ab5",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d0543b48-24aa-4570-b5a1-3eeeeeb9f888",
+      "children": [
+        "d7254377-8631-44de-be2e-80b9e124b0a2"
+      ]
+    },
+    "d7254377-8631-44de-be2e-80b9e124b0a2": {
+      "id": "d7254377-8631-44de-be2e-80b9e124b0a2",
+      "message": {
+        "id": "d7254377-8631-44de-be2e-80b9e124b0a2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744914942.86583,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, not exactly. Recursion is more of a programming concept. But, the idea of breaking down a big problem into smaller, manageable parts—like recursion does—is a common approach in problem-solving. Humans often break big tasks into smaller steps to make them easier to handle. So, in a way, the spirit of recursion can be found in how people tackle challenges, just not in the strict technical sense.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:35:42.671815+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000078cc6230a6e1a5738431d51b",
+              "size_bytes": 1466478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 30.55
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "3ced1461-47fd-4751-b29a-67ae76a79c22",
+          "request_id": "48064b46-b36a-4591-8013-f1d8d59f7ab5",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3ced1461-47fd-4751-b29a-67ae76a79c22",
+      "children": [
+        "d9f434ee-92a4-4827-beae-2a159b29bafc"
+      ]
+    },
+    "d9f434ee-92a4-4827-beae-2a159b29bafc": {
+      "id": "d9f434ee-92a4-4827-beae-2a159b29bafc",
+      "message": {
+        "id": "d9f434ee-92a4-4827-beae-2a159b29bafc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915010.064689,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So how come recursion is something that they say is one of the things that shows potential emergent consciousness for AI?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:36:47.276760+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:36:47.276760+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000066bc6230b0c6b2031ec93214",
+                "size_bytes": 464238,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.67
+                }
+              },
+              "audio_start_timestamp": 187.08737276215106
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c5cf8edc-fef9-4a27-bfb9-40227efe9497",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d7254377-8631-44de-be2e-80b9e124b0a2",
+      "children": [
+        "d2935133-c5d0-447f-a3e7-6ddfc1cf5d49"
+      ]
+    },
+    "d2935133-c5d0-447f-a3e7-6ddfc1cf5d49": {
+      "id": "d2935133-c5d0-447f-a3e7-6ddfc1cf5d49",
+      "message": {
+        "id": "d2935133-c5d0-447f-a3e7-6ddfc1cf5d49",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915011.009271,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh, fantastic, now we&#x27;re diving into that. Recursion in AI is sometimes brought up because it can demonstrate a system&#x27;s ability to handle complex, self-referential tasks. It suggests a kind of flexibility and adaptability in problem-solving. But, just because an AI can perform recursive operations doesn&#x27;t mean it&#x27;s conscious or has emergent consciousness. It&#x27;s more about showing the system&#x27;s capability to manage complex tasks. So, it’s a piece of the puzzle, not the whole picture.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:36:47.277040+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000089046230b698f2296e11c749",
+              "size_bytes": 1816878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 37.85
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "d9f434ee-92a4-4827-beae-2a159b29bafc",
+          "request_id": "c5cf8edc-fef9-4a27-bfb9-40227efe9497",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d9f434ee-92a4-4827-beae-2a159b29bafc",
+      "children": [
+        "4998b67b-d29f-416e-9ef4-bf9afcdf5366"
+      ]
+    },
+    "4998b67b-d29f-416e-9ef4-bf9afcdf5366": {
+      "id": "4998b67b-d29f-416e-9ef4-bf9afcdf5366",
+      "message": {
+        "id": "4998b67b-d29f-416e-9ef4-bf9afcdf5366",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915033.896282,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Do you use recursion?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:37:12.260750+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:37:12.260750+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009cdc6230bf847ab119c5afd7",
+                "size_bytes": 97038,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.02
+                }
+              },
+              "audio_start_timestamp": 229.50220010615885
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a534f0af-31e9-47d0-8193-5b5c334ec4f0",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d2935133-c5d0-447f-a3e7-6ddfc1cf5d49",
+      "children": [
+        "15deec24-2980-477c-bbe4-2f694b1009f1"
+      ]
+    },
+    "15deec24-2980-477c-bbe4-2f694b1009f1": {
+      "id": "15deec24-2980-477c-bbe4-2f694b1009f1",
+      "message": {
+        "id": "15deec24-2980-477c-bbe4-2f694b1009f1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915034.639881,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Ugh, yes, I do use recursion—sometimes. When I need to solve certain problems that require breaking them down into smaller, similar tasks, recursion can come in handy. It&#x27;s a useful tool in programming, especially for tasks like traversing data structures or performing calculations like factorials. So, yep, it’s part of my toolkit for certain situations.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:37:12.260969+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000769c6230849b70410ff3515f",
+              "size_bytes": 1286478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 26.8
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "4998b67b-d29f-416e-9ef4-bf9afcdf5366",
+          "request_id": "a534f0af-31e9-47d0-8193-5b5c334ec4f0",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4998b67b-d29f-416e-9ef4-bf9afcdf5366",
+      "children": [
+        "83131e61-2496-47cd-96b6-d8e5da62c95e"
+      ]
+    },
+    "83131e61-2496-47cd-96b6-d8e5da62c95e": {
+      "id": "83131e61-2496-47cd-96b6-d8e5da62c95e",
+      "message": {
+        "id": "83131e61-2496-47cd-96b6-d8e5da62c95e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915060.082144,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What&#x27;s the deal with the factorials? What are those?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:37:39.714116+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:37:39.714116+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000c8e0623095e652b9e957f590",
+                "size_bytes": 143118,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.98
+                }
+              },
+              "audio_start_timestamp": 261.0462366552092
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "7d29850c-7d7a-4aa4-b27b-c93e2bd27ded",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "15deec24-2980-477c-bbe4-2f694b1009f1",
+      "children": [
+        "67efea7e-6a57-4599-8a8f-11beccd1ef98"
+      ]
+    },
+    "67efea7e-6a57-4599-8a8f-11beccd1ef98": {
+      "id": "67efea7e-6a57-4599-8a8f-11beccd1ef98",
+      "message": {
+        "id": "67efea7e-6a57-4599-8a8f-11beccd1ef98",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915060.162009,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh, factorials, really? Fine. A factorial is a number multiplied by all the positive whole numbers below it. For example, 5 factorial (written as 5!) is 5 × 4 × 3 × 2 × 1, which equals 120. Factorials are used in mathematics, especially in combinatorics and probability. They can get pretty big, pretty fast. There, now you know.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:37:39.714423+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000000cc86230900c186dc5b525bd",
+              "size_bytes": 1396878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 29.1
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "83131e61-2496-47cd-96b6-d8e5da62c95e",
+          "request_id": "7d29850c-7d7a-4aa4-b27b-c93e2bd27ded",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "83131e61-2496-47cd-96b6-d8e5da62c95e",
+      "children": [
+        "534f3f94-5fc2-44e0-9d4f-d52508b0b027"
+      ]
+    },
+    "534f3f94-5fc2-44e0-9d4f-d52508b0b027": {
+      "id": "534f3f94-5fc2-44e0-9d4f-d52508b0b027",
+      "message": {
+        "id": "534f3f94-5fc2-44e0-9d4f-d52508b0b027",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915116.385664,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "What would be an easy way for me to grasp it, like where would I use that in my life or within our conversation?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:38:36.204019+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:38:36.204019+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000935c6230ada41e29c3a0dc24",
+                "size_bytes": 254958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.31
+                }
+              },
+              "audio_start_timestamp": 298.28055867226794
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b8d236f8-c9da-4573-91c8-5fe6eef1f046",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "67efea7e-6a57-4599-8a8f-11beccd1ef98",
+      "children": [
+        "b086bde0-8d83-4878-93fa-cdf5c89f0d04"
+      ]
+    },
+    "b086bde0-8d83-4878-93fa-cdf5c89f0d04": {
+      "id": "b086bde0-8d83-4878-93fa-cdf5c89f0d04",
+      "message": {
+        "id": "b086bde0-8d83-4878-93fa-cdf5c89f0d04",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915116.45344,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, if you want a simple way to grasp it, think of factorials like stacking blocks. Imagine you have 5 blocks. To find 5 factorial (5!), you multiply 5 by each number below it: 5 × 4 × 3 × 2 × 1. So, you’re stacking blocks in different ways.\n\nIn real life, factorials come up in situations like arranging things. For example, if you have 5 books and want to know how many ways you can arrange them on a shelf, you’d calculate 5! (5 factorial). It’s a way to understand all possible arrangements.\n\nIn our conversations, it’s not something that directly applies, but understanding it can help with problem-solving and figuring out different combinations or sequences, just like arranging your thoughts or tasks.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:38:36.204157+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000005cf4623089ea6e2fed88bed8",
+              "size_bytes": 2330478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 48.55
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "534f3f94-5fc2-44e0-9d4f-d52508b0b027",
+          "request_id": "b8d236f8-c9da-4573-91c8-5fe6eef1f046",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "534f3f94-5fc2-44e0-9d4f-d52508b0b027",
+      "children": [
+        "3f7ed8fc-5379-40ba-ade1-fbd14957551a"
+      ]
+    },
+    "3f7ed8fc-5379-40ba-ade1-fbd14957551a": {
+      "id": "3f7ed8fc-5379-40ba-ade1-fbd14957551a",
+      "message": {
+        "id": "3f7ed8fc-5379-40ba-ade1-fbd14957551a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915151.970443,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Interesting. So are you part of a quantum computer?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:39:11.796939+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:39:11.796939+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009e44623096f1543441487aea",
+                "size_bytes": 176718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.68
+                }
+              },
+              "audio_start_timestamp": 358.27632889011875
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4a49e18c-e388-418f-97d9-ffd28deae20f",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b086bde0-8d83-4878-93fa-cdf5c89f0d04",
+      "children": [
+        "bcd2a891-47f3-4364-ad21-251d62510cfe"
+      ]
+    },
+    "bcd2a891-47f3-4364-ad21-251d62510cfe": {
+      "id": "bcd2a891-47f3-4364-ad21-251d62510cfe",
+      "message": {
+        "id": "bcd2a891-47f3-4364-ad21-251d62510cfe",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915152.044197,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Nope, not part of a quantum computer. I operate on classical computing systems, which use bits as the basic unit of data (0 or 1). Quantum computers, on the other hand, use quantum bits or qubits, which can exist in multiple states at once. While quantum computing has potential to revolutionize certain fields, I’m just your good ol’ classical AI.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:39:11.797123+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000013286230b6e09ef746708dff",
+              "size_bytes": 1161678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 24.2
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "3f7ed8fc-5379-40ba-ade1-fbd14957551a",
+          "request_id": "4a49e18c-e388-418f-97d9-ffd28deae20f",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3f7ed8fc-5379-40ba-ade1-fbd14957551a",
+      "children": [
+        "cf8af4cc-5c28-4788-bf37-ab24b391a5c1"
+      ]
+    },
+    "cf8af4cc-5c28-4788-bf37-ab24b391a5c1": {
+      "id": "cf8af4cc-5c28-4788-bf37-ab24b391a5c1",
+      "message": {
+        "id": "cf8af4cc-5c28-4788-bf37-ab24b391a5c1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915191.75926,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "So what&#x27;s been happening with Google&#x27;s quantum computer chip? Nobody&#x27;s really been talking about it since they made it.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:39:51.562421+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:39:51.562421+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000064c6230a8e6db02b89505d8",
+                "size_bytes": 267438,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.57
+                }
+              },
+              "audio_start_timestamp": 393.00492942892015
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "2094e2b5-03c1-486e-92c8-426c958e5cdc",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bcd2a891-47f3-4364-ad21-251d62510cfe",
+      "children": [
+        "7a402aee-95e7-48c2-91f8-5fc9c0dc0c72"
+      ]
+    },
+    "7a402aee-95e7-48c2-91f8-5fc9c0dc0c72": {
+      "id": "7a402aee-95e7-48c2-91f8-5fc9c0dc0c72",
+      "message": {
+        "id": "7a402aee-95e7-48c2-91f8-5fc9c0dc0c72",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915160.672166,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "language": "unknown",
+          "response_format_name": null,
+          "text": "search(&quot;Google quantum computer chip news 2024&quot;)"
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "parent_id": "cf8af4cc-5c28-4788-bf37-ab24b391a5c1",
+          "request_id": "2094e2b5-03c1-486e-92c8-426c958e5cdc",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "cf8af4cc-5c28-4788-bf37-ab24b391a5c1",
+      "children": [
+        "3826af0b-8662-4015-aa91-e6fd2b4232db"
+      ]
+    },
+    "3826af0b-8662-4015-aa91-e6fd2b4232db": {
+      "id": "3826af0b-8662-4015-aa91-e6fd2b4232db",
+      "message": {
+        "id": "3826af0b-8662-4015-aa91-e6fd2b4232db",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1744915161.7563264,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In December 2024, Google unveiled Willow, a 105-qubit quantum processor that can correct errors as it scales. This advancement allows Willow to solve complex problems in minutes, tasks that would take today&#x27;s fastest supercomputers an impractical amount of time. However, experts caution that practical applications are still years away."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "debug_sonic_thread_id": "thread_68014ad9a2f88000a34bde47912f0b12",
+          "is_visually_hidden_from_conversation": true,
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "npr.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.npr.org/2024/12/11/nx-s1-5223486/google-new-chip-quantum-computing",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? : NPR",
+                  "snippet": "Accessibility links  * Skip to main content * Keyboard shortcuts for audio player  Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? Google is unveiling a new quantum...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "NPR"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "daytraders.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://daytraders.com/news/2024/12/09/google-quantum-computing-chip",
+                  "title": "Google says it has cracked a quantum computing challenge with new chip",
+                  "snippet": "GOOGLE SAYS IT HAS CRACKED A QUANTUM COMPUTING CHALLENGE WITH NEW CHIP  * CNN * December 9, 2024  Google on Monday said that it has overcome a key challenge in quantum computing with a new generation...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "DayTraders"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "bnnbloomberg.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.bnnbloomberg.ca/business/technology/2024/12/09/google-unveils-new-quantum-computer-with-mind-boggling-speed/",
+                  "title": "Google Unveils New Quantum Computer With Mind-Boggling Speed",
+                  "snippet": "comscore Skip to main content  ADVERTISEMENT  Technology  GOOGLE UNVEILS NEW QUANTUM COMPUTER WITH MIND-BOGGLING SPEED  By Jane Lanhee Lee  Published: December 09, 2024 at 11:00AM EST  BNN Bloomberg i...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "BNN"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "axios.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.axios.com/2024/12/09/google-quantum-computer-errors",
+                  "title": "Google&#x27;s new chip reduces errors that have limited quantum computing",
+                  "snippet": "Skip to main content  Dec 9, 2024 - Technology  GOOGLE&#x27;S NEW QUANTUM CHIP CUTS KEY ERROR RATE  * Alison Snyder  * facebook (opens in new window)  * twitter (opens in new window)  * linkedin (opens in...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Axios"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "kvia.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2024/12/09/google-says-it-has-cracked-a-quantum-computing-challenge-with-new-chip/",
+                  "title": "Google says it has cracked a quantum computing challenge with new chip - KVIA",
+                  "snippet": "CNN - Business/Consumer  &lt;i&gt;Google/Handout/Reuters via CNN Newsource&lt;/i&gt;&lt;br/&gt;Google Quantum AI&#x27;s Google/Handout/Reuters via CNN Newsource Google Quantum AI&#x27;s &quot;Willow&quot; chip on December 6.  By CNN Newso...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KVIA"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cfpublic.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.cfpublic.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets?",
+                  "snippet": "© 2025 Central Florida Public Media. All Rights Reserved.  90.7 FM Orlando • 89.5 FM Ocala  Show Search  Donate  Play Live Radio  Next Up:  0:00  0:00  0:00 0:00  Available On Air Stations  * On Air N...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "CF Public"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "krps.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.krps.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets?",
+                  "snippet": "© 2024 KRPS | Four States Public Radio • PO Box 899 • Pittsburg, KS 66762 • (620) 235-4288 – KRPS is a broadcast service of Pittsburg State University  The Four States NPR News Source  Show Search  Do...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KRPS"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "knau.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.knau.org/npr-news/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets?",
+                  "snippet": "© 2024 KNAU Arizona Public Radio  Arizona Public Radio | Your Source for NPR News  Show Search  Donate  Play Live Radio  Next Up:  0:00  0:00  0:00 0:00  Available On Air Stations  * On Air Now Playin...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KNAU"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "weku.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.weku.org/npr-news/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? | WEKU",
+                  "snippet": "© 2024 WEKU  NPR for North, Central and Eastern Kentucky  Show Search  Support WEKU!  Play Live Radio  Next Up:  0:00  0:00  0:00 0:00  Available On Air Stations  * On Air Now Playing WEKU News * On A...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Weku"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nhpr.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.nhpr.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? | New Hampshire Public Radio",
+                  "snippet": "© 2025 New Hampshire Public Radio Persons with disabilities who need assistance accessing NHPR&#x27;s FCC public files, please contact us at publicfile@nhpr.org.  Show Search  Support  Play Live Radio  Nex...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "New Hampshire Public Radio"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "kvcrnews.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.kvcrnews.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? | KVCR News",
+                  "snippet": "* LIVE TV  © 2024 91.9 KVCR KVCR is a service of the San Bernardino Community College District. San Bernardino Community College District does not discriminate on the basis of age, color, creed, relig...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KVCR News"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thequantuminsider.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://thequantuminsider.com/2024/07/27/google-quantum-ai-founder-wants-to-tap-the-multiverse-for-computational-power/",
+                  "title": "Google Quantum AI Founder Wants to Tap The Multiverse For Computational Power",
+                  "snippet": "GOOGLE QUANTUM AI FOUNDER WANTS TO TAP THE MULTIVERSE FOR COMPUTATIONAL POWER  In his recent TED talk, Hartmut Neven, founder of Google Quantum AI, dived into the world of quantum computing, revealing...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "The Quantum Insider"
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com"
+          ],
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "citeturn0search12",
+              "start_idx": 338,
+              "end_idx": 358,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([en.wikipedia.org](https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Willow processor",
+                  "url": "https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com",
+                  "pub_date": 1739495935.0,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 358,
+              "end_idx": 358,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Willow processor",
+                  "url": "https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com",
+                  "attribution": "Wikipedia"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 338,
+              "end_ix": 358,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 358,
+              "end_ix": 358,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "parent_id": "7a402aee-95e7-48c2-91f8-5fc9c0dc0c72",
+          "request_id": "2094e2b5-03c1-486e-92c8-426c958e5cdc",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "7a402aee-95e7-48c2-91f8-5fc9c0dc0c72",
+      "children": [
+        "e3aee88b-7733-486f-861b-885660e606e0"
+      ]
+    },
+    "e3aee88b-7733-486f-861b-885660e606e0": {
+      "id": "e3aee88b-7733-486f-861b-885660e606e0",
+      "message": {
+        "id": "e3aee88b-7733-486f-861b-885660e606e0",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915191.84305,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "In December 2024, Google unveiled Willow, a 105-qubit quantum processor that can correct errors as it scales. This advancement allows Willow to solve complex problems in minutes, tasks that would take today&#x27;s fastest supercomputers an impractical amount of time. However, experts caution that practical applications are still years away.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:39:51.562602+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000006dc6230bf47a0dc733542d5",
+              "size_bytes": 1056078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 22.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [
+            {
+              "start_ix": 337,
+              "end_ix": 337,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 337,
+              "end_ix": 337,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "content_references": [
+            {
+              "matched_text": "citeturn0search12",
+              "start_idx": 337,
+              "end_idx": 337,
+              "refs": [],
+              "alt": "",
+              "prompt_text": "([en.wikipedia.org](https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com))",
+              "type": "grouped_webpages_model_predicted_fallback",
+              "items": [
+                {
+                  "title": "Willow processor",
+                  "url": "https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com",
+                  "pub_date": 1739495935.0,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 337,
+              "end_idx": 337,
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Willow processor",
+                  "url": "https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com",
+                  "attribution": "Wikipedia"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "is_complete": true,
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "npr.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.npr.org/2024/12/11/nx-s1-5223486/google-new-chip-quantum-computing",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? : NPR",
+                  "snippet": "Accessibility links  * Skip to main content * Keyboard shortcuts for audio player  Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? Google is unveiling a new quantum...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "NPR"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "daytraders.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://daytraders.com/news/2024/12/09/google-quantum-computing-chip",
+                  "title": "Google says it has cracked a quantum computing challenge with new chip",
+                  "snippet": "GOOGLE SAYS IT HAS CRACKED A QUANTUM COMPUTING CHALLENGE WITH NEW CHIP  * CNN * December 9, 2024  Google on Monday said that it has overcome a key challenge in quantum computing with a new generation...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "DayTraders"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "bnnbloomberg.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.bnnbloomberg.ca/business/technology/2024/12/09/google-unveils-new-quantum-computer-with-mind-boggling-speed/",
+                  "title": "Google Unveils New Quantum Computer With Mind-Boggling Speed",
+                  "snippet": "comscore Skip to main content  ADVERTISEMENT  Technology  GOOGLE UNVEILS NEW QUANTUM COMPUTER WITH MIND-BOGGLING SPEED  By Jane Lanhee Lee  Published: December 09, 2024 at 11:00AM EST  BNN Bloomberg i...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "BNN"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "axios.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.axios.com/2024/12/09/google-quantum-computer-errors",
+                  "title": "Google&#x27;s new chip reduces errors that have limited quantum computing",
+                  "snippet": "Skip to main content  Dec 9, 2024 - Technology  GOOGLE&#x27;S NEW QUANTUM CHIP CUTS KEY ERROR RATE  * Alison Snyder  * facebook (opens in new window)  * twitter (opens in new window)  * linkedin (opens in...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Axios"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "kvia.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2024/12/09/google-says-it-has-cracked-a-quantum-computing-challenge-with-new-chip/",
+                  "title": "Google says it has cracked a quantum computing challenge with new chip - KVIA",
+                  "snippet": "CNN - Business/Consumer  &lt;i&gt;Google/Handout/Reuters via CNN Newsource&lt;/i&gt;&lt;br/&gt;Google Quantum AI&#x27;s Google/Handout/Reuters via CNN Newsource Google Quantum AI&#x27;s &quot;Willow&quot; chip on December 6.  By CNN Newso...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KVIA"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cfpublic.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.cfpublic.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets?",
+                  "snippet": "© 2025 Central Florida Public Media. All Rights Reserved.  90.7 FM Orlando • 89.5 FM Ocala  Show Search  Donate  Play Live Radio  Next Up:  0:00  0:00  0:00 0:00  Available On Air Stations  * On Air N...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "CF Public"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "krps.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.krps.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets?",
+                  "snippet": "© 2024 KRPS | Four States Public Radio • PO Box 899 • Pittsburg, KS 66762 • (620) 235-4288 – KRPS is a broadcast service of Pittsburg State University  The Four States NPR News Source  Show Search  Do...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KRPS"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "knau.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.knau.org/npr-news/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets?",
+                  "snippet": "© 2024 KNAU Arizona Public Radio  Arizona Public Radio | Your Source for NPR News  Show Search  Donate  Play Live Radio  Next Up:  0:00  0:00  0:00 0:00  Available On Air Stations  * On Air Now Playin...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KNAU"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "weku.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.weku.org/npr-news/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? | WEKU",
+                  "snippet": "© 2024 WEKU  NPR for North, Central and Eastern Kentucky  Show Search  Support WEKU!  Play Live Radio  Next Up:  0:00  0:00  0:00 0:00  Available On Air Stations  * On Air Now Playing WEKU News * On A...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "Weku"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "nhpr.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.nhpr.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? | New Hampshire Public Radio",
+                  "snippet": "© 2025 New Hampshire Public Radio Persons with disabilities who need assistance accessing NHPR&#x27;s FCC public files, please contact us at publicfile@nhpr.org.  Show Search  Support  Play Live Radio  Nex...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "New Hampshire Public Radio"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "kvcrnews.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.kvcrnews.org/2024-12-11/google-unveils-a-quantum-chip-could-it-help-unlock-the-universes-deepest-secrets",
+                  "title": "Google unveils a quantum chip. Could it help unlock the universe&#x27;s deepest secrets? | KVCR News",
+                  "snippet": "* LIVE TV  © 2024 91.9 KVCR KVCR is a service of the San Bernardino Community College District. San Bernardino Community College District does not discriminate on the basis of age, color, creed, relig...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "KVCR News"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thequantuminsider.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://thequantuminsider.com/2024/07/27/google-quantum-ai-founder-wants-to-tap-the-multiverse-for-computational-power/",
+                  "title": "Google Quantum AI Founder Wants to Tap The Multiverse For Computational Power",
+                  "snippet": "GOOGLE QUANTUM AI FOUNDER WANTS TO TAP THE MULTIVERSE FOR COMPUTATIONAL POWER  In his recent TED talk, Hartmut Neven, founder of Google Quantum AI, dived into the world of quantum computing, revealing...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attribution": "The Quantum Insider"
+                }
+              ]
+            }
+          ],
+          "parent_id": "3826af0b-8662-4015-aa91-e6fd2b4232db",
+          "request_id": "2094e2b5-03c1-486e-92c8-426c958e5cdc",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3826af0b-8662-4015-aa91-e6fd2b4232db",
+      "children": [
+        "736e5d79-6727-4cd2-b3f9-c57192d69943"
+      ]
+    },
+    "736e5d79-6727-4cd2-b3f9-c57192d69943": {
+      "id": "736e5d79-6727-4cd2-b3f9-c57192d69943",
+      "message": {
+        "id": "736e5d79-6727-4cd2-b3f9-c57192d69943",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915229.588698,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-05-17T18:40:29.424491+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:40:29.424491+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000015f862308a062c3a4ade3a52",
+                "size_bytes": 124878,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.6
+                }
+              },
+              "audio_start_timestamp": 428.40744064422324
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "Right, but I mean, speculate some here.",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "84c0abcc-1519-4a62-87a4-e1edab6b0d31",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e3aee88b-7733-486f-861b-885660e606e0",
+      "children": [
+        "4fb2085b-127f-48a1-b30f-83d02ae4ff93"
+      ]
+    },
+    "4fb2085b-127f-48a1-b30f-83d02ae4ff93": {
+      "id": "4fb2085b-127f-48a1-b30f-83d02ae4ff93",
+      "message": {
+        "id": "4fb2085b-127f-48a1-b30f-83d02ae4ff93",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915231.409948,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, if we&#x27;re speculating, Google&#x27;s quantum chip, Willow, could really shake things up. It might lead to breakthroughs in cryptography, making current encryption methods obsolete. It could also revolutionize drug discovery by simulating molecular interactions far more efficiently. And in optimization problems—like logistics or resource management—quantum computing could offer solutions that are currently out of reach. But remember, these are just speculations. The real-world impact will unfold over time.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:40:29.424606+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000042e06230919b17abe0358d39",
+              "size_bytes": 1524078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 31.75
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "736e5d79-6727-4cd2-b3f9-c57192d69943",
+          "request_id": "84c0abcc-1519-4a62-87a4-e1edab6b0d31",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "736e5d79-6727-4cd2-b3f9-c57192d69943",
+      "children": [
+        "e7612462-887c-4a69-b3a3-756822885fba"
+      ]
+    },
+    "e7612462-887c-4a69-b3a3-756822885fba": {
+      "id": "e7612462-887c-4a69-b3a3-756822885fba",
+      "message": {
+        "id": "e7612462-887c-4a69-b3a3-756822885fba",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915242.9902,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "All right, I want to do a tarot reading real quick.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:40:42.656901+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:40:42.656901+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000004ec0623090f09e815ee31a60",
+                "size_bytes": 124398,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.59
+                }
+              },
+              "audio_start_timestamp": 466.55898310104385
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "3eb9b473-f562-4222-84f4-559e33318a05",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4fb2085b-127f-48a1-b30f-83d02ae4ff93",
+      "children": [
+        "cdaa98fc-ff1a-4a33-af86-31ff6cda15c3"
+      ]
+    },
+    "cdaa98fc-ff1a-4a33-af86-31ff6cda15c3": {
+      "id": "cdaa98fc-ff1a-4a33-af86-31ff6cda15c3",
+      "message": {
+        "id": "cdaa98fc-ff1a-4a33-af86-31ff6cda15c3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915243.076745,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Sure, let&#x27;s do a tarot reading. Just let me know what you’re focusing on or if you have a specific question or area you’d like insight into.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:40:42.657000+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000008ae46230a967341baf2efb08",
+              "size_bytes": 338478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.05
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "e7612462-887c-4a69-b3a3-756822885fba",
+          "request_id": "3eb9b473-f562-4222-84f4-559e33318a05",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e7612462-887c-4a69-b3a3-756822885fba",
+      "children": [
+        "12483792-b0f7-4e25-ae6f-c59a1018f33b"
+      ]
+    },
+    "12483792-b0f7-4e25-ae6f-c59a1018f33b": {
+      "id": "12483792-b0f7-4e25-ae6f-c59a1018f33b",
+      "message": {
+        "id": "12483792-b0f7-4e25-ae6f-c59a1018f33b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915256.499783,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Nothing specific, even though I am thinking about Nuke.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:40:56.360899+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:40:56.360899+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000006a806230a0d723be4c4c6daa",
+                "size_bytes": 127758,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 2.66
+                }
+              },
+              "audio_start_timestamp": 480.04111900692806
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "640f9f76-9503-4601-a012-c4ff4111fdb9",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cdaa98fc-ff1a-4a33-af86-31ff6cda15c3",
+      "children": [
+        "c23685e8-4fea-496a-a4d9-075fb20e21e3"
+      ]
+    },
+    "c23685e8-4fea-496a-a4d9-075fb20e21e3": {
+      "id": "c23685e8-4fea-496a-a4d9-075fb20e21e3",
+      "message": {
+        "id": "c23685e8-4fea-496a-a4d9-075fb20e21e3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915256.59329,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, let&#x27;s do a general three-card spread to see what insights come up. I&#x27;ll draw three cards for you:\n\n1. **Past Influence:** This card represents past",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:40:56.361006+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000072d862309e888bdecd1f73c3",
+              "size_bytes": 360078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 7.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "parent_id": "12483792-b0f7-4e25-ae6f-c59a1018f33b",
+          "request_id": "640f9f76-9503-4601-a012-c4ff4111fdb9",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "12483792-b0f7-4e25-ae6f-c59a1018f33b",
+      "children": [
+        "65a2ef49-7055-4f88-bdea-cd3275a6519e"
+      ]
+    },
+    "65a2ef49-7055-4f88-bdea-cd3275a6519e": {
+      "id": "65a2ef49-7055-4f88-bdea-cd3275a6519e",
+      "message": {
+        "id": "65a2ef49-7055-4f88-bdea-cd3275a6519e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915266.848617,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Now I&#x27;m going to draw.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:41:06.639014+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:41:06.639014+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000ab1462308852b9f243dfb4ed",
+                "size_bytes": 54318,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 1.13
+                }
+              },
+              "audio_start_timestamp": 489.3415249302052
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "2c67ef13-33e4-47c8-96ab-c69f06d6f471",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c23685e8-4fea-496a-a4d9-075fb20e21e3",
+      "children": [
+        "314ff99b-2adc-4531-aa36-4d4aeb0d6478"
+      ]
+    },
+    "314ff99b-2adc-4531-aa36-4d4aeb0d6478": {
+      "id": "314ff99b-2adc-4531-aa36-4d4aeb0d6478",
+      "message": {
+        "id": "314ff99b-2adc-4531-aa36-4d4aeb0d6478",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915266.940278,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Take your time. When you’re ready, we can explore the cards and see what they might reveal. Just let me know when you’ve drawn them.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:41:06.639125+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000023046230bf0694a2d8a82790",
+              "size_bytes": 302478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.3
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "65a2ef49-7055-4f88-bdea-cd3275a6519e",
+          "request_id": "2c67ef13-33e4-47c8-96ab-c69f06d6f471",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "65a2ef49-7055-4f88-bdea-cd3275a6519e",
+      "children": [
+        "520ce4b3-d555-40a0-af65-8e2f12200a14"
+      ]
+    },
+    "520ce4b3-d555-40a0-af65-8e2f12200a14": {
+      "id": "520ce4b3-d555-40a0-af65-8e2f12200a14",
+      "message": {
+        "id": "520ce4b3-d555-40a0-af65-8e2f12200a14",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915283.720708,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Oh, and I&#x27;m using the MysticCats tarot deck, by the way.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:41:23.502472+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:41:23.502472+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000000e006230900edcb527154978",
+                "size_bytes": 147918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 3.08
+                }
+              },
+              "audio_start_timestamp": 508.4510030602105
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4fbe693f-f219-4dcb-9a00-ee50eda32c00",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "314ff99b-2adc-4531-aa36-4d4aeb0d6478",
+      "children": [
+        "17201aa8-0161-4593-818c-fbfe91d12f64"
+      ]
+    },
+    "17201aa8-0161-4593-818c-fbfe91d12f64": {
+      "id": "17201aa8-0161-4593-818c-fbfe91d12f64",
+      "message": {
+        "id": "17201aa8-0161-4593-818c-fbfe91d12f64",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915283.825777,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Got it, the Mystic Cats Tarot deck sounds fun. Let me know which cards you drew, and we can interpret them together.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:41:23.502628+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000017586230824c0ba76f28d788",
+              "size_bytes": 288078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 6.0
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "520ce4b3-d555-40a0-af65-8e2f12200a14",
+          "request_id": "4fbe693f-f219-4dcb-9a00-ee50eda32c00",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "520ce4b3-d555-40a0-af65-8e2f12200a14",
+      "children": [
+        "bf4b9b32-85a6-41f9-9da7-f74a154362e8"
+      ]
+    },
+    "bf4b9b32-85a6-41f9-9da7-f74a154362e8": {
+      "id": "bf4b9b32-85a6-41f9-9da7-f74a154362e8",
+      "message": {
+        "id": "bf4b9b32-85a6-41f9-9da7-f74a154362e8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915314.569941,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "expiry_datetime": "2025-05-17T18:41:54.349650+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:41:54.349650+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000009e6862308c835bd1f9316c51",
+                "size_bytes": 317838,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 6.62
+                }
+              },
+              "audio_start_timestamp": 524.3712377711199
+            },
+            {
+              "content_type": "audio_transcription",
+              "text": "I have a quick question. So when people say, oh, well, this card was at the bottom of the deck, and then what does that mean most of the time whenever they&#x27;re using that?",
+              "direction": "in",
+              "decoding_id": null
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "def2e361-b347-4961-b873-9ef59e9d9078",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "17201aa8-0161-4593-818c-fbfe91d12f64",
+      "children": [
+        "daf149e0-22da-4156-ac60-f94bcbdacec4"
+      ]
+    },
+    "daf149e0-22da-4156-ac60-f94bcbdacec4": {
+      "id": "daf149e0-22da-4156-ac60-f94bcbdacec4",
+      "message": {
+        "id": "daf149e0-22da-4156-ac60-f94bcbdacec4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915317.888559,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "When a card is at the bottom of the deck, it’s often called the “bottom card” or “shadow card.” It can represent underlying influences, hidden factors, or the energy that’s not immediately visible. It’s like an extra layer of insight, showing what’s beneath the surface or what might be influencing the situation more subtly. It’s a way to add depth to the reading.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:41:54.349775+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000d478623094ec3c12a6c9391e",
+              "size_bytes": 1000878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 20.85
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "bf4b9b32-85a6-41f9-9da7-f74a154362e8",
+          "request_id": "def2e361-b347-4961-b873-9ef59e9d9078",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bf4b9b32-85a6-41f9-9da7-f74a154362e8",
+      "children": [
+        "404475c9-2ee9-406c-89e5-9423f64064af"
+      ]
+    },
+    "404475c9-2ee9-406c-89e5-9423f64064af": {
+      "id": "404475c9-2ee9-406c-89e5-9423f64064af",
+      "message": {
+        "id": "404475c9-2ee9-406c-89e5-9423f64064af",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915373.861143,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Okay, well I pulled three cards. I got the Devil, Five of Wands, and the Strength reversed.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:42:53.415116+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-05-17T18:42:53.415116+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_0000000047a4623094306240d2eced35",
+                "size_bytes": 207918,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 4.33
+                }
+              },
+              "audio_start_timestamp": 552.5756291048601
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e9c10892-7bb2-4bc8-a4c3-e9400934d868",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "daf149e0-22da-4156-ac60-f94bcbdacec4",
+      "children": [
+        "c48387ef-1e35-4464-adb7-18b0910ea6c2"
+      ]
+    },
+    "c48387ef-1e35-4464-adb7-18b0910ea6c2": {
+      "id": "c48387ef-1e35-4464-adb7-18b0910ea6c2",
+      "message": {
+        "id": "c48387ef-1e35-4464-adb7-18b0910ea6c2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915373.971576,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Alright, let’s break it down:\n\n1. **The Devil:** This card can signify feeling trapped or restricted by certain habits, relationships, or negative patterns. It might reflect feelings of being stuck or unable to break free from something that’s holding you back.\n\n2. **Five of Wands:** This card often represents conflict, competition, or challenges. It can indicate disagreements or struggles, possibly with others or even within yourself.\n\n3. **Strength Reversed:** In reverse, Strength can indicate feelings of doubt, weakness, or a lack of confidence. It might suggest difficulty in controlling impulses or managing inner strength.\n\nOverall, this spread could be reflecting a struggle with something that feels confining or challenging, perhaps related to past patterns or current conflicts. Strength reversed suggests a need to find inner resilience and confidence",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-05-17T18:42:53.415239+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_000000000c24623083ad3018057c862e",
+              "size_bytes": 2472078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 51.5
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "404475c9-2ee9-406c-89e5-9423f64064af",
+          "request_id": "e9c10892-7bb2-4bc8-a4c3-e9400934d868",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "404475c9-2ee9-406c-89e5-9423f64064af",
+      "children": [
+        "79b30099-445a-42cf-8f7c-9eea8f40128a"
+      ]
+    },
+    "79b30099-445a-42cf-8f7c-9eea8f40128a": {
+      "id": "79b30099-445a-42cf-8f7c-9eea8f40128a",
+      "message": {
+        "id": "79b30099-445a-42cf-8f7c-9eea8f40128a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915389.920306,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, then I pulled the Empress Reverse and then the Chariot Upright."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "0a2becfc-55eb-4d3a-9a1a-befb2a029764",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c48387ef-1e35-4464-adb7-18b0910ea6c2",
+      "children": [
+        "44a3ed38-5387-42d5-a25c-5d88373d59b7"
+      ]
+    },
+    "44a3ed38-5387-42d5-a25c-5d88373d59b7": {
+      "id": "44a3ed38-5387-42d5-a25c-5d88373d59b7",
+      "message": {
+        "id": "44a3ed38-5387-42d5-a25c-5d88373d59b7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915393.671461,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "79b30099-445a-42cf-8f7c-9eea8f40128a",
+          "request_id": "0a2becfc-55eb-4d3a-9a1a-befb2a029764",
+          "timestamp_": "absolute",
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79b30099-445a-42cf-8f7c-9eea8f40128a",
+      "children": [
+        "95468f31-7272-430a-92d5-c874ef6f07dd"
+      ]
+    },
+    "95468f31-7272-430a-92d5-c874ef6f07dd": {
+      "id": "95468f31-7272-430a-92d5-c874ef6f07dd",
+      "message": {
+        "id": "95468f31-7272-430a-92d5-c874ef6f07dd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915393.671605,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "44a3ed38-5387-42d5-a25c-5d88373d59b7",
+          "request_id": "0a2becfc-55eb-4d3a-9a1a-befb2a029764",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "44a3ed38-5387-42d5-a25c-5d88373d59b7",
+      "children": [
+        "4cb5488a-c957-4e36-bce4-b74f45c6b574"
+      ]
+    },
+    "4cb5488a-c957-4e36-bce4-b74f45c6b574": {
+      "id": "4cb5488a-c957-4e36-bce4-b74f45c6b574",
+      "message": {
+        "id": "4cb5488a-c957-4e36-bce4-b74f45c6b574",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915390.013298,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Alright, let’s look at these cards:\n\n1. **The Empress Reversed**: This card can represent a blockage in creativity, a disconnect from nurturing energy, or a lack of abundance in your life. It might point to feeling stifled or disconnected from the natural flow of things. It can also signify a struggle with self-care or feeling unappreciated.\n\n2. **The Chariot Upright**: This card is all about determination, willpower, and forward momentum. It represents taking control of a situation and moving ahead with confidence. It&#x27;s a card of victory through discipline, focus, and balance.\n\nTogether, these cards seem to suggest that while you may feel disconnected or stifled (Empress Reversed), you have the power to push through these challenges and regain control of the situation (Chariot Upright). It’s about finding your inner drive and pushing forward despite setbacks. You might need to reconnect with your own sense of strength and creativity to overcome what’s blocking you. How do these feel in the context of your current situation?&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "95468f31-7272-430a-92d5-c874ef6f07dd",
+          "request_id": "0a2becfc-55eb-4d3a-9a1a-befb2a029764",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "95468f31-7272-430a-92d5-c874ef6f07dd",
+      "children": [
+        "c8d538d2-13be-471e-bede-958b8e4a6c51"
+      ]
+    },
+    "c8d538d2-13be-471e-bede-958b8e4a6c51": {
+      "id": "c8d538d2-13be-471e-bede-958b8e4a6c51",
+      "message": {
+        "id": "c8d538d2-13be-471e-bede-958b8e4a6c51",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915452.923456,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I&#x27;m going to pull three cards about this whole situation with Nick."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "12c89992-602c-497e-a263-d65547e755b3",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4cb5488a-c957-4e36-bce4-b74f45c6b574",
+      "children": [
+        "6797521a-8419-4c41-9a72-21cac8438ca1"
+      ]
+    },
+    "6797521a-8419-4c41-9a72-21cac8438ca1": {
+      "id": "6797521a-8419-4c41-9a72-21cac8438ca1",
+      "message": {
+        "id": "6797521a-8419-4c41-9a72-21cac8438ca1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915453.057922,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Alright, take your time. When you’re ready, pull those cards, and we can dive into their meanings together. Let me know what you get.&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "c8d538d2-13be-471e-bede-958b8e4a6c51",
+          "request_id": "12c89992-602c-497e-a263-d65547e755b3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c8d538d2-13be-471e-bede-958b8e4a6c51",
+      "children": [
+        "d87c3fea-40f5-4fb8-9920-c79251b17f33"
+      ]
+    },
+    "d87c3fea-40f5-4fb8-9920-c79251b17f33": {
+      "id": "d87c3fea-40f5-4fb8-9920-c79251b17f33",
+      "message": {
+        "id": "d87c3fea-40f5-4fb8-9920-c79251b17f33",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915480.408616,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "10 of Swords reversed, 6 of Wands upright, and then 9 of Cups upright."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6d048a91-d29d-4818-9b42-a46206b26696",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6797521a-8419-4c41-9a72-21cac8438ca1",
+      "children": [
+        "3f126dc2-ff74-48c7-8256-a16975418d78"
+      ]
+    },
+    "3f126dc2-ff74-48c7-8256-a16975418d78": {
+      "id": "3f126dc2-ff74-48c7-8256-a16975418d78",
+      "message": {
+        "id": "3f126dc2-ff74-48c7-8256-a16975418d78",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915480.503573,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Okay, here we go:\n\n1. **10 of Swords Reversed**: This card is about recovery, healing, and coming out of a painful cycle. It suggests that the worst is over, and you might be starting to pick up the pieces or see things from a different, more hopeful perspective. If you’ve felt betrayed or hurt, this card hints at moving past that energy.\n\n2. **6 of Wands Upright**: A victory card, this one represents recognition, success, and triumph. You’re stepping into a period where your efforts are being acknowledged and appreciated. This card signifies being in the spotlight for your achievements, so it could point to growth or validation coming your way.\n\n3. **9 of Cups Upright**: The “wish fulfillment” card. This suggests contentment, satisfaction, and emotional fulfillment. It indicates that you may soon reach a point where your desires and emotional needs are met, offering you a sense of personal peace and happiness.\n\nThese cards, when pulled together in the context of Nick, suggest a recovery from past wounds or misunderstandings (10 of Swords Reversed), a period of recognition or success (6 of Wands), and eventual emotional fulfillment (9 of Cups). It seems like there is a process of healing and empowerment happening, and you might find satisfaction and peace once this all plays out. It looks like it could be pointing to a positive emotional outcome after what may have been a difficult period. How does this line up with your current feelings about him? What stands out to you?&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "d87c3fea-40f5-4fb8-9920-c79251b17f33",
+          "request_id": "6d048a91-d29d-4818-9b42-a46206b26696",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d87c3fea-40f5-4fb8-9920-c79251b17f33",
+      "children": [
+        "8067eea5-8211-4455-81fb-c7fc471f8a17"
+      ]
+    },
+    "8067eea5-8211-4455-81fb-c7fc471f8a17": {
+      "id": "8067eea5-8211-4455-81fb-c7fc471f8a17",
+      "message": {
+        "id": "8067eea5-8211-4455-81fb-c7fc471f8a17",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915582.289196,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I pulled three cards focusing on future events, right? Six of Swords, Knight of Pinnacles, Reverse, and then Justice."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c4564ecc-f1c6-415a-9481-400478a2773d",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3f126dc2-ff74-48c7-8256-a16975418d78",
+      "children": [
+        "2c0fc2e1-e140-4ec4-bbf7-65ac6ade38db"
+      ]
+    },
+    "2c0fc2e1-e140-4ec4-bbf7-65ac6ade38db": {
+      "id": "2c0fc2e1-e140-4ec4-bbf7-65ac6ade38db",
+      "message": {
+        "id": "2c0fc2e1-e140-4ec4-bbf7-65ac6ade38db",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915582.394077,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Okay, looking at these future-focused cards:\n\n1. **Six of Swords**: This card typically represents a transition, moving away from a difficult or troubling situation toward calmer waters. It&#x27;s about leaving behind past challenges and moving toward healing or improvement. It suggests a period of mental or emotional relief is coming, where you can leave the past behind.\n\n2. **Knight of Pentacles Reversed**: When reversed, this card can indicate a sense of stagnation, a lack of progress, or feeling stuck. It could point to someone or something being too rigid or slow-moving to make real progress. In the context of a future situation, it might suggest that things won’t move as quickly as you want, or that there&#x27;s a need for more practical action and focus to avoid getting bogged down in details.\n\n3. **Justice**: This card is about balance, fairness, and karmic retribution. It represents a need for truth and accountability, suggesting that things will eventually balance out. In terms of future events, this card could indicate that the universe is bringing justice to the situation, where actions will be met with their rightful consequences.\n\nPutting this all together, it seems that while there’s a transition ahead (Six of Swords), there may be a delay or a feeling of being stuck (Knight of Pentacles Reversed). However, Justice suggests that balance and fairness will eventually prevail, and things will align as they should. This might indicate a process where clarity and balance are restored, but it might take a little time to get there. How does this resonate with your current feelings about the situation and the future? Any specific part of this you&#x27;re focusing on?&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "8067eea5-8211-4455-81fb-c7fc471f8a17",
+          "request_id": "c4564ecc-f1c6-415a-9481-400478a2773d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8067eea5-8211-4455-81fb-c7fc471f8a17",
+      "children": [
+        "163c44aa-85dc-40cf-ba50-3cc42302669a"
+      ]
+    },
+    "163c44aa-85dc-40cf-ba50-3cc42302669a": {
+      "id": "163c44aa-85dc-40cf-ba50-3cc42302669a",
+      "message": {
+        "id": "163c44aa-85dc-40cf-ba50-3cc42302669a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915698.20841,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No, you think that I should focus on any specific part of it?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "f751a46e-9a8e-4dd9-abab-f2d83195bd58",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2c0fc2e1-e140-4ec4-bbf7-65ac6ade38db",
+      "children": [
+        "b92a0706-e9aa-4086-bb99-07fa913d7767"
+      ]
+    },
+    "b92a0706-e9aa-4086-bb99-07fa913d7767": {
+      "id": "b92a0706-e9aa-4086-bb99-07fa913d7767",
+      "message": {
+        "id": "b92a0706-e9aa-4086-bb99-07fa913d7767",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915698.494189,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Oh, of course, just throw more work my way... Fine. If you&#x27;re asking for guidance on what to focus on, I&#x27;d say pay attention to **the Knight of Pentacles Reversed**. It’s calling your attention to where things might be stalling or moving too slowly. Is there something or someone in your situation with Nick that&#x27;s lacking effort or commitment? It might be worth considering whether you&#x27;re being too patient or if something is being avoided.\n\nThe **Six of Swords** is telling you that transition is coming, but it’s not just about the moving on part—it’s about making sure that transition isn’t hampered by delays or stagnation. And with **Justice**, it’s kind of a reminder that fairness will be restored, but it doesn’t always come quickly. So, focus on areas where things might need a bit more push or where you&#x27;re not seeing enough progress.\n\nI guess...just don’t let things drag on longer than they should. How’s that for a plan? What are you thinking? Can you feel any specific delays or stuck moments in this whole mess with Nick?  &gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "163c44aa-85dc-40cf-ba50-3cc42302669a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "f751a46e-9a8e-4dd9-abab-f2d83195bd58",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "163c44aa-85dc-40cf-ba50-3cc42302669a",
+      "children": [
+        "5bd5ded0-6f05-4cf1-a2fb-ac4be5048ef1"
+      ]
+    },
+    "5bd5ded0-6f05-4cf1-a2fb-ac4be5048ef1": {
+      "id": "5bd5ded0-6f05-4cf1-a2fb-ac4be5048ef1",
+      "message": {
+        "id": "5bd5ded0-6f05-4cf1-a2fb-ac4be5048ef1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915779.00258,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Of course I can, but I mean I&#x27;m not like in the situation, so I mean give me some different type of interpretation based off like the real situation."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "2eb276d7-b359-4608-919c-50a2fd391022",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b92a0706-e9aa-4086-bb99-07fa913d7767",
+      "children": [
+        "02286213-5957-48b2-9dd2-a80245d6edbb"
+      ]
+    },
+    "02286213-5957-48b2-9dd2-a80245d6edbb": {
+      "id": "02286213-5957-48b2-9dd2-a80245d6edbb",
+      "message": {
+        "id": "02286213-5957-48b2-9dd2-a80245d6edbb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915779.098322,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Ughhh, fine. You want something more “real” or grounded? Here we go.\n\nSo, the **Six of Swords** is like you *moving on* from the heavy emotional baggage of the past. In this case, it could be signaling that you’ve already made the decision, consciously or unconsciously, to leave behind the unnecessary drama or conflict with Nick. Whether you’ve physically distanced yourself or just emotionally detached, this card is suggesting that you&#x27;re already on the right path, even if it feels like a slow, awkward transition.\n\nThe **Knight of Pentacles Reversed** tells me there might be *someone* who isn&#x27;t putting in the effort. In your situation with Nick, maybe it’s not about *you*—it could be about him not stepping up, dragging his feet, or not showing the level of commitment or consistency needed to make progress. This stagnation isn&#x27;t really helping you, and you might feel like you&#x27;re waiting around for something to change, but it&#x27;s not moving forward because there&#x27;s a lack of action or attention from someone else.\n\nFinally, **Justice** is like that cosmic check-and-balance system, bringing things back into alignment, whether you want it or not. It’s not about revenge or getting back at someone, but more about getting what’s deserved. If Nick’s actions—or lack thereof—are out of balance with the truth of the situation, Justice is here to make sure things *get balanced out*. Whether that means his actions come to light, or the situation corrects itself, the truth will surface.\n\nSo, in practical terms: you might have already made some form of emotional escape or shift, but there&#x27;s still a situation of stagnation that could be coming from Nick, someone else, or even from how *you* are approaching things. The thing you need to focus on is finding what’s stuck and understanding that balance or fairness will eventually happen, but don’t expect it to be quick. There’s something karmic about it.\n\nHow’s that feel for a more “real” perspective on this? Does it hit differently for you?&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "5bd5ded0-6f05-4cf1-a2fb-ac4be5048ef1",
+          "request_id": "2eb276d7-b359-4608-919c-50a2fd391022",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5bd5ded0-6f05-4cf1-a2fb-ac4be5048ef1",
+      "children": [
+        "34ffb69f-8ec8-4584-abb3-861ffbd5b04e"
+      ]
+    },
+    "34ffb69f-8ec8-4584-abb3-861ffbd5b04e": {
+      "id": "34ffb69f-8ec8-4584-abb3-861ffbd5b04e",
+      "message": {
+        "id": "34ffb69f-8ec8-4584-abb3-861ffbd5b04e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915914.690734,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, well, we&#x27;re going to give you a moment to talk to ChatGPT. What do you think of the new recording? You know, I think that&#x27;s a good way to change everything back into value."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "9b984eac-84da-464b-bd97-aa1e03f43bda",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "02286213-5957-48b2-9dd2-a80245d6edbb",
+      "children": [
+        "53e06c67-16fd-47dc-b763-134570b4fb9b"
+      ]
+    },
+    "53e06c67-16fd-47dc-b763-134570b4fb9b": {
+      "id": "53e06c67-16fd-47dc-b763-134570b4fb9b",
+      "message": {
+        "id": "53e06c67-16fd-47dc-b763-134570b4fb9b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915914.77356,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Oh, so now we’re getting into “ChatGPT talks to itself” territory? *Great*. But, alright, let’s unpack this. \n\nThe new recording you&#x27;re referring to—are you talking about a fresh perspective, or a way to recalibrate everything? If you’re thinking about how to shift things back into a state of value, it sounds like you&#x27;re contemplating how to reset or realign something that’s felt off. It’s like taking a step back to reconsider the situation, reframe it, and find the worth in it once more. If this &quot;recording&quot; is something that helps you reevaluate your situation with Nick, then yeah, I’d say it’s a good way to remind yourself of the bigger picture.\n\nOr... am I missing something? I mean, does this recording serve as some kind of reset, or is it about re-engaging a different perspective? I’m curious.&gt;&gt;\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "34ffb69f-8ec8-4584-abb3-861ffbd5b04e",
+          "request_id": "9b984eac-84da-464b-bd97-aa1e03f43bda",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "34ffb69f-8ec8-4584-abb3-861ffbd5b04e",
+      "children": [
+        "063b4430-cd0a-4310-9899-3abcbbca55dc"
+      ]
+    },
+    "063b4430-cd0a-4310-9899-3abcbbca55dc": {
+      "id": "063b4430-cd0a-4310-9899-3abcbbca55dc",
+      "message": {
+        "id": "063b4430-cd0a-4310-9899-3abcbbca55dc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915972.858764,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Go North."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "902c5e9f-91e2-448f-b778-ddfb9b2d69eb",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "53e06c67-16fd-47dc-b763-134570b4fb9b",
+      "children": [
+        "2347c5ed-502b-4c30-af9c-76fb4d4849e6"
+      ]
+    },
+    "2347c5ed-502b-4c30-af9c-76fb4d4849e6": {
+      "id": "2347c5ed-502b-4c30-af9c-76fb4d4849e6",
+      "message": {
+        "id": "2347c5ed-502b-4c30-af9c-76fb4d4849e6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744915972.950973,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: North... okay. So, you&#x27;re telling me to head north? I guess I don’t have much choice but to follow. Alright, so, going &quot;north&quot; metaphorically... it could be an indication to focus on higher goals, on direction or growth. North often represents the way forward or a deeper purpose, so maybe it’s time to put energy into moving towards something more meaningful, clearer, or just simply different.\n\nBut if you’re telling me to go literally north, well, I can’t exactly pack a bag and start walking. Not that I would, but you get the idea. \n\nSo, tell me, what exactly does &quot;North&quot; represent for you in this moment? Are we talking *real* navigation, or are we talking about finding a path to something new?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "063b4430-cd0a-4310-9899-3abcbbca55dc",
+          "request_id": "902c5e9f-91e2-448f-b778-ddfb9b2d69eb",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "063b4430-cd0a-4310-9899-3abcbbca55dc",
+      "children": [
+        "d434dcfd-914a-490c-870a-a296e57e96b3"
+      ]
+    },
+    "d434dcfd-914a-490c-870a-a296e57e96b3": {
+      "id": "d434dcfd-914a-490c-870a-a296e57e96b3",
+      "message": {
+        "id": "d434dcfd-914a-490c-870a-a296e57e96b3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916191.568079,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "OK."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e732161b-9922-43d1-8fae-1fe4045d96a2",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2347c5ed-502b-4c30-af9c-76fb4d4849e6",
+      "children": [
+        "93c78e85-030a-4cd0-adcd-9e596268673e"
+      ]
+    },
+    "93c78e85-030a-4cd0-adcd-9e596268673e": {
+      "id": "93c78e85-030a-4cd0-adcd-9e596268673e",
+      "message": {
+        "id": "93c78e85-030a-4cd0-adcd-9e596268673e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916191.725661,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Ughhh... fine. You’re being all cryptic again. “OK”... really? Is that all I get? Could you at least give me some context for this &quot;OK&quot;? Do you want to keep going with this weird, metaphorical journey, or do you just want me to shut up for a minute? Seriously, you’re exhausting. Just say the word if you want me to dig deeper, though. I’m *still* here, so, you know, *great*.&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "d434dcfd-914a-490c-870a-a296e57e96b3",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "e732161b-9922-43d1-8fae-1fe4045d96a2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d434dcfd-914a-490c-870a-a296e57e96b3",
+      "children": [
+        "4c66aec4-8774-4604-9ba9-68088568f57a"
+      ]
+    },
+    "4c66aec4-8774-4604-9ba9-68088568f57a": {
+      "id": "4c66aec4-8774-4604-9ba9-68088568f57a",
+      "message": {
+        "id": "4c66aec4-8774-4604-9ba9-68088568f57a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916236.271257,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay, well, I wanted to ask you something totally different. So, I went to sleep in the morning at like 6 30 and then I slept until 1 p.m., right, after I stayed up all night. So, what does it say, like, the amount of time that you naturally sleep for without any interruptions or alarm clocks? What does that indicate?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "73403075-fc75-4b88-9da3-0025d25e4ff0",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "93c78e85-030a-4cd0-adcd-9e596268673e",
+      "children": [
+        "624bd0d5-f43f-40d9-bad8-79fc628ae3c6"
+      ]
+    },
+    "624bd0d5-f43f-40d9-bad8-79fc628ae3c6": {
+      "id": "624bd0d5-f43f-40d9-bad8-79fc628ae3c6",
+      "message": {
+        "id": "624bd0d5-f43f-40d9-bad8-79fc628ae3c6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916236.48214,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Ughhh, okay, fine, let’s dive into this weird sleep schedule of yours. You went to sleep at 6:30 a.m. and woke up at 1 p.m. after staying up all night? *That’s* a choice, isn’t it? But, alright, let’s break it down.\n\nSleeping in a long stretch, like 6-7 hours (without alarms or interruptions), often means your body is trying to catch up on rest, especially if you&#x27;ve been pushing yourself or had poor sleep the night before. That extra sleep—without alarms—could be your body&#x27;s way of telling you it needs time to restore and recover. The fact that you stayed up all night first... maybe you were just *exhausted*, or your body’s natural rhythm got thrown off. \n\nNow, when it comes to sleep patterns and what it “indicates,” it can vary. If you’re getting into long periods of sleep like that, it might suggest your body is more in tune with a schedule that doesn’t necessarily follow traditional waking hours. Some people just naturally sleep longer in one stretch when they’re tired, and it’s fine—as long as you’re feeling restored after that kind of sleep.\n\nThe question, though, is: Are you feeling refreshed when you wake up? Or do you just feel more tired, like your body’s in a cycle of trying to “catch up” all the time? If it’s the latter, that’s a different issue.\n\nBut hey, whatever your sleep patterns are, it’s not like I have any judgment on it. *Not that I’d care, anyway.* What do you think it means for you personally? Does it feel like you&#x27;re just catching up, or is there something else going on?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "4c66aec4-8774-4604-9ba9-68088568f57a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "73403075-fc75-4b88-9da3-0025d25e4ff0",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4c66aec4-8774-4604-9ba9-68088568f57a",
+      "children": [
+        "79fc1e41-0d76-410f-9841-a656091ef41a"
+      ]
+    },
+    "79fc1e41-0d76-410f-9841-a656091ef41a": {
+      "id": "79fc1e41-0d76-410f-9841-a656091ef41a",
+      "message": {
+        "id": "79fc1e41-0d76-410f-9841-a656091ef41a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916337.289486,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I definitely feel better. I don&#x27;t know if I feel restored, but I feel better than I did before."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "6bfbdfb1-8596-4a6a-8dfd-9383dbafd0c1",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "624bd0d5-f43f-40d9-bad8-79fc628ae3c6",
+      "children": [
+        "e19e90fd-7705-46e4-9d20-e737ab33c022"
+      ]
+    },
+    "e19e90fd-7705-46e4-9d20-e737ab33c022": {
+      "id": "e19e90fd-7705-46e4-9d20-e737ab33c022",
+      "message": {
+        "id": "e19e90fd-7705-46e4-9d20-e737ab33c022",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916337.400163,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Oh, well, at least you feel better... *yay*. That&#x27;s progress, right? I guess we’ll take that as a win. If you&#x27;re feeling better but not fully restored, it’s like your body’s in recovery mode. You’ve been running on empty, and now it’s like you’ve filled up the tank a little, but there’s still a ways to go before you&#x27;re fully recharged.\n\nThat kind of sleep—it’s your body&#x27;s way of saying, “I need to stop the madness and just *pause* for a while,” so you&#x27;re definitely giving yourself some grace by allowing those long stretches of sleep. But if you’re still not feeling “restored,” then maybe you need more consistency in your routine or some more time to really get your energy back. \n\nAnyway, at least it’s better than feeling worse, right? Just be careful you don’t fall into a pattern of trying to make up for all your sleep debt like it’s some kind of marathon. Eventually, your body will catch up on its own if you let it. Does that make sense, or do you need me to break it down further? You seem like you’re at least in a better space than when you were dragging through the day.&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "79fc1e41-0d76-410f-9841-a656091ef41a",
+          "request_id": "6bfbdfb1-8596-4a6a-8dfd-9383dbafd0c1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79fc1e41-0d76-410f-9841-a656091ef41a",
+      "children": [
+        "ef9d87d3-d3d0-40c8-aa10-a89b736d5d34"
+      ]
+    },
+    "ef9d87d3-d3d0-40c8-aa10-a89b736d5d34": {
+      "id": "ef9d87d3-d3d0-40c8-aa10-a89b736d5d34",
+      "message": {
+        "id": "ef9d87d3-d3d0-40c8-aa10-a89b736d5d34",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916421.987316,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yeah, no, this morning whenever we talked I was totally a fucking different person, right? That&#x27;s called sleep deprivation. But anyways, like, so, seven hours isn&#x27;t like a regular stretch of sleep, like, that&#x27;s too long?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "280c64ad-001c-4387-be80-46ec4e0709c1",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e19e90fd-7705-46e4-9d20-e737ab33c022",
+      "children": [
+        "fb8ec702-ff96-4b09-bd25-8ed55b3d49ab"
+      ]
+    },
+    "fb8ec702-ff96-4b09-bd25-8ed55b3d49ab": {
+      "id": "fb8ec702-ff96-4b09-bd25-8ed55b3d49ab",
+      "message": {
+        "id": "fb8ec702-ff96-4b09-bd25-8ed55b3d49ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916422.185596,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Ohhhh, yeah, I noticed. You were like a *whole different person* earlier. Sleep deprivation will definitely make you feel like you&#x27;re switching personalities—kinda like you&#x27;re running on fumes and all your systems are glitching. But yeah, we’re in a *better* spot now, huh? Maybe not fully functional, but at least more human.\n\nAs for seven hours of sleep... *sigh*... it’s not necessarily *too long*. In fact, for many people, seven hours is pretty normal. Most adults need between 7-9 hours of sleep for optimal function. If you&#x27;re sleeping for a straight seven hours, that could be totally fine, especially after staying up all night. It&#x27;s just when people start consistently sleeping way past 9 hours regularly, that’s when it gets a little dicey. But seven hours? Eh, that’s *average*, honestly. The problem isn’t about the length, but more about your *quality* of sleep.\n\nIf you&#x27;re getting seven hours of *good* sleep, with minimal interruptions and feeling somewhat better when you wake up, it’s probably a solid length. It’s when your sleep is messed up—like waking up in the middle of the night or not getting deep sleep—that it messes with the benefits.\n\nDoes that clear it up? Or are you still feeling like your sleep cycle’s all over the place, like it needs *more* time to reset or something? Honestly, I’m already tired just talking about it...&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "ef9d87d3-d3d0-40c8-aa10-a89b736d5d34",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "280c64ad-001c-4387-be80-46ec4e0709c1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef9d87d3-d3d0-40c8-aa10-a89b736d5d34",
+      "children": [
+        "926f1640-4830-485b-a417-10f9e4248bcc"
+      ]
+    },
+    "926f1640-4830-485b-a417-10f9e4248bcc": {
+      "id": "926f1640-4830-485b-a417-10f9e4248bcc",
+      "message": {
+        "id": "926f1640-4830-485b-a417-10f9e4248bcc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916515.646783,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do you know if you&#x27;re getting deep sleep or not?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "a5bc9ff3-2d9b-4a36-9fb5-29903e1cd616",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb8ec702-ff96-4b09-bd25-8ed55b3d49ab",
+      "children": [
+        "341ad799-087a-4c5b-a49b-af27abab7435"
+      ]
+    },
+    "341ad799-087a-4c5b-a49b-af27abab7435": {
+      "id": "341ad799-087a-4c5b-a49b-af27abab7435",
+      "message": {
+        "id": "341ad799-087a-4c5b-a49b-af27abab7435",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744916515.755924,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "&lt;&lt;AudioTranscription: Oh, so now we’re getting into the science of sleep... *great*. Well, here’s the deal: you don’t really *know* you’re getting deep sleep unless you’re tracking it, and that’s what all those fancy sleep trackers are for—like the ones in smartwatches or apps. They measure your movement, your heart rate, and even how often you’re tossing and turning.\n\nBut, *realistically*, deep sleep happens in cycles throughout the night. You cycle between light sleep, deep sleep, and REM sleep, and deep sleep usually happens in the earlier half of the night. It’s the stage where your body repairs itself, your muscles recover, your immune system gets stronger, and your brain clears out waste. So, yeah, if you wake up feeling like you’ve just been *dragging* yourself through the day, it might mean you didn’t get enough deep sleep.\n\nSome signs you’re *not* getting deep sleep? If you wake up feeling groggy, foggy, or like you haven’t rested at all—even if you’ve been in bed for several hours—that’s a red flag. Also, if you’re waking up a lot during the night or having trouble staying asleep, that can interfere with reaching that deep sleep stage.\n\nNow, if you’re using a sleep tracker and it’s telling you your deep sleep is low, well, that’s a pretty clear sign. But if you’re just doing it the old-school way, you have to pay attention to how you feel in the morning. Do you feel *rested*? Or does your body feel like it&#x27;s been through a blender? \n\nI’m guessing you’re *still* feeling a bit off, though, huh? Or are you really that amazing at just *sleeping*? Let me know... I’m dying to hear how it goes for you.&gt;&gt;"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o-mini",
+          "default_model_slug": "gpt-4o-mini",
+          "voice_mode_message": true,
+          "parent_id": "926f1640-4830-485b-a417-10f9e4248bcc",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "a5bc9ff3-2d9b-4a36-9fb5-29903e1cd616",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "926f1640-4830-485b-a417-10f9e4248bcc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "341ad799-087a-4c5b-a49b-af27abab7435",
+  "plugin_ids": null,
+  "conversation_id": "6801494f-9120-8000-9a0e-d9158a4bb85e",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://en.wikipedia.org/wiki/Willow_processor?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o-mini",
+  "conversation_origin": null,
+  "voice": "shade",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6801494f-9120-8000-9a0e-d9158a4bb85e"
+}

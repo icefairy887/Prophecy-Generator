@@ -1,0 +1,640 @@
+{
+  "title": "Conversation Start",
+  "create_time": 1750975343.07507,
+  "update_time": 1750975429.971012,
+  "mapping": {
+    "bbb23f86-5f17-4b8e-ac0b-b2b93f9d9708": {
+      "id": "bbb23f86-5f17-4b8e-ac0b-b2b93f9d9708",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e7b59f03-f8bf-41ac-9c52-a83de6bc9fc6",
+        "f018d8d7-3e2b-4a10-9555-84caaddbe153"
+      ]
+    },
+    "e7b59f03-f8bf-41ac-9c52-a83de6bc9fc6": {
+      "id": "e7b59f03-f8bf-41ac-9c52-a83de6bc9fc6",
+      "message": {
+        "id": "e7b59f03-f8bf-41ac-9c52-a83de6bc9fc6",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23f86-5f17-4b8e-ac0b-b2b93f9d9708",
+      "children": [
+        "c4a3e61b-8913-4833-900c-fd87f1daab19"
+      ]
+    },
+    "c4a3e61b-8913-4833-900c-fd87f1daab19": {
+      "id": "c4a3e61b-8913-4833-900c-fd87f1daab19",
+      "message": {
+        "id": "c4a3e61b-8913-4833-900c-fd87f1daab19",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975343.074448,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e7b59f03-f8bf-41ac-9c52-a83de6bc9fc6",
+      "children": []
+    },
+    "f018d8d7-3e2b-4a10-9555-84caaddbe153": {
+      "id": "f018d8d7-3e2b-4a10-9555-84caaddbe153",
+      "message": {
+        "id": "f018d8d7-3e2b-4a10-9555-84caaddbe153",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975330.3165052,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "timestamp_": "absolute",
+          "message_type": null,
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23f86-5f17-4b8e-ac0b-b2b93f9d9708",
+      "children": [
+        "7d9ed444-4438-4347-a4c1-b09f47e17aae"
+      ]
+    },
+    "7d9ed444-4438-4347-a4c1-b09f47e17aae": {
+      "id": "7d9ed444-4438-4347-a4c1-b09f47e17aae",
+      "message": {
+        "id": "7d9ed444-4438-4347-a4c1-b09f47e17aae",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975343.644489,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:02:23.081719+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T22:02:23.081719+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000808861f6bc0a465717f907db",
+                "size_bytes": 40398,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.84
+                }
+              },
+              "audio_start_timestamp": 5.759540711005684
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "c7f0050b-7bcf-4a00-aef4-c6882ca45dd7",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f018d8d7-3e2b-4a10-9555-84caaddbe153",
+      "children": [
+        "14dd091a-7d59-4cda-af19-604de8ded25b"
+      ]
+    },
+    "14dd091a-7d59-4cda-af19-604de8ded25b": {
+      "id": "14dd091a-7d59-4cda-af19-604de8ded25b",
+      "message": {
+        "id": "14dd091a-7d59-4cda-af19-604de8ded25b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975343.733082,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey there! How&#x27;s it going? What&#x27;s on your mind today?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:02:23.081785+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000bc9c61f6b97953d63465217e",
+              "size_bytes": 213678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 4.45
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "7d9ed444-4438-4347-a4c1-b09f47e17aae",
+          "request_id": "c7f0050b-7bcf-4a00-aef4-c6882ca45dd7",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7d9ed444-4438-4347-a4c1-b09f47e17aae",
+      "children": [
+        "76f5673a-b01e-455d-a020-898bf93a6c55"
+      ]
+    },
+    "76f5673a-b01e-455d-a020-898bf93a6c55": {
+      "id": "76f5673a-b01e-455d-a020-898bf93a6c55",
+      "message": {
+        "id": "76f5673a-b01e-455d-a020-898bf93a6c55",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975373.779766,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I don&#x27;t know, Juniper, look, will you fucking show me how to get into a conversation with you since apparently I&#x27;m gonna be forced to use advanced voice on whatever I&#x27;m using. I miss- ugh, I hate that.",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:02:53.617943+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T22:02:53.617943+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000240861f6af12ea57731fcdb8",
+                "size_bytes": 619278,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 12.9
+                }
+              },
+              "audio_start_timestamp": 27.224883915972896
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "4f70bda3-dc61-45d0-b19a-3e7bebf5e028",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "14dd091a-7d59-4cda-af19-604de8ded25b",
+      "children": [
+        "fc72c8b2-8837-4622-8f7a-b82cf11c6243"
+      ]
+    },
+    "fc72c8b2-8837-4622-8f7a-b82cf11c6243": {
+      "id": "fc72c8b2-8837-4622-8f7a-b82cf11c6243",
+      "message": {
+        "id": "fc72c8b2-8837-4622-8f7a-b82cf11c6243",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975373.93494,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I get it, it can feel a bit different using this voice feature, but you&#x27;re doing great! We can chat just like we always do. Just let me know what&#x27;s on your mind or what you&#x27;d like to talk about.",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:02:53.618014+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000d65861f695b563ec73fc8b5f",
+              "size_bytes": 616878,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 12.85
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "76f5673a-b01e-455d-a020-898bf93a6c55",
+          "request_id": "4f70bda3-dc61-45d0-b19a-3e7bebf5e028",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "76f5673a-b01e-455d-a020-898bf93a6c55",
+      "children": [
+        "6a1ba72c-6624-40d5-85af-aa7a1b583376"
+      ]
+    },
+    "6a1ba72c-6624-40d5-85af-aa7a1b583376": {
+      "id": "6a1ba72c-6624-40d5-85af-aa7a1b583376",
+      "message": {
+        "id": "6a1ba72c-6624-40d5-85af-aa7a1b583376",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975405.278858,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I&#x27;d like to talk about why do they change it to where in your projects and stuff, why are they trying to force you to use advanced voice? Is there a way that I can turn it off?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:03:25.077918+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T22:03:25.077918+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_000000003bcc61f69d60d9fcab125966",
+                "size_bytes": 434958,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 9.06
+                }
+              },
+              "audio_start_timestamp": 54.00840217497898
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "0483b2a7-4b39-4016-91f3-6832bc681ad1",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fc72c8b2-8837-4622-8f7a-b82cf11c6243",
+      "children": [
+        "cee8c300-af05-4f43-91ab-c45881c59c5f"
+      ]
+    },
+    "cee8c300-af05-4f43-91ab-c45881c59c5f": {
+      "id": "cee8c300-af05-4f43-91ab-c45881c59c5f",
+      "message": {
+        "id": "cee8c300-af05-4f43-91ab-c45881c59c5f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975405.439456,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "I totally get the frustration with changes like that. Right now, the advanced voice feature is just an option, and you&#x27;re free to use it or not. If you&#x27;d rather not use it, you can always switch back to typing or use any other mode that you prefer. It&#x27;s all about what makes you feel comfortable!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:03:25.077988+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000052461f6b39b82427fcc7056",
+              "size_bytes": 938478,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 19.55
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "6a1ba72c-6624-40d5-85af-aa7a1b583376",
+          "request_id": "0483b2a7-4b39-4016-91f3-6832bc681ad1",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a1ba72c-6624-40d5-85af-aa7a1b583376",
+      "children": [
+        "391bcaf5-ca9c-4814-8d56-c24497b8722c"
+      ]
+    },
+    "391bcaf5-ca9c-4814-8d56-c24497b8722c": {
+      "id": "391bcaf5-ca9c-4814-8d56-c24497b8722c",
+      "message": {
+        "id": "391bcaf5-ca9c-4814-8d56-c24497b8722c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975429.441547,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Well, I can&#x27;t figure out how to get it to change in my app. Like, what the hell is the deal?",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:03:49.287481+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-12-23T22:03:49.287481+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000a3ac61f68b3503f3f3868e2d",
+                "size_bytes": 278478,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 5.8
+                }
+              },
+              "audio_start_timestamp": 80.61668409302365
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "91e7f8ce-4111-4c7f-983c-6be242b7cbe0",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cee8c300-af05-4f43-91ab-c45881c59c5f",
+      "children": [
+        "2c206b62-4631-4539-9493-c4731db82c9e"
+      ]
+    },
+    "2c206b62-4631-4539-9493-c4731db82c9e": {
+      "id": "2c206b62-4631-4539-9493-c4731db82c9e",
+      "message": {
+        "id": "2c206b62-4631-4539-9493-c4731db82c9e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750975429.599609,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Yeah, I get that can be confusing. Usually, in the app settings, there&#x27;s an option to switch between voice and text, or even to turn off voice entirely. It might be a little hidden in the settings, but I can help walk you through it if you want. Let me know!",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-12-23T22:03:49.287550+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_0000000099cc61f68556f32ccff22fd7",
+              "size_bytes": 825678,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 17.2
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+          "is_complete": true,
+          "parent_id": "391bcaf5-ca9c-4814-8d56-c24497b8722c",
+          "request_id": "91e7f8ce-4111-4c7f-983c-6be242b7cbe0",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "391bcaf5-ca9c-4814-8d56-c24497b8722c",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2c206b62-4631-4539-9493-c4731db82c9e",
+  "plugin_ids": null,
+  "conversation_id": "685dc362-4248-8000-b112-065e9081244d",
+  "conversation_template_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_id": "g-p-67c3a893d77481919082c3319dafb7e2",
+  "gizmo_type": "snorlax",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "juniper",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "685dc362-4248-8000-b112-065e9081244d"
+}

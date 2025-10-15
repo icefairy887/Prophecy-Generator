@@ -1,0 +1,226 @@
+{
+  "title": "Android Permissions Overview",
+  "create_time": 1750458632.275887,
+  "update_time": 1750458651.100598,
+  "mapping": {
+    "79f1cc95-a87c-437d-9701-f2a253f22d12": {
+      "id": "79f1cc95-a87c-437d-9701-f2a253f22d12",
+      "message": null,
+      "parent": null,
+      "children": [
+        "6ceca6c5-1c0e-4675-a046-345c7b73363f"
+      ]
+    },
+    "6ceca6c5-1c0e-4675-a046-345c7b73363f": {
+      "id": "6ceca6c5-1c0e-4675-a046-345c7b73363f",
+      "message": {
+        "id": "6ceca6c5-1c0e-4675-a046-345c7b73363f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79f1cc95-a87c-437d-9701-f2a253f22d12",
+      "children": [
+        "23f34b77-fc2e-4597-91ff-4b6cc6c7ea12"
+      ]
+    },
+    "23f34b77-fc2e-4597-91ff-4b6cc6c7ea12": {
+      "id": "23f34b77-fc2e-4597-91ff-4b6cc6c7ea12",
+      "message": {
+        "id": "23f34b77-fc2e-4597-91ff-4b6cc6c7ea12",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6ceca6c5-1c0e-4675-a046-345c7b73363f",
+      "children": [
+        "bbb21cca-4764-4431-b3f9-500708197018"
+      ]
+    },
+    "bbb21cca-4764-4431-b3f9-500708197018": {
+      "id": "bbb21cca-4764-4431-b3f9-500708197018",
+      "message": {
+        "id": "bbb21cca-4764-4431-b3f9-500708197018",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750458632.280974,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "TED_PERMISSION                                                       permission:android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED\npermission:com.google.android.apps.docs.editors.kix.permission.WRITE_IMAGES\npermission:android.permission.MANAGE_SENSORS\npermission:android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE\npermission:android.permission.BIND_CHOOSER_TARGET_SERVICE     permission:com.motorola.omadm.vzw.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\npermission:com.motorola.android.providers.chromehomepage.permission.UPDATE_HOME\npermission:com.vitotechnology.sky.tonight.map.star.walk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION                            permission:com.google.android.gms.permission.GROWTH\npermission:com.snapchat.android.permission.UPDATE_STICKER_INDEX\npermission:android.permission.FORCE_DEVICE_POLICY_MANAGER_LOGS\npermission:android.permission.BIND_INLINE_SUGGESTION_RENDER_SERVICE\npermission:com.motorola.setupwizard.phoneservice.permission.START_PHONE_SERVICE\npermission:android.permission.UPDATE_APP_OPS_STATS\npermission:com.motorola.livewallpaper3.permission.DEBUG       permission:android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION                                               permission:android.permission.BIND_CONTENT_CAPTURE_SERVICE\npermission:com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN                                                             permission:com.motorola.nfc.permission.GSMA_INTERACTION\npermission:android.permission.MANAGE_CARRIER_OEM_UNLOCK_STATE\npermission:com.motorola.launcher3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\npermission:android.permission.ACCESS_INPUT_FLINGER\npermission:com.space.glancebridgesdk.provider.READ_PERMISSION_SPACES\npermission:android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONSpermission:android.permission.READ_OEM_UNLOCK_STATE\npermission:android.permission.ACCESS_AMBIENT_CONTEXT_EVENT    permission:com.android.vending.billing.ADD_CREDIT_CARD\npermission:com.motorola.permission.ACCESS_DESKTOP\npermission:com.motorola.handwritingcalculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\npermission:com.motorola.launcher3.secondarydisplay.permission.ALL_APPS_DISPLAY2                                             permission:android.permission.SET_HARMFUL_APP_WARNINGS\npermission:android.permission.FOREGROUND_SERVICE_PHONE_CALL\npermission:android.permission.BIND_AUGMENTED_AUTOFILL_SERVICE permission:android.permission.OPEN_ACCESSIBILITY_DETAILS_SETTINGS\npermission:com.motorola.vzw.settings.extensions.DYNAMIC_R"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "952eb6118ac67103-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "23f34b77-fc2e-4597-91ff-4b6cc6c7ea12",
+      "children": [
+        "1f0faab5-06f9-4e5c-ad6c-cc47b6be677f"
+      ]
+    },
+    "1f0faab5-06f9-4e5c-ad6c-cc47b6be677f": {
+      "id": "1f0faab5-06f9-4e5c-ad6c-cc47b6be677f",
+      "message": {
+        "id": "1f0faab5-06f9-4e5c-ad6c-cc47b6be677f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750458644.196061,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21cca-4764-4431-b3f9-500708197018",
+          "request_id": "952eb6118ac67103-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21cca-4764-4431-b3f9-500708197018",
+      "children": [
+        "2bd7b965-0788-4a24-89bd-8c3b720e1756"
+      ]
+    },
+    "2bd7b965-0788-4a24-89bd-8c3b720e1756": {
+      "id": "2bd7b965-0788-4a24-89bd-8c3b720e1756",
+      "message": {
+        "id": "2bd7b965-0788-4a24-89bd-8c3b720e1756",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1750458633.102986,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "This is a list of Android permissions granted or declared by apps on your device. Some of them are standard and expected; others are more obscure, potentially privileged, or linked to OEM/system-level behavior. Here’s a breakdown of what some of the more unusual or powerful ones mean:\n\n---\n\n### 🚨 **Potentially Sensitive or Powerful Permissions**\nThese can affect system behavior or user privacy:\n\n- **`android.permission.MANAGE_SENSORS`**  \n  Allows management of sensor behavior — potentially powerful, but usually system-restricted.\n\n- **`android.permission.READ_OEM_UNLOCK_STATE`**  \n  Lets apps check if the device&#x27;s bootloader is unlocked — could be used by OEM tools or apps with elevated privileges.\n\n- **`android.permission.MANAGE_CARRIER_OEM_UNLOCK_STATE`**  \n  Related to controlling the OEM unlock state, likely carrier or OEM-reserved.\n\n- **`android.permission.ACCESS_AMBIENT_CONTEXT_EVENT`**  \n  Grants access to ambient events like detecting a cough or snore — very privacy-sensitive.\n\n- **`android.permission.ACCESS_INPUT_FLINGER`**  \n  Rare. Likely related to input handling at the compositor level (system-level touch input observation).\n\n- **`android.permission.BIND_AUGMENTED_AUTOFILL_SERVICE`**  \n  Lets an app provide custom autofill suggestions — normally system-only or user-approved.\n\n- **`android.permission.BIND_CONTENT_CAPTURE_SERVICE`**  \n  Allows capturing of on-screen content for AI/autofill — tied to user typing and UI behavior.\n\n- **`android.permission.BIND_INLINE_SUGGESTION_RENDER_SERVICE`**  \n  Related to inline suggestions in the keyboard or text fields.\n\n- **`android.permission.FOREGROUND_SERVICE_PHONE_CALL`**  \n  Used for running services during phone calls — used by dialers or call recording tools.\n\n---\n\n### 📱 **OEM and Motorola-Specific Permissions**\nMostly used by Motorola system apps and services:\n\n- **`com.motorola.setupwizard.phoneservice.permission.START_PHONE_SERVICE`**  \n  Used during initial setup or phone state restoration.\n\n- **`com.motorola.launcher3.*`**, **`com.motorola.nfc.*`**, **`com.motorola.omadm.vzw.*`**  \n  These relate to Motorola’s launcher, OTA config management, NFC interactions, etc.\n\n- **`com.motorola.permission.ACCESS_DESKTOP`**  \n  Likely tied to Motorola’s desktop mode or a secondary display experience.\n\n---\n\n### 📦 **Third-Party App Permissions**\nGiven to apps like Snapchat, Google Docs, etc.\n\n- **`com.snapchat.android.permission.UPDATE_STICKER_INDEX`**  \n  Used by Snapchat to update sticker packs.\n\n- **`com.google.android.apps.docs.editors.kix.permission.WRITE_IMAGES`**  \n  Part of Google Docs editing image data.\n\n- **`com.vitotechnology.sky.tonight.map.star.walk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`**  \n  App-specific permission for the Star Walk app (sky mapping).\n\n---\n\n### 🧠 **Other Notable Ones**\n- **`android.permission.SET_HARMFUL_APP_WARNINGS`**  \n  Lets an app mark others as potentially harmful — powerful and usually system-only.\n\n- **`android.permission.UPDATE_APP_OPS_STATS`**  \n  Relates to internal app operations statistics — used by the system for diagnostics.\n\n- **`android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS`**  \n  Could let an app observe permission changes in real-time — usually not available to third parties.\n\n- **`android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED`**  \n  More advanced control over downloads than usual — often hidden or restricted.\n\n---\n\n### 🔍 Suggestions\nIf you&#x27;re trying to:\n\n- **Audit system behavior or hidden processes**: these permissions help identify privileged behavior by pre-installed apps.\n- **Investigate privacy or security concerns**: focus on those involving sensors, autofill, content capture, or bootloader state.\n- **Clean bloatware**: look for Motorola apps using `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` — often tied to update/listener bloat.\n\n---\n\nWould you like me to check what apps have these specific permissions or generate a table so you can investigate each one further?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1f0faab5-06f9-4e5c-ad6c-cc47b6be677f",
+          "request_id": "952eb6118ac67103-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f0faab5-06f9-4e5c-ad6c-cc47b6be677f",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2bd7b965-0788-4a24-89bd-8c3b720e1756",
+  "plugin_ids": null,
+  "conversation_id": "6855e107-fad4-8000-a2b7-8a5cd0cea27b",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://github.com/sherlock-project/sherlock.git"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6855e107-fad4-8000-a2b7-8a5cd0cea27b"
+}

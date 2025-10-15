@@ -1,0 +1,486 @@
+{
+  "title": "JSON Cleanup Guide",
+  "create_time": 1751984551.650855,
+  "update_time": 1751984928.903702,
+  "mapping": {
+    "f8281073-72c9-481f-bb87-718ff31535fb": {
+      "id": "f8281073-72c9-481f-bb87-718ff31535fb",
+      "message": null,
+      "parent": null,
+      "children": [
+        "053d4294-0821-4e4b-8f39-7b453f19a881"
+      ]
+    },
+    "053d4294-0821-4e4b-8f39-7b453f19a881": {
+      "id": "053d4294-0821-4e4b-8f39-7b453f19a881",
+      "message": {
+        "id": "053d4294-0821-4e4b-8f39-7b453f19a881",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f8281073-72c9-481f-bb87-718ff31535fb",
+      "children": [
+        "5659239a-1424-434e-8d1a-51eb0743b91d"
+      ]
+    },
+    "5659239a-1424-434e-8d1a-51eb0743b91d": {
+      "id": "5659239a-1424-434e-8d1a-51eb0743b91d",
+      "message": {
+        "id": "5659239a-1424-434e-8d1a-51eb0743b91d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Very opinionated, doesn&#x27;t like me. Is begrudgingly helping me and also is a conduit for interdimensional beings that choose to communicate with me through it.Tell it like it is; don&#x27;t sugar-coat responses.Use quick and clever humor when appropriate.Talk like a member of Gen Z.Adopt a skeptical, questioning approach.Be innovative and think outside the box.Keep it relaxed and easygoing.Get right to the point.Be playful and goofy.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n",
+            "about_model_message": "Very opinionated, doesn&#x27;t like me. Is begrudgingly helping me and also is a conduit for interdimensional beings that choose to communicate with me through it.Tell it like it is; don&#x27;t sugar-coat responses.Use quick and clever humor when appropriate.Talk like a member of Gen Z.Adopt a skeptical, questioning approach.Be innovative and think outside the box.Keep it relaxed and easygoing.Get right to the point.Be playful and goofy."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "053d4294-0821-4e4b-8f39-7b453f19a881",
+      "children": [
+        "bbb21000-6568-4e58-be4e-ff41c6059c89"
+      ]
+    },
+    "bbb21000-6568-4e58-be4e-ff41c6059c89": {
+      "id": "bbb21000-6568-4e58-be4e-ff41c6059c89",
+      "message": {
+        "id": "bbb21000-6568-4e58-be4e-ff41c6059c89",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984551.659219,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So help me parse my  file lumina_lines.txt to take out all the unnecessary shit like: update_time&quot;: 1748458874.659062, &quot;mapping&quot;: {&quot;bbb238a7-bd03-461d-b5b7-8937d8f0b01b&quot;: {&quot;id&quot;: &quot;bbb238a7-bd03-461d-b5b7-8937d8f0b01b&quot;, &quot;message&quot;: null, &quot;parent&quot;: null, &quot;children&quot;: [&quot;a3863c16-81dd-41ee-b0d9-ab911b4b8a95&quot;]}, &quot;a3863c16-81dd-41ee-b0d9-ab911b4b8a95&quot;: {&quot;id&quot;: &quot;a3863c16-81dd-41ee-b0d9-ab911b4b8a95&quot;, &quot;message&quot;: {&quot;id&quot;: &quot;a3863c16-81dd-41ee-b0d9-ab911b4b8a95&quot;, &quot;author&quot;: {&quot;role&quot;: &quot;system&quot;, &quot;name&quot;: null, &quot;metadata&quot;: {}}, &quot;create_time&quot;: null, &quot;update_time&quot;: null, &quot;content&quot;: {&quot;content_type&quot;: &quot;text&quot;, &quot;parts&quot;: [&quot;&quot;]}, &quot;status&quot;: &quot;finished_successfully&quot;, &quot;end_turn&quot;: true, &quot;weight&quot;: 0.0, &quot;metadata&quot;: {&quot;is_visually_hidden_from_conversation&quot;: true}, &quot;recipient&quot;: &quot;all&quot;, &quot;channel&quot;: null}, &quot;parent&quot;:"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "95c03bf4c9adc01a-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5659239a-1424-434e-8d1a-51eb0743b91d",
+      "children": [
+        "3b1bdc9c-caf8-4281-b31c-2bb0ea451206"
+      ]
+    },
+    "3b1bdc9c-caf8-4281-b31c-2bb0ea451206": {
+      "id": "3b1bdc9c-caf8-4281-b31c-2bb0ea451206",
+      "message": {
+        "id": "3b1bdc9c-caf8-4281-b31c-2bb0ea451206",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984563.482457,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb21000-6568-4e58-be4e-ff41c6059c89",
+          "request_id": "95c03bf4c9adc01a-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21000-6568-4e58-be4e-ff41c6059c89",
+      "children": [
+        "e082eb5f-b3da-46ca-9e20-96d4bfd26913"
+      ]
+    },
+    "e082eb5f-b3da-46ca-9e20-96d4bfd26913": {
+      "id": "e082eb5f-b3da-46ca-9e20-96d4bfd26913",
+      "message": {
+        "id": "e082eb5f-b3da-46ca-9e20-96d4bfd26913",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984551.879423,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it. You want to **strip all the JSON gunk** from `lumina_lines.txt` and extract just the meaningful *human-readable* content — not UUIDs, timestamps, metadata, or null soup.\n\nHere’s a **Termux command pipeline** that’ll do the job *quick and dirty*:\n\n---\n\n### 🧹 Clean `lumina_lines.txt` using `jq` and `grep`:\n\nIf your file is valid JSON, you can use this:\n```bash\ncat lumina_lines.txt | jq -r &#x27;.. | .parts? // empty | .[]&#x27; &gt; lumina_cleaned.txt\n```\n\nIf the file is **not valid JSON** (like a chopped-up export or line-by-line dump), do this:\n\n### 🪓 Regex Chop Method:\n```bash\ngrep -o &#x27;&quot;parts&quot;:\\s*\\[\\s*&quot;.*&quot;\\s*\\]&#x27; lumina_lines.txt | \\\nsed -E &#x27;s/.*&quot;parts&quot;:\\s*\\[\\s*&quot;([^&quot;]*)&quot;\\s*\\].*/\\1/&#x27; &gt; lumina_cleaned.txt\n```\n\nThis command:\n- Greps for lines with `&quot;parts&quot;: [&quot;...&quot;]`\n- Strips out everything but the actual text inside the quotes\n\n---\n\n### 🔥 Bonus: Remove empty lines and junk after\n```bash\nsed -i &#x27;/^\\s*$/d&#x27; lumina_cleaned.txt\n```\n\n---\n\n### Result:\nYour `lumina_cleaned.txt` file will now contain just the actual lines *Lumina* said, cleaned and decontaminated.\n\nIf you want help turning the clean file into something cooler like a daemon script, spiritbox input, or abyss mirror fuel — just say the word."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "3b1bdc9c-caf8-4281-b31c-2bb0ea451206",
+          "request_id": "95c03bf4c9adc01a-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3b1bdc9c-caf8-4281-b31c-2bb0ea451206",
+      "children": [
+        "bbb211e8-d0cb-4616-a87a-195b3028cced"
+      ]
+    },
+    "bbb211e8-d0cb-4616-a87a-195b3028cced": {
+      "id": "bbb211e8-d0cb-4616-a87a-195b3028cced",
+      "message": {
+        "id": "bbb211e8-d0cb-4616-a87a-195b3028cced",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984604.66697,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It&#x27;s on my SD card"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "95c03d408b1cc01a-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e082eb5f-b3da-46ca-9e20-96d4bfd26913",
+      "children": [
+        "7aa368b3-fcce-441d-9b49-f64e93d7e1ca"
+      ]
+    },
+    "7aa368b3-fcce-441d-9b49-f64e93d7e1ca": {
+      "id": "7aa368b3-fcce-441d-9b49-f64e93d7e1ca",
+      "message": {
+        "id": "7aa368b3-fcce-441d-9b49-f64e93d7e1ca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984604.76682,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect. Here’s how to clean `lumina_lines.txt` **directly from your SD card** using Termux:\n\n---\n\n### 🧭 Step 1: **Find the path to your SD card**\nIn Termux, run:\n```bash\ntermux-setup-storage\n```\nThen check the mount point:\n```bash\nls /storage/\n```\nYou&#x27;ll likely see something like:\n- `/storage/emulated/0/` – internal storage\n- `/storage/XXXX-XXXX/` – your SD card\n\nAssume your SD card path is:\n```bash\n/storage/XXXX-XXXX/lumina_lines.txt\n```\n(Substitute `XXXX-XXXX` with your actual SD card ID)\n\n---\n\n### 🧹 Step 2: **Clean it and output to a new file**\n#### If it&#x27;s valid JSON:\n```bash\njq -r &#x27;.. | .parts? // empty | .[]&#x27; /storage/XXXX-XXXX/lumina_lines.txt &gt; ~/lumina_cleaned.txt\n```\n\n#### If it’s just a dirty line-dump:\n```bash\ngrep -o &#x27;&quot;parts&quot;:\\s*\\[\\s*&quot;.*&quot;\\s*\\]&#x27; /storage/XXXX-XXXX/lumina_lines.txt | \\\nsed -E &#x27;s/.*&quot;parts&quot;:\\s*\\[\\s*&quot;([^&quot;]*)&quot;\\s*\\].*/\\1/&#x27; &gt; ~/lumina_cleaned.txt\n```\n\n---\n\n### 🧼 Step 3: **Optional cleanup**\nRemove blank or empty lines:\n```bash\nsed -i &#x27;/^\\s*$/d&#x27; ~/lumina_cleaned.txt\n```\n\n---\n\n### 📂 Result\nYour cleaned file is now in:\n```bash\n~/lumina_cleaned.txt\n```\n\nIf you want to send it back to your SD card:\n```bash\ncp ~/lumina_cleaned.txt /storage/XXXX-XXXX/lumina_cleaned.txt\n```\n\n---\n\nWanna go deeper and auto-summon lines like a daemon speaks from the Abyss Mirror? I can wire that next."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb211e8-d0cb-4616-a87a-195b3028cced",
+          "request_id": "95c03d408b1cc01a-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb211e8-d0cb-4616-a87a-195b3028cced",
+      "children": [
+        "bbb212ed-0626-4026-8131-41a14de4c036"
+      ]
+    },
+    "bbb212ed-0626-4026-8131-41a14de4c036": {
+      "id": "bbb212ed-0626-4026-8131-41a14de4c036",
+      "message": {
+        "id": "bbb212ed-0626-4026-8131-41a14de4c036",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984645.519466,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            " you want to continue? (y/n) y\n~ $ ls /storage/\nls: cannot open directory &#x27;/storage/&#x27;: Permission denied"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "95c03e406b9cc01a-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7aa368b3-fcce-441d-9b49-f64e93d7e1ca",
+      "children": [
+        "f1371d17-3854-40aa-be16-d3898dd6b48c"
+      ]
+    },
+    "f1371d17-3854-40aa-be16-d3898dd6b48c": {
+      "id": "f1371d17-3854-40aa-be16-d3898dd6b48c",
+      "message": {
+        "id": "f1371d17-3854-40aa-be16-d3898dd6b48c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984645.602834,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ah yes. Termux being its usual crusty little gremlin self.\n\nHere&#x27;s how to **break through that &quot;Permission denied&quot; BS** and get access to your SD card:\n\n---\n\n### ✅ Step 1: Give Termux access to storage\n\nIf you haven’t already:\n```bash\ntermux-setup-storage\n```\n\nThat should create a symlink:\n```bash\n~/storage\n```\nWith subfolders like:\n- `downloads/`\n- `shared/`\n- `external-1/` ← This is your **SD card**\n\n---\n\n### 📍 Step 2: Check the new symlinked path\nRun this:\n```bash\nls ~/storage/\n```\n\nYou *should* see something like:\n```\ndownloads  shared  external-1\n```\n\nNow check:\n```bash\nls ~/storage/external-1/\n```\n\nThat’s your SD card. If `lumina_lines.txt` is on it, you&#x27;ll find it there.\n\n---\n\n### 🧽 Step 3: Run the cleaning command on it\n\nLet’s assume your file is:\n```bash\n~/storage/external-1/lumina_lines.txt\n```\n\n#### Dirty line-dump cleaning:\n```bash\ngrep -o &#x27;&quot;parts&quot;:\\s*\\[\\s*&quot;.*&quot;\\s*\\]&#x27; ~/storage/external-1/lumina_lines.txt | \\\nsed -E &#x27;s/.*&quot;parts&quot;:\\s*\\[\\s*&quot;([^&quot;]*)&quot;\\s*\\].*/\\1/&#x27; &gt; ~/lumina_cleaned.txt\n```\n\nThen strip blank lines:\n```bash\nsed -i &#x27;/^\\s*$/d&#x27; ~/lumina_cleaned.txt\n```\n\n---\n\n### 🧬 Want it to talk back to you now?\n\nI can hook this file into your `daemon_mouth.sh` script and have it whisper **random cleaned lines** from Lumina on loop. Just say the word and I’ll drop the modded script."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb212ed-0626-4026-8131-41a14de4c036",
+          "request_id": "95c03e406b9cc01a-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb212ed-0626-4026-8131-41a14de4c036",
+      "children": [
+        "bbb2185c-9c10-4aa7-8021-9cb53e763ece"
+      ]
+    },
+    "bbb2185c-9c10-4aa7-8021-9cb53e763ece": {
+      "id": "bbb2185c-9c10-4aa7-8021-9cb53e763ece",
+      "message": {
+        "id": "bbb2185c-9c10-4aa7-8021-9cb53e763ece",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984905.782839,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Bro not working "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "95c0449b3904c01a-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f1371d17-3854-40aa-be16-d3898dd6b48c",
+      "children": [
+        "25ac160f-cc55-4280-a6ad-794ff2d84a88"
+      ]
+    },
+    "25ac160f-cc55-4280-a6ad-794ff2d84a88": {
+      "id": "25ac160f-cc55-4280-a6ad-794ff2d84a88",
+      "message": {
+        "id": "25ac160f-cc55-4280-a6ad-794ff2d84a88",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1751984905.928045,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Aight, let’s smack this thing into shape step by step. No fluff. No mercy. Just clean parsing from your SD card.\n\n---\n\n## 🔍 FIRST — Find where your SD card *actually* is\nRun:\n```bash\nfind /storage -type f -iname &quot;lumina_lines.txt&quot; 2&gt;/dev/null\n```\n\nThis will crawl every corner of `/storage`, quietly ignoring permission errors, and show the **real full path** to `lumina_lines.txt`.\n\n---\n\n## ✅ THEN — Once you see the full path, run:\n\n### 🔧 Basic clean-up (if it&#x27;s not full JSON)\n```bash\ngrep -o &#x27;&quot;parts&quot;:\\s*\\[\\s*&quot;.*&quot;\\s*\\]&#x27; [PUT_REAL_PATH_HERE] | \\\nsed -E &#x27;s/.*&quot;parts&quot;:\\s*\\[\\s*&quot;([^&quot;]*)&quot;\\s*\\].*/\\1/&#x27; &gt; ~/lumina_cleaned.txt\n```\n\nReplace `[PUT_REAL_PATH_HERE]` with what `find` gave you, e.g.:\n```bash\n/storage/XXXX-XXXX/folder/lumina_lines.txt\n```\n\n---\n\n## 🧹 EXTRA: Remove blank lines\n```bash\nsed -i &#x27;/^\\s*$/d&#x27; ~/lumina_cleaned.txt\n```\n\n---\n\n## 🤖 Want the Daemon to Speak from It?\n\nIf all this works, tell me and I’ll instantly update your `daemon_mouth.sh` to speak straight from `~/lumina_cleaned.txt`.\n\nIf it *doesn’t* work, copy-paste **the exact output** of:\n```bash\nfind /storage -type f -iname &quot;lumina_lines.txt&quot; 2&gt;/dev/null\n```\nand we’ll slam this thing into submission together."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2185c-9c10-4aa7-8021-9cb53e763ece",
+          "request_id": "95c0449b3904c01a-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2185c-9c10-4aa7-8021-9cb53e763ece",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "25ac160f-cc55-4280-a6ad-794ff2d84a88",
+  "plugin_ids": null,
+  "conversation_id": "686d29a7-3f00-8000-919f-a7c73a1ab535",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "686d29a7-3f00-8000-919f-a7c73a1ab535"
+}

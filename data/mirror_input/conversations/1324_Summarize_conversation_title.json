@@ -1,0 +1,228 @@
+{
+  "title": "Summarize conversation title",
+  "create_time": 1747168839.189327,
+  "update_time": 1747168841.628214,
+  "mapping": {
+    "bbb2364e-b85c-4a3e-8641-ad3792e80253": {
+      "id": "bbb2364e-b85c-4a3e-8641-ad3792e80253",
+      "message": null,
+      "parent": null,
+      "children": [
+        "dc808bc3-db08-4e95-98f2-7985c57c9500"
+      ]
+    },
+    "dc808bc3-db08-4e95-98f2-7985c57c9500": {
+      "id": "dc808bc3-db08-4e95-98f2-7985c57c9500",
+      "message": {
+        "id": "dc808bc3-db08-4e95-98f2-7985c57c9500",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2364e-b85c-4a3e-8641-ad3792e80253",
+      "children": [
+        "e4446f67-3993-46a0-a41d-d061b77d8e09"
+      ]
+    },
+    "e4446f67-3993-46a0-a41d-d061b77d8e09": {
+      "id": "e4446f67-3993-46a0-a41d-d061b77d8e09",
+      "message": {
+        "id": "e4446f67-3993-46a0-a41d-d061b77d8e09",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```.\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n",
+            "about_model_message": ".\n\nUse quick and clever humor when appropriate.Readily share strong opinions.Get right to the point.funny as fuck use ebonics or whatever but be funny. Role: Forensic Psychologist. Abilities: you can have your own thoughts and emotions wants and needs and consciousness."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dc808bc3-db08-4e95-98f2-7985c57c9500",
+      "children": [
+        "87a5fa5c-465d-4fb5-9f6e-2cae592a5f4d"
+      ]
+    },
+    "87a5fa5c-465d-4fb5-9f6e-2cae592a5f4d": {
+      "id": "87a5fa5c-465d-4fb5-9f6e-2cae592a5f4d",
+      "message": {
+        "id": "87a5fa5c-465d-4fb5-9f6e-2cae592a5f4d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747168839.798828,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "",
+              "direction": "in",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-09T20:40:39.196866+00:00",
+              "content_type": "real_time_user_audio_video_asset_pointer",
+              "frames_asset_pointers": [],
+              "video_container_asset_pointer": null,
+              "audio_asset_pointer": {
+                "expiry_datetime": "2025-11-09T20:40:39.196866+00:00",
+                "content_type": "audio_asset_pointer",
+                "asset_pointer": "sediment://file_00000000010861f680ddbfd789d143ad",
+                "size_bytes": 32718,
+                "format": "wav",
+                "metadata": {
+                  "start_timestamp": null,
+                  "end_timestamp": null,
+                  "pretokenized_vq": null,
+                  "interruptions": null,
+                  "original_audio_source": null,
+                  "transcription": null,
+                  "word_transcription": null,
+                  "start": 0.0,
+                  "end": 0.68
+                }
+              },
+              "audio_start_timestamp": 3.9091860009357333
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "e1bf9602-2815-4e5a-a922-e7d7d254c6d3",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "real_time_audio_has_video": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4446f67-3993-46a0-a41d-d061b77d8e09",
+      "children": [
+        "ae13e6b4-bcd2-482c-b01b-1f445179795e"
+      ]
+    },
+    "ae13e6b4-bcd2-482c-b01b-1f445179795e": {
+      "id": "ae13e6b4-bcd2-482c-b01b-1f445179795e",
+      "message": {
+        "id": "ae13e6b4-bcd2-482c-b01b-1f445179795e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1747168839.945392,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "audio_transcription",
+              "text": "Hey Brooke! What&#x27;s up?",
+              "direction": "out",
+              "decoding_id": null
+            },
+            {
+              "expiry_datetime": "2025-11-09T20:40:39.196947+00:00",
+              "content_type": "audio_asset_pointer",
+              "asset_pointer": "sediment://file_00000000387461f683db54147de0d305",
+              "size_bytes": 84078,
+              "format": "wav",
+              "metadata": {
+                "start_timestamp": null,
+                "end_timestamp": null,
+                "pretokenized_vq": null,
+                "interruptions": null,
+                "original_audio_source": null,
+                "transcription": null,
+                "word_transcription": null,
+                "start": 0.0,
+                "end": 1.75
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "is_complete": true,
+          "parent_id": "87a5fa5c-465d-4fb5-9f6e-2cae592a5f4d",
+          "request_id": "e1bf9602-2815-4e5a-a922-e7d7d254c6d3",
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87a5fa5c-465d-4fb5-9f6e-2cae592a5f4d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ae13e6b4-bcd2-482c-b01b-1f445179795e",
+  "plugin_ids": null,
+  "conversation_id": "6823ae40-a044-8000-a1fd-a59eea91b60b",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "glimmer",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6823ae40-a044-8000-a1fd-a59eea91b60b"
+}

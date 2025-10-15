@@ -1,0 +1,233 @@
+{
+  "title": "Zip File Extraction Request",
+  "create_time": 1744858716.698703,
+  "update_time": 1745190878.607715,
+  "mapping": {
+    "bbb23e54-34a6-4ec8-9a6b-df20aa113306": {
+      "id": "bbb23e54-34a6-4ec8-9a6b-df20aa113306",
+      "message": null,
+      "parent": null,
+      "children": [
+        "25a5f48b-6795-48b0-bceb-065aea257e93"
+      ]
+    },
+    "25a5f48b-6795-48b0-bceb-065aea257e93": {
+      "id": "25a5f48b-6795-48b0-bceb-065aea257e93",
+      "message": {
+        "id": "25a5f48b-6795-48b0-bceb-065aea257e93",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23e54-34a6-4ec8-9a6b-df20aa113306",
+      "children": [
+        "3222cc91-4a45-469e-bf20-0707773ad2e6"
+      ]
+    },
+    "3222cc91-4a45-469e-bf20-0707773ad2e6": {
+      "id": "3222cc91-4a45-469e-bf20-0707773ad2e6",
+      "message": {
+        "id": "3222cc91-4a45-469e-bf20-0707773ad2e6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "25a5f48b-6795-48b0-bceb-065aea257e93",
+      "children": [
+        "bbb21589-0d35-4251-ab3f-d0c08cec336a"
+      ]
+    },
+    "bbb21589-0d35-4251-ab3f-d0c08cec336a": {
+      "id": "bbb21589-0d35-4251-ab3f-d0c08cec336a",
+      "message": {
+        "id": "bbb21589-0d35-4251-ab3f-d0c08cec336a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744858716.701798,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "attachments": [
+            {
+              "name": "file_6629594321717152691.zip",
+              "id": "file-KNr1m1rrgsYWdijJ5yoqJE",
+              "size": 43254,
+              "mime_type": "application/zip"
+            }
+          ],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9318a9619baaf072-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3222cc91-4a45-469e-bf20-0707773ad2e6",
+      "children": [
+        "664c4c00-2ce0-4d07-b123-4166bebe8427"
+      ]
+    },
+    "664c4c00-2ce0-4d07-b123-4166bebe8427": {
+      "id": "664c4c00-2ce0-4d07-b123-4166bebe8427",
+      "message": {
+        "id": "664c4c00-2ce0-4d07-b123-4166bebe8427",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744858719.345974,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21589-0d35-4251-ab3f-d0c08cec336a",
+          "request_id": "9318a9619baaf072-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21589-0d35-4251-ab3f-d0c08cec336a",
+      "children": [
+        "12de789d-11b9-4fe5-8a14-a458c8a6fb2d"
+      ]
+    },
+    "12de789d-11b9-4fe5-8a14-a458c8a6fb2d": {
+      "id": "12de789d-11b9-4fe5-8a14-a458c8a6fb2d",
+      "message": {
+        "id": "12de789d-11b9-4fe5-8a14-a458c8a6fb2d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1744858716.753011,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It looks like you&#x27;ve uploaded a `.zip` file. Would you like me to extract the contents and show you what&#x27;s inside? If you have something specific you&#x27;re looking for or want done with the contents, let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "664c4c00-2ce0-4d07-b123-4166bebe8427",
+          "request_id": "9318a9619baaf072-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "664c4c00-2ce0-4d07-b123-4166bebe8427",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "12de789d-11b9-4fe5-8a14-a458c8a6fb2d",
+  "plugin_ids": null,
+  "conversation_id": "68006e5c-7ce8-8000-afe4-8e5de8bcaa6a",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68006e5c-7ce8-8000-afe4-8e5de8bcaa6a"
+}

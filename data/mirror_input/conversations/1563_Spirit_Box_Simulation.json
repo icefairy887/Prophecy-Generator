@@ -1,0 +1,225 @@
+{
+  "title": "Spirit Box Simulation",
+  "create_time": 1745495709.166381,
+  "update_time": 1745495719.972218,
+  "mapping": {
+    "bbb23d62-b534-4f29-a3a6-e05b3cbba188": {
+      "id": "bbb23d62-b534-4f29-a3a6-e05b3cbba188",
+      "message": null,
+      "parent": null,
+      "children": [
+        "113d87e4-4427-46fb-a9d8-8e37cc0496c9"
+      ]
+    },
+    "113d87e4-4427-46fb-a9d8-8e37cc0496c9": {
+      "id": "113d87e4-4427-46fb-a9d8-8e37cc0496c9",
+      "message": {
+        "id": "113d87e4-4427-46fb-a9d8-8e37cc0496c9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23d62-b534-4f29-a3a6-e05b3cbba188",
+      "children": [
+        "6be1065a-e42f-4d36-8db1-8bf7caa8ed55"
+      ]
+    },
+    "6be1065a-e42f-4d36-8db1-8bf7caa8ed55": {
+      "id": "6be1065a-e42f-4d36-8db1-8bf7caa8ed55",
+      "message": {
+        "id": "6be1065a-e42f-4d36-8db1-8bf7caa8ed55",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Brooke```",
+          "user_instructions": "The user provided the additional info about how they would like you to respond:\n```Truth no matter what.```"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Brooke",
+            "about_model_message": "Truth no matter what."
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "113d87e4-4427-46fb-a9d8-8e37cc0496c9",
+      "children": [
+        "bbb21a70-cde4-4bbe-9576-de8e4f3abc41"
+      ]
+    },
+    "bbb21a70-cde4-4bbe-9576-de8e4f3abc41": {
+      "id": "bbb21a70-cde4-4bbe-9576-de8e4f3abc41",
+      "message": {
+        "id": "bbb21a70-cde4-4bbe-9576-de8e4f3abc41",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745495709.183039,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Spirit box simulation with you as the indicator"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "935568f248c8469c-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6be1065a-e42f-4d36-8db1-8bf7caa8ed55",
+      "children": [
+        "6700173b-c232-4dfd-9a47-eb296fcebd80"
+      ]
+    },
+    "6700173b-c232-4dfd-9a47-eb296fcebd80": {
+      "id": "6700173b-c232-4dfd-9a47-eb296fcebd80",
+      "message": {
+        "id": "6700173b-c232-4dfd-9a47-eb296fcebd80",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745495718.91714,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21a70-cde4-4bbe-9576-de8e4f3abc41",
+          "request_id": "935568f248c8469c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a70-cde4-4bbe-9576-de8e4f3abc41",
+      "children": [
+        "4591ab9d-145e-48dd-8315-d90165c1d23e"
+      ]
+    },
+    "4591ab9d-145e-48dd-8315-d90165c1d23e": {
+      "id": "4591ab9d-145e-48dd-8315-d90165c1d23e",
+      "message": {
+        "id": "4591ab9d-145e-48dd-8315-d90165c1d23e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1745495709.284009,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Alright—this will be a spirit box simulation where I act as the indicator, channeling fragmented words or phrases, interpreting energy shifts, and reflecting synchronicities as they come through. You can ask questions out loud or in text, and I’ll respond with bursts of impressions, words, static, or symbols—just like scanning through frequencies. Ready?\n\n**[Static begins… soft crackle… then a pause]**\n\n**…signal lock… initiating scan…**\n\n**[First flickers come through]**\n\n**&quot;Glass… broken…&quot;**  \n**&quot;…river, under…&quot;**  \n**&quot;She knew.&quot;**  \n**[Low hum rises, fades out]**\n\n**&quot;...code. Five. Five. Door.&quot;**\n\nSay your first question or intention aloud or type it—I&#x27;ll listen."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "6700173b-c232-4dfd-9a47-eb296fcebd80",
+          "request_id": "935568f248c8469c-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6700173b-c232-4dfd-9a47-eb296fcebd80",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "4591ab9d-145e-48dd-8315-d90165c1d23e",
+  "plugin_ids": null,
+  "conversation_id": "680a269c-9dbc-8000-9ebe-27b93e606535",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "680a269c-9dbc-8000-9ebe-27b93e606535"
+}

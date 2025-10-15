@@ -1,0 +1,313 @@
+{
+  "title": "Run Vicuna Chat Termux",
+  "create_time": 1748761252.51196,
+  "update_time": 1748761320.280094,
+  "mapping": {
+    "ef7176b0-8f86-4f3f-9513-432b201792a0": {
+      "id": "ef7176b0-8f86-4f3f-9513-432b201792a0",
+      "message": null,
+      "parent": null,
+      "children": [
+        "69359a7f-2aca-42b5-9217-a15fab86a569"
+      ]
+    },
+    "69359a7f-2aca-42b5-9217-a15fab86a569": {
+      "id": "69359a7f-2aca-42b5-9217-a15fab86a569",
+      "message": {
+        "id": "69359a7f-2aca-42b5-9217-a15fab86a569",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef7176b0-8f86-4f3f-9513-432b201792a0",
+      "children": [
+        "3cd37f90-67d5-465d-ac6d-47c8f3eac7f3"
+      ]
+    },
+    "3cd37f90-67d5-465d-ac6d-47c8f3eac7f3": {
+      "id": "3cd37f90-67d5-465d-ac6d-47c8f3eac7f3",
+      "message": {
+        "id": "3cd37f90-67d5-465d-ac6d-47c8f3eac7f3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "69359a7f-2aca-42b5-9217-a15fab86a569",
+      "children": [
+        "bbb215e9-2171-4250-a733-74a7f394f40b"
+      ]
+    },
+    "bbb215e9-2171-4250-a733-74a7f394f40b": {
+      "id": "bbb215e9-2171-4250-a733-74a7f394f40b",
+      "message": {
+        "id": "bbb215e9-2171-4250-a733-74a7f394f40b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748761252.524728,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What do I run to start interactive chat with vicuna thru termux "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "948cd61fcded6bda-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3cd37f90-67d5-465d-ac6d-47c8f3eac7f3",
+      "children": [
+        "1ee0d901-58cf-45b1-9ead-dad730c6008a"
+      ]
+    },
+    "1ee0d901-58cf-45b1-9ead-dad730c6008a": {
+      "id": "1ee0d901-58cf-45b1-9ead-dad730c6008a",
+      "message": {
+        "id": "1ee0d901-58cf-45b1-9ead-dad730c6008a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748761262.9882,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb215e9-2171-4250-a733-74a7f394f40b",
+          "request_id": "948cd61fcded6bda-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb215e9-2171-4250-a733-74a7f394f40b",
+      "children": [
+        "d9e620c3-707d-4a5a-94f3-2d40b0e2630d"
+      ]
+    },
+    "d9e620c3-707d-4a5a-94f3-2d40b0e2630d": {
+      "id": "d9e620c3-707d-4a5a-94f3-2d40b0e2630d",
+      "message": {
+        "id": "d9e620c3-707d-4a5a-94f3-2d40b0e2630d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748761253.118866,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To run an **interactive chat with Vicuna** through **Termux**, you&#x27;ll need to have the model served locally or remotely via an API, and then use a script or client to interact with it. Here&#x27;s a basic breakdown depending on your setup:\n\n---\n\n### 🧠 **If you&#x27;re running Vicuna locally (e.g., via `llama.cpp` or `text-generation-webui`):**\n\n#### **Option 1: With `llama.cpp` and Vicuna GGUF model**\n\n1. **Clone `llama.cpp` and compile it**:\n   ```bash\n   git clone https://github.com/ggerganov/llama.cpp\n   cd llama.cpp\n   make -j$(nproc)\n   ```\n\n2. **Download a Vicuna GGUF model** (e.g., from HuggingFace). Place it in the `models/` directory.\n\n3. **Run interactive chat**:\n   ```bash\n   ./main -m ./models/vicuna-7b.gguf -n -1 -c 2048 --interactive --color\n   ```\n\n   If you’re low on RAM, consider using:\n   ```bash\n   ./main -m ./models/vicuna-7b.gguf -n -1 -c 512 --interactive --color --ctx-size 512 --threads 4\n   ```\n\n---\n\n#### **Option 2: If you&#x27;re running Vicuna through `text-generation-webui` (on another device/server)**\n\nYou can access it via an **API**, and use curl or a Python script from Termux:\n\n```bash\ncurl http://&lt;your-server-ip&gt;:5000/api/v1/chat \\\n  -X POST \\\n  -H &quot;Content-Type: application/json&quot; \\\n  -d &#x27;{\n        &quot;user_input&quot;: &quot;Hello Vicuna, how are you?&quot;,\n        &quot;max_new_tokens&quot;: 200\n      }&#x27;\n```\n\nOr use a Python client in Termux:\n\n```python\nimport requests\npayload = {&quot;user_input&quot;: &quot;Hello Vicuna, how are you?&quot;, &quot;max_new_tokens&quot;: 200}\nr = requests.post(&quot;http://&lt;your-server-ip&gt;:5000/api/v1/chat&quot;, json=payload)\nprint(r.json())\n```\n\n---\n\n### 🛠 Requirements\n- Termux with packages:\n  ```bash\n  pkg install git clang cmake python\n  pip install requests\n  ```\n- For `llama.cpp`, you’ll also need a **GGUF** model file (Vicuna versions available on HuggingFace).\n- Realistically, running **7B+ models on-device** is only viable on powerful ARM64 phones with at least **8GB RAM** and swap set up.\n\n---\n\n### 💡 Shortcut Script (Interactive Vicuna GGUF on Termux):\n```bash\n./main -m models/vicuna-7b.gguf --interactive --ctx-size 512 --color\n```\n\nLet me know what model file you already have (GGUF or otherwise), or if you&#x27;re running a remote API, and I’ll tailor the exact command for you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "1ee0d901-58cf-45b1-9ead-dad730c6008a",
+          "request_id": "948cd61fcded6bda-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1ee0d901-58cf-45b1-9ead-dad730c6008a",
+      "children": [
+        "bbb2120f-67d4-4777-b906-ed3b7bc3332a"
+      ]
+    },
+    "bbb2120f-67d4-4777-b906-ed3b7bc3332a": {
+      "id": "bbb2120f-67d4-4777-b906-ed3b7bc3332a",
+      "message": {
+        "id": "bbb2120f-67d4-4777-b906-ed3b7bc3332a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748761312.929927,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I already have it downloaded in termux idk how to run it "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "948cd79b4ed76bda-DFW",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d9e620c3-707d-4a5a-94f3-2d40b0e2630d",
+      "children": [
+        "accac185-1c48-4ed4-9689-72332e98495c"
+      ]
+    },
+    "accac185-1c48-4ed4-9689-72332e98495c": {
+      "id": "accac185-1c48-4ed4-9689-72332e98495c",
+      "message": {
+        "id": "accac185-1c48-4ed4-9689-72332e98495c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748761313.05926,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect — since you already have **Vicuna downloaded in Termux**, let&#x27;s walk through **exactly how to run it** based on what format you have:\n\n---\n\n### 🧠 First: What format is your Vicuna model file?\n\nPlease check what your model file looks like:\n\n```bash\nls ~/vicuna* ~/models* ~/Downloads* | grep -i vicuna\n```\n\nYou&#x27;re looking for something like:\n\n- `vicuna-7b.gguf` → **used with `llama.cpp`**\n- `vicuna-7b.bin` or a folder with many `.pth` or `.safetensors` files → **used with other frameworks like `text-generation-webui` or `transformers`**\n\n---\n\n### ✅ If your file is `.gguf` → Use `llama.cpp` (this is the lightest and easiest to run)\n\n#### Step 1: Go to your llama.cpp directory\n(If you don’t have it yet, do this:)\n```bash\npkg install git cmake clang -y\ngit clone https://github.com/ggerganov/llama.cpp\ncd llama.cpp\nmake -j$(nproc)\n```\n\n#### Step 2: Move your GGUF model to the `models` folder\n```bash\nmkdir -p models\nmv ~/Downloads/vicuna-7b.gguf models/\n```\n\n#### Step 3: Run Vicuna interactively\n```bash\n./main -m models/vicuna-7b.gguf --interactive --ctx-size 512 --color\n```\n\nIf that crashes due to memory, try adding:\n```bash\n--low-vram --threads 4\n```\n\nSo full command might be:\n```bash\n./main -m models/vicuna-7b.gguf --interactive --ctx-size 512 --color --low-vram --threads 4\n```\n\n---\n\n### ❗ If your model is NOT `.gguf`, tell me what files you see.\n\nPlease run:\n```bash\nls -lh ~/vicuna*\n```\n\nPaste that output here — I’ll walk you through exactly how to run it for your case.\n\nIf you&#x27;re unsure, you can also run:\n```bash\nfind ~ -type f -iname &quot;*vicuna*&quot;\n```\n\n---\n\nWould you like me to help you convert your model to GGUF if it’s in another format?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2120f-67d4-4777-b906-ed3b7bc3332a",
+          "request_id": "948cd79b4ed76bda-DFW",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2120f-67d4-4777-b906-ed3b7bc3332a",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "accac185-1c48-4ed4-9689-72332e98495c",
+  "plugin_ids": null,
+  "conversation_id": "683bfaa3-fc64-8000-b53d-2a6440e0b51f",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "683bfaa3-fc64-8000-b53d-2a6440e0b51f"
+}

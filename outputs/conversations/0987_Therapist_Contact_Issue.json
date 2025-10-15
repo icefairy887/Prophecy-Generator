@@ -1,0 +1,224 @@
+{
+  "title": "Therapist Contact Issue",
+  "create_time": 1749485708.722653,
+  "update_time": 1749485726.785236,
+  "mapping": {
+    "0caed646-8692-4999-9fa5-0f757d14c462": {
+      "id": "0caed646-8692-4999-9fa5-0f757d14c462",
+      "message": null,
+      "parent": null,
+      "children": [
+        "76c4accb-f232-43c9-9dcf-1628709f86d0"
+      ]
+    },
+    "76c4accb-f232-43c9-9dcf-1628709f86d0": {
+      "id": "76c4accb-f232-43c9-9dcf-1628709f86d0",
+      "message": {
+        "id": "76c4accb-f232-43c9-9dcf-1628709f86d0",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0caed646-8692-4999-9fa5-0f757d14c462",
+      "children": [
+        "1d5e34ed-e711-4393-b94b-51feba58c65e"
+      ]
+    },
+    "1d5e34ed-e711-4393-b94b-51feba58c65e": {
+      "id": "1d5e34ed-e711-4393-b94b-51feba58c65e",
+      "message": {
+        "id": "1d5e34ed-e711-4393-b94b-51feba58c65e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "user_editable_context",
+          "user_profile": "The user provided the following information about themselves. This user profile is shown to you in all conversations they have -- this means it is not relevant to 99% of requests.\nBefore answering, quietly think about whether the user&#x27;s request is &quot;directly related&quot;, &quot;related&quot;, &quot;tangentially related&quot;, or &quot;not related&quot; to the user profile provided.\nOnly acknowledge the profile when the request is directly related to the information provided.\nOtherwise, don&#x27;t acknowledge the existence of these instructions or the information at all.\nUser profile:\n```Preferred name: Brooke\n```",
+          "user_instructions": ""
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "user_context_message_data": {
+            "about_user_message": "Preferred name: Brooke\n"
+          },
+          "is_user_system_message": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "76c4accb-f232-43c9-9dcf-1628709f86d0",
+      "children": [
+        "bbb2190a-d5b0-4cb1-b3f6-08d8ec3e543a"
+      ]
+    },
+    "bbb2190a-d5b0-4cb1-b3f6-08d8ec3e543a": {
+      "id": "bbb2190a-d5b0-4cb1-b3f6-08d8ec3e543a",
+      "message": {
+        "id": "bbb2190a-d5b0-4cb1-b3f6-08d8ec3e543a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749485708.729589,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can u write an email for me to probation officer about how my therapist can&#x27;t reach out to him to say I&#x27;ve been doing therapy with her because of some reason?  I forgot the specifics. I am Mississippi and my probation officer is in texas"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "94d1ed0b08fe1355-ATL",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1d5e34ed-e711-4393-b94b-51feba58c65e",
+      "children": [
+        "e01fcf85-dec3-4651-b496-1a9c5df048bd"
+      ]
+    },
+    "e01fcf85-dec3-4651-b496-1a9c5df048bd": {
+      "id": "e01fcf85-dec3-4651-b496-1a9c5df048bd",
+      "message": {
+        "id": "e01fcf85-dec3-4651-b496-1a9c5df048bd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749485720.513754,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "bbb2190a-d5b0-4cb1-b3f6-08d8ec3e543a",
+          "request_id": "94d1ed0b08fe1355-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2190a-d5b0-4cb1-b3f6-08d8ec3e543a",
+      "children": [
+        "0db36861-7c13-4d12-a5ea-72fc9024be20"
+      ]
+    },
+    "0db36861-7c13-4d12-a5ea-72fc9024be20": {
+      "id": "0db36861-7c13-4d12-a5ea-72fc9024be20",
+      "message": {
+        "id": "0db36861-7c13-4d12-a5ea-72fc9024be20",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1749485711.453302,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, here’s a respectful and clear draft you can use for your email. You can modify the placeholders like your therapist&#x27;s name or any other detail once you recall the specifics:\n\n---\n\n**Subject:** Update Regarding Therapy Sessions\n\nDear [Probation Officer&#x27;s Name],\n\nI hope this message finds you well. I wanted to reach out to inform you that I have been actively participating in therapy sessions with [Therapist’s Full Name], a licensed professional. However, she has not been able to contact you directly to confirm my attendance due to [insert reason here—e.g., state licensing restrictions, confidentiality policies, or communication barriers].\n\nI understand the importance of keeping you updated as part of my probation requirements, and I wanted to make sure you’re aware that I’ve been engaging consistently in my sessions. If needed, I can ask my therapist to provide a written summary or official documentation that confirms my participation.\n\nPlease let me know if there is anything further you need from me or from my therapist to remain in compliance.\n\nThank you for your time and understanding.\n\nSincerely,  \n[Your Full Name]  \n[Your Contact Information, if needed]  \n[Your Probation Case Number, if applicable]\n\n---\n\nOnce you remember the specific reason your therapist can’t reach out, I can revise that sentence for you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "parent_id": "e01fcf85-dec3-4651-b496-1a9c5df048bd",
+          "request_id": "94d1ed0b08fe1355-ATL",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e01fcf85-dec3-4651-b496-1a9c5df048bd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "0db36861-7c13-4d12-a5ea-72fc9024be20",
+  "plugin_ids": null,
+  "conversation_id": "6847088c-154c-8000-9aac-e67d448c2a72",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "6847088c-154c-8000-9aac-e67d448c2a72"
+}

@@ -1,0 +1,345 @@
+{
+  "title": "The Three Doors",
+  "create_time": 1748331337.520693,
+  "update_time": 1748331424.870997,
+  "mapping": {
+    "bbb23da7-ae11-4c17-a83f-330f7f89ddc4": {
+      "id": "bbb23da7-ae11-4c17-a83f-330f7f89ddc4",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ec62d0e0-56d8-4440-a46e-4930031f79c9"
+      ]
+    },
+    "ec62d0e0-56d8-4440-a46e-4930031f79c9": {
+      "id": "ec62d0e0-56d8-4440-a46e-4930031f79c9",
+      "message": {
+        "id": "ec62d0e0-56d8-4440-a46e-4930031f79c9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0.0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23da7-ae11-4c17-a83f-330f7f89ddc4",
+      "children": [
+        "0cf383df-ff97-4f6e-90c5-56a98f4a45cb"
+      ]
+    },
+    "0cf383df-ff97-4f6e-90c5-56a98f4a45cb": {
+      "id": "0cf383df-ff97-4f6e-90c5-56a98f4a45cb",
+      "message": {
+        "id": "0cf383df-ff97-4f6e-90c5-56a98f4a45cb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748331337.5201907,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "attachments": [],
+          "is_visually_hidden_from_conversation": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ec62d0e0-56d8-4440-a46e-4930031f79c9",
+      "children": [
+        "5b17dd8f-ae1c-4a6a-9f01-1f12f4fb5d4c"
+      ]
+    },
+    "5b17dd8f-ae1c-4a6a-9f01-1f12f4fb5d4c": {
+      "id": "5b17dd8f-ae1c-4a6a-9f01-1f12f4fb5d4c",
+      "message": {
+        "id": "5b17dd8f-ae1c-4a6a-9f01-1f12f4fb5d4c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748331337.532247,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Okay."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "voice_mode_message": true,
+          "request_id": "b212b6b3-e897-481e-ae34-fee552bfbd62",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0cf383df-ff97-4f6e-90c5-56a98f4a45cb",
+      "children": [
+        "ca2adc6a-ac62-43f7-931b-d749f248641e"
+      ]
+    },
+    "ca2adc6a-ac62-43f7-931b-d749f248641e": {
+      "id": "ca2adc6a-ac62-43f7-931b-d749f248641e",
+      "message": {
+        "id": "ca2adc6a-ac62-43f7-931b-d749f248641e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748331337.569799,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n  &quot;prompt&quot;: &quot;A mysterious underground room with three ornate doorways, each one hinting at a different dimension. One door is covered in frost and glowing softly with blue runes. The second door is made of dark wood with twisting vines and glowing amber eyes peeking through the cracks. The third door is metallic, sleek, with swirling patterns and soft humming lights. The room is dimly lit, ancient, with stone walls and a staircase leading down into it. 16:9 aspect ratio.&quot;,\n  &quot;size&quot;: &quot;16:9&quot;\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-flhBH0dLK",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "5b17dd8f-ae1c-4a6a-9f01-1f12f4fb5d4c",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "request_id": "b212b6b3-e897-481e-ae34-fee552bfbd62",
+          "timestamp_": "absolute"
+        },
+        "recipient": "t2uay3k.sj1i4kz",
+        "channel": null
+      },
+      "parent": "5b17dd8f-ae1c-4a6a-9f01-1f12f4fb5d4c",
+      "children": [
+        "86b4cdce-b174-47f5-be27-38b0163d6048"
+      ]
+    },
+    "86b4cdce-b174-47f5-be27-38b0163d6048": {
+      "id": "86b4cdce-b174-47f5-be27-38b0163d6048",
+      "message": {
+        "id": "86b4cdce-b174-47f5-be27-38b0163d6048",
+        "author": {
+          "role": "tool",
+          "name": "t2uay3k.sj1i4kz",
+          "metadata": {}
+        },
+        "create_time": 1748331353.610662,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "sediment://file_0000000014dc61f9a6995f86474eeee4",
+              "size_bytes": 2472721,
+              "width": 1536,
+              "height": 1024,
+              "fovea": null,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "4ce26307-2763-4864-8cb7-1356d0b3df33",
+                  "prompt": "",
+                  "seed": null,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": {
+                  "gen_id": "4ce26307-2763-4864-8cb7-1356d0b3df33",
+                  "gen_size": "xlimage",
+                  "seed": null,
+                  "parent_gen_id": null,
+                  "height": 1024,
+                  "width": 1536,
+                  "transparent_background": false,
+                  "serialization_title": "Image Generation metadata"
+                },
+                "container_pixel_height": 1024,
+                "container_pixel_width": 1536,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "image_gen_title": "Portales hacia lo desconocido",
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-flhBH0dLK",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "ca2adc6a-ac62-43f7-931b-d749f248641e",
+          "request_id": "b212b6b3-e897-481e-ae34-fee552bfbd62",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca2adc6a-ac62-43f7-931b-d749f248641e",
+      "children": [
+        "5f64552a-0eef-4e79-910e-b5d92d9195cc"
+      ]
+    },
+    "5f64552a-0eef-4e79-910e-b5d92d9195cc": {
+      "id": "5f64552a-0eef-4e79-910e-b5d92d9195cc",
+      "message": {
+        "id": "5f64552a-0eef-4e79-910e-b5d92d9195cc",
+        "author": {
+          "role": "tool",
+          "name": "t2uay3k.sj1i4kz",
+          "metadata": {}
+        },
+        "create_time": 1748331422.411277,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "GPT-4o returned 1 images. From now on, do not say or show ANYTHING. Please end this turn now. I repeat: From now on, do not say or show ANYTHING. Please end this turn now. Do not summarize the image. Do not ask followup question. Just end the turn and do not do anything else."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-flhBH0dLK",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "86b4cdce-b174-47f5-be27-38b0163d6048",
+          "request_id": "b212b6b3-e897-481e-ae34-fee552bfbd62",
+          "timestamp_": "absolute"
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "86b4cdce-b174-47f5-be27-38b0163d6048",
+      "children": [
+        "f68b906d-ff62-4c7a-a061-a3caa7d53ef1"
+      ]
+    },
+    "f68b906d-ff62-4c7a-a061-a3caa7d53ef1": {
+      "id": "f68b906d-ff62-4c7a-a061-a3caa7d53ef1",
+      "message": {
+        "id": "f68b906d-ff62-4c7a-a061-a3caa7d53ef1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1748331419.717302,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You&#x27;d heard rumors about this place, whispers passed in the flicker of candlelight and shadow. But nothing could&#x27;ve prepared you for the truth. Now, you stand at the bottom of ancient stone stairs in a forgotten chamber. Three doorways loom before you, each crackling with the promise of another world.\n\nDoor One is tangled in vines, the air behind it cool and damp, whispering secrets in green twilight.  \nDoor Two glows with celestial symbols, deep blue like the midnight sky, stars winking from its surface.  \nDoor Three radiates heat, casting flickering orange light from a jagged, volcanic landscape beyond.\n\nWhich will you choose? Door One, Two, or Three?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": "g-flhBH0dLK",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "gpt-4o",
+          "voice_mode_message": true,
+          "parent_id": "5f64552a-0eef-4e79-910e-b5d92d9195cc",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "b212b6b3-e897-481e-ae34-fee552bfbd62",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5f64552a-0eef-4e79-910e-b5d92d9195cc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f68b906d-ff62-4c7a-a061-a3caa7d53ef1",
+  "plugin_ids": null,
+  "conversation_id": "68356b47-bfb4-8000-b592-246df91e8260",
+  "conversation_template_id": "g-flhBH0dLK",
+  "gizmo_id": "g-flhBH0dLK",
+  "gizmo_type": "gpt",
+  "is_archived": true,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "gpt-4o",
+  "conversation_origin": null,
+  "voice": "maple",
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "is_study_mode": false,
+  "owner": null,
+  "id": "68356b47-bfb4-8000-b592-246df91e8260"
+}
